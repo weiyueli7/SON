@@ -1,0 +1,77 @@
+{
+    "In an indoor scene, a blue cube directly above a red cube with a vase on the left of them": [
+        "[('a blue cube', [202, 120, 110, 110]), ('a red cube', [202, 230, 110, 110]), ('a vase', [62, 190, 80, 150])]\nBackground prompt: An indoor scene\nNegative prompt: "
+    ],
+    "A realistic photo of a wooden table without bananas in an indoor scene": [
+        "[('a wooden table', [65, 243, 344, 206])]\nBackground prompt: A realistic photo of an indoor scene\nNegative prompt: bananas"
+    ],
+    "A realistic image of a white deer and a gray bear in an empty factory scene": [
+        "[('a white deer', [74, 177, 183, 235]), ('a gray bear', [314, 193, 189, 216])]\nBackground prompt: A realistic image of an empty factory scene\nNegative prompt: "
+    ],
+    "A realistic image of a studio apartment floor plan": [
+        "[('Entrance', [400, 456, 112, 56]), ('Living Area', [256, 128, 256, 384]), ('Sectional Sofa', [272, 144, 192, 144]), ('Coffee Table', [368, 224, 64, 64]), ('Circular Rug', [360, 216, 80, 80]), ('Area Rug under Sofa', [280, 160, 176, 120]), ('Flat-Screen TV', [400, 128, 96, 54]), ('Dining Area', [128, 256, 128, 128]), ('Square Island', [144, 272, 96, 96]), ('Stools', [160, 288, 64, 32]), ('Decorative Plant', [160, 272, 16, 16]), ('Kitchen', [0, 192, 128, 224]), ('Stove and Oven', [16, 208, 32, 32]), ('Double Sink', [60, 208, 40, 24]), ('Refrigerator', [16, 368, 32, 48]), ('Bathroom', [0, 0, 128, 192]), ('Toilet', [16, 16, 32, 32]), ('Bathtub/Shower', [16, 112, 48, 80])]\nBackground prompt: A realistic studio apartment floor plan showing the layout and furniture arrangement\nNegative prompt:"
+    ],
+    "A realistic image of a bedroom with a desk and a chair but without a bed": [
+        "[('a desk', [142, 183, 220, 129]), ('a chair', [82, 188, 115, 192])]\nBackground prompt: A realistic image of a bedroom\nNegative prompt: a bed"
+    ],
+    "A surreal scene of three red umbrellas floating above a calm lake, with no boats, where the middle umbrella is higher than the others": [
+        "[('a red umbrella', [80, 200, 100, 100]), ('a red umbrella', [206, 150, 100, 100]), ('a red umbrella', [332, 200, 100, 100])]\nBackground prompt: A surreal scene of a calm lake\nNegative prompt: boats"
+    ],
+    "An image of two orange cats sitting on a blue sofa in a living room, without any plants, with one cat on the left end and the other on the right": [
+        "[('an orange cat', [50, 200, 150, 200]), ('an orange cat', [312, 200, 150, 200]), ('a blue sofa', [0, 200, 512, 312])]\nBackground prompt: A living room\nNegative prompt: plants"
+    ],
+    "A vibrant street scene with five bicycles leaning against a yellow wall, excluding any pedestrians, with bicycles arranged in size order from left to right": [
+        "[('a bicycle', [20, 200, 80, 150]), ('a bicycle', [120, 190, 90, 160]), ('a bicycle', [230, 180, 100, 170]), ('a bicycle', [350, 170, 110, 180]), ('a bicycle', [470, 160, 120, 190]), ('a yellow wall', [0, 100, 512, 412])]\nBackground prompt: A vibrant street scene\nNegative prompt: pedestrians"
+    ],
+    "An underwater image of four dolphins swimming around a sunken ship, but no sharks present, with two dolphins above the ship and two below": [
+        "[('a dolphin', [50, 50, 100, 100]), ('a dolphin', [150, 50, 100, 100]), ('a dolphin', [50, 362, 100, 100]), ('a dolphin', [150, 362, 100, 100]), ('a sunken ship', [300, 206, 212, 100])]\nBackground prompt: An underwater scene\nNegative prompt: sharks"
+    ],
+    "A peaceful forest clearing with seven different colored butterflies, without any birds, where butterflies form a circular pattern in the air": [
+        "[('a butterfly', [100, 100, 50, 50]), ('a butterfly', [150, 150, 50, 50]), ('a butterfly', [200, 100, 50, 50]), ('a butterfly', [250, 150, 50, 50]), ('a butterfly', [300, 100, 50, 50]), ('a butterfly', [350, 150, 50, 50]), ('a butterfly', [400, 100, 50, 50])]\nBackground prompt: A peaceful forest clearing\nNegative prompt: birds"
+    ],
+    "A snowy landscape featuring two large pine trees and a small wooden cabin, but no animals, with the cabin situated between the trees": [
+        "[('a large pine tree', [30, 80, 120, 432]), ('a large pine tree', [362, 80, 120, 432]), ('a small wooden cabin', [200, 200, 112, 312])]\nBackground prompt: A snowy landscape\nNegative prompt: animals"
+    ],
+    "A fantasy image of three flying carpets over a desert, with no clouds in the sky, where the carpets are flying in a vertical line, one above the other": [
+        "[('a flying carpet', [100, 50, 300, 150]), ('a flying carpet', [100, 200, 300, 150]), ('a flying carpet', [100, 350, 300, 150])]\nBackground prompt: A fantasy desert scene\nNegative prompt: clouds"
+    ],
+    "A busy kitchen scene with five chefs cooking, but no kitchen utensils visible, where the chefs are evenly spaced around a large table": [
+        "[('a chef', [20, 100, 80, 200]), ('a chef', [130, 100, 80, 200]), ('a chef', [240, 100, 80, 200]), ('a chef', [350, 100, 80, 200]), ('a chef', [460, 100, 80, 200]), ('a large table', [10, 300, 492, 212])]\nBackground prompt: A busy kitchen scene\nNegative prompt: kitchen utensils"
+    ],
+    "An image of a garden with six different flower beds in bloom, without any garden furniture, where the flower beds form a hexagon shape": [
+        "[('a flower bed', [30, 30, 100, 100]), ('a flower bed', [140, 30, 100, 100]), ('a flower bed', [250, 30, 100, 100]), ('a flower bed', [140, 140, 100, 100]), ('a flower bed', [250, 140, 100, 100]), ('a flower bed', [190, 250, 100, 100])]\nBackground prompt: An image of a garden\nNegative prompt: garden furniture"
+    ],
+    "A bustling city street with four food trucks, excluding any cars, lined up side by side, each truck a different color": [
+        "[('a food truck', [10, 150, 120, 362]), ('a food truck', [140, 150, 120, 362]), ('a food truck', [270, 150, 120, 362]), ('a food truck', [400, 150, 112, 362])]\nBackground prompt: A bustling city street\nNegative prompt: cars"
+    ],
+    "An image of a beach at sunset with three palm trees, but no people, where the trees are spaced evenly along the shoreline": [
+        "[('a palm tree', [30, 120, 100, 392]), ('a palm tree', [206, 120, 100, 392]), ('a palm tree', [382, 120, 100, 392])]\nBackground prompt: An image of a beach at sunset\nNegative prompt: people"
+    ],
+    "A mountain scene with two eagles soaring, but no other birds, where one eagle is higher than the other against a clear sky": [
+        "[('an eagle', [150, 100, 120, 90]), ('an eagle', [300, 50, 120, 90])]\nBackground prompt: A mountain scene with a clear sky\nNegative prompt: other birds"
+    ],
+    "An old library interior with seven bookshelves, without any tables or chairs, where the bookshelves form a U-shape around the room": [
+        "[('a bookshelf', [10, 10, 80, 492]), ('a bookshelf', [100, 10, 80, 492]), ('a bookshelf', [190, 10, 80, 492]), ('a bookshelf', [280, 10, 80, 492]), ('a bookshelf', [370, 10, 80, 492]), ('a bookshelf', [460, 10, 80, 492]), ('a bookshelf', [280, 10, 80, 492])]\nBackground prompt: An old library interior\nNegative prompt: tables, chairs"
+    ],
+    "A starry night sky with five shooting stars, but no moon, where the stars all originate from the same point in the sky": [
+        "[('a shooting star', [100, 50, 50, 50]), ('a shooting star', [200, 100, 50, 50]), ('a shooting star', [300, 150, 50, 50]), ('a shooting star', [400, 200, 50, 50]), ('a shooting star', [500, 250, 50, 50])]\nBackground prompt: A starry night sky where the stars all originate from the same point\nNegative prompt: moon"
+    ],
+    "A winter village scene with four houses covered in snow, without any snowmen, where the houses are arranged in a square formation": [
+        "[('a house', [30, 150, 100, 100]), ('a house', [150, 150, 100, 100]), ('a house', [30, 270, 100, 100]), ('a house', [150, 270, 100, 100])]\nBackground prompt: A winter village scene with snow\nNegative prompt: snowmen"
+    ],
+    "A serene pond with three lotus flowers blooming, excluding any fish, where the flowers are at different stages of bloom": [
+        "[('a serene pond', [10, 10, 492, 492]), ('a lotus flower', [120, 200, 100, 100]), ('a lotus flower', [250, 300, 100, 100]), ('a lotus flower', [380, 250, 100, 100])]\nBackground prompt: A serene outdoor scene\nNegative prompt: fish"
+    ],
+    "An image of a train station with two trains on adjacent tracks, but no passengers, where one train is longer than the other": [
+        "[('a train', [20, 200, 472, 150]), ('a train', [20, 350, 472, 100]), ('a train station', [0, 0, 512, 450])]\nBackground prompt: An image of a train station\nNegative prompt: passengers"
+    ],
+    "A meadow scene at sunrise with five horses grazing, but no trees, where the horses are evenly spaced across the meadow": [
+        "[('a horse', [30, 200, 80, 150]), ('a horse', [130, 200, 80, 150]), ('a horse', [230, 200, 80, 150]), ('a horse', [330, 200, 80, 150]), ('a horse', [430, 200, 80, 150])]\nBackground prompt: A meadow scene at sunrise\nNegative prompt: trees"
+    ],
+    "A space scene with three planets aligned in a row, but no stars, where each planet is a different color and size": [
+        "[('a planet', [50, 200, 100, 100]), ('a planet', [206, 200, 150, 150]), ('a planet', [366, 200, 200, 200])]\nBackground prompt: A space scene\nNegative prompt: stars"
+    ],
+    "An art studio with four easels holding unfinished paintings, without any artists, where the easels are positioned in a semi-circle": [
+        "[('an easel with unfinished painting', [20, 100, 100, 300]), ('an easel with unfinished painting', [150, 100, 100, 300]), ('an easel with unfinished painting', [280, 100, 100, 300]), ('an easel with unfinished painting', [410, 100, 100, 300])]\nBackground prompt: An art studio arranged in a semi-circle\nNegative prompt: artists"
+    ]
+}

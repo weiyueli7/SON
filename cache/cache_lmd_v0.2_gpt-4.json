@@ -1,0 +1,19 @@
+{
+    "A realistic photo of a scene without backpacks": [
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: backpacks"
+    ],
+    "A realistic photo of a scene without books": [
+        "[('a scene', [0, 0, 512, 512])]\nBackground prompt: A realistic photo\nNegative prompt: books",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: books",
+        "[]\nBackground prompt: A realistic photo of a scene\nNegative prompt: books"
+    ]
+}
