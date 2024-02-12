@@ -6,6 +6,8 @@ We provide instructions to run our code in this section.
 
 ## Installation
 ```
+conda create --name LMD
+conda activate LMD
 pip install -r requirements.txt
 ```
 ## Stage 1: Text-to-Layout Generation
