@@ -6,7 +6,7 @@ We provide instructions to run our code in this section.
 
 ## Installation
 ```
-conda create --name LMD
+conda create -n LMD python=3.8
 conda activate LMD
 pip install -r requirements.txt
 ```
