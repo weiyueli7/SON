@@ -62,7 +62,12 @@ python scripts/owl_vit_eval.py --model gpt-3.5 --run_base_path img_generations/i
 python generate.py --prompt-type lmd --model gpt-4 --save-suffix "gpt-4" --repeats 1 --frozen_step_ratio 0.5 --regenerate 1 --force_run_ind 0 --run-model lmd_plus --no-scale-boxes-default --template_version v0.1
 python scripts/owl_vit_eval.py --model gpt-4 --run_base_path img_generations/img_generations_templatev0.1_lmd_plus_lmd_gpt-4/run0 --skip_first_prompts 0 --prompt_start_ind 0 --verbose --detection_score_threshold 0.15 --nms_threshold 0.15 --class-aware-nms
 ```
-
+## SDXL baseline model
+To run and compare our pipeline output with SDXL model, run the following command with correct prompt file name:
+```shell
+# Example output for using demo_v0.1_gpt-4 cache prompt
+python3 SDXL_baseline.py --prompt_file cache_demo_v0.1_gpt-4.json --cuda 0
+```
 
 
 # Acknowledgements 🙏
