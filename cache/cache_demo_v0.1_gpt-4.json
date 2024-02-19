@@ -1,62 +1,17 @@
 {
-    "A surreal scene of three red umbrellas floating above a calm lake, with no boats, where the middle umbrella is higher than the others": [
-        "[('a red umbrella', [100, 200, 100, 100]), ('a red umbrella', [200, 150, 100, 100]), ('a red umbrella', [300, 200, 100, 100])]\nBackground prompt: A surreal scene of a calm lake\nNegative prompt: boats"
+    "In a bustling downtown area during evening rush, a person leans against a streetlight, waiting to cross the road. Nearby, a parked motorcycle reflects the fading light, while a city bus halts at a designated stop. Across the street, a bicycle is securely locked to a bike rack, and a stray cat watches the busy scene from a safe distance": [
+        "[('a person', [100, 250, 50, 200]), ('a streetlight', [150, 200, 20, 300]), ('a motorcycle', [200, 300, 100, 100]), ('a city bus', [350, 250, 150, 200]), ('a bicycle', [450, 300, 50, 100]), ('a cat', [50, 400, 50, 100])]\nBackground prompt: A bustling downtown area during evening rush\nNegative prompt: "
     ],
-    "An image of two orange cats sitting on a blue sofa in a living room, without any plants, with one cat on the left end and the other on the right": [
-        "[('an orange cat', [32, 172, 200, 200]), ('an orange cat', [280, 172, 200, 200]), ('a blue sofa', [0, 172, 512, 200])]\nBackground prompt: A living room\nNegative prompt: plants"
+    "Along a peaceful riverbank, a couple (two people) relax on a bench, enjoying the view. A carefully parked bicycle leans against a nearby tree. A playful dog runs around, occasionally chasing birds that land near the water's edge. In the background, a boat slowly cruises down the river": [
+        "[('a couple', [150, 250, 200, 200]), ('a bench', [150, 300, 200, 50]), ('a bicycle', [50, 300, 100, 150]), ('a tree', [50, 200, 100, 200]), ('a playful dog', [350, 350, 100, 100]), ('a boat', [400, 100, 100, 50])]\nBackground prompt: A peaceful riverbank scene with birds near the water's edge and a boat slowly cruising down the river\nNegative prompt: "
     ],
-    "A vibrant street scene with five bicycles leaning against a yellow wall, excluding any pedestrians, with bicycles arranged in size order from left to right": [
-        "[('a bicycle', [20, 200, 80, 150]), ('a bicycle', [110, 190, 90, 160]), ('a bicycle', [210, 180, 100, 170]), ('a bicycle', [320, 170, 110, 180]), ('a bicycle', [440, 160, 120, 190]), ('a yellow wall', [0, 0, 512, 512])]\nBackground prompt: A vibrant street scene\nNegative prompt: pedestrians"
+    "In a suburban neighborhood, a person jogs past a row of houses, each with a car in the driveway. At a nearby house, a dog barks from the yard, drawing the attention of a bird perched on the mailbox. On the sidewalk, a child's abandoned bicycle lies next to a fire hydrant": [
+        "[('a person jogging', [220, 200, 80, 180]), ('a row of houses', [0, 100, 512, 200]), ('a car', [50, 200, 120, 100]), ('a car', [200, 200, 120, 100]), ('a car', [350, 200, 120, 100]), ('a barking dog', [400, 300, 80, 150]), ('a bird', [450, 50, 40, 40]), ('a mailbox', [440, 100, 30, 80]), ('a bicycle', [150, 400, 100, 80]), ('a fire hydrant', [260, 400, 40, 80])]\nBackground prompt: A suburban neighborhood scene\nNegative prompt: "
     ],
-    "An underwater image of four dolphins swimming around a sunken ship, but no sharks present, with two dolphins above the ship and two below": [
-        "[('a dolphin', [50, 50, 150, 100]), ('a dolphin', [200, 50, 150, 100]), ('a dolphin', [50, 350, 150, 100]), ('a dolphin', [200, 350, 150, 100]), ('a sunken ship', [300, 200, 200, 200])]\nBackground prompt: An underwater scene\nNegative prompt: sharks"
+    "A lively city park scene where a person reads a book on a bench under a tree. Nearby, a mother and child (two people) play frisbee on the grass. A curious squirrel (animal) scampers around, occasionally stopping to observe. In the distance, a parked motorcycle and a bicycle stand by a park entrance": [
+        "[('a person reading a book', [50, 200, 70, 150]), ('a mother and child', [200, 250, 120, 150]), ('a frisbee', [260, 280, 40, 20]), ('a squirrel', [150, 350, 30, 30]), ('a motorcycle', [400, 100, 80, 50]), ('a bicycle', [460, 100, 40, 70]), ('a tree', [20, 50, 100, 300]), ('a bench', [40, 250, 80, 40]), ('a park entrance', [450, 0, 60, 200])]\nBackground prompt: A lively city park scene\nNegative prompt: "
     ],
-    "A peaceful forest clearing with seven different colored butterflies, without any birds, where butterflies form a circular pattern in the air": [
-        "[('a butterfly', [50, 50, 50, 50]), ('a butterfly', [412, 50, 50, 50]), ('a butterfly', [50, 412, 50, 50]), ('a butterfly', [412, 412, 50, 50]), ('a butterfly', [231, 231, 50, 50]), ('a butterfly', [281, 281, 50, 50]), ('a butterfly', [256, 256, 50, 50])]\nBackground prompt: A peaceful forest clearing\nNegative prompt: birds"
-    ],
-    "A snowy landscape featuring two large pine trees and a small wooden cabin, but no animals, with the cabin situated between the trees": [
-        "[('a pine tree', [30, 80, 150, 432]), ('a pine tree', [332, 80, 150, 432]), ('a wooden cabin', [182, 200, 148, 312])]\nBackground prompt: A snowy landscape\nNegative prompt: animals"
-    ],
-    "A fantasy image of three flying carpets over a desert, with no clouds in the sky, where the carpets are flying in a vertical line, one above the other": [
-        "[('a flying carpet', [100, 50, 312, 150]), ('a flying carpet', [100, 200, 312, 150]), ('a flying carpet', [100, 350, 312, 150])]\nBackground prompt: A fantasy image of a desert\nNegative prompt: clouds"
-    ],
-    "A busy kitchen scene with five chefs cooking, but no kitchen utensils visible, where the chefs are evenly spaced around a large table": [
-        "[('a chef', [20, 100, 80, 200]), ('a chef', [130, 100, 80, 200]), ('a chef', [240, 100, 80, 200]), ('a chef', [350, 100, 80, 200]), ('a chef', [460, 100, 80, 200]), ('a large table', [20, 300, 472, 200])]\nBackground prompt: A busy kitchen scene\nNegative prompt: kitchen utensils"
-    ],
-    "An image of a garden with six different flower beds in bloom, without any garden furniture, where the flower beds form a hexagon shape": [
-        "[('a flower bed', [30, 30, 100, 100]), ('a flower bed', [140, 30, 100, 100]), ('a flower bed', [250, 30, 100, 100]), ('a flower bed', [360, 30, 100, 100]), ('a flower bed', [250, 140, 100, 100]), ('a flower bed', [140, 140, 100, 100])]\nBackground prompt: An image of a garden\nNegative prompt: garden furniture"
-    ],
-    "A bustling city street with four food trucks, excluding any cars, lined up side by side, each truck a different color": [
-        "[('a food truck', [20, 200, 100, 250]), ('a food truck', [140, 200, 100, 250]), ('a food truck', [260, 200, 100, 250]), ('a food truck', [380, 200, 100, 250])]\nBackground prompt: A bustling city street\nNegative prompt: cars"
-    ],
-    "An image of a beach at sunset with three palm trees, but no people, where the trees are spaced evenly along the shoreline": [
-        "[('a palm tree', [50, 100, 100, 400]), ('a palm tree', [206, 100, 100, 400]), ('a palm tree', [362, 100, 100, 400])]\nBackground prompt: An image of a beach at sunset\nNegative prompt: people"
-    ],
-    "A mountain scene with two eagles soaring, but no other birds, where one eagle is higher than the other against a clear sky": [
-        "[('an eagle', [100, 50, 150, 150]), ('an eagle', [300, 200, 150, 150])]\nBackground prompt: A mountain scene with a clear sky\nNegative prompt: other birds"
-    ],
-    "An old library interior with seven bookshelves, without any tables or chairs, where the bookshelves form a U-shape around the room": [
-        "[('a bookshelf', [10, 20, 70, 472]), ('a bookshelf', [90, 20, 70, 472]), ('a bookshelf', [170, 20, 70, 472]), ('a bookshelf', [250, 20, 70, 472]), ('a bookshelf', [330, 20, 70, 472]), ('a bookshelf', [410, 20, 70, 472]), ('a bookshelf', [490, 20, 22, 472])]\nBackground prompt: An old library interior\nNegative prompt: tables, chairs"
-    ],
-    "A starry night sky with five shooting stars, but no moon, where the stars all originate from the same point in the sky": [
-        "[('a shooting star', [100, 50, 50, 50]), ('a shooting star', [200, 100, 50, 50]), ('a shooting star', [300, 150, 50, 50]), ('a shooting star', [400, 200, 50, 50]), ('a shooting star', [500, 250, 50, 50])]\nBackground prompt: A starry night sky where the stars all originate from the same point\nNegative prompt: moon"
-    ],
-    "A winter village scene with four houses covered in snow, without any snowmen, where the houses are arranged in a square formation": [
-        "[('a house', [30, 171, 212, 226]), ('a house', [264, 171, 222, 221]), ('a house', [30, 405, 212, 226]), ('a house', [264, 405, 222, 221])]\nBackground prompt: A winter village scene with snow\nNegative prompt: snowmen"
-    ],
-    "A serene pond with three lotus flowers blooming, excluding any fish, where the flowers are at different stages of bloom": [
-        "[('a serene pond', [10, 10, 492, 492]), ('a lotus flower', [156, 256, 70, 70]), ('a lotus flower', [256, 356, 70, 70]), ('a lotus flower', [356, 156, 70, 70])]\nBackground prompt: A serene outdoor scene\nNegative prompt: fish"
-    ],
-    "An image of a train station with two trains on adjacent tracks, but no passengers, where one train is longer than the other": [
-        "[('a train', [20, 200, 450, 150]), ('a train', [30, 350, 300, 150])]\nBackground prompt: An image of a train station\nNegative prompt: passengers"
-    ],
-    "A meadow scene at sunrise with five horses grazing, but no trees, where the horses are evenly spaced across the meadow": [
-        "[('a horse', [20, 200, 80, 150]), ('a horse', [120, 200, 80, 150]), ('a horse', [220, 200, 80, 150]), ('a horse', [320, 200, 80, 150]), ('a horse', [420, 200, 80, 150])]\nBackground prompt: A meadow scene at sunrise\nNegative prompt: trees"
-    ],
-    "A space scene with three planets aligned in a row, but no stars, where each planet is a different color and size": [
-        "[('a planet', [50, 200, 100, 100]), ('a planet', [206, 200, 150, 150]), ('a planet', [366, 200, 200, 200])]\nBackground prompt: A space scene\nNegative prompt: stars"
-    ],
-    "An art studio with four easels holding unfinished paintings, without any artists, where the easels are positioned in a semi-circle": [
-        "[('an easel', [30, 100, 100, 300]), ('an easel', [150, 100, 100, 300]), ('an easel', [270, 100, 100, 300]), ('an easel', [390, 100, 100, 300])]\nBackground prompt: An art studio\nNegative prompt: artists"
+    "On a rustic farmstead, a person feeds chickens near a barn. A few sheep graze in an adjacent paddock, while a horse stands by the fence, watching a passing train in the distance. Near the farmhouse, a truck is parked, with its headlights reflecting off a nearby water trough": [
+        "[('a person', [120, 200, 60, 120]), ('chickens', [160, 280, 80, 60]), ('a barn', [10, 150, 100, 200]), ('sheep', [200, 350, 100, 80]), ('a horse', [320, 300, 80, 120]), ('a train', [480, 50, 30, 80]), ('a truck', [350, 100, 120, 80]), ('a water trough', [400, 200, 60, 40])]\nBackground prompt: A rustic farmstead with a farmhouse and a paddock\nNegative prompt: "
     ]
 }
