@@ -39,8 +39,8 @@ We provide a benchmark that applies both to stage 1 and stage 2. This benchmarks
 
 This will generate layouts from the prompts in the benchmark (with `--prompt-type lmd`) and evaluate the results:
 ```
-python prompt_batch.py --prompt-type lmd --model gpt-3.5 --auto-query --always-save --template_version v0.1
-python scripts/eval_stage_one.py --prompt-type lmd --model gpt-3.5 --template_version v0.1
+python prompt_batch.py --prompt-type demo --model gpt-4 --auto-query --always-save --template_version v0.1
+python scripts/eval_stage_one.py --prompt-type demo --model gpt-4 --template_version v0.1
 ```
 ## Stage 2: Layout-to-Image Generation
 Note that since we provide caches for stage 1, you don't need to run stage 1 on your own for cached prompts that we provide (i.e., you don't need an OpenAI API key or to query an LLM).
