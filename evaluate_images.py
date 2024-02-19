@@ -4,6 +4,13 @@ import numpy as np
 import time
 import json
 import argparse
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.tag import pos_tag
+
+# Download necessary NLTK data
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 cur_time = time.strftime("%I:%M%pon%B%d,%Y")
 
@@ -171,6 +178,8 @@ def evaluate_image(yolo_file_path, original_prompt):
 
     target_objs = set()
     for obj, cor in original_prompt:
+        obj = extract_noun(obj)
+        print(obj)
         target_objs.add(find_key_for_value(CLASSES, obj))
 
     converted_detections = []
@@ -209,6 +218,15 @@ def evaluate_image(yolo_file_path, original_prompt):
 
 
 
+def extract_noun(text):
+    # Tokenize the text
+    tokens = word_tokenize(text)
+    # Part-of-speech tagging
+    tagged = pos_tag(tokens)
+    # Extract nouns
+    nouns = [word for word, pos in tagged if pos.startswith('NN')]
+    return nouns[0]
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
@@ -226,4 +244,7 @@ if __name__ == "__main__":
     for ind, (key, value) in enumerate(prompts.items()):
         original_prompt = eval(value[0].split("Background prompt:")[0])
         yolo_path = f"object_detection/{DIR}/{cur_time}/results_{ind}/labels/img_4.txt"
-        print(evaluate_image(yolo_path, original_prompt))
+        try:
+            print(evaluate_image(yolo_path, original_prompt))
+        except:
+            pass
