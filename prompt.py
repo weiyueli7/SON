@@ -140,26 +140,33 @@ prompts_demo_gpt4 = [
     # "A realistic image of a white deer and a gray bear in an empty factory scene",
     
     
-    "A surreal scene of three red umbrellas floating above a calm lake, with no boats, where the middle umbrella is higher than the others.",
-    "An image of two orange cats sitting on a blue sofa in a living room, without any plants, with one cat on the left end and the other on the right.",
-    "A vibrant street scene with five bicycles leaning against a yellow wall, excluding any pedestrians, with bicycles arranged in size order from left to right.",
-    "An underwater image of four dolphins swimming around a sunken ship, but no sharks present, with two dolphins above the ship and two below.",
-    "A peaceful forest clearing with seven different colored butterflies, without any birds, where butterflies form a circular pattern in the air.",
-    "A snowy landscape featuring two large pine trees and a small wooden cabin, but no animals, with the cabin situated between the trees.",
-    "A fantasy image of three flying carpets over a desert, with no clouds in the sky, where the carpets are flying in a vertical line, one above the other.",
-    "A busy kitchen scene with five chefs cooking, but no kitchen utensils visible, where the chefs are evenly spaced around a large table.",
-    "An image of a garden with six different flower beds in bloom, without any garden furniture, where the flower beds form a hexagon shape.",
-    "A bustling city street with four food trucks, excluding any cars, lined up side by side, each truck a different color.",
-    "An image of a beach at sunset with three palm trees, but no people, where the trees are spaced evenly along the shoreline.",
-    "A mountain scene with two eagles soaring, but no other birds, where one eagle is higher than the other against a clear sky.",
-    "An old library interior with seven bookshelves, without any tables or chairs, where the bookshelves form a U-shape around the room.",
-    "A starry night sky with five shooting stars, but no moon, where the stars all originate from the same point in the sky.",
-    "A winter village scene with four houses covered in snow, without any snowmen, where the houses are arranged in a square formation.",
-    "A serene pond with three lotus flowers blooming, excluding any fish, where the flowers are at different stages of bloom.",
-    "An image of a train station with two trains on adjacent tracks, but no passengers, where one train is longer than the other.",
-    "A meadow scene at sunrise with five horses grazing, but no trees, where the horses are evenly spaced across the meadow.",
-    "A space scene with three planets aligned in a row, but no stars, where each planet is a different color and size.",
-    "An art studio with four easels holding unfinished paintings, without any artists, where the easels are positioned in a semi-circle."
+    # "A surreal scene of three red umbrellas floating above a calm lake, with no boats, where the middle umbrella is higher than the others.",
+    # "An image of two orange cats sitting on a blue sofa in a living room, without any plants, with one cat on the left end and the other on the right.",
+    # "A vibrant street scene with five bicycles leaning against a yellow wall, excluding any pedestrians, with bicycles arranged in size order from left to right.",
+    # "An underwater image of four dolphins swimming around a sunken ship, but no sharks present, with two dolphins above the ship and two below.",
+    # "A peaceful forest clearing with seven different colored butterflies, without any birds, where butterflies form a circular pattern in the air.",
+    # "A snowy landscape featuring two large pine trees and a small wooden cabin, but no animals, with the cabin situated between the trees.",
+    # "A fantasy image of three flying carpets over a desert, with no clouds in the sky, where the carpets are flying in a vertical line, one above the other.",
+    # "A busy kitchen scene with five chefs cooking, but no kitchen utensils visible, where the chefs are evenly spaced around a large table.",
+    # "An image of a garden with six different flower beds in bloom, without any garden furniture, where the flower beds form a hexagon shape.",
+    # "A bustling city street with four food trucks, excluding any cars, lined up side by side, each truck a different color.",
+    # "An image of a beach at sunset with three palm trees, but no people, where the trees are spaced evenly along the shoreline.",
+    # "A mountain scene with two eagles soaring, but no other birds, where one eagle is higher than the other against a clear sky.",
+    # "An old library interior with seven bookshelves, without any tables or chairs, where the bookshelves form a U-shape around the room.",
+    # "A starry night sky with five shooting stars, but no moon, where the stars all originate from the same point in the sky.",
+    # "A winter village scene with four houses covered in snow, without any snowmen, where the houses are arranged in a square formation.",
+    # "A serene pond with three lotus flowers blooming, excluding any fish, where the flowers are at different stages of bloom.",
+    # "An image of a train station with two trains on adjacent tracks, but no passengers, where one train is longer than the other.",
+    # "A meadow scene at sunrise with five horses grazing, but no trees, where the horses are evenly spaced across the meadow.",
+    # "A space scene with three planets aligned in a row, but no stars, where each planet is a different color and size.",
+    # "An art studio with four easels holding unfinished paintings, without any artists, where the easels are positioned in a semi-circle."
+
+
+    "In a bustling downtown area during evening rush, a person leans against a streetlight, waiting to cross the road. Nearby, a parked motorcycle reflects the fading light, while a city bus halts at a designated stop. Across the street, a bicycle is securely locked to a bike rack, and a stray cat watches the busy scene from a safe distance.",
+"Along a peaceful riverbank, a couple (two people) relax on a bench, enjoying the view. A carefully parked bicycle leans against a nearby tree. A playful dog runs around, occasionally chasing birds that land near the water's edge. In the background, a boat slowly cruises down the river.",
+"In a suburban neighborhood, a person jogs past a row of houses, each with a car in the driveway. At a nearby house, a dog barks from the yard, drawing the attention of a bird perched on the mailbox. On the sidewalk, a child's abandoned bicycle lies next to a fire hydrant.",
+"A lively city park scene where a person reads a book on a bench under a tree. Nearby, a mother and child (two people) play frisbee on the grass. A curious squirrel (animal) scampers around, occasionally stopping to observe. In the distance, a parked motorcycle and a bicycle stand by a park entrance.",
+"On a rustic farmstead, a person feeds chickens near a barn. A few sheep graze in an adjacent paddock, while a horse stands by the fence, watching a passing train in the distance. Near the farmhouse, a truck is parked, with its headlights reflecting off a nearby water trough."
 ]
 
 # Put what we want to generate when you query GPT-3.5 for demo here
