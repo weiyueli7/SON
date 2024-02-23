@@ -49,6 +49,27 @@ Run layout-to-image generation using the gpt-4 cache and LMD+:
 ```
 python generate.py --prompt-type demo --model gpt-4 --save-suffix "gpt-4" --repeats 5 --frozen_step_ratio 0.5 --regenerate 1 --force_run_ind 0 --run-model lmd_plus --no-scale-boxes-default --template_version v0.1
 ```
+With SD:
+```
+python generate.py --prompt-type demo --model gpt-4 --save-suffix "gpt-4" --repeats 5  --regenerate 1 --force_run_ind 0 --run-model sd --no-scale-boxes-default --template_version v0.1
+```
+With MultiDiffusion:
+```
+python generate.py --prompt-type demo --model gpt-4 --save-suffix "gpt-4" --repeats 5  --regenerate 1 --force_run_ind 0 --run-model multidiffusion --no-scale-boxes-default --template_version v0.1
+```
+With backward guidance:
+```
+python generate.py --prompt-type demo --model gpt-4 --save-suffix "gpt-4" --repeats 5  --regenerate 1 --force_run_ind 0 --run-model backward_guidance --no-scale-boxes-default --template_version v0.1
+```
+With GLIGEN:
+```
+python generate.py --prompt-type demo --model gpt-4 --save-suffix "gpt-4" --repeats 5  --regenerate 1 --force_run_ind 0 --run-model gligen --no-scale-boxes-default --template_version v0.1
+```
+With BoxDiff:
+```
+python generate.py --prompt-type demo --model gpt-4 --save-suffix "gpt-4" --repeats 5  --regenerate 1 --force_run_ind 0 --run-model boxdiff --no-scale-boxes-default --template_version v0.1
+```
+
 
 `--save-suffix` is the suffix added to the name of the run. You can change that if you change the args to mark the setting in the runs. `--run-model` specifies the method to run. You can set to LMD/LMD+ or the implemented baselines (with examples below). Use `--use-sdv2` to enable SDv2.
 
