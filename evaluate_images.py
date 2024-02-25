@@ -255,6 +255,7 @@ if __name__ == "__main__":
         original_prompt = eval(value[0].split("Background prompt:")[0])
         yolo_path = f"object_detection/{DIR}/{cur_time}/results_{ind}/labels/img_4.txt"
         try:
+            print("=================================")
             eval_result = evaluate_image(yolo_path, original_prompt)
             print(f"extra/miss ratio: {eval_result[0]}, mean_iou: {eval_result[1]}, extra_detected_objects: {eval_result[2]}")
             print("=================================")
