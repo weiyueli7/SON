@@ -12,3 +12,4 @@ accelerate==0.18.0
 gradio==3.35.2
 pydantic==1.10.7
 ultralytics
+tabulate

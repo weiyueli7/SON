@@ -1,0 +1,50 @@
+[
+    {
+      "unique_id": 0,
+      "num_objects": 2,
+      "obj_1_attributes": [
+        "person"
+      ],
+      "obj_2_attributes": [
+        "bicycle"
+      ],
+      "rel_type": "to the left of",
+      "text": "a person to the left of a bicycle"
+    },
+    {
+        "unique_id": 2,
+        "num_objects": 2,
+        "obj_1_attributes": [
+          "person"
+        ],
+        "obj_2_attributes": [
+          "bicycle"
+        ],
+        "rel_type": "to the right of",
+        "text": "a person to the right of a bicycle"
+    },
+    {
+        "unique_id": 4,
+        "num_objects": 2,
+        "obj_1_attributes": [
+          "person"
+        ],
+        "obj_2_attributes": [
+          "bicycle"
+        ],
+        "rel_type": "above",
+        "text": "a person above a bicycle"
+    },
+    {
+        "unique_id": 6,
+        "num_objects": 2,
+        "obj_1_attributes": [
+          "person"
+        ],
+        "obj_2_attributes": [
+          "bicycle"
+        ],
+        "rel_type": "below",
+        "text": "a person below a bicycle"
+    }
+]

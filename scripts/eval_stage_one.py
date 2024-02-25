@@ -3,6 +3,7 @@
 import sys
 import os
 import numpy as np
+import json
 path_dir = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(path_dir, '..'))
 
@@ -30,6 +31,26 @@ def calculate_overlapping_area(objects):
 
     return total_overlap
 
+def spatial_evaluation(objects, text_objects):
+    rect1 = objects[0]['bounding_box']
+    rect2 = objects[1]['bounding_box']
+    x1, y1, w1, h1 = rect1
+    x2, y2, w2, h2 = rect2
+    rect1_centroid = [x1+w1//2, y1-h1//2]
+    rect2_centroid = [x2+w2//2, y2-h2//2]
+    spatial_relationship = ["and"]
+    if rect1_centroid[0] < rect2_centroid[0]:
+        spatial_relationship += ["to the left of"]
+    if rect1_centroid[0] >= rect2_centroid[0]:
+        spatial_relationship += ["to the right of"]
+    if rect1_centroid[1] < rect2_centroid[1]:
+        spatial_relationship += ["above"]
+    if rect1_centroid[1] >= rect2_centroid[1]:
+        spatial_relationship += ["below"]
+    if text_objects['rel_type'] in spatial_relationship:
+        return 1
+    return 0
+
 def calculate_overlapping_area_rate(objects):
     total_overlap = calculate_overlapping_area(objects)
     total_object_area = 0
@@ -52,6 +73,7 @@ def eval_prompt(p, prompt_type, gen_boxes, verbose=False):
 eval_success_counts = {}
 overlap_areas = []
 object_areas = []
+spatial_check = []
 eval_all_counts = {}
 counter = []
 
@@ -62,18 +84,20 @@ if __name__ == "__main__":
     parser.add_argument("--model", choices=model_names, required=True)
     parser.add_argument("--template_version",
                         choices=template_versions, required=True)
+    parser.add_argument("--data_json", default="sample.json", type=str)
     parser.add_argument("--skip_first_prompts", default=0, type=int)
     parser.add_argument("--num_prompts", default=None, type=int)
     parser.add_argument("--verbose", action='store_true')
     args = parser.parse_args()
 
     template_version = args.template_version
-
+ 
     model, llm_kwargs = get_llm_kwargs(
         model=args.model, template_version=template_version)
 
     cache.cache_format = "json"
     cache.cache_path = f'{os.getcwd()}/cache/cache_{args.prompt_type}_{template_version}_{model}.json'
+    text_objects_path = f'{os.getcwd()}/data/{args.data_json}'
     cache.init_cache()
     
     print(cache.cache_path)
@@ -81,6 +105,8 @@ if __name__ == "__main__":
     # prompts = get_prompts(args.prompt_type, model=model)
     with open(cache.cache_path, 'r') as f:
         prompts = json.load(f)
+    with open(text_objects_path, 'r') as f:
+        text_objects = json.load(f)
 
     print(f"Number of prompts: {len(prompts)}")
 
@@ -104,14 +130,20 @@ if __name__ == "__main__":
         
         print("---------------------------------")
         
+        check_spatial = spatial_evaluation(gen_boxes, text_objects[ind])
+        
         object_areas.append(total_object_area)
         overlap_areas.append(total_overlap)
+        spatial_check.append(check_spatial)
     
     print("Overlap Areas: ", overlap_areas)
     print("Object Areas: ", object_areas)
     
     print(f"Total overlap: {sum(overlap_areas)}, total object area: {sum(object_areas)}")
     print(f"Overlap rate: {sum(overlap_areas)/sum(object_areas)}")
+    print(f"Overall Spatial Accuracy: {sum(spatial_check)/len(spatial_check)}")
+    
+    # THE BOTTOM LINE OF OUR IMPLEMENTATION
         
     #     eval_type, eval_success, overlap_area, object_area, num_object = eval_prompt(
     #         prompt, args.prompt_type, gen_boxes, verbose=args.verbose)

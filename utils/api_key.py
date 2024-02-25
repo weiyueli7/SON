@@ -4,4 +4,4 @@ import os
 if "OPENAI_API_KEY" in os.environ:
     api_key = os.environ["OPENAI_API_KEY"]
 else:
-    api_key = "YOUR_API_KEY"
+    api_key = "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"

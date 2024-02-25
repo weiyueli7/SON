@@ -1,17 +1,14 @@
 {
-    "In a bustling downtown area during evening rush, a person leans against a streetlight, waiting to cross the road. Nearby, a parked motorcycle reflects the fading light, while a city bus halts at a designated stop. Across the street, a bicycle is securely locked to a bike rack, and a stray cat watches the busy scene from a safe distance": [
-        "[('a person', [100, 250, 50, 200]), ('a streetlight', [150, 200, 20, 300]), ('a motorcycle', [200, 300, 100, 100]), ('a city bus', [350, 250, 150, 200]), ('a bicycle', [450, 300, 50, 100]), ('a cat', [50, 400, 50, 100])]\nBackground prompt: A bustling downtown area during evening rush\nNegative prompt: "
+    "a person to the left of a bicycle": [
+        "[('a person', [50, 100, 150, 350]), ('a bicycle', [250, 150, 200, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
     ],
-    "Along a peaceful riverbank, a couple (two people) relax on a bench, enjoying the view. A carefully parked bicycle leans against a nearby tree. A playful dog runs around, occasionally chasing birds that land near the water's edge. In the background, a boat slowly cruises down the river": [
-        "[('a couple', [150, 250, 200, 200]), ('a bench', [150, 300, 200, 50]), ('a bicycle', [50, 300, 100, 150]), ('a tree', [50, 200, 100, 200]), ('a playful dog', [350, 350, 100, 100]), ('a boat', [400, 100, 100, 50])]\nBackground prompt: A peaceful riverbank scene with birds near the water's edge and a boat slowly cruising down the river\nNegative prompt: "
+    "a person to the right of a bicycle": [
+        "[('a person', [280, 100, 150, 350]), ('a bicycle', [70, 150, 180, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
     ],
-    "In a suburban neighborhood, a person jogs past a row of houses, each with a car in the driveway. At a nearby house, a dog barks from the yard, drawing the attention of a bird perched on the mailbox. On the sidewalk, a child's abandoned bicycle lies next to a fire hydrant": [
-        "[('a person jogging', [220, 200, 80, 180]), ('a row of houses', [0, 100, 512, 200]), ('a car', [50, 200, 120, 100]), ('a car', [200, 200, 120, 100]), ('a car', [350, 200, 120, 100]), ('a barking dog', [400, 300, 80, 150]), ('a bird', [450, 50, 40, 40]), ('a mailbox', [440, 100, 30, 80]), ('a bicycle', [150, 400, 100, 80]), ('a fire hydrant', [260, 400, 40, 80])]\nBackground prompt: A suburban neighborhood scene\nNegative prompt: "
+    "a person above a bicycle": [
+        "[('a person', [150, 100, 200, 300]), ('a bicycle', [180, 300, 140, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
     ],
-    "A lively city park scene where a person reads a book on a bench under a tree. Nearby, a mother and child (two people) play frisbee on the grass. A curious squirrel (animal) scampers around, occasionally stopping to observe. In the distance, a parked motorcycle and a bicycle stand by a park entrance": [
-        "[('a person reading a book', [50, 200, 70, 150]), ('a mother and child', [200, 250, 120, 150]), ('a frisbee', [260, 280, 40, 20]), ('a squirrel', [150, 350, 30, 30]), ('a motorcycle', [400, 100, 80, 50]), ('a bicycle', [460, 100, 40, 70]), ('a tree', [20, 50, 100, 300]), ('a bench', [40, 250, 80, 40]), ('a park entrance', [450, 0, 60, 200])]\nBackground prompt: A lively city park scene\nNegative prompt: "
-    ],
-    "On a rustic farmstead, a person feeds chickens near a barn. A few sheep graze in an adjacent paddock, while a horse stands by the fence, watching a passing train in the distance. Near the farmhouse, a truck is parked, with its headlights reflecting off a nearby water trough": [
-        "[('a person', [120, 200, 60, 120]), ('chickens', [160, 280, 80, 60]), ('a barn', [10, 150, 100, 200]), ('sheep', [200, 350, 100, 80]), ('a horse', [320, 300, 80, 120]), ('a train', [480, 50, 30, 80]), ('a truck', [350, 100, 120, 80]), ('a water trough', [400, 200, 60, 40])]\nBackground prompt: A rustic farmstead with a farmhouse and a paddock\nNegative prompt: "
+    "a person below a bicycle": [
+        "[('a person', [201, 270, 110, 242]), ('a bicycle', [180, 100, 150, 170])]\nBackground prompt: A realistic scene\nNegative prompt: "
     ]
 }
