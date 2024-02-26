@@ -192,10 +192,37 @@ def get_prompts(prompt_type, model, allow_non_exist=False):
     """
     prompts_gpt4, prompts_gpt3_5 = {}, {}
     if prompt_type.startswith("lmd"):
-        from utils.eval.lmd import get_lmd_prompts
+        # from utils.eval.lmd import get_lmd_prompts
 
-        prompts = get_lmd_prompts()
-
+        # prompts = get_lmd_prompts()
+        import json
+        import numpy as np
+        data = json.load(open("data/text_spatial_rel_phrases.json"))
+        all_spatial_rel_phrases = {'above', 'below', 'to the left of', 'to the right of'}
+        two_objs_data = []
+        two_objs_data_above = []
+        two_objs_data_below = []
+        two_objs_data_left = []
+        two_objs_data_right = []
+        for d in data:
+            if d['rel_type'] in all_spatial_rel_phrases:
+                two_objs_data.append(d)
+                if d['rel_type'] == 'above':
+                    two_objs_data_above.append(d)
+                elif d['rel_type'] == 'below':
+                    two_objs_data_below.append(d)
+                elif d['rel_type'] == 'to the left of':
+                    two_objs_data_left.append(d)
+                elif d['rel_type'] == 'to the right of':
+                    two_objs_data_right.append(d)
+        np.random.seed(0)
+        samples_below = np.random.choice(two_objs_data_below, 100, replace=False)
+        samples_above = np.random.choice(two_objs_data_above, 100, replace=False)
+        samples_left = np.random.choice(two_objs_data_left, 100, replace=False)
+        samples_right = np.random.choice(two_objs_data_right, 100, replace=False)
+        samples = list(np.concatenate([samples_below, samples_above, samples_left, samples_right]))
+        prompts = {'lmd_spatial': [d['text'] for d in samples]}
+        # print(prompts)
         # We do not add to both dict to prevent duplicates when model is set to "all".
         if "gpt-4" in model:
             prompts_gpt4.update(prompts)

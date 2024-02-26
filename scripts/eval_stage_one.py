@@ -41,11 +41,11 @@ def spatial_evaluation(objects, text_objects):
     spatial_relationship = ["and"]
     if rect1_centroid[0] < rect2_centroid[0]:
         spatial_relationship += ["to the left of"]
-    if rect1_centroid[0] >= rect2_centroid[0]:
+    if rect1_centroid[0] > rect2_centroid[0]:
         spatial_relationship += ["to the right of"]
     if rect1_centroid[1] < rect2_centroid[1]:
         spatial_relationship += ["above"]
-    if rect1_centroid[1] >= rect2_centroid[1]:
+    if rect1_centroid[1] > rect2_centroid[1]:
         spatial_relationship += ["below"]
     if text_objects['rel_type'] in spatial_relationship:
         return 1
