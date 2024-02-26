@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="We introduce token-wise consistency terms between the image content and object segmentation maps in training text-to-image models for enhanced multi-category instance composition and photorealism.">
+  <meta name="keywords" content="TokenCompose, Diffusion, Stable Diffusion, finetuning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOPS: Enhancing Prompt Understanding of Text-to-Image Diffusion Models with Large Language Models Guided Layouts</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <link rel="icon" href="https://datascience.ucsd.edu/wp-content/uploads/fbrfg/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  
+
+  <!-- juxtapose -->
+  <script src="static/js/juxtapose.js"></script>
+
+  <!-- <script src="./static/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="./static/js/jquery.event.move.js" type="text/javascript"></script>
+<script src="./static/js/jquery.twentytwenty.js" type="text/javascript"></script>
+<link rel="stylesheet" href="./static/css/twentytwenty.css" type="text/css" media="screen" /> -->
+
+</head>
+
+
+<body>
+
+<!-- paper title and author -->
+<section class="section">
+  <!-- <div class="hero-body"> -->
+    <div class="container is-max-desktop no_max_width">
+      <div class="columns is-centered">
+        <div class="column has-text-centered is-four-fifths">
+          <h1 class="title is-1 publication-title">
+            <img src="./static/images/puzzle.png" width="35"/>
+            <span class="rainbow_text_animated">NOPS</span>
+            : Enhancing Prompt Understanding of Text-to-Image Diffusion Models with Large Language Models Guided Layouts
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://weiyueli7.github.io">
+                <span class="fancy_text_color">Weiyue Li</span>
+              </a>,
+              <!-- <sup>1</sup>, -->
+            </span>
+            <span class="author-block">
+              <a href="https://jerryli1019.github.io">
+                <span class="fancy_text_color">Yi Li</span>
+              </a>,</span>
+            <span class="author-block">
+              <a href="https://dpwxy.github.io/xiaoyuewang15.github.io/">
+                <span class="fancy_text_color">Xiaoyue Wang</span>
+              </a>,
+            </span>
+            <span class="author-block">
+              <a href="https://cseweb.ucsd.edu/~haozhang/">
+                <span class="fancy_text_color">Hao Zhang</span>
+              </a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">University of California, San Diego</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block" style="font-size: 70%;"><i>2024 Data Science Senior Capstone at UC San Diego.</i></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/weiyueli7/LMD"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+              <!-- Data Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/></svg>
+                  </span>
+                  <span>Data</span>
+                </a>
+              </span>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <!-- teaset video -->
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="subtitle has-text-centered">
+            A <span class="fancy_text_color">
+              <!-- <b>Stable Diffusion</b> -->
+              LLM Grounded Stable Diffusion
+            </span> model tailored to have better prompt understanding tackling overlapping and spatial accuracy.
+          </h2>
+        </div>
+      </div>
+
+
+    </div>
+</section>
+
+
+
+<!-- Abstract -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- abstract -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">
+          <span class="fancy_text_color">Abstract</span>
+        </h2>
+  
+          <div style="margin-bottom: 1em;">
+          <p>
+            Recently, the field of artificial intelligence has witnessed remarkable progress in the development of text-to-image diffusion models. These models have demonstrated a significant capability in generating realistic and diverse images. Notably, some of these models have been shown to excel in producing images that exhibit a high degree of numeracy and spatial reasoning, especially when provided with complex prompts. However, despite these advancements, a persistent challenge remains in the form of severe object overlapping issues. This problem is particularly critical for various real-world applications, such as in the design of floor plans. In response to this, we present <span class="fancy_text_color">NOPS</span>, aimed at mitigating object overlapping issues through comprehensive prompt engineering. Furthermore, this study has initiated the development of novel and more complex benchmarks, along with an evaluation metric specifically designed to assess overlapping and object layout accuracy. This approach represents a significant stride towards enhancing the practical utility of text-to-image diffusion models in real-world scenarios.
+          </p>
+        </div>
+        <div class="has-text-centered">
+          <img src="./static/images/inference.png">
+        </div>
+  
+        <h2 class="subtitle has-text-centered">
+          <b>Pipeline of NOPS</b>, adopted from the LLM Grounded Diffusion Model, to enhance the prompt understanding of text-to-image diffusion models.
+          </h2>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">
+          <span class="fancy_text_color">
+            <b>Performance of our model in comparison to baselines</b>
+          </span>
+        </h2>
+
+        <div class="has-text-centered" style="margin-bottom: 1em;">
+          <p>
+             </p>
+        </div>
+
+
+
+        <!-- <div class="has-text-centered">
+          <img src="static/images/table1.jpg">
+        </div> -->
+      </div>
+    </div>
+
+    <br>
+
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">
+          <span class="fancy_text_color">
+            <b>An overview of the inference pipeline</b>
+          </span>
+        </h2>
+
+        <div class="has-text-centered">
+          <p>
+
+        </p>
+        </div>
+
+        </br></br>
+
+        <!-- <div class="has-text-centered">
+          <img src="static/images/pipeline.jpg">
+        </div> -->
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<br>
+
+
+
+
+
+
+<footer class="footer" style="padding-bottom: 1.5em; padding-top: 1.5em;">
+  <div class="container">
+    <div class="content has-text-centered">
+      <span>This website is adapted from the amazing template of <a href="https://nerfies.github.io">Nerfies</a>.</span>
+
+
+    </div>
+  </div>
+</footer>
+
+</body>
+<script src="./static/js/index.js"></script>
+</html>
