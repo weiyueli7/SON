@@ -1,0 +1,11 @@
+{
+    "A serene park scene with a bench, a bicycle leaning against a nearby tree, a playful dog chasing a frisbee, and a distant cat observing from atop a wall": [
+        "[('a bench', [20, 300, 150, 100]), ('a bicycle', [200, 300, 100, 100]), ('a playful dog', [350, 350, 100, 100]), ('a frisbee', [400, 300, 50, 50]), ('a distant cat', [450, 200, 50, 50])]\nBackground prompt: A serene park scene\nNegative prompt: "
+    ],
+    "A bustling city street featuring a car waiting at a traffic light, a bus passing by, a pedestrian carrying an umbrella, and a taxi parked by a fire hydrant": [
+        "[('a car', [20, 232, 120, 80]), ('a traffic light', [140, 210, 30, 70]), ('a bus', [180, 232, 150, 80]), ('a pedestrian', [340, 232, 40, 80]), ('an umbrella', [340, 202, 40, 30]), ('a taxi', [390, 232, 120, 80]), ('a fire hydrant', [510, 232, 20, 30])]\nBackground prompt: A bustling city street\nNegative prompt: "
+    ],
+    "A cozy living room with a couch, a coffee table holding a remote and a cup, a tv on a stand, and a cat sleeping on a nearby rug": [
+        "[('a couch', [40, 200, 200, 150]), ('a coffee table', [260, 250, 150, 100]), ('a remote', [310, 270, 50, 30]), ('a cup', [350, 270, 50, 30]), ('a tv', [100, 100, 150, 100]), ('a stand', [100, 200, 150, 50]), ('a cat', [400, 350, 100, 100]), ('a rug', [400, 450, 100, 50])]\nBackground prompt: A cozy living room\nNegative prompt: "
+    ]
+}

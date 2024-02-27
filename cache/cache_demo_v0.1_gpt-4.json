@@ -1,14 +1,11 @@
 {
-    "a person to the left of a bicycle": [
-        "[('a person', [50, 100, 150, 350]), ('a bicycle', [250, 150, 200, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    "A serene park scene with a bench, a bicycle leaning against a nearby tree, a playful dog chasing a frisbee, and a distant cat observing from atop a wall": [
+        "[('a bench', [120, 300, 200, 100]), ('a bicycle', [250, 300, 100, 150]), ('a tree', [300, 200, 150, 300]), ('a playful dog', [400, 350, 90, 80]), ('a frisbee', [450, 320, 30, 10]), ('a distant cat', [480, 50, 30, 30]), ('a wall', [450, 0, 60, 512])]\nBackground prompt: A serene park scene\nNegative prompt: "
     ],
-    "a person to the right of a bicycle": [
-        "[('a person', [280, 100, 150, 350]), ('a bicycle', [70, 150, 180, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    "A bustling city street featuring a car waiting at a traffic light, a bus passing by, a pedestrian carrying an umbrella, and a taxi parked by a fire hydrant": [
+        "[('a car', [50, 300, 150, 100]), ('a traffic light', [200, 250, 30, 70]), ('a bus', [300, 300, 200, 100]), ('a pedestrian', [400, 250, 50, 100]), ('an umbrella', [420, 250, 30, 70]), ('a taxi', [100, 350, 150, 100]), ('a fire hydrant', [250, 350, 30, 50])]\nBackground prompt: A bustling city street\nNegative prompt: "
     ],
-    "a person above a bicycle": [
-        "[('a person', [150, 100, 200, 300]), ('a bicycle', [180, 300, 140, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
-    ],
-    "a person below a bicycle": [
-        "[('a person', [201, 270, 110, 242]), ('a bicycle', [180, 100, 150, 170])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    "A cozy living room with a couch, a coffee table holding a remote and a cup, a tv on a stand, and a cat sleeping on a nearby rug": [
+        "[('a couch', [20, 200, 300, 200]), ('a coffee table', [200, 300, 150, 100]), ('a remote', [250, 320, 50, 20]), ('a cup', [300, 320, 30, 40]), ('a tv', [400, 150, 100, 150]), ('a cat', [100, 400, 100, 100]), ('a rug', [50, 400, 200, 100])]\nBackground prompt: A cozy living room\nNegative prompt: "
     ]
 }

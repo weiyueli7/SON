@@ -13,3 +13,5 @@ gradio==3.35.2
 pydantic==1.10.7
 ultralytics
 tabulate
+invisible-watermark>=2.0
+safetensors

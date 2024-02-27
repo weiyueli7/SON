@@ -167,10 +167,9 @@ prompts_demo_gpt4 = [
 # "In a suburban neighborhood, a person jogs past a row of houses, each with a car in the driveway. At a nearby house, a dog barks from the yard, drawing the attention of a bird perched on the mailbox. On the sidewalk, a child's abandoned bicycle lies next to a fire hydrant.",
 # "A lively city park scene where a person reads a book on a bench under a tree. Nearby, a mother and child (two people) play frisbee on the grass. A curious squirrel (animal) scampers around, occasionally stopping to observe. In the distance, a parked motorcycle and a bicycle stand by a park entrance.",
 # "On a rustic farmstead, a person feeds chickens near a barn. A few sheep graze in an adjacent paddock, while a horse stands by the fence, watching a passing train in the distance. Near the farmhouse, a truck is parked, with its headlights reflecting off a nearby water trough."
-    "a person to the left of a bicycle",
-    "a person to the right of a bicycle",
-    "a person above a bicycle", 
-    "a person below a bicycle"
+"A serene park scene with a bench, a bicycle leaning against a nearby tree, a playful dog chasing a frisbee, and a distant cat observing from atop a wall.",
+    "A bustling city street featuring a car waiting at a traffic light, a bus passing by, a pedestrian carrying an umbrella, and a taxi parked by a fire hydrant.",
+    "A cozy living room with a couch, a coffee table holding a remote and a cup, a tv on a stand, and a cat sleeping on a nearby rug."
 ]
 
 # Put what we want to generate when you query GPT-3.5 for demo here
