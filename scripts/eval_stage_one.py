@@ -32,24 +32,26 @@ def calculate_overlapping_area(objects):
     return total_overlap
 
 def spatial_evaluation(objects, text_objects):
-    rect1 = objects[0]['bounding_box']
-    rect2 = objects[1]['bounding_box']
-    x1, y1, w1, h1 = rect1
-    x2, y2, w2, h2 = rect2
-    rect1_centroid = [x1+w1//2, y1-h1//2]
-    rect2_centroid = [x2+w2//2, y2-h2//2]
-    spatial_relationship = ["and"]
-    if rect1_centroid[0] < rect2_centroid[0]:
-        spatial_relationship += ["to the left of"]
-    if rect1_centroid[0] > rect2_centroid[0]:
-        spatial_relationship += ["to the right of"]
-    if rect1_centroid[1] < rect2_centroid[1]:
-        spatial_relationship += ["above"]
-    if rect1_centroid[1] > rect2_centroid[1]:
-        spatial_relationship += ["below"]
-    if text_objects['rel_type'] in spatial_relationship:
-        return 1
-    return 0
+    
+    rect = [objects[i]['bounding_box'] for i in range(len(objects))]
+    centroid = [[rect[i][0]+rect[i][2]//2, rect[i][1]+rect[i][3]//2] for i in range(len(objects))]
+    credit = 0
+    
+    for i in range(len(objects)-1):
+        relationship = ["and"]
+        if centroid[i][0] < centroid[i+1][0]:
+            relationship += ["to the left of"]
+        if centroid[i][0] > centroid[i+1][0]:
+            relationship += ["to the right of"]
+        if centroid[i][1] < centroid[i+1][1]:
+            relationship += ["above"]
+        if centroid[i][1] > centroid[i+1][1]:
+            relationship += ["below"]
+        if text_objects['rel_type'][i] in relationship:
+            credit += 1
+        
+    return credit/len(objects)
+
 
 def calculate_overlapping_area_rate(objects):
     total_overlap = calculate_overlapping_area(objects)
