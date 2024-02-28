@@ -1,0 +1,6364 @@
+[
+  {
+    "unique_id": 8736,
+    "num_objects": 3,
+    "obj_attributes": [
+      "stop sign",
+      "sink",
+      "baseball bat"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a stop sign below a sink. a sink above a baseball bat"
+  },
+  {
+    "unique_id": 19397,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball glove",
+      "skis",
+      "donut",
+      "bed"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "a baseball glove below a skis. a skis to the right of a donut. a donut below a bed"
+  },
+  {
+    "unique_id": 26197,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cell phone",
+      "banana",
+      "snowboard"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a cell phone below a banana. a banana to the left of a snowboard"
+  },
+  {
+    "unique_id": 22316,
+    "num_objects": 4,
+    "obj_attributes": [
+      "skateboard",
+      "donut",
+      "tennis racket",
+      "wine glass"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a skateboard below a donut. a donut to the right of a tennis racket. a tennis racket to the left of a wine glass"
+  },
+  {
+    "unique_id": 3867,
+    "num_objects": 4,
+    "obj_attributes": [
+      "truck",
+      "bus",
+      "knife",
+      "book"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "a truck below a bus. a bus to the right of a knife. a knife below a book"
+  },
+  {
+    "unique_id": 14486,
+    "num_objects": 5,
+    "obj_attributes": [
+      "elephant",
+      "toothbrush",
+      "cow",
+      "dining table",
+      "pizza"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a elephant below a toothbrush. a toothbrush to the left of a cow. a cow below a dining table. a dining table to the right of a pizza"
+  },
+  {
+    "unique_id": 25247,
+    "num_objects": 3,
+    "obj_attributes": [
+      "clock",
+      "knife",
+      "person"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a clock below a knife. a knife to the left of a person"
+  },
+  {
+    "unique_id": 13606,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cow",
+      "broccoli",
+      "surfboard",
+      "stop sign",
+      "bird"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of",
+      "above"
+    ],
+    "text": "a cow below a broccoli. a broccoli below a surfboard. a surfboard to the left of a stop sign. a stop sign above a bird"
+  },
+  {
+    "unique_id": 26706,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sandwich",
+      "cake",
+      "boat"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a sandwich below a cake. a cake below a boat"
+  },
+  {
+    "unique_id": 25807,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toilet",
+      "bowl",
+      "stop sign"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a toilet below a bowl. a bowl to the right of a stop sign"
+  },
+  {
+    "unique_id": 856,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bicycle",
+      "boat",
+      "fork"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a bicycle below a boat. a boat to the left of a fork"
+  },
+  {
+    "unique_id": 20596,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sports ball",
+      "dining table",
+      "person",
+      "horse",
+      "baseball glove"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below",
+      "below"
+    ],
+    "text": "a sports ball below a dining table. a dining table to the right of a person. a person below a horse. a horse below a baseball glove"
+  },
+  {
+    "unique_id": 31387,
+    "num_objects": 4,
+    "obj_attributes": [
+      "toothbrush",
+      "refrigerator",
+      "stop sign",
+      "oven"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "a toothbrush below a refrigerator. a refrigerator to the right of a stop sign. a stop sign above a oven"
+  },
+  {
+    "unique_id": 16316,
+    "num_objects": 5,
+    "obj_attributes": [
+      "backpack",
+      "skateboard",
+      "skis",
+      "pizza",
+      "scissors"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of",
+      "below"
+    ],
+    "text": "a backpack below a skateboard. a skateboard to the left of a skis. a skis to the right of a pizza. a pizza below a scissors"
+  },
+  {
+    "unique_id": 8636,
+    "num_objects": 5,
+    "obj_attributes": [
+      "stop sign",
+      "toilet",
+      "kite",
+      "surfboard",
+      "handbag"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "a stop sign below a toilet. a toilet below a kite. a kite below a surfboard. a surfboard above a handbag"
+  },
+  {
+    "unique_id": 9356,
+    "num_objects": 3,
+    "obj_attributes": [
+      "parking meter",
+      "keyboard",
+      "traffic light"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a parking meter below a keyboard. a keyboard above a traffic light"
+  },
+  {
+    "unique_id": 15626,
+    "num_objects": 4,
+    "obj_attributes": [
+      "zebra",
+      "hair drier",
+      "book",
+      "knife"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a zebra below a hair drier. a hair drier to the left of a book. a book to the left of a knife"
+  },
+  {
+    "unique_id": 25766,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bowl",
+      "couch",
+      "cow",
+      "suitcase"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "below"
+    ],
+    "text": "a bowl below a couch. a couch to the left of a cow. a cow below a suitcase"
+  },
+  {
+    "unique_id": 10956,
+    "num_objects": 4,
+    "obj_attributes": [
+      "cat",
+      "snowboard",
+      "cow",
+      "cell phone"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "a cat below a snowboard. a snowboard to the right of a cow. a cow below a cell phone"
+  },
+  {
+    "unique_id": 6597,
+    "num_objects": 4,
+    "obj_attributes": [
+      "mouse",
+      "boat",
+      "refrigerator",
+      "pizza"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a mouse below a boat. a boat to the right of a refrigerator. a refrigerator to the left of a pizza"
+  },
+  {
+    "unique_id": 7826,
+    "num_objects": 3,
+    "obj_attributes": [
+      "fire hydrant",
+      "sandwich",
+      "suitcase"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a fire hydrant below a sandwich. a sandwich to the right of a suitcase"
+  },
+  {
+    "unique_id": 1976,
+    "num_objects": 4,
+    "obj_attributes": [
+      "car",
+      "knife",
+      "frisbee",
+      "bench"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "a car below a knife. a knife to the right of a frisbee. a frisbee above a bench"
+  },
+  {
+    "unique_id": 13447,
+    "num_objects": 3,
+    "obj_attributes": [
+      "baseball bat",
+      "cow",
+      "elephant"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a baseball bat below a cow. a cow below a elephant"
+  },
+  {
+    "unique_id": 22986,
+    "num_objects": 3,
+    "obj_attributes": [
+      "surfboard",
+      "toothbrush",
+      "carrot"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a surfboard below a toothbrush. a toothbrush to the right of a carrot"
+  },
+  {
+    "unique_id": 4696,
+    "num_objects": 4,
+    "obj_attributes": [
+      "train",
+      "horse",
+      "scissors",
+      "tie"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "a train below a horse. a horse below a scissors. a scissors to the right of a tie"
+  },
+  {
+    "unique_id": 5806,
+    "num_objects": 5,
+    "obj_attributes": [
+      "truck",
+      "chair",
+      "spoon",
+      "hair drier",
+      "bear"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below",
+      "to the left of"
+    ],
+    "text": "a truck below a chair. a chair to the right of a spoon. a spoon below a hair drier. a hair drier to the left of a bear"
+  },
+  {
+    "unique_id": 10477,
+    "num_objects": 3,
+    "obj_attributes": [
+      "apple",
+      "bird",
+      "backpack"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a apple below a bird. a bird to the left of a backpack"
+  },
+  {
+    "unique_id": 8116,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fire hydrant",
+      "teddy bear",
+      "bus",
+      "cat",
+      "skateboard"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a fire hydrant below a teddy bear. a teddy bear below a bus. a bus to the left of a cat. a cat to the right of a skateboard"
+  },
+  {
+    "unique_id": 2516,
+    "num_objects": 3,
+    "obj_attributes": [
+      "motorcycle",
+      "bear",
+      "bottle"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a motorcycle below a bear. a bear above a bottle"
+  },
+  {
+    "unique_id": 2797,
+    "num_objects": 4,
+    "obj_attributes": [
+      "orange",
+      "motorcycle",
+      "horse",
+      "airplane"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "a orange below a motorcycle. a motorcycle below a horse. a horse to the left of a airplane"
+  },
+  {
+    "unique_id": 19087,
+    "num_objects": 4,
+    "obj_attributes": [
+      "pizza",
+      "frisbee",
+      "vase",
+      "baseball bat"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "a pizza below a frisbee. a frisbee below a vase. a vase above a baseball bat"
+  },
+  {
+    "unique_id": 29677,
+    "num_objects": 5,
+    "obj_attributes": [
+      "teddy bear",
+      "bed",
+      "elephant",
+      "bench",
+      "bowl"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "a teddy bear below a bed. a bed below a elephant. a elephant above a bench. a bench above a bowl"
+  },
+  {
+    "unique_id": 10456,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bird",
+      "bowl",
+      "pizza"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a bird below a bowl. a bowl below a pizza"
+  },
+  {
+    "unique_id": 5477,
+    "num_objects": 4,
+    "obj_attributes": [
+      "giraffe",
+      "truck",
+      "refrigerator",
+      "cup"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "a giraffe below a truck. a truck below a refrigerator. a refrigerator to the left of a cup"
+  },
+  {
+    "unique_id": 28597,
+    "num_objects": 4,
+    "obj_attributes": [
+      "toothbrush",
+      "donut",
+      "bed",
+      "giraffe"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "a toothbrush below a donut. a donut to the right of a bed. a bed below a giraffe"
+  },
+  {
+    "unique_id": 28506,
+    "num_objects": 4,
+    "obj_attributes": [
+      "donut",
+      "toaster",
+      "stop sign",
+      "cow"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "a donut below a toaster. a toaster below a stop sign. a stop sign above a cow"
+  },
+  {
+    "unique_id": 23897,
+    "num_objects": 3,
+    "obj_attributes": [
+      "broccoli",
+      "wine glass",
+      "handbag"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a broccoli below a wine glass. a wine glass below a handbag"
+  },
+  {
+    "unique_id": 22666,
+    "num_objects": 5,
+    "obj_attributes": [
+      "surfboard",
+      "apple",
+      "sports ball",
+      "elephant",
+      "boat"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a surfboard below a apple. a apple to the left of a sports ball. a sports ball above a elephant. a elephant to the left of a boat"
+  },
+  {
+    "unique_id": 26966,
+    "num_objects": 3,
+    "obj_attributes": [
+      "orange",
+      "carrot",
+      "sports ball"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a orange below a carrot. a carrot above a sports ball"
+  },
+  {
+    "unique_id": 2656,
+    "num_objects": 5,
+    "obj_attributes": [
+      "motorcycle",
+      "baseball glove",
+      "tv",
+      "dining table",
+      "toilet"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above",
+      "above"
+    ],
+    "text": "a motorcycle below a baseball glove. a baseball glove above a tv. a tv above a dining table. a dining table above a toilet"
+  },
+  {
+    "unique_id": 3426,
+    "num_objects": 5,
+    "obj_attributes": [
+      "airplane",
+      "surfboard",
+      "tv",
+      "fork",
+      "bus"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "a airplane below a surfboard. a surfboard above a tv. a tv above a fork. a fork to the right of a bus"
+  },
+  {
+    "unique_id": 18467,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cup",
+      "suitcase",
+      "bicycle"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a cup below a suitcase. a suitcase to the right of a bicycle"
+  },
+  {
+    "unique_id": 29487,
+    "num_objects": 5,
+    "obj_attributes": [
+      "hair drier",
+      "potted plant",
+      "fork",
+      "cup",
+      "cow"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "a hair drier below a potted plant. a potted plant above a fork. a fork above a cup. a cup below a cow"
+  },
+  {
+    "unique_id": 11086,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cat",
+      "spoon",
+      "kite"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a cat below a spoon. a spoon to the left of a kite"
+  },
+  {
+    "unique_id": 18457,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "suitcase",
+      "knife"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a wine glass below a suitcase. a suitcase to the left of a knife"
+  },
+  {
+    "unique_id": 5207,
+    "num_objects": 3,
+    "obj_attributes": [
+      "microwave",
+      "train",
+      "sports ball"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a microwave below a train. a train to the left of a sports ball"
+  },
+  {
+    "unique_id": 4096,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bus",
+      "skis",
+      "frisbee",
+      "wine glass"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "a bus below a skis. a skis below a frisbee. a frisbee to the left of a wine glass"
+  },
+  {
+    "unique_id": 13537,
+    "num_objects": 4,
+    "obj_attributes": [
+      "knife",
+      "cow",
+      "couch",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a knife below a cow. a cow to the left of a couch. a couch to the right of a teddy bear"
+  },
+  {
+    "unique_id": 22556,
+    "num_objects": 5,
+    "obj_attributes": [
+      "skateboard",
+      "hair drier",
+      "microwave",
+      "sink",
+      "broccoli"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "a skateboard below a hair drier. a hair drier below a microwave. a microwave below a sink. a sink to the right of a broccoli"
+  },
+  {
+    "unique_id": 6816,
+    "num_objects": 3,
+    "obj_attributes": [
+      "traffic light",
+      "dog",
+      "bottle"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a traffic light below a dog. a dog above a bottle"
+  },
+  {
+    "unique_id": 30527,
+    "num_objects": 3,
+    "obj_attributes": [
+      "teddy bear",
+      "mouse",
+      "microwave"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a teddy bear below a mouse. a mouse to the right of a microwave"
+  },
+  {
+    "unique_id": 15167,
+    "num_objects": 4,
+    "obj_attributes": [
+      "sports ball",
+      "zebra",
+      "keyboard",
+      "backpack"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "a sports ball below a zebra. a zebra below a keyboard. a keyboard to the right of a backpack"
+  },
+  {
+    "unique_id": 9187,
+    "num_objects": 3,
+    "obj_attributes": [
+      "orange",
+      "parking meter",
+      "surfboard"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a orange below a parking meter. a parking meter to the left of a surfboard"
+  },
+  {
+    "unique_id": 28126,
+    "num_objects": 4,
+    "obj_attributes": [
+      "pizza",
+      "couch",
+      "kite",
+      "microwave"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "a pizza below a couch. a couch below a kite. a kite to the left of a microwave"
+  },
+  {
+    "unique_id": 13776,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cow",
+      "cell phone",
+      "bottle",
+      "toothbrush",
+      "refrigerator"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "a cow below a cell phone. a cell phone below a bottle. a bottle to the right of a toothbrush. a toothbrush above a refrigerator"
+  },
+  {
+    "unique_id": 14247,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cake",
+      "elephant",
+      "hair drier",
+      "vase",
+      "tie"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "a cake below a elephant. a elephant to the left of a hair drier. a hair drier above a vase. a vase below a tie"
+  },
+  {
+    "unique_id": 19086,
+    "num_objects": 3,
+    "obj_attributes": [
+      "frisbee",
+      "pizza",
+      "car"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "a frisbee below a pizza. a pizza to the left of a car"
+  },
+  {
+    "unique_id": 18256,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tie",
+      "sink",
+      "bus",
+      "apple"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "above"
+    ],
+    "text": "a tie below a sink. a sink to the left of a bus. a bus above a apple"
+  },
+  {
+    "unique_id": 6337,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tennis racket",
+      "boat",
+      "potted plant",
+      "train"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below"
+    ],
+    "text": "a tennis racket below a boat. a boat below a potted plant. a potted plant below a train"
+  },
+  {
+    "unique_id": 17456,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "knife",
+      "toothbrush",
+      "truck"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "a handbag below a knife. a knife below a toothbrush. a toothbrush to the left of a truck"
+  },
+  {
+    "unique_id": 21017,
+    "num_objects": 4,
+    "obj_attributes": [
+      "chair",
+      "kite",
+      "bowl",
+      "carrot"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "below"
+    ],
+    "text": "a chair below a kite. a kite above a bowl. a bowl below a carrot"
+  },
+  {
+    "unique_id": 18476,
+    "num_objects": 5,
+    "obj_attributes": [
+      "suitcase",
+      "fork",
+      "cow",
+      "boat",
+      "bicycle"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above",
+      "above"
+    ],
+    "text": "a suitcase below a fork. a fork to the right of a cow. a cow above a boat. a boat above a bicycle"
+  },
+  {
+    "unique_id": 7906,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fire hydrant",
+      "chair",
+      "boat",
+      "elephant",
+      "suitcase"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a fire hydrant below a chair. a chair to the left of a boat. a boat to the left of a elephant. a elephant below a suitcase"
+  },
+  {
+    "unique_id": 18326,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tie",
+      "hair drier",
+      "toilet",
+      "baseball glove",
+      "orange"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a tie below a hair drier. a hair drier to the right of a toilet. a toilet above a baseball glove. a baseball glove to the right of a orange"
+  },
+  {
+    "unique_id": 25386,
+    "num_objects": 3,
+    "obj_attributes": [
+      "spoon",
+      "pizza",
+      "giraffe"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a spoon below a pizza. a pizza below a giraffe"
+  },
+  {
+    "unique_id": 717,
+    "num_objects": 5,
+    "obj_attributes": [
+      "refrigerator",
+      "person",
+      "scissors",
+      "truck",
+      "keyboard"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above",
+      "below"
+    ],
+    "text": "a refrigerator below a person. a person to the right of a scissors. a scissors above a truck. a truck below a keyboard"
+  },
+  {
+    "unique_id": 28886,
+    "num_objects": 4,
+    "obj_attributes": [
+      "chair",
+      "toilet",
+      "cake",
+      "kite"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "a chair below a toilet. a toilet above a cake. a cake to the left of a kite"
+  },
+  {
+    "unique_id": 6196,
+    "num_objects": 3,
+    "obj_attributes": [
+      "boat",
+      "backpack",
+      "oven"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a boat below a backpack. a backpack above a oven"
+  },
+  {
+    "unique_id": 18317,
+    "num_objects": 4,
+    "obj_attributes": [
+      "teddy bear",
+      "tie",
+      "bicycle",
+      "train"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "a teddy bear below a tie. a tie to the right of a bicycle. a bicycle below a train"
+  },
+  {
+    "unique_id": 29537,
+    "num_objects": 5,
+    "obj_attributes": [
+      "laptop",
+      "bed",
+      "scissors",
+      "elephant",
+      "cat"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above",
+      "below"
+    ],
+    "text": "a laptop below a bed. a bed to the right of a scissors. a scissors above a elephant. a elephant below a cat"
+  },
+  {
+    "unique_id": 10676,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bird",
+      "cell phone",
+      "sheep"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a bird below a cell phone. a cell phone below a sheep"
+  },
+  {
+    "unique_id": 26847,
+    "num_objects": 3,
+    "obj_attributes": [
+      "oven",
+      "sandwich",
+      "scissors"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a oven below a sandwich. a sandwich to the right of a scissors"
+  },
+  {
+    "unique_id": 12776,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "tie",
+      "traffic light",
+      "clock",
+      "bear"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a sheep below a tie. a tie above a traffic light. a traffic light to the right of a clock. a clock to the right of a bear"
+  },
+  {
+    "unique_id": 2597,
+    "num_objects": 3,
+    "obj_attributes": [
+      "frisbee",
+      "motorcycle",
+      "fire hydrant"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a frisbee below a motorcycle. a motorcycle above a fire hydrant"
+  },
+  {
+    "unique_id": 20746,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sports ball",
+      "vase",
+      "keyboard"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a sports ball below a vase. a vase below a keyboard"
+  },
+  {
+    "unique_id": 27437,
+    "num_objects": 3,
+    "obj_attributes": [
+      "oven",
+      "broccoli",
+      "kite"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a oven below a broccoli. a broccoli to the right of a kite"
+  },
+  {
+    "unique_id": 26166,
+    "num_objects": 3,
+    "obj_attributes": [
+      "banana",
+      "mouse",
+      "book"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a banana below a mouse. a mouse below a book"
+  },
+  {
+    "unique_id": 626,
+    "num_objects": 3,
+    "obj_attributes": [
+      "person",
+      "laptop",
+      "cat"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a person below a laptop. a laptop to the right of a cat"
+  },
+  {
+    "unique_id": 24636,
+    "num_objects": 3,
+    "obj_attributes": [
+      "fork",
+      "orange",
+      "pizza"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a fork below a orange. a orange above a pizza"
+  },
+  {
+    "unique_id": 13847,
+    "num_objects": 5,
+    "obj_attributes": [
+      "clock",
+      "cow",
+      "orange",
+      "sink",
+      "airplane"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a clock below a cow. a cow to the left of a orange. a orange to the right of a sink. a sink to the right of a airplane"
+  },
+  {
+    "unique_id": 4066,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bus",
+      "tie",
+      "microwave"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "a bus below a tie. a tie below a microwave"
+  },
+  {
+    "unique_id": 14697,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fork",
+      "bear",
+      "dining table",
+      "cup",
+      "laptop"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "a fork below a bear. a bear below a dining table. a dining table below a cup. a cup to the right of a laptop"
+  },
+  {
+    "unique_id": 8947,
+    "num_objects": 4,
+    "obj_attributes": [
+      "umbrella",
+      "parking meter",
+      "donut",
+      "cake"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "a umbrella below a parking meter. a parking meter to the right of a donut. a donut above a cake"
+  },
+  {
+    "unique_id": 17086,
+    "num_objects": 4,
+    "obj_attributes": [
+      "umbrella",
+      "bed",
+      "frisbee",
+      "suitcase"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a umbrella below a bed. a bed to the right of a frisbee. a frisbee to the left of a suitcase"
+  },
+  {
+    "unique_id": 21586,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball bat",
+      "microwave",
+      "knife",
+      "orange"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a baseball bat below a microwave. a microwave to the right of a knife. a knife to the right of a orange"
+  },
+  {
+    "unique_id": 1476,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bicycle",
+      "toaster",
+      "broccoli"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a bicycle below a toaster. a toaster to the right of a broccoli"
+  },
+  {
+    "unique_id": 30717,
+    "num_objects": 4,
+    "obj_attributes": [
+      "oven",
+      "keyboard",
+      "bird",
+      "toaster"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "a oven below a keyboard. a keyboard above a bird. a bird to the left of a toaster"
+  },
+  {
+    "unique_id": 16336,
+    "num_objects": 4,
+    "obj_attributes": [
+      "backpack",
+      "tennis racket",
+      "cup",
+      "boat"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "a backpack below a tennis racket. a tennis racket above a cup. a cup above a boat"
+  },
+  {
+    "unique_id": 2547,
+    "num_objects": 4,
+    "obj_attributes": [
+      "backpack",
+      "motorcycle",
+      "bed",
+      "mouse"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a backpack below a motorcycle. a motorcycle to the left of a bed. a bed to the right of a mouse"
+  },
+  {
+    "unique_id": 19527,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sandwich",
+      "skis",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "a sandwich below a skis. a skis to the right of a teddy bear"
+  },
+  {
+    "unique_id": 14287,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bed",
+      "elephant",
+      "sports ball",
+      "dining table"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "a bed below a elephant. a elephant below a sports ball. a sports ball above a dining table"
+  },
+  {
+    "unique_id": 6387,
+    "num_objects": 5,
+    "obj_attributes": [
+      "knife",
+      "boat",
+      "umbrella",
+      "bird",
+      "microwave"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of",
+      "above"
+    ],
+    "text": "a knife below a boat. a boat to the left of a umbrella. a umbrella to the right of a bird. a bird above a microwave"
+  },
+  {
+    "unique_id": 3846,
+    "num_objects": 3,
+    "obj_attributes": [
+      "airplane",
+      "toothbrush",
+      "microwave"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a airplane below a toothbrush. a toothbrush above a microwave"
+  },
+  {
+    "unique_id": 3657,
+    "num_objects": 4,
+    "obj_attributes": [
+      "dining table",
+      "airplane",
+      "wine glass",
+      "sink"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "below"
+    ],
+    "text": "a dining table below a airplane. a airplane to the left of a wine glass. a wine glass below a sink"
+  },
+  {
+    "unique_id": 26266,
+    "num_objects": 5,
+    "obj_attributes": [
+      "banana",
+      "clock",
+      "bed",
+      "baseball glove",
+      "surfboard"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "a banana below a clock. a clock above a bed. a bed above a baseball glove. a baseball glove to the left of a surfboard"
+  },
+  {
+    "unique_id": 3176,
+    "num_objects": 3,
+    "obj_attributes": [
+      "airplane",
+      "parking meter",
+      "suitcase"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a airplane below a parking meter. a parking meter above a suitcase"
+  },
+  {
+    "unique_id": 18667,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toilet",
+      "suitcase",
+      "vase",
+      "tennis racket",
+      "couch"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "a toilet below a suitcase. a suitcase below a vase. a vase above a tennis racket. a tennis racket to the left of a couch"
+  },
+  {
+    "unique_id": 20996,
+    "num_objects": 3,
+    "obj_attributes": [
+      "kite",
+      "donut",
+      "frisbee"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "a kite below a donut. a donut above a frisbee"
+  },
+  {
+    "unique_id": 23446,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bottle",
+      "spoon",
+      "sports ball",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "a bottle below a spoon. a spoon above a sports ball. a sports ball above a motorcycle"
+  },
+  {
+    "unique_id": 29916,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toilet",
+      "mouse",
+      "baseball bat",
+      "cow",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a toilet below a mouse. a mouse to the right of a baseball bat. a baseball bat to the left of a cow. a cow below a toothbrush"
+  },
+  {
+    "unique_id": 2535,
+    "num_objects": 5,
+    "obj_attributes": [
+      "giraffe",
+      "motorcycle",
+      "traffic light",
+      "banana",
+      "sports ball"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "to the right of",
+      "below"
+    ],
+    "text": "a giraffe above a motorcycle. a motorcycle to the right of a traffic light. a traffic light to the right of a banana. a banana below a sports ball"
+  },
+  {
+    "unique_id": 21204,
+    "num_objects": 4,
+    "obj_attributes": [
+      "kite",
+      "vase",
+      "truck",
+      "bus"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a kite above a vase. a vase to the left of a truck. a truck to the right of a bus"
+  },
+  {
+    "unique_id": 18264,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tie",
+      "refrigerator",
+      "hair drier"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a tie above a refrigerator. a refrigerator above a hair drier"
+  },
+  {
+    "unique_id": 2674,
+    "num_objects": 4,
+    "obj_attributes": [
+      "motorcycle",
+      "surfboard",
+      "cell phone",
+      "sandwich"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a motorcycle above a surfboard. a surfboard to the left of a cell phone. a cell phone to the left of a sandwich"
+  },
+  {
+    "unique_id": 5484,
+    "num_objects": 4,
+    "obj_attributes": [
+      "truck",
+      "backpack",
+      "kite",
+      "skis"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "a truck above a backpack. a backpack above a kite. a kite to the left of a skis"
+  },
+  {
+    "unique_id": 24164,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "teddy bear",
+      "microwave"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a wine glass above a teddy bear. a teddy bear above a microwave"
+  },
+  {
+    "unique_id": 6534,
+    "num_objects": 5,
+    "obj_attributes": [
+      "boat",
+      "potted plant",
+      "laptop",
+      "apple",
+      "toaster"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "a boat above a potted plant. a potted plant below a laptop. a laptop to the right of a apple. a apple above a toaster"
+  },
+  {
+    "unique_id": 3024,
+    "num_objects": 5,
+    "obj_attributes": [
+      "motorcycle",
+      "refrigerator",
+      "carrot",
+      "orange",
+      "skateboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below",
+      "to the left of"
+    ],
+    "text": "a motorcycle above a refrigerator. a refrigerator to the right of a carrot. a carrot below a orange. a orange to the left of a skateboard"
+  },
+  {
+    "unique_id": 16725,
+    "num_objects": 5,
+    "obj_attributes": [
+      "teddy bear",
+      "backpack",
+      "handbag",
+      "hot dog",
+      "elephant"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of",
+      "above"
+    ],
+    "text": "a teddy bear above a backpack. a backpack above a handbag. a handbag to the left of a hot dog. a hot dog above a elephant"
+  },
+  {
+    "unique_id": 665,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cell phone",
+      "person",
+      "toilet",
+      "teddy bear",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a cell phone above a person. a person to the left of a toilet. a toilet below a teddy bear. a teddy bear to the right of a motorcycle"
+  },
+  {
+    "unique_id": 26785,
+    "num_objects": 4,
+    "obj_attributes": [
+      "laptop",
+      "sandwich",
+      "tv",
+      "suitcase"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above"
+    ],
+    "text": "a laptop above a sandwich. a sandwich to the right of a tv. a tv above a suitcase"
+  },
+  {
+    "unique_id": 21434,
+    "num_objects": 5,
+    "obj_attributes": [
+      "baseball bat",
+      "pizza",
+      "bowl",
+      "cow",
+      "stop sign"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "a baseball bat above a pizza. a pizza below a bowl. a bowl above a cow. a cow to the left of a stop sign"
+  },
+  {
+    "unique_id": 16734,
+    "num_objects": 5,
+    "obj_attributes": [
+      "backpack",
+      "hair drier",
+      "giraffe",
+      "fork",
+      "toaster"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "a backpack above a hair drier. a hair drier below a giraffe. a giraffe below a fork. a fork to the right of a toaster"
+  },
+  {
+    "unique_id": 14084,
+    "num_objects": 5,
+    "obj_attributes": [
+      "elephant",
+      "bottle",
+      "banana",
+      "tie",
+      "wine glass"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "to the right of",
+      "above"
+    ],
+    "text": "a elephant above a bottle. a bottle to the right of a banana. a banana to the right of a tie. a tie above a wine glass"
+  },
+  {
+    "unique_id": 17915,
+    "num_objects": 5,
+    "obj_attributes": [
+      "surfboard",
+      "tie",
+      "bird",
+      "cake",
+      "oven"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "a surfboard above a tie. a tie below a bird. a bird above a cake. a cake to the left of a oven"
+  },
+  {
+    "unique_id": 29415,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sink",
+      "potted plant",
+      "teddy bear",
+      "orange",
+      "remote"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of",
+      "above"
+    ],
+    "text": "a sink above a potted plant. a potted plant above a teddy bear. a teddy bear to the left of a orange. a orange above a remote"
+  },
+  {
+    "unique_id": 27754,
+    "num_objects": 3,
+    "obj_attributes": [
+      "carrot",
+      "book",
+      "microwave"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "a carrot above a book. a book below a microwave"
+  },
+  {
+    "unique_id": 20485,
+    "num_objects": 4,
+    "obj_attributes": [
+      "orange",
+      "sports ball",
+      "donut",
+      "frisbee"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a orange above a sports ball. a sports ball to the right of a donut. a donut to the right of a frisbee"
+  },
+  {
+    "unique_id": 20095,
+    "num_objects": 5,
+    "obj_attributes": [
+      "couch",
+      "snowboard",
+      "parking meter",
+      "cake",
+      "chair"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a couch above a snowboard. a snowboard above a parking meter. a parking meter to the right of a cake. a cake to the left of a chair"
+  },
+  {
+    "unique_id": 28574,
+    "num_objects": 5,
+    "obj_attributes": [
+      "donut",
+      "teddy bear",
+      "scissors",
+      "boat",
+      "snowboard"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "a donut above a teddy bear. a teddy bear below a scissors. a scissors below a boat. a boat above a snowboard"
+  },
+  {
+    "unique_id": 3284,
+    "num_objects": 4,
+    "obj_attributes": [
+      "airplane",
+      "giraffe",
+      "backpack",
+      "vase"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above"
+    ],
+    "text": "a airplane above a giraffe. a giraffe to the left of a backpack. a backpack above a vase"
+  },
+  {
+    "unique_id": 13484,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cow",
+      "tennis racket",
+      "oven",
+      "snowboard",
+      "sink"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "a cow above a tennis racket. a tennis racket below a oven. a oven above a snowboard. a snowboard to the left of a sink"
+  },
+  {
+    "unique_id": 24395,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "cup",
+      "potted plant",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of"
+    ],
+    "text": "a tv above a cup. a cup below a potted plant. a potted plant to the right of a teddy bear"
+  },
+  {
+    "unique_id": 6785,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bench",
+      "traffic light",
+      "dog"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "a bench above a traffic light. a traffic light below a dog"
+  },
+  {
+    "unique_id": 12704,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "elephant",
+      "potted plant",
+      "toilet",
+      "microwave"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "a sheep above a elephant. a elephant below a potted plant. a potted plant below a toilet. a toilet to the left of a microwave"
+  },
+  {
+    "unique_id": 4704,
+    "num_objects": 5,
+    "obj_attributes": [
+      "train",
+      "sheep",
+      "airplane",
+      "cow",
+      "truck"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a train above a sheep. a sheep above a airplane. a airplane to the right of a cow. a cow to the left of a truck"
+  },
+  {
+    "unique_id": 10644,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bird",
+      "mouse",
+      "banana"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "a bird above a mouse. a mouse to the right of a banana"
+  },
+  {
+    "unique_id": 10764,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bird",
+      "scissors",
+      "vase",
+      "kite",
+      "hair drier"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a bird above a scissors. a scissors above a vase. a vase to the left of a kite. a kite to the left of a hair drier"
+  },
+  {
+    "unique_id": 31534,
+    "num_objects": 3,
+    "obj_attributes": [
+      "vase",
+      "toothbrush",
+      "banana"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "a vase above a toothbrush. a toothbrush below a banana"
+  },
+  {
+    "unique_id": 30434,
+    "num_objects": 3,
+    "obj_attributes": [
+      "mouse",
+      "microwave",
+      "surfboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a mouse above a microwave. a microwave to the left of a surfboard"
+  },
+  {
+    "unique_id": 4244,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bus",
+      "bowl",
+      "banana",
+      "oven",
+      "hot dog"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a bus above a bowl. a bowl to the left of a banana. a banana above a oven. a oven to the right of a hot dog"
+  },
+  {
+    "unique_id": 9624,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bench",
+      "tie",
+      "clock"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a bench above a tie. a tie to the left of a clock"
+  },
+  {
+    "unique_id": 515,
+    "num_objects": 5,
+    "obj_attributes": [
+      "hot dog",
+      "person",
+      "umbrella",
+      "carrot",
+      "banana"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "a hot dog above a person. a person to the left of a umbrella. a umbrella above a carrot. a carrot above a banana"
+  },
+  {
+    "unique_id": 5274,
+    "num_objects": 5,
+    "obj_attributes": [
+      "train",
+      "vase",
+      "book",
+      "tennis racket",
+      "surfboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of",
+      "below"
+    ],
+    "text": "a train above a vase. a vase to the left of a book. a book to the right of a tennis racket. a tennis racket below a surfboard"
+  },
+  {
+    "unique_id": 7334,
+    "num_objects": 5,
+    "obj_attributes": [
+      "traffic light",
+      "microwave",
+      "apple",
+      "orange",
+      "oven"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "a traffic light above a microwave. a microwave below a apple. a apple above a orange. a orange to the left of a oven"
+  },
+  {
+    "unique_id": 17534,
+    "num_objects": 3,
+    "obj_attributes": [
+      "handbag",
+      "carrot",
+      "tie"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a handbag above a carrot. a carrot to the left of a tie"
+  },
+  {
+    "unique_id": 7444,
+    "num_objects": 3,
+    "obj_attributes": [
+      "traffic light",
+      "toothbrush",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a traffic light above a toothbrush. a toothbrush to the left of a motorcycle"
+  },
+  {
+    "unique_id": 13144,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "mouse",
+      "tie"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a sheep above a mouse. a mouse to the left of a tie"
+  },
+  {
+    "unique_id": 6464,
+    "num_objects": 4,
+    "obj_attributes": [
+      "boat",
+      "carrot",
+      "laptop",
+      "train"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "a boat above a carrot. a carrot above a laptop. a laptop to the right of a train"
+  },
+  {
+    "unique_id": 7654,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fire hydrant",
+      "snowboard",
+      "train",
+      "tv",
+      "sports ball"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a fire hydrant above a snowboard. a snowboard below a train. a train to the left of a tv. a tv to the right of a sports ball"
+  },
+  {
+    "unique_id": 2605,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skis",
+      "motorcycle",
+      "sink"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a skis above a motorcycle. a motorcycle to the left of a sink"
+  },
+  {
+    "unique_id": 30124,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "microwave",
+      "fork",
+      "keyboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above"
+    ],
+    "text": "a tv above a microwave. a microwave to the left of a fork. a fork above a keyboard"
+  },
+  {
+    "unique_id": 12575,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "horse",
+      "skis",
+      "backpack",
+      "couch"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "a microwave above a horse. a horse below a skis. a skis below a backpack. a backpack to the right of a couch"
+  },
+  {
+    "unique_id": 23414,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bottle",
+      "cup",
+      "refrigerator",
+      "tennis racket",
+      "sandwich"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below",
+      "below"
+    ],
+    "text": "a bottle above a cup. a cup to the right of a refrigerator. a refrigerator below a tennis racket. a tennis racket below a sandwich"
+  },
+  {
+    "unique_id": 25484,
+    "num_objects": 5,
+    "obj_attributes": [
+      "spoon",
+      "laptop",
+      "cat",
+      "tennis racket",
+      "bear"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a spoon above a laptop. a laptop to the right of a cat. a cat above a tennis racket. a tennis racket to the right of a bear"
+  },
+  {
+    "unique_id": 17544,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "hot dog",
+      "baseball glove",
+      "toilet"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a handbag above a hot dog. a hot dog to the left of a baseball glove. a baseball glove to the right of a toilet"
+  },
+  {
+    "unique_id": 21115,
+    "num_objects": 3,
+    "obj_attributes": [
+      "keyboard",
+      "kite",
+      "chair"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a keyboard above a kite. a kite above a chair"
+  },
+  {
+    "unique_id": 9595,
+    "num_objects": 3,
+    "obj_attributes": [
+      "backpack",
+      "bench",
+      "donut"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a backpack above a bench. a bench to the left of a donut"
+  },
+  {
+    "unique_id": 9225,
+    "num_objects": 3,
+    "obj_attributes": [
+      "pizza",
+      "parking meter",
+      "handbag"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "a pizza above a parking meter. a parking meter below a handbag"
+  },
+  {
+    "unique_id": 27464,
+    "num_objects": 3,
+    "obj_attributes": [
+      "broccoli",
+      "refrigerator",
+      "umbrella"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "a broccoli above a refrigerator. a refrigerator to the right of a umbrella"
+  },
+  {
+    "unique_id": 18314,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tie",
+      "teddy bear",
+      "cat",
+      "tv",
+      "dog"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "a tie above a teddy bear. a teddy bear below a cat. a cat below a tv. a tv to the right of a dog"
+  },
+  {
+    "unique_id": 5784,
+    "num_objects": 5,
+    "obj_attributes": [
+      "truck",
+      "donut",
+      "tie",
+      "teddy bear",
+      "snowboard"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below",
+      "below"
+    ],
+    "text": "a truck above a donut. a donut above a tie. a tie below a teddy bear. a teddy bear below a snowboard"
+  },
+  {
+    "unique_id": 18435,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tennis racket",
+      "suitcase",
+      "train"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "a tennis racket above a suitcase. a suitcase below a train"
+  },
+  {
+    "unique_id": 25915,
+    "num_objects": 3,
+    "obj_attributes": [
+      "refrigerator",
+      "bowl",
+      "zebra"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a refrigerator above a bowl. a bowl to the left of a zebra"
+  },
+  {
+    "unique_id": 16505,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cake",
+      "backpack",
+      "banana"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a cake above a backpack. a backpack above a banana"
+  },
+  {
+    "unique_id": 25705,
+    "num_objects": 4,
+    "obj_attributes": [
+      "carrot",
+      "bowl",
+      "surfboard",
+      "apple"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below"
+    ],
+    "text": "a carrot above a bowl. a bowl to the left of a surfboard. a surfboard below a apple"
+  },
+  {
+    "unique_id": 19405,
+    "num_objects": 5,
+    "obj_attributes": [
+      "skateboard",
+      "skis",
+      "baseball glove",
+      "remote",
+      "book"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "a skateboard above a skis. a skis below a baseball glove. a baseball glove to the right of a remote. a remote above a book"
+  },
+  {
+    "unique_id": 12754,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "umbrella",
+      "bottle"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a sheep above a umbrella. a umbrella above a bottle"
+  },
+  {
+    "unique_id": 18395,
+    "num_objects": 3,
+    "obj_attributes": [
+      "baseball bat",
+      "suitcase",
+      "zebra"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "a baseball bat above a suitcase. a suitcase to the right of a zebra"
+  },
+  {
+    "unique_id": 10144,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bench",
+      "toothbrush",
+      "wine glass",
+      "couch"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "a bench above a toothbrush. a toothbrush to the right of a wine glass. a wine glass below a couch"
+  },
+  {
+    "unique_id": 20004,
+    "num_objects": 3,
+    "obj_attributes": [
+      "snowboard",
+      "sandwich",
+      "surfboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "a snowboard above a sandwich. a sandwich to the right of a surfboard"
+  },
+  {
+    "unique_id": 28464,
+    "num_objects": 5,
+    "obj_attributes": [
+      "donut",
+      "keyboard",
+      "toilet",
+      "sheep",
+      "chair"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a donut above a keyboard. a keyboard to the right of a toilet. a toilet above a sheep. a sheep to the left of a chair"
+  },
+  {
+    "unique_id": 16914,
+    "num_objects": 4,
+    "obj_attributes": [
+      "umbrella",
+      "fork",
+      "cup",
+      "bicycle"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "a umbrella above a fork. a fork above a cup. a cup to the right of a bicycle"
+  },
+  {
+    "unique_id": 23335,
+    "num_objects": 4,
+    "obj_attributes": [
+      "book",
+      "tennis racket",
+      "skateboard",
+      "car"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above"
+    ],
+    "text": "a book above a tennis racket. a tennis racket below a skateboard. a skateboard above a car"
+  },
+  {
+    "unique_id": 7965,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "fire hydrant",
+      "traffic light",
+      "bus"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "a tv above a fire hydrant. a fire hydrant to the right of a traffic light. a traffic light below a bus"
+  },
+  {
+    "unique_id": 16464,
+    "num_objects": 3,
+    "obj_attributes": [
+      "backpack",
+      "carrot",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a backpack above a carrot. a carrot above a motorcycle"
+  },
+  {
+    "unique_id": 25215,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sink",
+      "knife",
+      "cow"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a sink above a knife. a knife above a cow"
+  },
+  {
+    "unique_id": 13774,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cow",
+      "cell phone",
+      "baseball glove"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a cow above a cell phone. a cell phone to the left of a baseball glove"
+  },
+  {
+    "unique_id": 17484,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "banana",
+      "pizza",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "a handbag above a banana. a banana above a pizza. a pizza to the right of a teddy bear"
+  },
+  {
+    "unique_id": 11624,
+    "num_objects": 4,
+    "obj_attributes": [
+      "dog",
+      "baseball glove",
+      "parking meter",
+      "horse"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "a dog above a baseball glove. a baseball glove above a parking meter. a parking meter to the left of a horse"
+  },
+  {
+    "unique_id": 17105,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toilet",
+      "umbrella",
+      "chair",
+      "bicycle",
+      "laptop"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "a toilet above a umbrella. a umbrella to the left of a chair. a chair above a bicycle. a bicycle below a laptop"
+  },
+  {
+    "unique_id": 1294,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bicycle",
+      "hot dog",
+      "bus",
+      "pizza"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "a bicycle above a hot dog. a hot dog above a bus. a bus to the left of a pizza"
+  },
+  {
+    "unique_id": 23954,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "chair",
+      "dining table"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "a wine glass above a chair. a chair below a dining table"
+  },
+  {
+    "unique_id": 21505,
+    "num_objects": 3,
+    "obj_attributes": [
+      "dining table",
+      "baseball bat",
+      "donut"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a dining table above a baseball bat. a baseball bat to the left of a donut"
+  },
+  {
+    "unique_id": 19025,
+    "num_objects": 4,
+    "obj_attributes": [
+      "apple",
+      "frisbee",
+      "fork",
+      "bicycle"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "a apple above a frisbee. a frisbee above a fork. a fork to the right of a bicycle"
+  },
+  {
+    "unique_id": 20154,
+    "num_objects": 5,
+    "obj_attributes": [
+      "snowboard",
+      "laptop",
+      "person",
+      "toaster",
+      "bench"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "a snowboard above a laptop. a laptop below a person. a person below a toaster. a toaster to the right of a bench"
+  },
+  {
+    "unique_id": 8634,
+    "num_objects": 4,
+    "obj_attributes": [
+      "stop sign",
+      "toilet",
+      "apple",
+      "hot dog"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above"
+    ],
+    "text": "a stop sign above a toilet. a toilet to the right of a apple. a apple above a hot dog"
+  },
+  {
+    "unique_id": 4444,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bus",
+      "remote",
+      "keyboard",
+      "wine glass"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a bus above a remote. a remote to the left of a keyboard. a keyboard to the right of a wine glass"
+  },
+  {
+    "unique_id": 14174,
+    "num_objects": 4,
+    "obj_attributes": [
+      "elephant",
+      "sandwich",
+      "book",
+      "traffic light"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above"
+    ],
+    "text": "a elephant above a sandwich. a sandwich below a book. a book above a traffic light"
+  },
+  {
+    "unique_id": 9274,
+    "num_objects": 3,
+    "obj_attributes": [
+      "parking meter",
+      "potted plant",
+      "snowboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "a parking meter above a potted plant. a potted plant to the right of a snowboard"
+  },
+  {
+    "unique_id": 1975,
+    "num_objects": 3,
+    "obj_attributes": [
+      "knife",
+      "car",
+      "carrot"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a knife above a car. a car to the left of a carrot"
+  },
+  {
+    "unique_id": 27515,
+    "num_objects": 3,
+    "obj_attributes": [
+      "teddy bear",
+      "broccoli",
+      "toilet"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a teddy bear above a broccoli. a broccoli to the left of a toilet"
+  },
+  {
+    "unique_id": 21385,
+    "num_objects": 4,
+    "obj_attributes": [
+      "sandwich",
+      "baseball bat",
+      "scissors",
+      "couch"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above"
+    ],
+    "text": "a sandwich above a baseball bat. a baseball bat below a scissors. a scissors above a couch"
+  },
+  {
+    "unique_id": 18675,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tv",
+      "suitcase",
+      "sink",
+      "cake",
+      "snowboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "a tv above a suitcase. a suitcase to the left of a sink. a sink below a cake. a cake above a snowboard"
+  },
+  {
+    "unique_id": 13125,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "sheep",
+      "broccoli",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "a tv above a sheep. a sheep below a broccoli. a broccoli to the left of a teddy bear"
+  },
+  {
+    "unique_id": 16554,
+    "num_objects": 4,
+    "obj_attributes": [
+      "backpack",
+      "dining table",
+      "donut",
+      "sink"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "a backpack above a dining table. a dining table below a donut. a donut to the left of a sink"
+  },
+  {
+    "unique_id": 28385,
+    "num_objects": 3,
+    "obj_attributes": [
+      "potted plant",
+      "donut",
+      "skis"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a potted plant above a donut. a donut above a skis"
+  },
+  {
+    "unique_id": 19704,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skis",
+      "keyboard",
+      "sports ball"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "a skis above a keyboard. a keyboard below a sports ball"
+  },
+  {
+    "unique_id": 7695,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball glove",
+      "fire hydrant",
+      "backpack",
+      "tv"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "a baseball glove above a fire hydrant. a fire hydrant below a backpack. a backpack to the left of a tv"
+  },
+  {
+    "unique_id": 13185,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "sheep",
+      "person",
+      "knife",
+      "dining table"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a microwave above a sheep. a sheep to the right of a person. a person below a knife. a knife to the right of a dining table"
+  },
+  {
+    "unique_id": 7544,
+    "num_objects": 3,
+    "obj_attributes": [
+      "fire hydrant",
+      "elephant",
+      "toilet"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "a fire hydrant above a elephant. a elephant to the left of a toilet"
+  },
+  {
+    "unique_id": 25735,
+    "num_objects": 5,
+    "obj_attributes": [
+      "donut",
+      "bowl",
+      "handbag",
+      "cake",
+      "clock"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a donut above a bowl. a bowl below a handbag. a handbag to the left of a cake. a cake to the right of a clock"
+  },
+  {
+    "unique_id": 23044,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tennis racket",
+      "spoon",
+      "toaster",
+      "baseball bat",
+      "hair drier"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "a tennis racket above a spoon. a spoon above a toaster. a toaster above a baseball bat. a baseball bat below a hair drier"
+  },
+  {
+    "unique_id": 17675,
+    "num_objects": 4,
+    "obj_attributes": [
+      "remote",
+      "handbag",
+      "surfboard",
+      "potted plant"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below"
+    ],
+    "text": "a remote above a handbag. a handbag to the left of a surfboard. a surfboard below a potted plant"
+  },
+  {
+    "unique_id": 11354,
+    "num_objects": 4,
+    "obj_attributes": [
+      "cat",
+      "sink",
+      "carrot",
+      "handbag"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a cat above a sink. a sink to the left of a carrot. a carrot to the right of a handbag"
+  },
+  {
+    "unique_id": 1835,
+    "num_objects": 4,
+    "obj_attributes": [
+      "frisbee",
+      "car",
+      "elephant",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of"
+    ],
+    "text": "a frisbee above a car. a car below a elephant. a elephant to the right of a teddy bear"
+  },
+  {
+    "unique_id": 13524,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cow",
+      "fork",
+      "car",
+      "couch",
+      "bird"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "a cow above a fork. a fork above a car. a car below a couch. a couch to the left of a bird"
+  },
+  {
+    "unique_id": 4764,
+    "num_objects": 3,
+    "obj_attributes": [
+      "train",
+      "backpack",
+      "clock"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "a train above a backpack. a backpack to the right of a clock"
+  },
+  {
+    "unique_id": 5204,
+    "num_objects": 3,
+    "obj_attributes": [
+      "train",
+      "microwave",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "a train above a microwave. a microwave above a toothbrush"
+  },
+  {
+    "unique_id": 18725,
+    "num_objects": 4,
+    "obj_attributes": [
+      "cell phone",
+      "suitcase",
+      "teddy bear",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "above"
+    ],
+    "text": "a cell phone above a suitcase. a suitcase above a teddy bear. a teddy bear above a motorcycle"
+  },
+  {
+    "unique_id": 28901,
+    "num_objects": 3,
+    "obj_attributes": [
+      "laptop",
+      "chair",
+      "bench"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a laptop to the left of a chair. a chair above a bench"
+  },
+  {
+    "unique_id": 2211,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cell phone",
+      "car",
+      "baseball bat",
+      "potted plant",
+      "tennis racket"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of",
+      "below"
+    ],
+    "text": "a cell phone to the left of a car. a car to the right of a baseball bat. a baseball bat to the right of a potted plant. a potted plant below a tennis racket"
+  },
+  {
+    "unique_id": 17171,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "umbrella",
+      "traffic light",
+      "donut",
+      "cup"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a microwave to the left of a umbrella. a umbrella to the left of a traffic light. a traffic light to the right of a donut. a donut to the left of a cup"
+  },
+  {
+    "unique_id": 12880,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "tennis racket",
+      "traffic light"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a sheep to the left of a tennis racket. a tennis racket above a traffic light"
+  },
+  {
+    "unique_id": 16911,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fork",
+      "umbrella",
+      "keyboard",
+      "suitcase",
+      "sports ball"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "a fork to the left of a umbrella. a umbrella to the left of a keyboard. a keyboard above a suitcase. a suitcase below a sports ball"
+  },
+  {
+    "unique_id": 6631,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "boat",
+      "kite",
+      "sheep",
+      "skis"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a microwave to the left of a boat. a boat to the left of a kite. a kite to the left of a sheep. a sheep to the right of a skis"
+  },
+  {
+    "unique_id": 11091,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bowl",
+      "cat",
+      "horse",
+      "parking meter",
+      "stop sign"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a bowl to the left of a cat. a cat above a horse. a horse to the right of a parking meter. a parking meter to the right of a stop sign"
+  },
+  {
+    "unique_id": 28931,
+    "num_objects": 4,
+    "obj_attributes": [
+      "keyboard",
+      "chair",
+      "potted plant",
+      "stop sign"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a keyboard to the left of a chair. a chair above a potted plant. a potted plant to the right of a stop sign"
+  },
+  {
+    "unique_id": 25621,
+    "num_objects": 4,
+    "obj_attributes": [
+      "teddy bear",
+      "spoon",
+      "bench",
+      "cat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "a teddy bear to the left of a spoon. a spoon above a bench. a bench above a cat"
+  },
+  {
+    "unique_id": 23971,
+    "num_objects": 3,
+    "obj_attributes": [
+      "potted plant",
+      "wine glass",
+      "microwave"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a potted plant to the left of a wine glass. a wine glass to the left of a microwave"
+  },
+  {
+    "unique_id": 29601,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toaster",
+      "bed",
+      "cake"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a toaster to the left of a bed. a bed to the left of a cake"
+  },
+  {
+    "unique_id": 13250,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "vase",
+      "fork"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a sheep to the left of a vase. a vase above a fork"
+  },
+  {
+    "unique_id": 30310,
+    "num_objects": 5,
+    "obj_attributes": [
+      "laptop",
+      "sink",
+      "tv",
+      "mouse",
+      "refrigerator"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a laptop to the left of a sink. a sink above a tv. a tv to the left of a mouse. a mouse to the left of a refrigerator"
+  },
+  {
+    "unique_id": 5520,
+    "num_objects": 5,
+    "obj_attributes": [
+      "truck",
+      "suitcase",
+      "cake",
+      "cat",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of",
+      "above"
+    ],
+    "text": "a truck to the left of a suitcase. a suitcase to the right of a cake. a cake to the right of a cat. a cat above a sheep"
+  },
+  {
+    "unique_id": 28781,
+    "num_objects": 4,
+    "obj_attributes": [
+      "clock",
+      "cake",
+      "person",
+      "parking meter"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a clock to the left of a cake. a cake to the left of a person. a person to the left of a parking meter"
+  },
+  {
+    "unique_id": 1101,
+    "num_objects": 4,
+    "obj_attributes": [
+      "kite",
+      "bicycle",
+      "vase",
+      "hair drier"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a kite to the left of a bicycle. a bicycle to the right of a vase. a vase to the left of a hair drier"
+  },
+  {
+    "unique_id": 17391,
+    "num_objects": 3,
+    "obj_attributes": [
+      "surfboard",
+      "handbag",
+      "hot dog"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "a surfboard to the left of a handbag. a handbag below a hot dog"
+  },
+  {
+    "unique_id": 3870,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bus",
+      "boat",
+      "potted plant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a bus to the left of a boat. a boat above a potted plant"
+  },
+  {
+    "unique_id": 26071,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cake",
+      "banana",
+      "baseball bat",
+      "dining table",
+      "bowl"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a cake to the left of a banana. a banana to the left of a baseball bat. a baseball bat to the left of a dining table. a dining table below a bowl"
+  },
+  {
+    "unique_id": 10200,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bird",
+      "elephant",
+      "skateboard",
+      "kite"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a bird to the left of a elephant. a elephant to the left of a skateboard. a skateboard above a kite"
+  },
+  {
+    "unique_id": 4580,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bus",
+      "toothbrush",
+      "sandwich",
+      "bottle"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a bus to the left of a toothbrush. a toothbrush to the left of a sandwich. a sandwich to the left of a bottle"
+  },
+  {
+    "unique_id": 4531,
+    "num_objects": 5,
+    "obj_attributes": [
+      "clock",
+      "bus",
+      "apple",
+      "toilet",
+      "microwave"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "a clock to the left of a bus. a bus below a apple. a apple below a toilet. a toilet above a microwave"
+  },
+  {
+    "unique_id": 23121,
+    "num_objects": 3,
+    "obj_attributes": [
+      "hot dog",
+      "tennis racket",
+      "knife"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "a hot dog to the left of a tennis racket. a tennis racket below a knife"
+  },
+  {
+    "unique_id": 22560,
+    "num_objects": 4,
+    "obj_attributes": [
+      "skateboard",
+      "toothbrush",
+      "truck",
+      "stop sign"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a skateboard to the left of a toothbrush. a toothbrush below a truck. a truck to the right of a stop sign"
+  },
+  {
+    "unique_id": 14650,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bear",
+      "tennis racket",
+      "skateboard",
+      "boat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "a bear to the left of a tennis racket. a tennis racket below a skateboard. a skateboard above a boat"
+  },
+  {
+    "unique_id": 14961,
+    "num_objects": 4,
+    "obj_attributes": [
+      "oven",
+      "bear",
+      "tennis racket",
+      "cow"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a oven to the left of a bear. a bear to the left of a tennis racket. a tennis racket to the left of a cow"
+  },
+  {
+    "unique_id": 600,
+    "num_objects": 4,
+    "obj_attributes": [
+      "person",
+      "toilet",
+      "truck",
+      "bus"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a person to the left of a toilet. a toilet above a truck. a truck to the left of a bus"
+  },
+  {
+    "unique_id": 25600,
+    "num_objects": 4,
+    "obj_attributes": [
+      "spoon",
+      "vase",
+      "truck",
+      "tv"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a spoon to the left of a vase. a vase above a truck. a truck to the right of a tv"
+  },
+  {
+    "unique_id": 24651,
+    "num_objects": 5,
+    "obj_attributes": [
+      "carrot",
+      "fork",
+      "microwave",
+      "clock",
+      "tennis racket"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "a carrot to the left of a fork. a fork below a microwave. a microwave above a clock. a clock above a tennis racket"
+  },
+  {
+    "unique_id": 26650,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sandwich",
+      "broccoli",
+      "refrigerator",
+      "train",
+      "carrot"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "a sandwich to the left of a broccoli. a broccoli to the left of a refrigerator. a refrigerator below a train. a train above a carrot"
+  },
+  {
+    "unique_id": 19291,
+    "num_objects": 5,
+    "obj_attributes": [
+      "clock",
+      "frisbee",
+      "tie",
+      "bottle",
+      "bus"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "a clock to the left of a frisbee. a frisbee below a tie. a tie to the right of a bottle. a bottle above a bus"
+  },
+  {
+    "unique_id": 29061,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toothbrush",
+      "chair",
+      "spoon"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a toothbrush to the left of a chair. a chair to the left of a spoon"
+  },
+  {
+    "unique_id": 29111,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "couch",
+      "bear",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a tv to the left of a couch. a couch above a bear. a bear to the left of a suitcase"
+  },
+  {
+    "unique_id": 30220,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tv",
+      "hair drier",
+      "cake",
+      "motorcycle",
+      "baseball bat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the right of",
+      "below"
+    ],
+    "text": "a tv to the left of a hair drier. a hair drier to the left of a cake. a cake to the right of a motorcycle. a motorcycle below a baseball bat"
+  },
+  {
+    "unique_id": 8250,
+    "num_objects": 4,
+    "obj_attributes": [
+      "stop sign",
+      "giraffe",
+      "scissors",
+      "chair"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a stop sign to the left of a giraffe. a giraffe above a scissors. a scissors to the left of a chair"
+  },
+  {
+    "unique_id": 14931,
+    "num_objects": 4,
+    "obj_attributes": [
+      "keyboard",
+      "bear",
+      "scissors",
+      "clock"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a keyboard to the left of a bear. a bear above a scissors. a scissors to the left of a clock"
+  },
+  {
+    "unique_id": 29220,
+    "num_objects": 4,
+    "obj_attributes": [
+      "couch",
+      "book",
+      "person",
+      "snowboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a couch to the left of a book. a book below a person. a person to the right of a snowboard"
+  },
+  {
+    "unique_id": 16441,
+    "num_objects": 4,
+    "obj_attributes": [
+      "orange",
+      "backpack",
+      "surfboard",
+      "book"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of"
+    ],
+    "text": "a orange to the left of a backpack. a backpack below a surfboard. a surfboard to the left of a book"
+  },
+  {
+    "unique_id": 28541,
+    "num_objects": 3,
+    "obj_attributes": [
+      "clock",
+      "donut",
+      "toaster"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a clock to the left of a donut. a donut above a toaster"
+  },
+  {
+    "unique_id": 19150,
+    "num_objects": 5,
+    "obj_attributes": [
+      "frisbee",
+      "dining table",
+      "refrigerator",
+      "bear",
+      "orange"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "a frisbee to the left of a dining table. a dining table below a refrigerator. a refrigerator above a bear. a bear above a orange"
+  },
+  {
+    "unique_id": 29130,
+    "num_objects": 5,
+    "obj_attributes": [
+      "couch",
+      "mouse",
+      "bear",
+      "teddy bear",
+      "scissors"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "below",
+      "above"
+    ],
+    "text": "a couch to the left of a mouse. a mouse to the right of a bear. a bear below a teddy bear. a teddy bear above a scissors"
+  },
+  {
+    "unique_id": 6570,
+    "num_objects": 3,
+    "obj_attributes": [
+      "boat",
+      "tv",
+      "chair"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a boat to the left of a tv. a tv above a chair"
+  },
+  {
+    "unique_id": 22061,
+    "num_objects": 4,
+    "obj_attributes": [
+      "refrigerator",
+      "baseball glove",
+      "laptop",
+      "dining table"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a refrigerator to the left of a baseball glove. a baseball glove below a laptop. a laptop to the right of a dining table"
+  },
+  {
+    "unique_id": 7221,
+    "num_objects": 4,
+    "obj_attributes": [
+      "couch",
+      "traffic light",
+      "sink",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a couch to the left of a traffic light. a traffic light above a sink. a sink to the left of a motorcycle"
+  },
+  {
+    "unique_id": 6700,
+    "num_objects": 3,
+    "obj_attributes": [
+      "boat",
+      "vase",
+      "handbag"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a boat to the left of a vase. a vase to the left of a handbag"
+  },
+  {
+    "unique_id": 6060,
+    "num_objects": 3,
+    "obj_attributes": [
+      "boat",
+      "stop sign",
+      "giraffe"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a boat to the left of a stop sign. a stop sign above a giraffe"
+  },
+  {
+    "unique_id": 13021,
+    "num_objects": 3,
+    "obj_attributes": [
+      "hot dog",
+      "sheep",
+      "cake"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a hot dog to the left of a sheep. a sheep to the left of a cake"
+  },
+  {
+    "unique_id": 28441,
+    "num_objects": 5,
+    "obj_attributes": [
+      "mouse",
+      "donut",
+      "pizza",
+      "backpack",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "below",
+      "below"
+    ],
+    "text": "a mouse to the left of a donut. a donut to the right of a pizza. a pizza below a backpack. a backpack below a sheep"
+  },
+  {
+    "unique_id": 881,
+    "num_objects": 4,
+    "obj_attributes": [
+      "stop sign",
+      "bicycle",
+      "bottle",
+      "bench"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a stop sign to the left of a bicycle. a bicycle to the right of a bottle. a bottle to the right of a bench"
+  },
+  {
+    "unique_id": 22980,
+    "num_objects": 5,
+    "obj_attributes": [
+      "surfboard",
+      "toothbrush",
+      "horse",
+      "bottle",
+      "sports ball"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a surfboard to the left of a toothbrush. a toothbrush above a horse. a horse to the left of a bottle. a bottle to the right of a sports ball"
+  },
+  {
+    "unique_id": 14200,
+    "num_objects": 4,
+    "obj_attributes": [
+      "elephant",
+      "carrot",
+      "hair drier",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "a elephant to the left of a carrot. a carrot above a hair drier. a hair drier above a laptop"
+  },
+  {
+    "unique_id": 9331,
+    "num_objects": 5,
+    "obj_attributes": [
+      "mouse",
+      "parking meter",
+      "apple",
+      "knife",
+      "dining table"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below",
+      "above"
+    ],
+    "text": "a mouse to the left of a parking meter. a parking meter above a apple. a apple below a knife. a knife above a dining table"
+  },
+  {
+    "unique_id": 20461,
+    "num_objects": 3,
+    "obj_attributes": [
+      "apple",
+      "sports ball",
+      "pizza"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a apple to the left of a sports ball. a sports ball to the right of a pizza"
+  },
+  {
+    "unique_id": 16061,
+    "num_objects": 5,
+    "obj_attributes": [
+      "keyboard",
+      "giraffe",
+      "umbrella",
+      "potted plant",
+      "parking meter"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below",
+      "below"
+    ],
+    "text": "a keyboard to the left of a giraffe. a giraffe above a umbrella. a umbrella below a potted plant. a potted plant below a parking meter"
+  },
+  {
+    "unique_id": 19380,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skis",
+      "baseball bat",
+      "tv"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a skis to the left of a baseball bat. a baseball bat to the left of a tv"
+  },
+  {
+    "unique_id": 24810,
+    "num_objects": 4,
+    "obj_attributes": [
+      "fork",
+      "cell phone",
+      "train",
+      "refrigerator"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "a fork to the left of a cell phone. a cell phone below a train. a train below a refrigerator"
+  },
+  {
+    "unique_id": 21131,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "kite",
+      "baseball bat",
+      "toilet"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a microwave to the left of a kite. a kite to the right of a baseball bat. a baseball bat to the left of a toilet"
+  },
+  {
+    "unique_id": 31461,
+    "num_objects": 4,
+    "obj_attributes": [
+      "scissors",
+      "clock",
+      "frisbee",
+      "oven"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "above"
+    ],
+    "text": "a scissors to the left of a clock. a clock to the right of a frisbee. a frisbee above a oven"
+  },
+  {
+    "unique_id": 24941,
+    "num_objects": 3,
+    "obj_attributes": [
+      "spoon",
+      "knife",
+      "hot dog"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "a spoon to the left of a knife. a knife below a hot dog"
+  },
+  {
+    "unique_id": 15221,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tennis racket",
+      "zebra",
+      "toaster"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a tennis racket to the left of a zebra. a zebra to the right of a toaster"
+  },
+  {
+    "unique_id": 30780,
+    "num_objects": 3,
+    "obj_attributes": [
+      "keyboard",
+      "scissors",
+      "hot dog"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a keyboard to the left of a scissors. a scissors above a hot dog"
+  },
+  {
+    "unique_id": 13080,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "potted plant",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a sheep to the left of a potted plant. a potted plant to the left of a motorcycle"
+  },
+  {
+    "unique_id": 8531,
+    "num_objects": 3,
+    "obj_attributes": [
+      "carrot",
+      "stop sign",
+      "bird"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a carrot to the left of a stop sign. a stop sign to the right of a bird"
+  },
+  {
+    "unique_id": 23500,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bottle",
+      "broccoli",
+      "remote"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a bottle to the left of a broccoli. a broccoli above a remote"
+  },
+  {
+    "unique_id": 28121,
+    "num_objects": 4,
+    "obj_attributes": [
+      "couch",
+      "pizza",
+      "carrot",
+      "oven"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "a couch to the left of a pizza. a pizza below a carrot. a carrot below a oven"
+  },
+  {
+    "unique_id": 1130,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bicycle",
+      "skateboard",
+      "refrigerator"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a bicycle to the left of a skateboard. a skateboard to the right of a refrigerator"
+  },
+  {
+    "unique_id": 29931,
+    "num_objects": 5,
+    "obj_attributes": [
+      "keyboard",
+      "toilet",
+      "backpack",
+      "carrot",
+      "oven"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "a keyboard to the left of a toilet. a toilet to the left of a backpack. a backpack above a carrot. a carrot above a oven"
+  },
+  {
+    "unique_id": 20251,
+    "num_objects": 5,
+    "obj_attributes": [
+      "book",
+      "snowboard",
+      "skateboard",
+      "mouse",
+      "baseball bat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "a book to the left of a snowboard. a snowboard below a skateboard. a skateboard above a mouse. a mouse above a baseball bat"
+  },
+  {
+    "unique_id": 12731,
+    "num_objects": 4,
+    "obj_attributes": [
+      "giraffe",
+      "sheep",
+      "fork",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a giraffe to the left of a sheep. a sheep to the left of a fork. a fork to the left of a suitcase"
+  },
+  {
+    "unique_id": 31010,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "scissors",
+      "dog",
+      "cat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a microwave to the left of a scissors. a scissors to the left of a dog. a dog below a cat"
+  },
+  {
+    "unique_id": 4440,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bus",
+      "remote",
+      "frisbee",
+      "wine glass"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a bus to the left of a remote. a remote to the right of a frisbee. a frisbee to the right of a wine glass"
+  },
+  {
+    "unique_id": 19550,
+    "num_objects": 5,
+    "obj_attributes": [
+      "skis",
+      "carrot",
+      "refrigerator",
+      "cake",
+      "bench"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a skis to the left of a carrot. a carrot to the right of a refrigerator. a refrigerator to the right of a cake. a cake to the right of a bench"
+  },
+  {
+    "unique_id": 24830,
+    "num_objects": 4,
+    "obj_attributes": [
+      "fork",
+      "oven",
+      "carrot",
+      "stop sign"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a fork to the left of a oven. a oven above a carrot. a carrot to the right of a stop sign"
+  },
+  {
+    "unique_id": 15301,
+    "num_objects": 4,
+    "obj_attributes": [
+      "banana",
+      "zebra",
+      "vase",
+      "baseball bat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a banana to the left of a zebra. a zebra to the left of a vase. a vase below a baseball bat"
+  },
+  {
+    "unique_id": 16990,
+    "num_objects": 3,
+    "obj_attributes": [
+      "umbrella",
+      "broccoli",
+      "carrot"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "a umbrella to the left of a broccoli. a broccoli to the left of a carrot"
+  },
+  {
+    "unique_id": 15361,
+    "num_objects": 4,
+    "obj_attributes": [
+      "hot dog",
+      "zebra",
+      "stop sign",
+      "snowboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "a hot dog to the left of a zebra. a zebra above a stop sign. a stop sign below a snowboard"
+  },
+  {
+    "unique_id": 19421,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tennis racket",
+      "skis",
+      "bowl",
+      "apple",
+      "parking meter"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a tennis racket to the left of a skis. a skis to the left of a bowl. a bowl to the left of a apple. a apple above a parking meter"
+  },
+  {
+    "unique_id": 20891,
+    "num_objects": 4,
+    "obj_attributes": [
+      "spoon",
+      "kite",
+      "banana",
+      "bowl"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "a spoon to the left of a kite. a kite above a banana. a banana below a bowl"
+  },
+  {
+    "unique_id": 26400,
+    "num_objects": 4,
+    "obj_attributes": [
+      "apple",
+      "chair",
+      "tv",
+      "orange"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a apple to the left of a chair. a chair to the left of a tv. a tv above a orange"
+  },
+  {
+    "unique_id": 3620,
+    "num_objects": 3,
+    "obj_attributes": [
+      "airplane",
+      "couch",
+      "scissors"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a airplane to the left of a couch. a couch above a scissors"
+  },
+  {
+    "unique_id": 23220,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tennis racket",
+      "tv",
+      "donut"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a tennis racket to the left of a tv. a tv above a donut"
+  },
+  {
+    "unique_id": 22431,
+    "num_objects": 4,
+    "obj_attributes": [
+      "keyboard",
+      "skateboard",
+      "toaster",
+      "dining table"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a keyboard to the left of a skateboard. a skateboard to the right of a toaster. a toaster to the right of a dining table"
+  },
+  {
+    "unique_id": 26840,
+    "num_objects": 4,
+    "obj_attributes": [
+      "sandwich",
+      "oven",
+      "motorcycle",
+      "boat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a sandwich to the left of a oven. a oven above a motorcycle. a motorcycle to the right of a boat"
+  },
+  {
+    "unique_id": 16101,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toaster",
+      "giraffe",
+      "baseball bat",
+      "fire hydrant",
+      "bench"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a toaster to the left of a giraffe. a giraffe to the left of a baseball bat. a baseball bat above a fire hydrant. a fire hydrant to the right of a bench"
+  },
+  {
+    "unique_id": 4781,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "train",
+      "boat",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "a handbag to the left of a train. a train below a boat. a boat below a laptop"
+  },
+  {
+    "unique_id": 4221,
+    "num_objects": 5,
+    "obj_attributes": [
+      "knife",
+      "bus",
+      "parking meter",
+      "stop sign",
+      "hair drier"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "a knife to the left of a bus. a bus to the left of a parking meter. a parking meter below a stop sign. a stop sign above a hair drier"
+  },
+  {
+    "unique_id": 23481,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sandwich",
+      "bottle",
+      "bus",
+      "banana",
+      "oven"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "a sandwich to the left of a bottle. a bottle below a bus. a bus above a banana. a banana above a oven"
+  },
+  {
+    "unique_id": 5750,
+    "num_objects": 4,
+    "obj_attributes": [
+      "truck",
+      "carrot",
+      "boat",
+      "baseball glove"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "a truck to the left of a carrot. a carrot above a boat. a boat above a baseball glove"
+  },
+  {
+    "unique_id": 30950,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "toaster",
+      "oven",
+      "person",
+      "giraffe"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "a microwave to the left of a toaster. a toaster to the left of a oven. a oven below a person. a person above a giraffe"
+  },
+  {
+    "unique_id": 12870,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "surfboard",
+      "cake",
+      "broccoli",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "a sheep to the left of a surfboard. a surfboard to the left of a cake. a cake below a broccoli. a broccoli above a elephant"
+  },
+  {
+    "unique_id": 22450,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skateboard",
+      "microwave",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "a skateboard to the left of a microwave. a microwave above a surfboard"
+  },
+  {
+    "unique_id": 29030,
+    "num_objects": 4,
+    "obj_attributes": [
+      "chair",
+      "scissors",
+      "sandwich",
+      "microwave"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a chair to the left of a scissors. a scissors below a sandwich. a sandwich to the right of a microwave"
+  },
+  {
+    "unique_id": 14920,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bear",
+      "remote",
+      "motorcycle",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "a bear to the left of a remote. a remote below a motorcycle. a motorcycle above a sheep"
+  },
+  {
+    "unique_id": 21010,
+    "num_objects": 4,
+    "obj_attributes": [
+      "kite",
+      "chair",
+      "skateboard",
+      "cake"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "above"
+    ],
+    "text": "a kite to the left of a chair. a chair to the right of a skateboard. a skateboard above a cake"
+  },
+  {
+    "unique_id": 4561,
+    "num_objects": 5,
+    "obj_attributes": [
+      "teddy bear",
+      "bus",
+      "laptop",
+      "umbrella",
+      "chair"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a teddy bear to the left of a bus. a bus above a laptop. a laptop to the left of a umbrella. a umbrella to the right of a chair"
+  },
+  {
+    "unique_id": 31541,
+    "num_objects": 4,
+    "obj_attributes": [
+      "teddy bear",
+      "scissors",
+      "cow",
+      "spoon"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a teddy bear to the left of a scissors. a scissors below a cow. a cow to the right of a spoon"
+  },
+  {
+    "unique_id": 20671,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "sports ball",
+      "suitcase",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "below"
+    ],
+    "text": "a microwave to the left of a sports ball. a sports ball to the right of a suitcase. a suitcase below a elephant"
+  },
+  {
+    "unique_id": 22070,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball glove",
+      "book",
+      "tennis racket",
+      "spoon"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a baseball glove to the left of a book. a book to the left of a tennis racket. a tennis racket to the right of a spoon"
+  },
+  {
+    "unique_id": 17631,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toilet",
+      "handbag",
+      "elephant",
+      "potted plant",
+      "spoon"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "below",
+      "to the left of"
+    ],
+    "text": "a toilet to the left of a handbag. a handbag to the right of a elephant. a elephant below a potted plant. a potted plant to the left of a spoon"
+  },
+  {
+    "unique_id": 9621,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tie",
+      "bench",
+      "apple"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "a tie to the left of a bench. a bench below a apple"
+  },
+  {
+    "unique_id": 25693,
+    "num_objects": 4,
+    "obj_attributes": [
+      "broccoli",
+      "bowl",
+      "skateboard",
+      "bear"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a broccoli to the right of a bowl. a bowl to the left of a skateboard. a skateboard above a bear"
+  },
+  {
+    "unique_id": 31023,
+    "num_objects": 3,
+    "obj_attributes": [
+      "teddy bear",
+      "microwave",
+      "spoon"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a teddy bear to the right of a microwave. a microwave below a spoon"
+  },
+  {
+    "unique_id": 23152,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tennis racket",
+      "cake",
+      "carrot",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a tennis racket to the right of a cake. a cake to the left of a carrot. a carrot below a laptop"
+  },
+  {
+    "unique_id": 32,
+    "num_objects": 4,
+    "obj_attributes": [
+      "person",
+      "airplane",
+      "pizza",
+      "skateboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a person to the right of a airplane. a airplane to the left of a pizza. a pizza above a skateboard"
+  },
+  {
+    "unique_id": 6462,
+    "num_objects": 5,
+    "obj_attributes": [
+      "boat",
+      "carrot",
+      "bear",
+      "bed",
+      "bus"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "above",
+      "below"
+    ],
+    "text": "a boat to the right of a carrot. a carrot below a bear. a bear above a bed. a bed below a bus"
+  },
+  {
+    "unique_id": 3542,
+    "num_objects": 3,
+    "obj_attributes": [
+      "airplane",
+      "orange",
+      "cell phone"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a airplane to the right of a orange. a orange below a cell phone"
+  },
+  {
+    "unique_id": 24143,
+    "num_objects": 5,
+    "obj_attributes": [
+      "vase",
+      "wine glass",
+      "person",
+      "potted plant",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a vase to the right of a wine glass. a wine glass to the right of a person. a person to the left of a potted plant. a potted plant below a sheep"
+  },
+  {
+    "unique_id": 2853,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cake",
+      "motorcycle",
+      "dining table"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "a cake to the right of a motorcycle. a motorcycle above a dining table"
+  },
+  {
+    "unique_id": 18403,
+    "num_objects": 5,
+    "obj_attributes": [
+      "baseball glove",
+      "suitcase",
+      "fire hydrant",
+      "tv",
+      "airplane"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a baseball glove to the right of a suitcase. a suitcase to the left of a fire hydrant. a fire hydrant to the left of a tv. a tv above a airplane"
+  },
+  {
+    "unique_id": 16583,
+    "num_objects": 3,
+    "obj_attributes": [
+      "laptop",
+      "backpack",
+      "umbrella"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a laptop to the right of a backpack. a backpack below a umbrella"
+  },
+  {
+    "unique_id": 5782,
+    "num_objects": 5,
+    "obj_attributes": [
+      "truck",
+      "donut",
+      "sink",
+      "cake",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a truck to the right of a donut. a donut to the right of a sink. a sink to the left of a cake. a cake to the right of a suitcase"
+  },
+  {
+    "unique_id": 16272,
+    "num_objects": 3,
+    "obj_attributes": [
+      "backpack",
+      "sports ball",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a backpack to the right of a sports ball. a sports ball to the right of a surfboard"
+  },
+  {
+    "unique_id": 11513,
+    "num_objects": 3,
+    "obj_attributes": [
+      "backpack",
+      "dog",
+      "parking meter"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a backpack to the right of a dog. a dog to the left of a parking meter"
+  },
+  {
+    "unique_id": 8292,
+    "num_objects": 3,
+    "obj_attributes": [
+      "stop sign",
+      "tie",
+      "traffic light"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a stop sign to the right of a tie. a tie to the right of a traffic light"
+  },
+  {
+    "unique_id": 7473,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bench",
+      "fire hydrant",
+      "scissors"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a bench to the right of a fire hydrant. a fire hydrant to the left of a scissors"
+  },
+  {
+    "unique_id": 15372,
+    "num_objects": 4,
+    "obj_attributes": [
+      "zebra",
+      "pizza",
+      "bench",
+      "toilet"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a zebra to the right of a pizza. a pizza to the left of a bench. a bench to the right of a toilet"
+  },
+  {
+    "unique_id": 9442,
+    "num_objects": 5,
+    "obj_attributes": [
+      "parking meter",
+      "vase",
+      "carrot",
+      "frisbee",
+      "horse"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "a parking meter to the right of a vase. a vase below a carrot. a carrot to the right of a frisbee. a frisbee above a horse"
+  },
+  {
+    "unique_id": 17713,
+    "num_objects": 3,
+    "obj_attributes": [
+      "oven",
+      "handbag",
+      "train"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a oven to the right of a handbag. a handbag to the right of a train"
+  },
+  {
+    "unique_id": 9103,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cup",
+      "parking meter",
+      "backpack"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a cup to the right of a parking meter. a parking meter to the left of a backpack"
+  },
+  {
+    "unique_id": 753,
+    "num_objects": 4,
+    "obj_attributes": [
+      "scissors",
+      "person",
+      "hot dog",
+      "giraffe"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the right of"
+    ],
+    "text": "a scissors to the right of a person. a person above a hot dog. a hot dog to the right of a giraffe"
+  },
+  {
+    "unique_id": 3233,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "airplane",
+      "dog",
+      "truck",
+      "carrot"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a sheep to the right of a airplane. a airplane to the left of a dog. a dog to the right of a truck. a truck to the left of a carrot"
+  },
+  {
+    "unique_id": 18583,
+    "num_objects": 4,
+    "obj_attributes": [
+      "pizza",
+      "suitcase",
+      "skateboard",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "above"
+    ],
+    "text": "a pizza to the right of a suitcase. a suitcase to the right of a skateboard. a skateboard above a motorcycle"
+  },
+  {
+    "unique_id": 21643,
+    "num_objects": 3,
+    "obj_attributes": [
+      "clock",
+      "baseball bat",
+      "stop sign"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a clock to the right of a baseball bat. a baseball bat below a stop sign"
+  },
+  {
+    "unique_id": 153,
+    "num_objects": 3,
+    "obj_attributes": [
+      "dog",
+      "person",
+      "cup"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a dog to the right of a person. a person to the left of a cup"
+  },
+  {
+    "unique_id": 22502,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skateboard",
+      "book",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a skateboard to the right of a book. a book to the right of a motorcycle"
+  },
+  {
+    "unique_id": 5952,
+    "num_objects": 3,
+    "obj_attributes": [
+      "truck",
+      "sink",
+      "cup"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a truck to the right of a sink. a sink to the left of a cup"
+  },
+  {
+    "unique_id": 13233,
+    "num_objects": 3,
+    "obj_attributes": [
+      "book",
+      "sheep",
+      "banana"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a book to the right of a sheep. a sheep to the left of a banana"
+  },
+  {
+    "unique_id": 6562,
+    "num_objects": 4,
+    "obj_attributes": [
+      "boat",
+      "toilet",
+      "stop sign",
+      "cat"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a boat to the right of a toilet. a toilet to the right of a stop sign. a stop sign to the right of a cat"
+  },
+  {
+    "unique_id": 11352,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cat",
+      "sink",
+      "mouse"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a cat to the right of a sink. a sink below a mouse"
+  },
+  {
+    "unique_id": 8832,
+    "num_objects": 5,
+    "obj_attributes": [
+      "parking meter",
+      "bird",
+      "bowl",
+      "stop sign",
+      "cat"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a parking meter to the right of a bird. a bird to the left of a bowl. a bowl to the right of a stop sign. a stop sign to the right of a cat"
+  },
+  {
+    "unique_id": 30213,
+    "num_objects": 5,
+    "obj_attributes": [
+      "teddy bear",
+      "tv",
+      "train",
+      "bird",
+      "hair drier"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a teddy bear to the right of a tv. a tv to the left of a train. a train to the left of a bird. a bird above a hair drier"
+  },
+  {
+    "unique_id": 31152,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toaster",
+      "sink",
+      "zebra",
+      "clock",
+      "car"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "a toaster to the right of a sink. a sink above a zebra. a zebra above a clock. a clock to the left of a car"
+  },
+  {
+    "unique_id": 18063,
+    "num_objects": 3,
+    "obj_attributes": [
+      "hot dog",
+      "tie",
+      "dining table"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a hot dog to the right of a tie. a tie below a dining table"
+  },
+  {
+    "unique_id": 333,
+    "num_objects": 3,
+    "obj_attributes": [
+      "baseball bat",
+      "person",
+      "banana"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a baseball bat to the right of a person. a person below a banana"
+  },
+  {
+    "unique_id": 23332,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tennis racket",
+      "book",
+      "handbag",
+      "sheep",
+      "fire hydrant"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a tennis racket to the right of a book. a book to the left of a handbag. a handbag to the left of a sheep. a sheep below a fire hydrant"
+  },
+  {
+    "unique_id": 7662,
+    "num_objects": 3,
+    "obj_attributes": [
+      "fire hydrant",
+      "sports ball",
+      "potted plant"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a fire hydrant to the right of a sports ball. a sports ball to the left of a potted plant"
+  },
+  {
+    "unique_id": 1473,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toaster",
+      "bicycle",
+      "surfboard",
+      "laptop",
+      "bottle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the left of",
+      "above"
+    ],
+    "text": "a toaster to the right of a bicycle. a bicycle above a surfboard. a surfboard to the left of a laptop. a laptop above a bottle"
+  },
+  {
+    "unique_id": 23702,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bottle",
+      "toaster",
+      "cow",
+      "teddy bear",
+      "couch"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "a bottle to the right of a toaster. a toaster above a cow. a cow above a teddy bear. a teddy bear to the left of a couch"
+  },
+  {
+    "unique_id": 21872,
+    "num_objects": 3,
+    "obj_attributes": [
+      "baseball glove",
+      "pizza",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a baseball glove to the right of a pizza. a pizza to the left of a laptop"
+  },
+  {
+    "unique_id": 22083,
+    "num_objects": 4,
+    "obj_attributes": [
+      "clock",
+      "baseball glove",
+      "umbrella",
+      "cell phone"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a clock to the right of a baseball glove. a baseball glove to the left of a umbrella. a umbrella above a cell phone"
+  },
+  {
+    "unique_id": 5093,
+    "num_objects": 4,
+    "obj_attributes": [
+      "couch",
+      "train",
+      "remote",
+      "bottle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "above"
+    ],
+    "text": "a couch to the right of a train. a train above a remote. a remote above a bottle"
+  },
+  {
+    "unique_id": 10742,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bird",
+      "clock",
+      "carrot",
+      "apple"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a bird to the right of a clock. a clock to the left of a carrot. a carrot above a apple"
+  },
+  {
+    "unique_id": 30542,
+    "num_objects": 3,
+    "obj_attributes": [
+      "mouse",
+      "toothbrush",
+      "bird"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a mouse to the right of a toothbrush. a toothbrush below a bird"
+  },
+  {
+    "unique_id": 4352,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bus",
+      "chair",
+      "bird"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a bus to the right of a chair. a chair to the right of a bird"
+  },
+  {
+    "unique_id": 29893,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "toilet",
+      "bowl",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the left of"
+    ],
+    "text": "a tv to the right of a toilet. a toilet below a bowl. a bowl to the left of a surfboard"
+  },
+  {
+    "unique_id": 15122,
+    "num_objects": 3,
+    "obj_attributes": [
+      "zebra",
+      "suitcase",
+      "cow"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "a zebra to the right of a suitcase. a suitcase above a cow"
+  },
+  {
+    "unique_id": 25662,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bowl",
+      "apple",
+      "baseball glove"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a bowl to the right of a apple. a apple to the right of a baseball glove"
+  },
+  {
+    "unique_id": 23543,
+    "num_objects": 4,
+    "obj_attributes": [
+      "donut",
+      "bottle",
+      "cake",
+      "cup"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the left of"
+    ],
+    "text": "a donut to the right of a bottle. a bottle below a cake. a cake to the left of a cup"
+  },
+  {
+    "unique_id": 13963,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tie",
+      "elephant",
+      "microwave",
+      "bed",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "a tie to the right of a elephant. a elephant below a microwave. a microwave below a bed. a bed above a surfboard"
+  },
+  {
+    "unique_id": 242,
+    "num_objects": 5,
+    "obj_attributes": [
+      "person",
+      "umbrella",
+      "spoon",
+      "hot dog",
+      "pizza"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "a person to the right of a umbrella. a umbrella above a spoon. a spoon below a hot dog. a hot dog to the left of a pizza"
+  },
+  {
+    "unique_id": 7263,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toilet",
+      "traffic light",
+      "airplane"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a toilet to the right of a traffic light. a traffic light below a airplane"
+  },
+  {
+    "unique_id": 29122,
+    "num_objects": 5,
+    "obj_attributes": [
+      "couch",
+      "laptop",
+      "skateboard",
+      "umbrella",
+      "clock"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "a couch to the right of a laptop. a laptop to the left of a skateboard. a skateboard below a umbrella. a umbrella below a clock"
+  },
+  {
+    "unique_id": 3732,
+    "num_objects": 4,
+    "obj_attributes": [
+      "airplane",
+      "microwave",
+      "motorcycle",
+      "toaster"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "a airplane to the right of a microwave. a microwave to the left of a motorcycle. a motorcycle above a toaster"
+  },
+  {
+    "unique_id": 9853,
+    "num_objects": 4,
+    "obj_attributes": [
+      "broccoli",
+      "bench",
+      "bird",
+      "boat"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a broccoli to the right of a bench. a bench to the left of a bird. a bird below a boat"
+  },
+  {
+    "unique_id": 11022,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cat",
+      "tennis racket",
+      "zebra",
+      "elephant",
+      "chair"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "a cat to the right of a tennis racket. a tennis racket below a zebra. a zebra to the right of a elephant. a elephant below a chair"
+  },
+  {
+    "unique_id": 26072,
+    "num_objects": 4,
+    "obj_attributes": [
+      "banana",
+      "cake",
+      "cow",
+      "bear"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "above"
+    ],
+    "text": "a banana to the right of a cake. a cake below a cow. a cow above a bear"
+  },
+  {
+    "unique_id": 2932,
+    "num_objects": 5,
+    "obj_attributes": [
+      "motorcycle",
+      "laptop",
+      "sheep",
+      "toaster",
+      "fork"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "a motorcycle to the right of a laptop. a laptop above a sheep. a sheep below a toaster. a toaster to the left of a fork"
+  },
+  {
+    "unique_id": 2483,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "motorcycle",
+      "apple",
+      "clock",
+      "banana"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "below",
+      "to the left of"
+    ],
+    "text": "a sheep to the right of a motorcycle. a motorcycle to the right of a apple. a apple below a clock. a clock to the left of a banana"
+  },
+  {
+    "unique_id": 27423,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "broccoli",
+      "surfboard",
+      "sink"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a microwave to the right of a broccoli. a broccoli above a surfboard. a surfboard to the left of a sink"
+  },
+  {
+    "unique_id": 4902,
+    "num_objects": 5,
+    "obj_attributes": [
+      "train",
+      "tennis racket",
+      "mouse",
+      "surfboard",
+      "bottle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a train to the right of a tennis racket. a tennis racket to the left of a mouse. a mouse below a surfboard. a surfboard to the right of a bottle"
+  },
+  {
+    "unique_id": 15482,
+    "num_objects": 3,
+    "obj_attributes": [
+      "zebra",
+      "mouse",
+      "apple"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a zebra to the right of a mouse. a mouse to the left of a apple"
+  },
+  {
+    "unique_id": 14202,
+    "num_objects": 3,
+    "obj_attributes": [
+      "elephant",
+      "carrot",
+      "baseball glove"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a elephant to the right of a carrot. a carrot to the right of a baseball glove"
+  },
+  {
+    "unique_id": 29383,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "potted plant",
+      "oven",
+      "cup",
+      "remote"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "below",
+      "above"
+    ],
+    "text": "a microwave to the right of a potted plant. a potted plant to the right of a oven. a oven below a cup. a cup above a remote"
+  },
+  {
+    "unique_id": 1893,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball glove",
+      "car",
+      "bicycle",
+      "remote"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a baseball glove to the right of a car. a car to the right of a bicycle. a bicycle to the left of a remote"
+  },
+  {
+    "unique_id": 27232,
+    "num_objects": 4,
+    "obj_attributes": [
+      "orange",
+      "hair drier",
+      "wine glass",
+      "traffic light"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a orange to the right of a hair drier. a hair drier to the right of a wine glass. a wine glass to the left of a traffic light"
+  },
+  {
+    "unique_id": 23763,
+    "num_objects": 5,
+    "obj_attributes": [
+      "scissors",
+      "bottle",
+      "sheep",
+      "teddy bear",
+      "broccoli"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the right of",
+      "below"
+    ],
+    "text": "a scissors to the right of a bottle. a bottle to the right of a sheep. a sheep to the right of a teddy bear. a teddy bear below a broccoli"
+  },
+  {
+    "unique_id": 5933,
+    "num_objects": 5,
+    "obj_attributes": [
+      "oven",
+      "truck",
+      "sports ball",
+      "handbag",
+      "bed"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "below",
+      "below"
+    ],
+    "text": "a oven to the right of a truck. a truck below a sports ball. a sports ball below a handbag. a handbag below a bed"
+  },
+  {
+    "unique_id": 953,
+    "num_objects": 4,
+    "obj_attributes": [
+      "sheep",
+      "bicycle",
+      "keyboard",
+      "chair"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a sheep to the right of a bicycle. a bicycle to the right of a keyboard. a keyboard to the left of a chair"
+  },
+  {
+    "unique_id": 8772,
+    "num_objects": 3,
+    "obj_attributes": [
+      "stop sign",
+      "vase",
+      "toilet"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a stop sign to the right of a vase. a vase to the right of a toilet"
+  },
+  {
+    "unique_id": 29393,
+    "num_objects": 5,
+    "obj_attributes": [
+      "oven",
+      "potted plant",
+      "wine glass",
+      "elephant",
+      "clock"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a oven to the right of a potted plant. a potted plant to the left of a wine glass. a wine glass to the right of a elephant. a elephant to the right of a clock"
+  },
+  {
+    "unique_id": 14762,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bear",
+      "orange",
+      "bus"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a bear to the right of a orange. a orange to the left of a bus"
+  },
+  {
+    "unique_id": 12772,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "tie",
+      "bench",
+      "refrigerator",
+      "keyboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a sheep to the right of a tie. a tie above a bench. a bench to the left of a refrigerator. a refrigerator to the right of a keyboard"
+  },
+  {
+    "unique_id": 9952,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bench",
+      "dining table",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a bench to the right of a dining table. a dining table to the left of a sheep"
+  },
+  {
+    "unique_id": 24373,
+    "num_objects": 5,
+    "obj_attributes": [
+      "dining table",
+      "cup",
+      "vase",
+      "bench",
+      "book"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "below",
+      "above"
+    ],
+    "text": "a dining table to the right of a cup. a cup above a vase. a vase below a bench. a bench above a book"
+  },
+  {
+    "unique_id": 8652,
+    "num_objects": 4,
+    "obj_attributes": [
+      "stop sign",
+      "laptop",
+      "tv",
+      "bottle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "above"
+    ],
+    "text": "a stop sign to the right of a laptop. a laptop below a tv. a tv above a bottle"
+  },
+  {
+    "unique_id": 10853,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bear",
+      "cat",
+      "orange",
+      "train",
+      "snowboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "below",
+      "above"
+    ],
+    "text": "a bear to the right of a cat. a cat to the right of a orange. a orange below a train. a train above a snowboard"
+  },
+  {
+    "unique_id": 4383,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bed",
+      "bus",
+      "truck",
+      "toilet"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a bed to the right of a bus. a bus to the right of a truck. a truck to the left of a toilet"
+  },
+  {
+    "unique_id": 2673,
+    "num_objects": 3,
+    "obj_attributes": [
+      "surfboard",
+      "motorcycle",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "a surfboard to the right of a motorcycle. a motorcycle above a elephant"
+  },
+  {
+    "unique_id": 14373,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "elephant",
+      "cow",
+      "orange"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "a microwave to the right of a elephant. a elephant to the left of a cow. a cow to the right of a orange"
+  },
+  {
+    "unique_id": 17942,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tie",
+      "wine glass",
+      "fork",
+      "remote"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "above"
+    ],
+    "text": "a tie to the right of a wine glass. a wine glass above a fork. a fork above a remote"
+  },
+  {
+    "unique_id": 11822,
+    "num_objects": 5,
+    "obj_attributes": [
+      "dog",
+      "cake",
+      "person",
+      "fork",
+      "skateboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "a dog to the right of a cake. a cake below a person. a person below a fork. a fork above a skateboard"
+  },
+  {
+    "unique_id": 31013,
+    "num_objects": 5,
+    "obj_attributes": [
+      "scissors",
+      "microwave",
+      "pizza",
+      "dog",
+      "mouse"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "a scissors to the right of a microwave. a microwave to the left of a pizza. a pizza below a dog. a dog above a mouse"
+  },
+  {
+    "unique_id": 8532,
+    "num_objects": 3,
+    "obj_attributes": [
+      "stop sign",
+      "carrot",
+      "couch"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a stop sign to the right of a carrot. a carrot to the left of a couch"
+  },
+  {
+    "unique_id": 133,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bird",
+      "person",
+      "bowl",
+      "giraffe"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a bird to the right of a person. a person to the right of a bowl. a bowl to the left of a giraffe"
+  },
+  {
+    "unique_id": 24833,
+    "num_objects": 3,
+    "obj_attributes": [
+      "oven",
+      "fork",
+      "boat"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "a oven to the right of a fork. a fork above a boat"
+  },
+  {
+    "unique_id": 12293,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "horse",
+      "couch"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a wine glass to the right of a horse. a horse below a couch"
+  },
+  {
+    "unique_id": 24142,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "vase",
+      "horse"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a wine glass to the right of a vase. a vase to the right of a horse"
+  },
+  {
+    "unique_id": 9423,
+    "num_objects": 5,
+    "obj_attributes": [
+      "book",
+      "parking meter",
+      "couch",
+      "stop sign",
+      "carrot"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "a book to the right of a parking meter. a parking meter above a couch. a couch to the right of a stop sign. a stop sign below a carrot"
+  },
+  {
+    "unique_id": 11183,
+    "num_objects": 3,
+    "obj_attributes": [
+      "donut",
+      "cat",
+      "cow"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a donut to the right of a cat. a cat to the left of a cow"
+  },
+  {
+    "unique_id": 17752,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "book",
+      "scissors",
+      "broccoli"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a handbag to the right of a book. a book to the right of a scissors. a scissors to the left of a broccoli"
+  },
+  {
+    "unique_id": 3723,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cell phone",
+      "airplane",
+      "donut"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "a cell phone to the right of a airplane. a airplane above a donut"
+  },
+  {
+    "unique_id": 6292,
+    "num_objects": 5,
+    "obj_attributes": [
+      "boat",
+      "baseball bat",
+      "tennis racket",
+      "vase",
+      "dog"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above",
+      "to the left of"
+    ],
+    "text": "a boat to the right of a baseball bat. a baseball bat to the left of a tennis racket. a tennis racket above a vase. a vase to the left of a dog"
+  },
+  {
+    "unique_id": 26153,
+    "num_objects": 4,
+    "obj_attributes": [
+      "laptop",
+      "banana",
+      "pizza",
+      "snowboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the right of"
+    ],
+    "text": "a laptop to the right of a banana. a banana below a pizza. a pizza to the right of a snowboard"
+  },
+  {
+    "unique_id": 29413,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sink",
+      "potted plant",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a sink to the right of a potted plant. a potted plant to the right of a teddy bear"
+  },
+  {
+    "unique_id": 512,
+    "num_objects": 4,
+    "obj_attributes": [
+      "person",
+      "hot dog",
+      "apple",
+      "tennis racket"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "a person to the right of a hot dog. a hot dog to the left of a apple. a apple below a tennis racket"
+  },
+  {
+    "unique_id": 29592,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bed",
+      "oven",
+      "microwave",
+      "bottle",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a bed to the right of a oven. a oven to the right of a microwave. a microwave to the right of a bottle. a bottle to the left of a sheep"
+  },
+  {
+    "unique_id": 10793,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toothbrush",
+      "bird",
+      "sports ball"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a toothbrush to the right of a bird. a bird to the right of a sports ball"
+  },
+  {
+    "unique_id": 24332,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cup",
+      "chair",
+      "zebra"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "a cup to the right of a chair. a chair to the left of a zebra"
+  },
+  {
+    "unique_id": 17592,
+    "num_objects": 3,
+    "obj_attributes": [
+      "handbag",
+      "couch",
+      "carrot"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "a handbag to the right of a couch. a couch below a carrot"
+  },
+  {
+    "unique_id": 8943,
+    "num_objects": 5,
+    "obj_attributes": [
+      "umbrella",
+      "parking meter",
+      "teddy bear",
+      "sink",
+      "banana"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "a umbrella to the right of a parking meter. a parking meter to the right of a teddy bear. a teddy bear to the right of a sink. a sink to the right of a banana"
+  }
+]
