@@ -33,11 +33,14 @@ def calculate_overlapping_area(objects):
 
 def spatial_evaluation(objects, text_objects):
     
-    rect = [objects[i]['bounding_box'] for i in range(len(objects))]
-    centroid = [[rect[i][0]+rect[i][2]//2, rect[i][1]+rect[i][3]//2] for i in range(len(objects))]
+    if len(objects) != len(text_objects['obj_attributes']):
+        return 0
+    
+    rect = [objects[i]['bounding_box'] for i in range(len(text_objects['obj_attributes']))]
+    centroid = [[rect[i][0]+rect[i][2]//2, rect[i][1]+rect[i][3]//2] for i in range(len(text_objects['obj_attributes']))]
     credit = 0
     
-    for i in range(len(objects)-1):
+    for i in range(len(text_objects['rel_type'])):
         relationship = ["and"]
         if centroid[i][0] < centroid[i+1][0]:
             relationship += ["to the left of"]
@@ -49,8 +52,8 @@ def spatial_evaluation(objects, text_objects):
             relationship += ["below"]
         if text_objects['rel_type'][i] in relationship:
             credit += 1
-        
-    return credit/len(objects)
+            
+    return credit/len(text_objects['rel_type'])
 
 
 def calculate_overlapping_area_rate(objects):
@@ -86,7 +89,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", choices=model_names, required=True)
     parser.add_argument("--template_version",
                         choices=template_versions, required=True)
-    parser.add_argument("--data_json", default="sample.json", type=str)
+    parser.add_argument("--data_json", default="new_sample.json", type=str)
     parser.add_argument("--skip_first_prompts", default=0, type=int)
     parser.add_argument("--num_prompts", default=None, type=int)
     parser.add_argument("--verbose", action='store_true')
