@@ -1,0 +1,1202 @@
+{
+    "a stop sign below a sink. a sink above a baseball bat": [
+        "[('a stop sign', [100, 350, 100, 100]), ('a sink', [100, 200, 100, 100]), ('a baseball bat', [100, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball glove below a skis. a skis to the right of a donut. a donut below a bed": [
+        "[('a baseball glove', [20, 350, 150, 100]), ('a skis', [200, 200, 100, 300]), ('a donut', [350, 350, 100, 100]), ('a bed', [350, 50, 150, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cell phone below a banana. a banana to the left of a snowboard": [
+        "[('a cell phone', [200, 300, 112, 200]), ('a banana', [200, 150, 112, 100]), ('a snowboard', [350, 150, 112, 350])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skateboard below a donut. a donut to the right of a tennis racket. a tennis racket to the left of a wine glass": [
+        "[('a skateboard', [20, 300, 150, 50]), ('a donut', [20, 200, 100, 100]), ('a tennis racket', [200, 200, 100, 300]), ('a wine glass', [350, 200, 100, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a truck below a bus. a bus to the right of a knife. a knife below a book": [
+        "[('a truck', [20, 350, 200, 150]), ('a bus', [250, 200, 250, 150]), ('a knife', [20, 150, 200, 50]), ('a book', [250, 20, 250, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a elephant below a toothbrush. a toothbrush to the left of a cow. a cow below a dining table. a dining table to the right of a pizza": [
+        "[('a elephant', [20, 300, 200, 200]), ('a toothbrush', [20, 100, 200, 100]), ('a cow', [250, 300, 200, 200]), ('a dining table', [250, 100, 200, 100]), ('a pizza', [10, 100, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a clock below a knife. a knife to the left of a person": [
+        "[('a clock', [50, 300, 100, 100]), ('a knife', [200, 200, 50, 150]), ('a person', [300, 100, 150, 400])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cow below a broccoli. a broccoli below a surfboard. a surfboard to the left of a stop sign. a stop sign above a bird": [
+        "[('a cow', [150, 300, 200, 200]), ('a broccoli', [150, 200, 200, 100]), ('a surfboard', [150, 100, 200, 100]), ('a stop sign', [350, 100, 100, 100]), ('a bird', [350, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sandwich below a cake. a cake below a boat": [
+        "[('a sandwich', [200, 350, 112, 112]), ('a cake', [200, 225, 112, 112]), ('a boat', [200, 100, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toilet below a bowl. a bowl to the right of a stop sign": [
+        "[('a toilet', [100, 300, 150, 200]), ('a bowl', [100, 200, 150, 100]), ('a stop sign', [300, 200, 100, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bicycle below a boat. a boat to the left of a fork": [
+        "[('a bicycle', [20, 300, 200, 200]), ('a boat', [250, 20, 200, 200]), ('a fork', [470, 250, 42, 262])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sports ball below a dining table. a dining table to the right of a person. a person below a horse. a horse below a baseball glove": [
+        "[('a sports ball', [30, 400, 80, 80]), ('a dining table', [150, 300, 300, 150]), ('a person', [30, 200, 80, 180]), ('a horse', [30, 50, 80, 130]), ('a baseball glove', [30, 0, 80, 40])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toothbrush below a refrigerator. a refrigerator to the right of a stop sign. a stop sign above a oven": [
+        "[('a toothbrush', [150, 350, 50, 100]), ('a refrigerator', [200, 100, 150, 250]), ('a stop sign', [400, 200, 80, 80]), ('an oven', [350, 300, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack below a skateboard. a skateboard to the left of a skis. a skis to the right of a pizza. a pizza below a scissors": [
+        "[('a backpack', [20, 300, 100, 200]), ('a skateboard', [140, 200, 100, 100]), ('a skis', [260, 100, 100, 100]), ('a pizza', [380, 200, 100, 100]), ('a scissors', [380, 320, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stop sign below a toilet. a toilet below a kite. a kite below a surfboard. a surfboard above a handbag": [
+        "[('a stop sign', [200, 400, 112, 112]), ('a toilet', [200, 300, 112, 100]), ('a kite', [200, 200, 112, 100]), ('a surfboard', [200, 100, 112, 100]), ('a handbag', [200, 0, 112, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a parking meter below a keyboard. a keyboard above a traffic light": [
+        "[('a parking meter', [100, 300, 100, 200]), ('a keyboard', [100, 150, 300, 100]), ('a traffic light', [100, 0, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a zebra below a hair drier. a hair drier to the left of a book. a book to the left of a knife": [
+        "[('a zebra', [20, 250, 150, 200]), ('a hair drier', [200, 100, 100, 100]), ('a book', [320, 200, 100, 100]), ('a knife', [440, 200, 60, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bowl below a couch. a couch to the left of a cow. a cow below a suitcase": [
+        "[('a bowl', [30, 300, 150, 100]), ('a couch', [30, 150, 200, 100]), ('a cow', [250, 300, 200, 150]), ('a suitcase', [250, 150, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cat below a snowboard. a snowboard to the right of a cow. a cow below a cell phone": [
+        "[('a cat', [20, 300, 150, 200]), ('a snowboard', [200, 150, 100, 350]), ('a cow', [320, 300, 180, 200]), ('a cell phone', [320, 20, 180, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a mouse below a boat. a boat to the right of a refrigerator. a refrigerator to the left of a pizza": [
+        "[('a mouse', [20, 400, 80, 80]), ('a boat', [120, 300, 100, 100]), ('a refrigerator', [240, 200, 100, 200]), ('a pizza', [360, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fire hydrant below a sandwich. a sandwich to the right of a suitcase": [
+        "[('a fire hydrant', [50, 300, 100, 200]), ('a sandwich', [200, 250, 100, 100]), ('a suitcase', [350, 300, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a car below a knife. a knife to the right of a frisbee. a frisbee above a bench": [
+        "[('a car', [100, 350, 200, 100]), ('a knife', [300, 200, 100, 50]), ('a frisbee', [400, 100, 100, 50]), ('a bench', [200, 450, 200, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball bat below a cow. a cow below a elephant": [
+        "[('a baseball bat', [50, 400, 412, 50]), ('a cow', [50, 250, 412, 100]), ('an elephant', [50, 50, 412, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a surfboard below a toothbrush. a toothbrush to the right of a carrot": [
+        "[('a surfboard', [20, 300, 472, 100]), ('a toothbrush', [200, 100, 100, 200]), ('a carrot', [350, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a train below a horse. a horse below a scissors. a scissors to the right of a tie": [
+        "[('a train', [20, 350, 472, 162]), ('a horse', [20, 188, 472, 162]), ('a scissors', [276, 26, 216, 162]), ('a tie', [20, 26, 256, 162])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a truck below a chair. a chair to the right of a spoon. a spoon below a hair drier. a hair drier to the left of a bear": [
+        "[('a truck', [20, 250, 150, 100]), ('a chair', [200, 150, 100, 100]), ('a spoon', [350, 250, 50, 100]), ('a hair drier', [200, 350, 100, 100]), ('a bear', [350, 350, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a apple below a bird. a bird to the left of a backpack": [
+        "[('an apple', [200, 300, 100, 100]), ('a bird', [200, 100, 100, 100]), ('a bird', [50, 200, 100, 100]), ('a backpack', [300, 200, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fire hydrant below a teddy bear. a teddy bear below a bus. a bus to the left of a cat. a cat to the right of a skateboard": [
+        "[('a fire hydrant', [100, 400, 50, 80]), ('a teddy bear', [100, 300, 50, 80]), ('a bus', [100, 200, 100, 80]), ('a cat', [250, 200, 50, 80]), ('a skateboard', [350, 200, 100, 40])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a motorcycle below a bear. a bear above a bottle": [
+        "[('a motorcycle', [50, 300, 200, 200]), ('a bear', [300, 150, 200, 200]), ('a bottle', [550, 0, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a orange below a motorcycle. a motorcycle below a horse. a horse to the left of a airplane": [
+        "[('an orange', [50, 400, 100, 100]), ('a motorcycle', [50, 250, 100, 200]), ('a horse', [50, 100, 100, 150]), ('an airplane', [200, 100, 300, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a pizza below a frisbee. a frisbee below a vase. a vase above a baseball bat": [
+        "[('a pizza', [150, 350, 200, 100]), ('a frisbee', [150, 250, 200, 100]), ('a vase', [150, 150, 200, 100]), ('a baseball bat', [150, 50, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear below a bed. a bed below a elephant. a elephant above a bench. a bench above a bowl": [
+        "[('a teddy bear', [20, 350, 150, 150]), ('a bed', [20, 200, 472, 150]), ('an elephant', [20, 100, 472, 100]), ('a bench', [20, 50, 472, 50]), ('a bowl', [20, 0, 472, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bird below a bowl. a bowl below a pizza": [
+        "[('a bird', [100, 300, 100, 100]), ('a bowl', [100, 200, 100, 100]), ('a pizza', [100, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a giraffe below a truck. a truck below a refrigerator. a refrigerator to the left of a cup": [
+        "[('a giraffe', [20, 350, 100, 162]), ('a truck', [20, 200, 150, 150]), ('a refrigerator', [20, 20, 150, 180]), ('a cup', [200, 20, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toothbrush below a donut. a donut to the right of a bed. a bed below a giraffe": [
+        "[('a toothbrush', [20, 400, 100, 100]), ('a donut', [20, 250, 100, 100]), ('a bed', [200, 300, 300, 200]), ('a giraffe', [200, 50, 300, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a donut below a toaster. a toaster below a stop sign. a stop sign above a cow": [
+        "[('a donut', [150, 350, 100, 100]), ('a toaster', [150, 200, 100, 100]), ('a stop sign', [150, 50, 100, 100]), ('a cow', [300, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a broccoli below a wine glass. a wine glass below a handbag": [
+        "[('a broccoli', [150, 300, 100, 100]), ('a wine glass', [150, 200, 100, 100]), ('a handbag', [150, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a surfboard below a apple. a apple to the left of a sports ball. a sports ball above a elephant. a elephant to the left of a boat": [
+        "[('a surfboard', [100, 300, 100, 200]), ('an apple', [100, 200, 100, 100]), ('an apple', [0, 200, 100, 100]), ('a sports ball', [0, 100, 100, 100]), ('an elephant', [0, 0, 200, 100]), ('a boat', [200, 0, 300, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a orange below a carrot. a carrot above a sports ball": [
+        "[('an orange', [200, 300, 100, 100]), ('a carrot', [200, 200, 100, 100]), ('a sports ball', [200, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a motorcycle below a baseball glove. a baseball glove above a tv. a tv above a dining table. a dining table above a toilet": [
+        "[('a motorcycle', [20, 400, 200, 112]), ('a baseball glove', [240, 300, 100, 100]), ('a tv', [360, 200, 150, 100]), ('a dining table', [240, 100, 100, 100]), ('a toilet', [20, 0, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a airplane below a surfboard. a surfboard above a tv. a tv above a fork. a fork to the right of a bus": [
+        "[('an airplane', [30, 400, 200, 100]), ('a surfboard', [30, 250, 200, 100]), ('a tv', [30, 100, 200, 100]), ('a fork', [260, 100, 100, 400]), ('a bus', [400, 100, 100, 400])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cup below a suitcase. a suitcase to the right of a bicycle": [
+        "[('a cup', [30, 350, 100, 100]), ('a suitcase', [150, 200, 200, 200]), ('a bicycle', [20, 100, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hair drier below a potted plant. a potted plant above a fork. a fork above a cup. a cup below a cow": [
+        "[('a hair drier', [50, 400, 100, 100]), ('a potted plant', [50, 300, 100, 100]), ('a fork', [50, 200, 100, 100]), ('a cup', [50, 100, 100, 100]), ('a cow', [50, 0, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cat below a spoon. a spoon to the left of a kite": [
+        "[('a cat', [50, 300, 200, 200]), ('a spoon', [275, 150, 50, 200]), ('a kite', [350, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wine glass below a suitcase. a suitcase to the left of a knife": [
+        "[('a wine glass', [50, 300, 100, 200]), ('a suitcase', [200, 100, 200, 300]), ('a knife', [450, 200, 50, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave below a train. a train to the left of a sports ball": [
+        "[('a microwave', [20, 300, 200, 200]), ('a train', [250, 100, 250, 200]), ('a sports ball', [450, 350, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bus below a skis. a skis below a frisbee. a frisbee to the left of a wine glass": [
+        "[('a bus', [20, 350, 200, 150]), ('a skis', [20, 200, 200, 100]), ('a frisbee', [20, 50, 100, 100]), ('a wine glass', [150, 50, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a knife below a cow. a cow to the left of a couch. a couch to the right of a teddy bear": [
+        "[('a knife', [20, 400, 100, 112]), ('a cow', [150, 250, 200, 262]), ('a couch', [370, 200, 142, 312]), ('a teddy bear', [200, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skateboard below a hair drier. a hair drier below a microwave. a microwave below a sink. a sink to the right of a broccoli": [
+        "[('a skateboard', [20, 400, 150, 100]), ('a hair drier', [20, 300, 150, 80]), ('a microwave', [20, 200, 150, 80]), ('a sink', [200, 200, 150, 150]), ('a broccoli', [370, 200, 120, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a traffic light below a dog. a dog above a bottle": [
+        "[('a traffic light', [200, 320, 100, 192]), ('a dog', [200, 150, 100, 150]), ('a bottle', [200, 10, 100, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear below a mouse. a mouse to the right of a microwave": [
+        "[('a teddy bear', [125, 300, 100, 100]), ('a mouse', [125, 200, 50, 50]), ('a mouse', [350, 200, 50, 50]), ('a microwave', [250, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sports ball below a zebra. a zebra below a keyboard. a keyboard to the right of a backpack": [
+        "[('a sports ball', [50, 400, 100, 100]), ('a zebra', [50, 250, 100, 100]), ('a keyboard', [200, 250, 200, 100]), ('a backpack', [450, 250, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a orange below a parking meter. a parking meter to the left of a surfboard": [
+        "[('an orange', [150, 300, 100, 100]), ('a parking meter', [150, 100, 50, 200]), ('a surfboard', [250, 150, 50, 350])]\nBackground prompt: A realistic outdoor scene\nNegative prompt: "
+    ],
+    "a pizza below a couch. a couch below a kite. a kite to the left of a microwave": [
+        "[('a pizza', [30, 400, 200, 100]), ('a couch', [30, 250, 200, 130]), ('a kite', [30, 50, 200, 180]), ('a microwave', [250, 50, 200, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cow below a cell phone. a cell phone below a bottle. a bottle to the right of a toothbrush. a toothbrush above a refrigerator": [
+        "[('a cow', [20, 350, 200, 162]), ('a cell phone', [20, 200, 200, 100]), ('a bottle', [250, 200, 100, 200]), ('a toothbrush', [250, 50, 100, 100]), ('a refrigerator', [400, 50, 112, 462])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cake below a elephant. a elephant to the left of a hair drier. a hair drier above a vase. a vase below a tie": [
+        "[('a cake', [50, 400, 100, 100]), ('an elephant', [50, 250, 100, 150]), ('a hair drier', [200, 250, 100, 150]), ('a vase', [200, 400, 100, 100]), ('a tie', [350, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a frisbee below a pizza. a pizza to the left of a car": [
+        "[('a frisbee', [70, 300, 150, 150]), ('a pizza', [70, 150, 150, 150]), ('a car', [250, 150, 250, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tie below a sink. a sink to the left of a bus. a bus above a apple": [
+        "[('a tie', [100, 350, 50, 100]), ('a sink', [200, 250, 100, 100]), ('a bus', [350, 100, 100, 100]), ('an apple', [350, 350, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tennis racket below a boat. a boat below a potted plant. a potted plant below a train": [
+        "[('a tennis racket', [176, 376, 160, 136]), ('a boat', [176, 256, 160, 120]), ('a potted plant', [176, 136, 160, 120]), ('a train', [176, 16, 160, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a handbag below a knife. a knife below a toothbrush. a toothbrush to the left of a truck": [
+        "[('a handbag', [70, 350, 120, 150]), ('a knife', [70, 200, 120, 120]), ('a toothbrush', [70, 50, 120, 120]), ('a truck', [220, 50, 280, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a chair below a kite. a kite above a bowl. a bowl below a carrot": [
+        "[('a chair', [30, 300, 150, 200]), ('a kite', [200, 150, 100, 100]), ('a bowl', [370, 300, 120, 150]), ('a carrot', [370, 100, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a suitcase below a fork. a fork to the right of a cow. a cow above a boat. a boat above a bicycle": [
+        "[('a suitcase', [100, 400, 100, 100]), ('a fork', [100, 300, 100, 100]), ('a cow', [200, 200, 100, 100]), ('a boat', [300, 100, 100, 100]), ('a bicycle', [400, 0, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fire hydrant below a chair. a chair to the left of a boat. a boat to the left of a elephant. a elephant below a suitcase": [
+        "[('a fire hydrant', [50, 300, 50, 100]), ('a chair', [150, 250, 50, 100]), ('a boat', [250, 200, 50, 100]), ('an elephant', [350, 100, 100, 100]), ('a suitcase', [350, 0, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tie below a hair drier. a hair drier to the right of a toilet. a toilet above a baseball glove. a baseball glove to the right of a orange": [
+        "[('a tie', [50, 300, 100, 200]), ('a hair drier', [200, 200, 100, 100]), ('a toilet', [350, 100, 100, 150]), ('a baseball glove', [500, 300, 100, 200]), ('an orange', [400, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spoon below a pizza. a pizza below a giraffe": [
+        "[('a spoon', [150, 350, 100, 50]), ('a pizza', [150, 200, 200, 100]), ('a giraffe', [150, 50, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a refrigerator below a person. a person to the right of a scissors. a scissors above a truck. a truck below a keyboard": [
+        "[('a refrigerator', [20, 300, 100, 200]), ('a person', [20, 100, 100, 200]), ('a scissors', [150, 200, 100, 100]), ('a truck', [150, 300, 100, 200]), ('a keyboard', [150, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a chair below a toilet. a toilet above a cake. a cake to the left of a kite": [
+        "[('a chair', [20, 300, 150, 200]), ('a toilet', [20, 100, 150, 200]), ('a cake', [200, 300, 150, 200]), ('a kite', [370, 300, 120, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat below a backpack. a backpack above a oven": [
+        "[('a boat', [100, 300, 312, 212]), ('a backpack', [100, 150, 312, 150]), ('an oven', [100, 0, 312, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear below a tie. a tie to the right of a bicycle. a bicycle below a train": [
+        "[('a teddy bear', [50, 300, 100, 150]), ('a tie', [160, 200, 50, 100]), ('a bicycle', [220, 300, 150, 150]), ('a train', [220, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a laptop below a bed. a bed to the right of a scissors. a scissors above a elephant. a elephant below a cat": [
+        "[('a laptop', [20, 350, 200, 150]), ('a bed', [230, 200, 280, 200]), ('a scissors', [230, 50, 100, 100]), ('an elephant', [20, 200, 200, 150]), ('a cat', [20, 50, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bird below a cell phone. a cell phone below a sheep": [
+        "[('a bird', [150, 350, 100, 100]), ('a cell phone', [150, 200, 100, 100]), ('a sheep', [150, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a oven below a sandwich. a sandwich to the right of a scissors": [
+        "[('an oven', [30, 300, 200, 200]), ('a sandwich', [250, 300, 150, 150]), ('a sandwich', [30, 50, 150, 150]), ('a scissors', [250, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep below a tie. a tie above a traffic light. a traffic light to the right of a clock. a clock to the right of a bear": [
+        "[('a sheep', [10, 350, 100, 150]), ('a tie', [10, 200, 100, 150]), ('a traffic light', [120, 350, 100, 150]), ('a clock', [230, 350, 100, 150]), ('a bear', [340, 350, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a frisbee below a motorcycle. a motorcycle above a fire hydrant": [
+        "[('a frisbee', [200, 350, 112, 112]), ('a motorcycle', [200, 200, 112, 112]), ('a fire hydrant', [200, 50, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sports ball below a vase. a vase below a keyboard": [
+        "[('a sports ball', [100, 350, 100, 100]), ('a vase', [100, 200, 100, 100]), ('a keyboard', [100, 50, 300, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a oven below a broccoli. a broccoli to the right of a kite": [
+        "[('an oven', [50, 300, 200, 200]), ('a broccoli', [50, 100, 100, 100]), ('a broccoli', [300, 200, 100, 100]), ('a kite', [400, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a banana below a mouse. a mouse below a book": [
+        "[('a banana', [200, 300, 100, 50]), ('a mouse', [200, 200, 100, 50]), ('a book', [200, 100, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a person below a laptop. a laptop to the right of a cat": [
+        "[('a person', [20, 256, 150, 256]), ('a laptop', [200, 100, 300, 200]), ('a cat', [20, 100, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fork below a orange. a orange above a pizza": [
+        "[('a fork', [100, 300, 100, 100]), ('an orange', [100, 200, 100, 100]), ('a pizza', [100, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a clock below a cow. a cow to the left of a orange. a orange to the right of a sink. a sink to the right of a airplane": [
+        "[('a clock', [10, 400, 100, 100]), ('a cow', [120, 300, 100, 100]), ('an orange', [230, 200, 100, 100]), ('a sink', [340, 100, 100, 100]), ('an airplane', [450, 0, 60, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bus below a tie. a tie below a microwave": [
+        "[('a bus', [50, 300, 412, 212]), ('a tie', [50, 200, 412, 100]), ('a microwave', [50, 50, 412, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fork below a bear. a bear below a dining table. a dining table below a cup. a cup to the right of a laptop": [
+        "[('a fork', [50, 400, 50, 50]), ('a bear', [50, 300, 150, 100]), ('a dining table', [50, 200, 200, 100]), ('a cup', [300, 200, 50, 50]), ('a laptop', [400, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a umbrella below a parking meter. a parking meter to the right of a donut. a donut above a cake": [
+        "[('a umbrella', [25, 300, 150, 200]), ('a parking meter', [200, 100, 100, 400]), ('a donut', [350, 200, 150, 150]), ('a cake', [350, 350, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a umbrella below a bed. a bed to the right of a frisbee. a frisbee to the left of a suitcase": [
+        "[('a umbrella', [50, 300, 100, 200]), ('a bed', [200, 100, 200, 300]), ('a frisbee', [150, 400, 100, 100]), ('a suitcase', [300, 400, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball bat below a microwave. a microwave to the right of a knife. a knife to the right of a orange": [
+        "[('a baseball bat', [20, 300, 472, 50]), ('a microwave', [20, 150, 472, 100]), ('a knife', [20, 50, 472, 50]), ('an orange', [20, 0, 472, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bicycle below a toaster. a toaster to the right of a broccoli": [
+        "[('a bicycle', [20, 300, 200, 200]), ('a toaster', [250, 150, 200, 200]), ('a broccoli', [450, 250, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a oven below a keyboard. a keyboard above a bird. a bird to the left of a toaster": [
+        "[('a oven', [20, 300, 200, 200]), ('a keyboard', [20, 150, 200, 150]), ('a bird', [250, 150, 100, 100]), ('a toaster', [370, 150, 120, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack below a tennis racket. a tennis racket above a cup. a cup above a boat": [
+        "[('a backpack', [200, 350, 112, 162]), ('a tennis racket', [200, 200, 112, 150]), ('a cup', [200, 100, 112, 100]), ('a boat', [200, 0, 112, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack below a motorcycle. a motorcycle to the left of a bed. a bed to the right of a mouse": [
+        "[('a backpack', [10, 400, 150, 112]), ('a motorcycle', [180, 300, 150, 212]), ('a bed', [340, 200, 172, 312]), ('a mouse', [200, 10, 112, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sandwich below a skis. a skis to the right of a teddy bear": [
+        "[('a sandwich', [50, 300, 150, 100]), ('a skis', [200, 200, 100, 300]), ('a teddy bear', [350, 200, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bed below a elephant. a elephant below a sports ball. a sports ball above a dining table": [
+        "[('a bed', [20, 350, 472, 162]), ('an elephant', [20, 200, 472, 150]), ('a sports ball', [20, 100, 472, 100]), ('a dining table', [20, 0, 472, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a knife below a boat. a boat to the left of a umbrella. a umbrella to the right of a bird. a bird above a microwave": [
+        "[('a knife', [30, 400, 100, 80]), ('a boat', [30, 300, 100, 80]), ('a umbrella', [150, 300, 100, 80]), ('a bird', [150, 200, 100, 80]), ('a microwave', [150, 100, 100, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a airplane below a toothbrush. a toothbrush above a microwave": [
+        "[('an airplane', [50, 300, 412, 100]), ('a toothbrush', [50, 200, 412, 100]), ('a microwave', [50, 100, 412, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a dining table below a airplane. a airplane to the left of a wine glass. a wine glass below a sink": [
+        "[('a dining table', [20, 300, 472, 212]), ('an airplane', [50, 50, 412, 200]), ('a wine glass', [300, 250, 50, 100]), ('a sink', [400, 150, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a banana below a clock. a clock above a bed. a bed above a baseball glove. a baseball glove to the left of a surfboard": [
+        "[('a banana', [210, 400, 100, 50]), ('a clock', [210, 300, 100, 50]), ('a bed', [210, 200, 100, 50]), ('a baseball glove', [100, 100, 100, 50]), ('a surfboard', [210, 100, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a airplane below a parking meter. a parking meter above a suitcase": [
+        "[('a airplane', [50, 300, 412, 200]), ('a parking meter', [200, 150, 112, 150]), ('a suitcase', [200, 0, 112, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toilet below a suitcase. a suitcase below a vase. a vase above a tennis racket. a tennis racket to the left of a couch": [
+        "[('a toilet', [30, 350, 150, 162]), ('a suitcase', [30, 200, 150, 150]), ('a vase', [30, 50, 150, 150]), ('a tennis racket', [200, 50, 50, 462]), ('a couch', [270, 176, 242, 336])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a kite below a donut. a donut above a frisbee": [
+        "[('a kite', [100, 300, 150, 150]), ('a donut', [100, 150, 150, 150]), ('a frisbee', [100, 0, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bottle below a spoon. a spoon above a sports ball. a sports ball above a motorcycle": [
+        "[('a bottle', [200, 350, 112, 162]), ('a spoon', [200, 250, 112, 100]), ('a sports ball', [200, 150, 112, 100]), ('a motorcycle', [200, 50, 112, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toilet below a mouse. a mouse to the right of a baseball bat. a baseball bat to the left of a cow. a cow below a toothbrush": [
+        "[('a toilet', [30, 300, 100, 200]), ('a mouse', [150, 250, 100, 50]), ('a baseball bat', [270, 200, 50, 300]), ('a cow', [340, 300, 150, 200]), ('a toothbrush', [450, 250, 50, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a giraffe above a motorcycle. a motorcycle to the right of a traffic light. a traffic light to the right of a banana. a banana below a sports ball": [
+        "[('a giraffe', [20, 0, 100, 256]), ('a motorcycle', [20, 256, 100, 256]), ('a traffic light', [140, 128, 100, 256]), ('a banana', [140, 0, 100, 128]), ('a sports ball', [260, 0, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a kite above a vase. a vase to the left of a truck. a truck to the right of a bus": [
+        "[('a kite', [20, 10, 100, 100]), ('a vase', [150, 250, 100, 100]), ('a truck', [300, 250, 100, 100]), ('a bus', [450, 250, 60, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tie above a refrigerator. a refrigerator above a hair drier": [
+        "[('a tie', [200, 50, 112, 50]), ('a refrigerator', [150, 150, 212, 300]), ('a hair drier', [200, 450, 112, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a motorcycle above a surfboard. a surfboard to the left of a cell phone. a cell phone to the left of a sandwich": [
+        "[('a motorcycle', [20, 20, 150, 150]), ('a surfboard', [200, 200, 150, 150]), ('a cell phone', [380, 380, 100, 100]), ('a sandwich', [500, 500, 12, 12])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a truck above a backpack. a backpack above a kite. a kite to the left of a skis": [
+        "[('a truck', [50, 50, 150, 100]), ('a backpack', [50, 200, 150, 100]), ('a kite', [50, 350, 150, 100]), ('a skis', [250, 350, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wine glass above a teddy bear. a teddy bear above a microwave": [
+        "[('a wine glass', [202, 50, 108, 150]), ('a teddy bear', [180, 210, 150, 150]), ('a microwave', [160, 370, 192, 142])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat above a potted plant. a potted plant below a laptop. a laptop to the right of a apple. a apple above a toaster": [
+        "[('a boat', [50, 50, 100, 50]), ('a potted plant', [50, 150, 100, 50]), ('a laptop', [200, 150, 100, 50]), ('an apple', [200, 50, 50, 50]), ('a toaster', [200, 250, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a motorcycle above a refrigerator. a refrigerator to the right of a carrot. a carrot below a orange. a orange to the left of a skateboard": [
+        "[('a motorcycle', [150, 10, 212, 100]), ('a refrigerator', [150, 130, 212, 200]), ('a carrot', [150, 350, 212, 100]), ('an orange', [20, 350, 100, 100]), ('a skateboard', [20, 10, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear above a backpack. a backpack above a handbag. a handbag to the left of a hot dog. a hot dog above a elephant": [
+        "[('a teddy bear', [150, 10, 100, 100]), ('a backpack', [150, 120, 100, 100]), ('a handbag', [10, 230, 100, 100]), ('a hot dog', [120, 340, 100, 100]), ('an elephant', [120, 450, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cell phone above a person. a person to the left of a toilet. a toilet below a teddy bear. a teddy bear to the right of a motorcycle": [
+        "[('a cell phone', [250, 10, 50, 100]), ('a person', [200, 120, 150, 300]), ('a toilet', [400, 200, 100, 200]), ('a teddy bear', [400, 400, 100, 100]), ('a motorcycle', [250, 400, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a laptop above a sandwich. a sandwich to the right of a tv. a tv above a suitcase": [
+        "[('a laptop', [150, 20, 200, 150]), ('a sandwich', [150, 200, 200, 100]), ('a tv', [400, 20, 100, 150]), ('a suitcase', [400, 200, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball bat above a pizza. a pizza below a bowl. a bowl above a cow. a cow to the left of a stop sign": [
+        "[('a baseball bat', [30, 10, 452, 50]), ('a pizza', [30, 70, 452, 100]), ('a bowl', [30, 180, 452, 100]), ('a cow', [30, 290, 452, 100]), ('a stop sign', [492, 290, 20, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack above a hair drier. a hair drier below a giraffe. a giraffe below a fork. a fork to the right of a toaster": [
+        "[('a backpack', [20, 20, 100, 100]), ('a hair drier', [20, 140, 100, 100]), ('a giraffe', [20, 260, 100, 100]), ('a fork', [140, 260, 100, 100]), ('a toaster', [20, 380, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a elephant above a bottle. a bottle to the right of a banana. a banana to the right of a tie. a tie above a wine glass": [
+        "[('a elephant', [20, 20, 100, 100]), ('a bottle', [140, 140, 60, 120]), ('a banana', [220, 220, 60, 40]), ('a tie', [300, 300, 40, 100]), ('a wine glass', [300, 420, 40, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a surfboard above a tie. a tie below a bird. a bird above a cake. a cake to the left of a oven": [
+        "[('a surfboard', [50, 20, 100, 300]), ('a tie', [50, 320, 100, 100]), ('a bird', [200, 320, 100, 100]), ('a cake', [200, 420, 100, 100]), ('an oven', [320, 420, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sink above a potted plant. a potted plant above a teddy bear. a teddy bear to the left of a orange. a orange above a remote": [
+        "[('a sink', [100, 20, 120, 80]), ('a potted plant', [100, 120, 120, 80]), ('a teddy bear', [20, 220, 80, 80]), ('an orange', [120, 220, 80, 80]), ('a remote', [120, 320, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a carrot above a book. a book below a microwave": [
+        "[('a carrot', [180, 150, 150, 50]), ('a book', [150, 220, 210, 80]), ('a microwave', [130, 320, 250, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a orange above a sports ball. a sports ball to the right of a donut. a donut to the right of a frisbee": [
+        "[('an orange', [50, 226, 100, 100]), ('a sports ball', [200, 226, 100, 100]), ('a donut', [350, 226, 100, 100]), ('a frisbee', [350, 126, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a couch above a snowboard. a snowboard above a parking meter. a parking meter to the right of a cake. a cake to the left of a chair": [
+        "[('a couch', [50, 50, 200, 100]), ('a snowboard', [50, 200, 200, 50]), ('a parking meter', [300, 300, 50, 200]), ('a cake', [200, 400, 50, 50]), ('a chair', [400, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a donut above a teddy bear. a teddy bear below a scissors. a scissors below a boat. a boat above a snowboard": [
+        "[('a donut', [150, 20, 200, 100]), ('a teddy bear', [150, 140, 200, 100]), ('a scissors', [150, 260, 200, 100]), ('a boat', [150, 380, 200, 100]), ('a snowboard', [150, 500, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a airplane above a giraffe. a giraffe to the left of a backpack. a backpack above a vase": [
+        "[('an airplane', [150, 10, 200, 100]), ('a giraffe', [20, 150, 100, 350]), ('a backpack', [300, 150, 150, 200]), ('a vase', [300, 400, 150, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cow above a tennis racket. a tennis racket below a oven. a oven above a snowboard. a snowboard to the left of a sink": [
+        "[('a cow', [20, 20, 100, 100]), ('a tennis racket', [20, 140, 100, 100]), ('an oven', [20, 260, 100, 100]), ('a snowboard', [20, 380, 100, 100]), ('a sink', [140, 380, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tv above a cup. a cup below a potted plant. a potted plant to the right of a teddy bear": [
+        "[('a tv', [50, 50, 150, 100]), ('a cup', [50, 200, 50, 50]), ('a potted plant', [200, 200, 100, 150]), ('a teddy bear', [100, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bench above a traffic light. a traffic light below a dog": [
+        "[('a bench', [20, 20, 472, 216]), ('a traffic light', [20, 236, 472, 216]), ('a dog', [20, 452, 472, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep above a elephant. a elephant below a potted plant. a potted plant below a toilet. a toilet to the left of a microwave": [
+        "[('a sheep', [10, 10, 100, 100]), ('an elephant', [10, 120, 100, 100]), ('a potted plant', [10, 230, 100, 100]), ('a toilet', [10, 340, 100, 100]), ('a microwave', [120, 340, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a train above a sheep. a sheep above a airplane. a airplane to the right of a cow. a cow to the left of a truck": [
+        "[('a train', [20, 20, 100, 50]), ('a sheep', [20, 90, 100, 50]), ('a airplane', [20, 160, 100, 50]), ('a cow', [140, 160, 100, 50]), ('a truck', [260, 160, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bird above a mouse. a mouse to the right of a banana": [
+        "[('a bird', [50, 20, 100, 100]), ('a mouse', [200, 300, 100, 100]), ('a mouse', [400, 300, 100, 100]), ('a banana', [300, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bird above a scissors. a scissors above a vase. a vase to the left of a kite. a kite to the left of a hair drier": [
+        "[('a bird', [30, 20, 100, 100]), ('a scissors', [30, 150, 100, 100]), ('a vase', [30, 280, 100, 100]), ('a kite', [150, 280, 100, 100]), ('a hair drier', [270, 280, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a vase above a toothbrush. a toothbrush below a banana": [
+        "[('a vase', [150, 50, 100, 150]), ('a toothbrush', [150, 200, 100, 100]), ('a banana', [150, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a mouse above a microwave. a microwave to the left of a surfboard": [
+        "[('a mouse', [180, 50, 60, 40]), ('a microwave', [150, 100, 100, 100]), ('a surfboard', [300, 150, 50, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bus above a bowl. a bowl to the left of a banana. a banana above a oven. a oven to the right of a hot dog": [
+        "[('a bus', [20, 20, 100, 50]), ('a bowl', [20, 90, 100, 50]), ('a banana', [140, 90, 100, 50]), ('an oven', [140, 160, 100, 50]), ('a hot dog', [260, 160, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bench above a tie. a tie to the left of a clock": [
+        "[('a bench', [20, 150, 472, 216]), ('a tie', [150, 226, 100, 100]), ('a clock', [280, 226, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hot dog above a person. a person to the left of a umbrella. a umbrella above a carrot. a carrot above a banana": [
+        "[('a hot dog', [200, 50, 112, 50]), ('a person', [200, 150, 112, 200]), ('a umbrella', [350, 150, 112, 200]), ('a carrot', [350, 400, 112, 50]), ('a banana', [350, 480, 112, 32])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a train above a vase. a vase to the left of a book. a book to the right of a tennis racket. a tennis racket below a surfboard": [
+        "[('a train', [51, 20, 100, 50]), ('a vase', [51, 150, 50, 100]), ('a book', [151, 150, 50, 100]), ('a tennis racket', [251, 150, 50, 100]), ('a surfboard', [251, 20, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a traffic light above a microwave. a microwave below a apple. a apple above a orange. a orange to the left of a oven": [
+        "[('a traffic light', [100, 10, 50, 100]), ('a microwave', [100, 120, 50, 100]), ('an apple', [100, 230, 50, 50]), ('an orange', [100, 290, 50, 50]), ('an oven', [160, 290, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a handbag above a carrot. a carrot to the left of a tie": [
+        "[('a handbag', [150, 50, 200, 150]), ('a carrot', [150, 250, 50, 150]), ('a tie', [250, 250, 50, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a traffic light above a toothbrush. a toothbrush to the left of a motorcycle": [
+        "[('a traffic light', [200, 10, 50, 150]), ('a toothbrush', [50, 200, 50, 200]), ('a motorcycle', [150, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep above a mouse. a mouse to the left of a tie": [
+        "[('a sheep', [100, 50, 150, 150]), ('a mouse', [100, 250, 100, 100]), ('a mouse', [350, 250, 100, 100]), ('a tie', [450, 250, 50, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat above a carrot. a carrot above a laptop. a laptop to the right of a train": [
+        "[('a boat', [50, 50, 100, 50]), ('a carrot', [50, 150, 100, 50]), ('a laptop', [50, 250, 100, 50]), ('a train', [200, 250, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fire hydrant above a snowboard. a snowboard below a train. a train to the left of a tv. a tv to the right of a sports ball": [
+        "[('a fire hydrant', [100, 50, 50, 100]), ('a snowboard', [100, 150, 50, 200]), ('a train', [150, 350, 100, 150]), ('a tv', [250, 350, 100, 150]), ('a sports ball', [350, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skis above a motorcycle. a motorcycle to the left of a sink": [
+        "[('a pair of skis', [30, 10, 200, 100]), ('a motorcycle', [250, 150, 200, 200]), ('a sink', [470, 250, 40, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tv above a microwave. a microwave to the left of a fork. a fork above a keyboard": [
+        "[('a tv', [150, 50, 200, 120]), ('a microwave', [150, 200, 200, 120]), ('a fork', [400, 200, 80, 120]), ('a keyboard', [400, 350, 80, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave above a horse. a horse below a skis. a skis below a backpack. a backpack to the right of a couch": [
+        "[('a microwave', [20, 20, 100, 100]), ('a horse', [20, 140, 100, 100]), ('a skis', [20, 260, 100, 100]), ('a backpack', [20, 380, 100, 100]), ('a couch', [140, 380, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bottle above a cup. a cup to the right of a refrigerator. a refrigerator below a tennis racket. a tennis racket below a sandwich": [
+        "[('a bottle', [180, 60, 50, 150]), ('a cup', [180, 210, 50, 70]), ('a refrigerator', [300, 210, 150, 300]), ('a tennis racket', [300, 10, 150, 200]), ('a sandwich', [10, 10, 170, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spoon above a laptop. a laptop to the right of a cat. a cat above a tennis racket. a tennis racket to the right of a bear": [
+        "[('a spoon', [20, 20, 80, 30]), ('a laptop', [120, 80, 200, 120]), ('a cat', [20, 220, 80, 100]), ('a tennis racket', [120, 340, 80, 150]), ('a bear', [220, 220, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a handbag above a hot dog. a hot dog to the left of a baseball glove. a baseball glove to the right of a toilet": [
+        "[('a handbag', [150, 20, 200, 150]), ('a hot dog', [150, 200, 200, 100]), ('a baseball glove', [370, 200, 120, 120]), ('a toilet', [370, 350, 120, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a keyboard above a kite. a kite above a chair": [
+        "[('a keyboard', [100, 100, 312, 100]), ('a kite', [100, 210, 312, 100]), ('a chair', [100, 320, 312, 192])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack above a bench. a bench to the left of a donut": [
+        "[('a backpack', [100, 50, 100, 100]), ('a bench', [200, 200, 200, 100]), ('a donut', [450, 250, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a pizza above a parking meter. a parking meter below a handbag": [
+        "[('a pizza', [100, 50, 150, 150]), ('a parking meter', [100, 200, 50, 150]), ('a handbag', [100, 350, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a broccoli above a refrigerator. a refrigerator to the right of a umbrella": [
+        "[('a broccoli', [200, 50, 100, 100]), ('a refrigerator', [200, 200, 150, 300]), ('an umbrella', [20, 200, 150, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tie above a teddy bear. a teddy bear below a cat. a cat below a tv. a tv to the right of a dog": [
+        "[('a tie', [150, 20, 50, 100]), ('a teddy bear', [150, 130, 100, 100]), ('a cat', [150, 240, 100, 100]), ('a tv', [270, 240, 100, 150]), ('a dog', [150, 350, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a truck above a donut. a donut above a tie. a tie below a teddy bear. a teddy bear below a snowboard": [
+        "[('a truck', [20, 20, 100, 50]), ('a donut', [20, 80, 100, 50]), ('a tie', [20, 140, 100, 50]), ('a teddy bear', [20, 200, 100, 50]), ('a snowboard', [20, 260, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tennis racket above a suitcase. a suitcase below a train": [
+        "[('a tennis racket', [150, 10, 200, 200]), ('a suitcase', [150, 230, 200, 200]), ('a train', [150, 450, 200, 62])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a refrigerator above a bowl. a bowl to the left of a zebra": [
+        "[('a refrigerator', [150, 10, 200, 400]), ('a bowl', [50, 410, 100, 100]), ('a zebra', [200, 410, 300, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cake above a backpack. a backpack above a banana": [
+        "[('a cake', [200, 100, 112, 112]), ('a backpack', [200, 212, 112, 112]), ('a banana', [200, 324, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a carrot above a bowl. a bowl to the left of a surfboard. a surfboard below a apple": [
+        "[('a carrot', [200, 10, 100, 200]), ('a bowl', [200, 220, 100, 100]), ('a surfboard', [320, 220, 100, 300]), ('an apple', [320, 10, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skateboard above a skis. a skis below a baseball glove. a baseball glove to the right of a remote. a remote above a book": [
+        "[('a skateboard', [100, 100, 150, 50]), ('a skis', [100, 200, 150, 50]), ('a baseball glove', [300, 200, 100, 100]), ('a remote', [300, 100, 50, 50]), ('a book', [300, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep above a umbrella. a umbrella above a bottle": [
+        "[('a sheep', [100, 50, 150, 100]), ('an umbrella', [100, 200, 150, 150]), ('a bottle', [100, 400, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball bat above a suitcase. a suitcase to the right of a zebra": [
+        "[('a baseball bat', [20, 30, 472, 50]), ('a suitcase', [20, 100, 472, 200]), ('a zebra', [20, 320, 472, 192])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bench above a toothbrush. a toothbrush to the right of a wine glass. a wine glass below a couch": [
+        "[('a bench', [20, 20, 200, 100]), ('a toothbrush', [20, 140, 200, 100]), ('a toothbrush', [240, 140, 200, 100]), ('a wine glass', [240, 260, 200, 100]), ('a couch', [240, 380, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a snowboard above a sandwich. a sandwich to the right of a surfboard": [
+        "[('a snowboard', [30, 200, 452, 112]), ('a sandwich', [200, 314, 112, 198]), ('a surfboard', [314, 314, 198, 198])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a donut above a keyboard. a keyboard to the right of a toilet. a toilet above a sheep. a sheep to the left of a chair": [
+        "[('a donut', [200, 50, 100, 100]), ('a keyboard', [200, 200, 100, 100]), ('a toilet', [350, 200, 100, 100]), ('a sheep', [350, 350, 100, 100]), ('a chair', [200, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a umbrella above a fork. a fork above a cup. a cup to the right of a bicycle": [
+        "[('a umbrella', [20, 20, 100, 100]), ('a fork', [20, 140, 100, 100]), ('a cup', [20, 260, 100, 100]), ('a bicycle', [140, 260, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a book above a tennis racket. a tennis racket below a skateboard. a skateboard above a car": [
+        "[('a book', [80, 20, 352, 92]), ('a tennis racket', [80, 132, 352, 92]), ('a skateboard', [80, 244, 352, 92]), ('a car', [80, 356, 352, 92])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tv above a fire hydrant. a fire hydrant to the right of a traffic light. a traffic light below a bus": [
+        "[('a tv', [30, 20, 200, 120]), ('a fire hydrant', [250, 150, 60, 100]), ('a traffic light', [320, 260, 60, 100]), ('a bus', [400, 370, 100, 130])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack above a carrot. a carrot above a motorcycle": [
+        "[('a backpack', [150, 50, 200, 150]), ('a carrot', [150, 220, 200, 100]), ('a motorcycle', [150, 340, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sink above a knife. a knife above a cow": [
+        "[('a sink', [150, 50, 212, 100]), ('a knife', [150, 200, 212, 50]), ('a cow', [150, 300, 212, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cow above a cell phone. a cell phone to the left of a baseball glove": [
+        "[('a cow', [50, 20, 200, 150]), ('a cell phone', [50, 200, 100, 200]), ('a baseball glove', [200, 200, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a handbag above a banana. a banana above a pizza. a pizza to the right of a teddy bear": [
+        "[('a handbag', [100, 50, 100, 100]), ('a banana', [100, 200, 100, 100]), ('a pizza', [100, 350, 100, 100]), ('a teddy bear', [250, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a dog above a baseball glove. a baseball glove above a parking meter. a parking meter to the left of a horse": [
+        "[('a dog', [100, 20, 150, 150]), ('a baseball glove', [100, 200, 150, 150]), ('a parking meter', [100, 380, 50, 130]), ('a horse', [200, 380, 300, 130])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toilet above a umbrella. a umbrella to the left of a chair. a chair above a bicycle. a bicycle below a laptop": [
+        "[('a toilet', [100, 50, 80, 80]), ('an umbrella', [100, 150, 80, 80]), ('a chair', [200, 250, 80, 80]), ('a bicycle', [200, 350, 80, 80]), ('a laptop', [300, 450, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bicycle above a hot dog. a hot dog above a bus. a bus to the left of a pizza": [
+        "[('a bicycle', [20, 20, 100, 50]), ('a hot dog', [20, 80, 100, 50]), ('a bus', [20, 140, 100, 70]), ('a pizza', [130, 140, 100, 70])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wine glass above a chair. a chair below a dining table": [
+        "[('a wine glass', [200, 50, 112, 200]), ('a chair', [100, 250, 312, 262]), ('a dining table', [0, 350, 512, 162])]\nBackground prompt: A realistic indoor scene\nNegative prompt: "
+    ],
+    "a dining table above a baseball bat. a baseball bat to the left of a donut": [
+        "[('a dining table', [60, 90, 392, 200]), ('a baseball bat', [10, 300, 492, 50]), ('a donut', [300, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a apple above a frisbee. a frisbee above a fork. a fork to the right of a bicycle": [
+        "[('an apple', [200, 100, 50, 50]), ('a frisbee', [200, 200, 100, 20]), ('a fork', [350, 300, 20, 100]), ('a bicycle', [200, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a snowboard above a laptop. a laptop below a person. a person below a toaster. a toaster to the right of a bench": [
+        "[('a snowboard', [20, 20, 472, 70]), ('a laptop', [20, 110, 472, 70]), ('a person', [20, 200, 472, 150]), ('a toaster', [20, 370, 150, 142]), ('a bench', [200, 370, 292, 142])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stop sign above a toilet. a toilet to the right of a apple. a apple above a hot dog": [
+        "[('a stop sign', [200, 0, 112, 112]), ('a toilet', [200, 112, 112, 200]), ('an apple', [312, 112, 100, 100]), ('a hot dog', [312, 212, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bus above a remote. a remote to the left of a keyboard. a keyboard to the right of a wine glass": [
+        "[('a bus', [20, 20, 100, 50]), ('a remote', [140, 70, 80, 40]), ('a keyboard', [240, 120, 150, 50]), ('a wine glass', [410, 170, 60, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a elephant above a sandwich. a sandwich below a book. a book above a traffic light": [
+        "[('a elephant', [100, 50, 312, 150]), ('a sandwich', [100, 200, 312, 50]), ('a book', [100, 250, 312, 50]), ('a traffic light', [100, 300, 312, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a parking meter above a potted plant. a potted plant to the right of a snowboard": [
+        "[('a parking meter', [120, 20, 80, 200]), ('a potted plant', [120, 240, 80, 200]), ('a snowboard', [240, 240, 80, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a knife above a car. a car to the left of a carrot": [
+        "[('a knife', [150, 10, 212, 50]), ('a car', [20, 100, 472, 216]), ('a carrot', [300, 100, 212, 216])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear above a broccoli. a broccoli to the left of a toilet": [
+        "[('a teddy bear', [200, 50, 112, 112]), ('a broccoli', [200, 200, 112, 112]), ('a toilet', [350, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sandwich above a baseball bat. a baseball bat below a scissors. a scissors above a couch": [
+        "[('a sandwich', [150, 50, 200, 100]), ('a baseball bat', [150, 200, 200, 50]), ('a scissors', [150, 300, 200, 50]), ('a couch', [50, 400, 400, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tv above a suitcase. a suitcase to the left of a sink. a sink below a cake. a cake above a snowboard": [
+        "[('a tv', [100, 20, 150, 100]), ('a suitcase', [100, 140, 150, 100]), ('a sink', [270, 140, 150, 100]), ('a cake', [270, 20, 150, 100]), ('a snowboard', [270, 260, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tv above a sheep. a sheep below a broccoli. a broccoli to the left of a teddy bear": [
+        "[('a tv', [200, 50, 112, 80]), ('a sheep', [200, 150, 112, 80]), ('a broccoli', [50, 250, 80, 80]), ('a teddy bear', [150, 250, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack above a dining table. a dining table below a donut. a donut to the left of a sink": [
+        "[('a backpack', [100, 50, 150, 150]), ('a dining table', [100, 250, 300, 200]), ('a donut', [200, 150, 100, 100]), ('a sink', [350, 150, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a potted plant above a donut. a donut above a skis": [
+        "[('a potted plant', [150, 50, 200, 150]), ('a donut', [150, 200, 200, 100]), ('a donut', [150, 300, 200, 100]), ('skis', [150, 400, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skis above a keyboard. a keyboard below a sports ball": [
+        "[('a pair of skis', [20, 100, 472, 50]), ('a keyboard', [20, 200, 472, 50]), ('a sports ball', [220, 300, 72, 72])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball glove above a fire hydrant. a fire hydrant below a backpack. a backpack to the left of a tv": [
+        "[('a baseball glove', [50, 10, 150, 150]), ('a fire hydrant', [50, 200, 150, 150]), ('a backpack', [50, 390, 150, 122]), ('a tv', [250, 390, 262, 122])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave above a sheep. a sheep to the right of a person. a person below a knife. a knife to the right of a dining table": [
+        "[('a microwave', [380, 20, 120, 90]), ('a sheep', [380, 130, 120, 90]), ('a person', [260, 130, 100, 180]), ('a knife', [260, 330, 100, 50]), ('a dining table', [140, 330, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fire hydrant above a elephant. a elephant to the left of a toilet": [
+        "[('a fire hydrant', [200, 0, 112, 256]), ('an elephant', [0, 256, 512, 256]), ('a toilet', [300, 256, 212, 256])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a donut above a bowl. a bowl below a handbag. a handbag to the left of a cake. a cake to the right of a clock": [
+        "[('a donut', [100, 50, 80, 80]), ('a bowl', [100, 160, 80, 80]), ('a handbag', [100, 270, 80, 80]), ('a cake', [210, 270, 80, 80]), ('a clock', [320, 270, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tennis racket above a spoon. a spoon above a toaster. a toaster above a baseball bat. a baseball bat below a hair drier": [
+        "[('a tennis racket', [100, 20, 312, 80]), ('a spoon', [100, 120, 312, 80]), ('a toaster', [100, 220, 312, 80]), ('a baseball bat', [100, 320, 312, 80]), ('a hair drier', [100, 420, 312, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a remote above a handbag. a handbag to the left of a surfboard. a surfboard below a potted plant": [
+        "[('a remote', [150, 100, 80, 40]), ('a handbag', [100, 200, 180, 120]), ('a surfboard', [300, 350, 150, 100]), ('a potted plant', [350, 250, 100, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cat above a sink. a sink to the left of a carrot. a carrot to the right of a handbag": [
+        "[('a cat', [30, 30, 150, 150]), ('a sink', [200, 200, 100, 100]), ('a carrot', [320, 320, 50, 50]), ('a handbag', [400, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a frisbee above a car. a car below a elephant. a elephant to the right of a teddy bear": [
+        "[('a frisbee', [70, 20, 100, 100]), ('a car', [70, 150, 200, 100]), ('an elephant', [300, 150, 200, 200]), ('a teddy bear', [150, 300, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cow above a fork. a fork above a car. a car below a couch. a couch to the left of a bird": [
+        "[('a cow', [10, 10, 100, 100]), ('a fork', [10, 120, 100, 100]), ('a car', [10, 230, 100, 100]), ('a couch', [10, 340, 100, 100]), ('a bird', [120, 340, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a train above a backpack. a backpack to the right of a clock": [
+        "[('a train', [20, 50, 200, 100]), ('a backpack', [250, 200, 150, 200]), ('a clock', [420, 250, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a train above a microwave. a microwave above a toothbrush": [
+        "[('a train', [50, 100, 412, 100]), ('a microwave', [50, 250, 412, 100]), ('a toothbrush', [50, 400, 412, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cell phone above a suitcase. a suitcase above a teddy bear. a teddy bear above a motorcycle": [
+        "[('a cell phone', [200, 50, 112, 200]), ('a suitcase', [200, 250, 112, 200]), ('a teddy bear', [200, 450, 112, 50]), ('a motorcycle', [0, 500, 512, 12])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a laptop to the left of a chair. a chair above a bench": [
+        "[('a laptop', [20, 200, 200, 150]), ('a chair', [250, 200, 150, 200]), ('a chair', [250, 20, 150, 150]), ('a bench', [250, 400, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cell phone to the left of a car. a car to the right of a baseball bat. a baseball bat to the right of a potted plant. a potted plant below a tennis racket": [
+        "[('a cell phone', [20, 200, 80, 150]), ('a car', [120, 200, 150, 150]), ('a baseball bat', [290, 200, 20, 150]), ('a potted plant', [340, 200, 80, 150]), ('a tennis racket', [340, 50, 80, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the left of a umbrella. a umbrella to the left of a traffic light. a traffic light to the right of a donut. a donut to the left of a cup": [
+        "[('a microwave', [10, 150, 100, 100]), ('an umbrella', [130, 150, 100, 100]), ('a traffic light', [250, 150, 100, 100]), ('a donut', [370, 150, 100, 100]), ('a cup', [490, 150, 22, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep to the left of a tennis racket. a tennis racket above a traffic light": [
+        "[('a sheep', [20, 200, 150, 150]), ('a tennis racket', [200, 200, 100, 300]), ('a traffic light', [200, 350, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fork to the left of a umbrella. a umbrella to the left of a keyboard. a keyboard above a suitcase. a suitcase below a sports ball": [
+        "[('a fork', [10, 200, 100, 100]), ('an umbrella', [120, 200, 100, 100]), ('a keyboard', [230, 100, 150, 50]), ('a suitcase', [230, 300, 150, 100]), ('a sports ball', [230, 410, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the left of a boat. a boat to the left of a kite. a kite to the left of a sheep. a sheep to the right of a skis": [
+        "[('a microwave', [20, 200, 100, 100]), ('a boat', [140, 200, 100, 100]), ('a kite', [260, 200, 100, 100]), ('a sheep', [380, 200, 100, 100]), ('a skis', [500, 200, 12, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bowl to the left of a cat. a cat above a horse. a horse to the right of a parking meter. a parking meter to the right of a stop sign": [
+        "[('a bowl', [20, 250, 100, 100]), ('a cat', [150, 250, 100, 100]), ('a horse', [280, 350, 100, 100]), ('a parking meter', [410, 350, 80, 100]), ('a stop sign', [500, 350, 12, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a keyboard to the left of a chair. a chair above a potted plant. a potted plant to the right of a stop sign": [
+        "[('a keyboard', [20, 180, 150, 70]), ('a chair', [200, 120, 100, 150]), ('a potted plant', [350, 250, 100, 150]), ('a stop sign', [470, 350, 42, 162])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear to the left of a spoon. a spoon above a bench. a bench above a cat": [
+        "[('a teddy bear', [20, 200, 100, 150]), ('a spoon', [150, 200, 50, 150]), ('a bench', [150, 350, 200, 100]), ('a cat', [350, 350, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a potted plant to the left of a wine glass. a wine glass to the left of a microwave": [
+        "[('a potted plant', [20, 200, 150, 300]), ('a wine glass', [200, 250, 100, 250]), ('a microwave', [330, 150, 180, 350])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toaster to the left of a bed. a bed to the left of a cake": [
+        "[('a toaster', [10, 200, 150, 150]), ('a bed', [180, 150, 200, 200]), ('a cake', [400, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep to the left of a vase. a vase above a fork": [
+        "[('a sheep', [20, 200, 200, 200]), ('a vase', [250, 100, 100, 200]), ('a fork', [250, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a laptop to the left of a sink. a sink above a tv. a tv to the left of a mouse. a mouse to the left of a refrigerator": [
+        "[('a laptop', [10, 150, 120, 80]), ('a sink', [150, 50, 120, 80]), ('a tv', [150, 200, 120, 80]), ('a mouse', [300, 150, 80, 50]), ('a refrigerator', [400, 150, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a truck to the left of a suitcase. a suitcase to the right of a cake. a cake to the right of a cat. a cat above a sheep": [
+        "[('a truck', [10, 250, 120, 200]), ('a suitcase', [150, 250, 100, 200]), ('a cake', [270, 250, 100, 200]), ('a cat', [390, 250, 100, 200]), ('a sheep', [390, 370, 100, 130])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a clock to the left of a cake. a cake to the left of a person. a person to the left of a parking meter": [
+        "[('a clock', [20, 200, 100, 100]), ('a cake', [140, 200, 100, 100]), ('a person', [260, 150, 100, 200]), ('a parking meter', [380, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a kite to the left of a bicycle. a bicycle to the right of a vase. a vase to the left of a hair drier": [
+        "[('a kite', [10, 50, 100, 100]), ('a bicycle', [130, 200, 100, 100]), ('a vase', [250, 350, 100, 100]), ('a hair drier', [370, 450, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a surfboard to the left of a handbag. a handbag below a hot dog": [
+        "[('a surfboard', [20, 200, 100, 300]), ('a handbag', [150, 200, 100, 100]), ('a hot dog', [150, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bus to the left of a boat. a boat above a potted plant": [
+        "[('a bus', [20, 200, 200, 200]), ('a boat', [250, 150, 200, 200]), ('a potted plant', [250, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cake to the left of a banana. a banana to the left of a baseball bat. a baseball bat to the left of a dining table. a dining table below a bowl": [
+        "[('a cake', [20, 200, 80, 80]), ('a banana', [120, 200, 80, 80]), ('a baseball bat', [220, 200, 80, 80]), ('a dining table', [320, 200, 180, 180]), ('a bowl', [370, 50, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bird to the left of a elephant. a elephant to the left of a skateboard. a skateboard above a kite": [
+        "[('a bird', [10, 200, 100, 100]), ('an elephant', [150, 200, 200, 200]), ('a skateboard', [400, 200, 100, 50]), ('a kite', [400, 300, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bus to the left of a toothbrush. a toothbrush to the left of a sandwich. a sandwich to the left of a bottle": [
+        "[('a bus', [10, 200, 100, 150]), ('a toothbrush', [130, 200, 100, 150]), ('a sandwich', [250, 200, 100, 150]), ('a bottle', [370, 200, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a clock to the left of a bus. a bus below a apple. a apple below a toilet. a toilet above a microwave": [
+        "[('a clock', [20, 50, 100, 100]), ('a bus', [150, 50, 100, 100]), ('a bus', [150, 200, 100, 100]), ('an apple', [150, 350, 100, 100]), ('a toilet', [300, 350, 100, 100]), ('a microwave', [300, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hot dog to the left of a tennis racket. a tennis racket below a knife": [
+        "[('a hot dog', [30, 226, 150, 60]), ('a tennis racket', [200, 226, 100, 286]), ('a knife', [200, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skateboard to the left of a toothbrush. a toothbrush below a truck. a truck to the right of a stop sign": [
+        "[('a skateboard', [20, 200, 150, 50]), ('a toothbrush', [200, 300, 50, 150]), ('a truck', [300, 100, 150, 200]), ('a stop sign', [500, 50, 50, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bear to the left of a tennis racket. a tennis racket below a skateboard. a skateboard above a boat": [
+        "[('a bear', [20, 200, 150, 200]), ('a tennis racket', [200, 200, 100, 300]), ('a skateboard', [200, 50, 100, 100]), ('a boat', [200, 400, 300, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a oven to the left of a bear. a bear to the left of a tennis racket. a tennis racket to the left of a cow": [
+        "[('a oven', [20, 200, 100, 200]), ('a bear', [140, 200, 100, 200]), ('a tennis racket', [260, 200, 100, 200]), ('a cow', [380, 200, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a person to the left of a toilet. a toilet above a truck. a truck to the left of a bus": [
+        "[('a person', [10, 200, 100, 300]), ('a toilet', [150, 100, 100, 200]), ('a truck', [150, 350, 150, 150]), ('a bus', [350, 350, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spoon to the left of a vase. a vase above a truck. a truck to the right of a tv": [
+        "[('a spoon', [50, 200, 50, 100]), ('a vase', [150, 150, 100, 150]), ('a truck', [300, 300, 150, 150]), ('a tv', [450, 350, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a carrot to the left of a fork. a fork below a microwave. a microwave above a clock. a clock above a tennis racket": [
+        "[('a carrot', [20, 200, 50, 100]), ('a fork', [100, 200, 50, 100]), ('a microwave', [100, 100, 200, 100]), ('a clock', [100, 300, 100, 100]), ('a tennis racket', [100, 400, 100, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sandwich to the left of a broccoli. a broccoli to the left of a refrigerator. a refrigerator below a train. a train above a carrot": [
+        "[('a sandwich', [20, 200, 100, 100]), ('a broccoli', [150, 200, 100, 100]), ('a refrigerator', [280, 200, 100, 200]), ('a train', [280, 50, 100, 100]), ('a carrot', [280, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a clock to the left of a frisbee. a frisbee below a tie. a tie to the right of a bottle. a bottle above a bus": [
+        "[('a clock', [20, 200, 100, 100]), ('a frisbee', [150, 200, 100, 100]), ('a tie', [280, 100, 100, 100]), ('a bottle', [410, 100, 100, 100]), ('a bus', [410, 250, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toothbrush to the left of a chair. a chair to the left of a spoon": [
+        "[('a toothbrush', [30, 226, 100, 100]), ('a chair', [160, 226, 100, 100]), ('a spoon', [290, 226, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tv to the left of a couch. a couch above a bear. a bear to the left of a suitcase": [
+        "[('a tv', [20, 150, 150, 200]), ('a couch', [200, 100, 300, 150]), ('a bear', [200, 250, 150, 200]), ('a suitcase', [370, 250, 120, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tv to the left of a hair drier. a hair drier to the left of a cake. a cake to the right of a motorcycle. a motorcycle below a baseball bat": [
+        "[('a tv', [10, 200, 100, 100]), ('a hair drier', [130, 200, 100, 100]), ('a cake', [250, 200, 100, 100]), ('a motorcycle', [370, 200, 100, 100]), ('a baseball bat', [370, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stop sign to the left of a giraffe. a giraffe above a scissors. a scissors to the left of a chair": [
+        "[('a stop sign', [20, 200, 100, 100]), ('a giraffe', [150, 50, 100, 300]), ('a scissors', [150, 400, 100, 100]), ('a chair', [300, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a keyboard to the left of a bear. a bear above a scissors. a scissors to the left of a clock": [
+        "[('a keyboard', [10, 200, 200, 100]), ('a bear', [220, 100, 150, 150]), ('a scissors', [220, 260, 150, 100]), ('a clock', [380, 260, 120, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a couch to the left of a book. a book below a person. a person to the right of a snowboard": [
+        "[('a couch', [20, 200, 200, 150]), ('a book', [250, 300, 50, 50]), ('a person', [350, 150, 100, 200]), ('a snowboard', [470, 250, 30, 200])]\nBackground prompt: A realistic indoor scene\nNegative prompt: "
+    ],
+    "a orange to the left of a backpack. a backpack below a surfboard. a surfboard to the left of a book": [
+        "[('an orange', [50, 200, 100, 100]), ('a backpack', [200, 200, 100, 100]), ('a surfboard', [200, 50, 100, 300]), ('a book', [350, 50, 100, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a clock to the left of a donut. a donut above a toaster": [
+        "[('a clock', [30, 150, 150, 150]), ('a donut', [200, 150, 150, 150]), ('a donut', [200, 320, 150, 150]), ('a toaster', [200, 480, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a frisbee to the left of a dining table. a dining table below a refrigerator. a refrigerator above a bear. a bear above a orange": [
+        "[('a frisbee', [20, 200, 100, 100]), ('a dining table', [150, 200, 200, 200]), ('a refrigerator', [150, 50, 200, 150]), ('a bear', [150, 400, 200, 100]), ('an orange', [150, 500, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a couch to the left of a mouse. a mouse to the right of a bear. a bear below a teddy bear. a teddy bear above a scissors": [
+        "[('a couch', [20, 200, 200, 150]), ('a mouse', [240, 200, 50, 50]), ('a bear', [300, 300, 200, 200]), ('a teddy bear', [300, 50, 200, 200]), ('a scissors', [300, 150, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat to the left of a tv. a tv above a chair": [
+        "[('a boat', [20, 200, 200, 150]), ('a tv', [250, 150, 200, 200]), ('a chair', [250, 370, 200, 142])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a refrigerator to the left of a baseball glove. a baseball glove below a laptop. a laptop to the right of a dining table": [
+        "[('a refrigerator', [20, 100, 120, 400]), ('a baseball glove', [160, 200, 100, 100]), ('a laptop', [280, 100, 200, 150]), ('a dining table', [500, 300, 200, 200])]\nBackground prompt: A realistic indoor scene\nNegative prompt: "
+    ],
+    "a couch to the left of a traffic light. a traffic light above a sink. a sink to the left of a motorcycle": [
+        "[('a couch', [10, 200, 200, 200]), ('a traffic light', [220, 100, 50, 400]), ('a sink', [280, 300, 100, 200]), ('a motorcycle', [390, 300, 122, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat to the left of a vase. a vase to the left of a handbag": [
+        "[('a boat', [30, 200, 150, 150]), ('a vase', [200, 200, 150, 150]), ('a handbag', [370, 200, 142, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat to the left of a stop sign. a stop sign above a giraffe": [
+        "[('a boat', [10, 200, 200, 300]), ('a stop sign', [250, 100, 100, 100]), ('a stop sign', [250, 300, 100, 100]), ('a giraffe', [350, 200, 150, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hot dog to the left of a sheep. a sheep to the left of a cake": [
+        "[('a hot dog', [50, 200, 100, 50]), ('a sheep', [200, 180, 100, 70]), ('a cake', [350, 210, 100, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a mouse to the left of a donut. a donut to the right of a pizza. a pizza below a backpack. a backpack below a sheep": [
+        "[('a mouse', [20, 200, 80, 80]), ('a donut', [120, 200, 80, 80]), ('a pizza', [220, 300, 80, 80]), ('a backpack', [220, 400, 80, 80]), ('a sheep', [220, 100, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stop sign to the left of a bicycle. a bicycle to the right of a bottle. a bottle to the right of a bench": [
+        "[('a stop sign', [20, 200, 100, 200]), ('a bicycle', [150, 200, 100, 200]), ('a bottle', [280, 200, 100, 200]), ('a bench', [410, 200, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a surfboard to the left of a toothbrush. a toothbrush above a horse. a horse to the left of a bottle. a bottle to the right of a sports ball": [
+        "[('a surfboard', [10, 200, 100, 300]), ('a toothbrush', [120, 200, 50, 300]), ('a horse', [120, 10, 200, 180]), ('a bottle', [330, 10, 50, 180]), ('a sports ball', [390, 10, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a elephant to the left of a carrot. a carrot above a hair drier. a hair drier above a laptop": [
+        "[('an elephant', [20, 200, 200, 200]), ('a carrot', [250, 200, 50, 100]), ('a carrot', [250, 350, 50, 100]), ('a hair drier', [250, 450, 100, 50]), ('a laptop', [250, 500, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a mouse to the left of a parking meter. a parking meter above a apple. a apple below a knife. a knife above a dining table": [
+        "[('a mouse', [20, 200, 100, 100]), ('a parking meter', [150, 150, 100, 100]), ('an apple', [150, 300, 100, 100]), ('a knife', [150, 450, 100, 100]), ('a dining table', [150, 500, 300, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a apple to the left of a sports ball. a sports ball to the right of a pizza": [
+        "[('an apple', [50, 226, 100, 100]), ('a sports ball', [200, 226, 100, 100]), ('a pizza', [350, 226, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a keyboard to the left of a giraffe. a giraffe above a umbrella. a umbrella below a potted plant. a potted plant below a parking meter": [
+        "[('a keyboard', [10, 400, 200, 100]), ('a giraffe', [220, 300, 100, 200]), ('an umbrella', [220, 200, 100, 100]), ('a potted plant', [220, 100, 100, 100]), ('a parking meter', [220, 0, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skis to the left of a baseball bat. a baseball bat to the left of a tv": [
+        "[('skis', [20, 150, 100, 350]), ('a baseball bat', [150, 200, 50, 300]), ('a tv', [250, 100, 250, 350])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fork to the left of a cell phone. a cell phone below a train. a train below a refrigerator": [
+        "[('a fork', [30, 250, 50, 150]), ('a cell phone', [120, 250, 80, 150]), ('a cell phone', [120, 50, 80, 150]), ('a train', [250, 50, 150, 80]), ('a refrigerator', [250, 150, 150, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the left of a kite. a kite to the right of a baseball bat. a baseball bat to the left of a toilet": [
+        "[('a microwave', [20, 200, 120, 120]), ('a kite', [160, 200, 120, 120]), ('a baseball bat', [300, 200, 120, 120]), ('a toilet', [440, 200, 72, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a scissors to the left of a clock. a clock to the right of a frisbee. a frisbee above a oven": [
+        "[('a scissors', [20, 200, 100, 100]), ('a clock', [150, 200, 100, 100]), ('a frisbee', [280, 100, 100, 100]), ('an oven', [280, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spoon to the left of a knife. a knife below a hot dog": [
+        "[('a spoon', [50, 200, 50, 150]), ('a knife', [150, 200, 50, 150]), ('a hot dog', [150, 50, 100, 100]), ('a knife', [150, 300, 50, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tennis racket to the left of a zebra. a zebra to the right of a toaster": [
+        "[('a tennis racket', [20, 100, 120, 300]), ('a zebra', [160, 50, 180, 400]), ('a toaster', [360, 150, 140, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a keyboard to the left of a scissors. a scissors above a hot dog": [
+        "[('a keyboard', [20, 200, 472, 100]), ('a scissors', [20, 100, 472, 100]), ('a hot dog', [20, 0, 472, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep to the left of a potted plant. a potted plant to the left of a motorcycle": [
+        "[('a sheep', [30, 200, 150, 200]), ('a potted plant', [200, 200, 150, 200]), ('a motorcycle', [370, 200, 142, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a carrot to the left of a stop sign. a stop sign to the right of a bird": [
+        "[('a carrot', [50, 200, 50, 150]), ('a stop sign', [200, 200, 100, 150]), ('a bird', [350, 200, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bottle to the left of a broccoli. a broccoli above a remote": [
+        "[('a bottle', [50, 200, 100, 200]), ('a broccoli', [200, 200, 150, 150]), ('a remote', [200, 400, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a couch to the left of a pizza. a pizza below a carrot. a carrot below a oven": [
+        "[('a couch', [20, 200, 200, 150]), ('a pizza', [250, 200, 150, 150]), ('a carrot', [250, 370, 80, 80]), ('an oven', [250, 460, 150, 52])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bicycle to the left of a skateboard. a skateboard to the right of a refrigerator": [
+        "[('a bicycle', [20, 206, 157, 306]), ('a skateboard', [207, 206, 157, 306]), ('a refrigerator', [394, 50, 118, 462])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a keyboard to the left of a toilet. a toilet to the left of a backpack. a backpack above a carrot. a carrot above a oven": [
+        "[('a keyboard', [20, 200, 120, 60]), ('a toilet', [160, 200, 120, 60]), ('a backpack', [300, 200, 120, 60]), ('a carrot', [300, 280, 60, 30]), ('an oven', [300, 320, 60, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a book to the left of a snowboard. a snowboard below a skateboard. a skateboard above a mouse. a mouse above a baseball bat": [
+        "[('a book', [20, 220, 100, 150]), ('a snowboard', [150, 220, 100, 150]), ('a skateboard', [150, 100, 100, 100]), ('a mouse', [150, 380, 100, 100]), ('a baseball bat', [150, 490, 100, 22])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a giraffe to the left of a sheep. a sheep to the left of a fork. a fork to the left of a suitcase": [
+        "[('a giraffe', [20, 100, 100, 400]), ('a sheep', [150, 200, 100, 200]), ('a fork', [280, 250, 50, 100]), ('a suitcase', [360, 200, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the left of a scissors. a scissors to the left of a dog. a dog below a cat": [
+        "[('a microwave', [10, 100, 150, 150]), ('a scissors', [200, 100, 150, 150]), ('a dog', [390, 200, 120, 200]), ('a cat', [390, 10, 120, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bus to the left of a remote. a remote to the right of a frisbee. a frisbee to the right of a wine glass": [
+        "[('a bus', [20, 200, 120, 200]), ('a remote', [160, 200, 80, 80]), ('a frisbee', [260, 200, 80, 80]), ('a wine glass', [360, 200, 80, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skis to the left of a carrot. a carrot to the right of a refrigerator. a refrigerator to the right of a cake. a cake to the right of a bench": [
+        "[('skis', [20, 200, 50, 300]), ('a carrot', [100, 250, 50, 50]), ('a refrigerator', [200, 100, 100, 400]), ('a cake', [350, 250, 100, 100]), ('a bench', [480, 200, 30, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fork to the left of a oven. a oven above a carrot. a carrot to the right of a stop sign": [
+        "[('a fork', [20, 200, 80, 150]), ('an oven', [150, 100, 200, 300]), ('a carrot', [400, 250, 80, 150]), ('a stop sign', [300, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a banana to the left of a zebra. a zebra to the left of a vase. a vase below a baseball bat": [
+        "[('a banana', [20, 200, 50, 100]), ('a zebra', [100, 200, 150, 200]), ('a zebra', [280, 200, 150, 200]), ('a vase', [460, 200, 50, 200]), ('a baseball bat', [460, 20, 30, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a umbrella to the left of a broccoli. a broccoli to the left of a carrot": [
+        "[('a umbrella', [50, 200, 100, 200]), ('a broccoli', [200, 200, 100, 200]), ('a carrot', [350, 200, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hot dog to the left of a zebra. a zebra above a stop sign. a stop sign below a snowboard": [
+        "[('a hot dog', [20, 250, 150, 100]), ('a zebra', [200, 200, 150, 200]), ('a stop sign', [200, 400, 100, 100]), ('a snowboard', [200, 500, 100, 12])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tennis racket to the left of a skis. a skis to the left of a bowl. a bowl to the left of a apple. a apple above a parking meter": [
+        "[('a tennis racket', [20, 200, 80, 200]), ('skis', [120, 200, 80, 200]), ('a bowl', [220, 200, 80, 80]), ('an apple', [320, 200, 80, 80]), ('a parking meter', [320, 300, 80, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spoon to the left of a kite. a kite above a banana. a banana below a bowl": [
+        "[('a spoon', [20, 250, 80, 150]), ('a kite', [150, 50, 200, 200]), ('a banana', [150, 300, 200, 100]), ('a bowl', [150, 450, 200, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a apple to the left of a chair. a chair to the left of a tv. a tv above a orange": [
+        "[('an apple', [20, 226, 100, 100]), ('a chair', [150, 226, 100, 100]), ('a tv', [280, 226, 100, 100]), ('an orange', [280, 356, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a airplane to the left of a couch. a couch above a scissors": [
+        "[('a airplane', [10, 50, 200, 100]), ('a couch', [250, 200, 250, 150]), ('a scissors', [300, 400, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tennis racket to the left of a tv. a tv above a donut": [
+        "[('a tennis racket', [20, 150, 150, 300]), ('a tv', [200, 100, 300, 200]), ('a donut', [200, 350, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a keyboard to the left of a skateboard. a skateboard to the right of a toaster. a toaster to the right of a dining table": [
+        "[('a keyboard', [20, 200, 100, 50]), ('a skateboard', [150, 200, 100, 50]), ('a toaster', [280, 200, 100, 50]), ('a dining table', [410, 200, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sandwich to the left of a oven. a oven above a motorcycle. a motorcycle to the right of a boat": [
+        "[('a sandwich', [20, 200, 100, 100]), ('an oven', [150, 150, 100, 100]), ('a motorcycle', [150, 300, 100, 100]), ('a boat', [300, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toaster to the left of a giraffe. a giraffe to the left of a baseball bat. a baseball bat above a fire hydrant. a fire hydrant to the right of a bench": [
+        "[('a toaster', [10, 200, 100, 100]), ('a giraffe', [120, 50, 100, 400]), ('a baseball bat', [230, 10, 50, 200]), ('a fire hydrant', [290, 220, 100, 100]), ('a bench', [400, 220, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a handbag to the left of a train. a train below a boat. a boat below a laptop": [
+        "[('a handbag', [20, 256, 100, 100]), ('a train', [150, 256, 100, 100]), ('a boat', [150, 150, 100, 100]), ('a laptop', [150, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a knife to the left of a bus. a bus to the left of a parking meter. a parking meter below a stop sign. a stop sign above a hair drier": [
+        "[('a knife', [10, 200, 100, 50]), ('a bus', [130, 200, 150, 100]), ('a parking meter', [300, 200, 50, 150]), ('a stop sign', [300, 50, 50, 100]), ('a hair drier', [300, 370, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sandwich to the left of a bottle. a bottle below a bus. a bus above a banana. a banana above a oven": [
+        "[('a sandwich', [10, 200, 100, 100]), ('a bottle', [150, 200, 100, 100]), ('a bus', [150, 50, 100, 100]), ('a banana', [150, 350, 100, 100]), ('an oven', [150, 450, 100, 62])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a truck to the left of a carrot. a carrot above a boat. a boat above a baseball glove": [
+        "[('a truck', [20, 200, 200, 150]), ('a carrot', [250, 200, 50, 100]), ('a carrot', [250, 350, 50, 100]), ('a boat', [320, 350, 150, 100]), ('a baseball glove', [320, 470, 100, 42])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the left of a toaster. a toaster to the left of a oven. a oven below a person. a person above a giraffe": [
+        "[('a microwave', [20, 200, 150, 150]), ('a toaster', [200, 200, 150, 150]), ('an oven', [380, 200, 130, 200]), ('a person', [380, 20, 130, 150]), ('a giraffe', [380, 420, 130, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep to the left of a surfboard. a surfboard to the left of a cake. a cake below a broccoli. a broccoli above a elephant": [
+        "[('a sheep', [20, 200, 100, 100]), ('a surfboard', [140, 200, 100, 100]), ('a cake', [260, 300, 100, 100]), ('a broccoli', [260, 200, 100, 100]), ('an elephant', [260, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skateboard to the left of a microwave. a microwave above a surfboard": [
+        "[('a skateboard', [20, 300, 180, 80]), ('a microwave', [250, 200, 150, 100]), ('a surfboard', [250, 350, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a chair to the left of a scissors. a scissors below a sandwich. a sandwich to the right of a microwave": [
+        "[('a chair', [20, 200, 100, 150]), ('a scissors', [150, 250, 50, 50]), ('a sandwich', [220, 200, 100, 50]), ('a microwave', [350, 150, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bear to the left of a remote. a remote below a motorcycle. a motorcycle above a sheep": [
+        "[('a bear', [20, 200, 150, 200]), ('a remote', [200, 250, 100, 50]), ('a motorcycle', [200, 100, 150, 100]), ('a sheep', [200, 350, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a kite to the left of a chair. a chair to the right of a skateboard. a skateboard above a cake": [
+        "[('a kite', [10, 50, 100, 100]), ('a chair', [150, 200, 100, 150]), ('a skateboard', [300, 250, 100, 50]), ('a cake', [300, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear to the left of a bus. a bus above a laptop. a laptop to the left of a umbrella. a umbrella to the right of a chair": [
+        "[('a teddy bear', [10, 200, 100, 100]), ('a bus', [120, 200, 100, 100]), ('a laptop', [120, 310, 100, 100]), ('an umbrella', [230, 310, 100, 100]), ('a chair', [340, 310, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear to the left of a scissors. a scissors below a cow. a cow to the right of a spoon": [
+        "[('a teddy bear', [20, 200, 100, 100]), ('a scissors', [140, 200, 100, 100]), ('a cow', [260, 100, 100, 100]), ('a spoon', [380, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the left of a sports ball. a sports ball to the right of a suitcase. a suitcase below a elephant": [
+        "[('a microwave', [20, 200, 157, 112]), ('a sports ball', [200, 200, 112, 112]), ('a suitcase', [320, 200, 172, 112]), ('an elephant', [320, 50, 172, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball glove to the left of a book. a book to the left of a tennis racket. a tennis racket to the right of a spoon": [
+        "[('a baseball glove', [20, 226, 120, 100]), ('a book', [160, 226, 120, 100]), ('a tennis racket', [300, 226, 120, 100]), ('a spoon', [440, 226, 72, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toilet to the left of a handbag. a handbag to the right of a elephant. a elephant below a potted plant. a potted plant to the left of a spoon": [
+        "[('a toilet', [20, 200, 100, 150]), ('a handbag', [150, 200, 100, 150]), ('an elephant', [150, 370, 100, 100]), ('a potted plant', [20, 370, 100, 100]), ('a spoon', [220, 370, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tie to the left of a bench. a bench below a apple": [
+        "[('a tie', [50, 200, 50, 150]), ('a bench', [200, 250, 250, 150]), ('an apple', [275, 50, 75, 75])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a broccoli to the right of a bowl. a bowl to the left of a skateboard. a skateboard above a bear": [
+        "[('a broccoli', [300, 200, 100, 100]), ('a bowl', [150, 200, 100, 100]), ('a skateboard', [150, 50, 100, 100]), ('a bear', [150, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear to the right of a microwave. a microwave below a spoon": [
+        "[('a teddy bear', [300, 200, 150, 200]), ('a microwave', [100, 200, 150, 200]), ('a spoon', [100, 50, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tennis racket to the right of a cake. a cake to the left of a carrot. a carrot below a laptop": [
+        "[('a tennis racket', [350, 200, 100, 300]), ('a cake', [200, 200, 100, 100]), ('a carrot', [200, 350, 50, 100]), ('a laptop', [150, 50, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a person to the right of a airplane. a airplane to the left of a pizza. a pizza above a skateboard": [
+        "[('a person', [340, 200, 150, 300]), ('an airplane', [180, 200, 150, 100]), ('a pizza', [20, 100, 150, 80]), ('a skateboard', [20, 200, 150, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat to the right of a carrot. a carrot below a bear. a bear above a bed. a bed below a bus": [
+        "[('a boat', [300, 200, 200, 100]), ('a carrot', [100, 200, 100, 100]), ('a bear', [100, 300, 100, 100]), ('a bed', [100, 400, 100, 100]), ('a bus', [300, 400, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a airplane to the right of a orange. a orange below a cell phone": [
+        "[('an airplane', [300, 100, 200, 100]), ('an orange', [100, 200, 100, 100]), ('a cell phone', [100, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a vase to the right of a wine glass. a wine glass to the right of a person. a person to the left of a potted plant. a potted plant below a sheep": [
+        "[('a vase', [350, 200, 80, 150]), ('a wine glass', [250, 200, 80, 150]), ('a person', [150, 200, 80, 150]), ('a potted plant', [150, 350, 80, 150]), ('a sheep', [150, 50, 80, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cake to the right of a motorcycle. a motorcycle above a dining table": [
+        "[('a cake', [300, 200, 150, 150]), ('a motorcycle', [50, 200, 200, 150]), ('a dining table', [50, 350, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball glove to the right of a suitcase. a suitcase to the left of a fire hydrant. a fire hydrant to the left of a tv. a tv above a airplane": [
+        "[('a baseball glove', [10, 200, 120, 120]), ('a suitcase', [150, 200, 120, 120]), ('a fire hydrant', [290, 200, 120, 120]), ('a tv', [430, 200, 80, 80]), ('an airplane', [430, 300, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a laptop to the right of a backpack. a backpack below a umbrella": [
+        "[('a laptop', [273, 200, 239, 150]), ('a backpack', [20, 200, 239, 150]), ('an umbrella', [20, 20, 239, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a truck to the right of a donut. a donut to the right of a sink. a sink to the left of a cake. a cake to the right of a suitcase": [
+        "[('a truck', [400, 200, 100, 100]), ('a donut', [300, 200, 100, 100]), ('a sink', [200, 200, 100, 100]), ('a cake', [100, 200, 100, 100]), ('a suitcase', [0, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack to the right of a sports ball. a sports ball to the right of a surfboard": [
+        "[('a backpack', [342, 176, 150, 200]), ('a sports ball', [192, 226, 120, 120]), ('a surfboard', [42, 156, 120, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a backpack to the right of a dog. a dog to the left of a parking meter": [
+        "[('a backpack', [300, 200, 100, 150]), ('a dog', [150, 200, 100, 150]), ('a parking meter', [0, 200, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stop sign to the right of a tie. a tie to the right of a traffic light": [
+        "[('a stop sign', [345, 100, 100, 300]), ('a tie', [200, 150, 100, 250]), ('a traffic light', [50, 100, 100, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bench to the right of a fire hydrant. a fire hydrant to the left of a scissors": [
+        "[('a bench', [300, 200, 200, 150]), ('a fire hydrant', [150, 200, 100, 150]), ('a scissors', [0, 200, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a zebra to the right of a pizza. a pizza to the left of a bench. a bench to the right of a toilet": [
+        "[('a zebra', [350, 100, 150, 300]), ('a pizza', [200, 200, 100, 100]), ('a bench', [50, 250, 100, 200]), ('a toilet', [0, 300, 50, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a parking meter to the right of a vase. a vase below a carrot. a carrot to the right of a frisbee. a frisbee above a horse": [
+        "[('a parking meter', [300, 200, 100, 100]), ('a vase', [200, 200, 100, 100]), ('a carrot', [200, 100, 100, 100]), ('a frisbee', [300, 100, 100, 100]), ('a horse', [300, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a oven to the right of a handbag. a handbag to the right of a train": [
+        "[('a oven', [334, 200, 178, 312]), ('a handbag', [166, 200, 168, 312]), ('a train', [0, 200, 166, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cup to the right of a parking meter. a parking meter to the left of a backpack": [
+        "[('a cup', [340, 200, 100, 150]), ('a parking meter', [200, 150, 100, 200]), ('a backpack', [50, 200, 120, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a scissors to the right of a person. a person above a hot dog. a hot dog to the right of a giraffe": [
+        "[('a scissors', [300, 200, 100, 100]), ('a person', [200, 200, 100, 100]), ('a hot dog', [200, 300, 100, 100]), ('a giraffe', [100, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep to the right of a airplane. a airplane to the left of a dog. a dog to the right of a truck. a truck to the left of a carrot": [
+        "[('a sheep', [40, 200, 100, 100]), ('an airplane', [160, 200, 100, 100]), ('a dog', [280, 200, 100, 100]), ('a truck', [400, 200, 100, 100]), ('a carrot', [510, 200, 2, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a pizza to the right of a suitcase. a suitcase to the right of a skateboard. a skateboard above a motorcycle": [
+        "[('a pizza', [350, 200, 150, 150]), ('a suitcase', [200, 200, 150, 150]), ('a skateboard', [50, 200, 150, 150]), ('a motorcycle', [50, 350, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a clock to the right of a baseball bat. a baseball bat below a stop sign": [
+        "[('a clock', [312, 120, 150, 150]), ('a baseball bat', [162, 300, 30, 200]), ('a stop sign', [162, 20, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a dog to the right of a person. a person to the left of a cup": [
+        "[('a dog', [300, 200, 200, 300]), ('a person', [150, 100, 150, 400]), ('a cup', [0, 200, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skateboard to the right of a book. a book to the right of a motorcycle": [
+        "[('a skateboard', [350, 200, 150, 50]), ('a book', [200, 200, 100, 50]), ('a motorcycle', [50, 200, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a truck to the right of a sink. a sink to the left of a cup": [
+        "[('a truck', [300, 200, 200, 200]), ('a sink', [150, 200, 100, 200]), ('a cup', [50, 250, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a book to the right of a sheep. a sheep to the left of a banana": [
+        "[('a book', [350, 200, 120, 180]), ('a sheep', [200, 200, 120, 180]), ('a banana', [50, 200, 120, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat to the right of a toilet. a toilet to the right of a stop sign. a stop sign to the right of a cat": [
+        "[('a boat', [350, 150, 150, 150]), ('a toilet', [200, 150, 150, 150]), ('a stop sign', [50, 150, 150, 150]), ('a cat', [0, 150, 50, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cat to the right of a sink. a sink below a mouse": [
+        "[('a cat', [300, 200, 200, 200]), ('a sink', [100, 200, 180, 200]), ('a mouse', [130, 50, 120, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a parking meter to the right of a bird. a bird to the left of a bowl. a bowl to the right of a stop sign. a stop sign to the right of a cat": [
+        "[('a parking meter', [400, 200, 50, 150]), ('a bird', [300, 200, 50, 50]), ('a bowl', [200, 200, 50, 50]), ('a stop sign', [100, 200, 50, 100]), ('a cat', [0, 200, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teddy bear to the right of a tv. a tv to the left of a train. a train to the left of a bird. a bird above a hair drier": [
+        "[('a teddy bear', [350, 200, 100, 150]), ('a tv', [200, 200, 100, 150]), ('a train', [50, 200, 100, 150]), ('a bird', [200, 50, 100, 50]), ('a hair drier', [200, 350, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toaster to the right of a sink. a sink above a zebra. a zebra above a clock. a clock to the left of a car": [
+        "[('a toaster', [300, 100, 100, 100]), ('a sink', [200, 100, 100, 100]), ('a zebra', [200, 200, 100, 100]), ('a clock', [100, 200, 100, 100]), ('a car', [100, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hot dog to the right of a tie. a tie below a dining table": [
+        "[('a hot dog', [300, 200, 150, 50]), ('a tie', [150, 200, 100, 50]), ('a dining table', [50, 50, 400, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball bat to the right of a person. a person below a banana": [
+        "[('a baseball bat', [300, 200, 50, 200]), ('a person', [100, 200, 150, 300]), ('a banana', [100, 50, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tennis racket to the right of a book. a book to the left of a handbag. a handbag to the left of a sheep. a sheep below a fire hydrant": [
+        "[('a tennis racket', [350, 200, 100, 200]), ('a book', [250, 200, 100, 200]), ('a handbag', [150, 200, 100, 200]), ('a sheep', [50, 300, 100, 200]), ('a fire hydrant', [50, 100, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a fire hydrant to the right of a sports ball. a sports ball to the left of a potted plant": [
+        "[('a fire hydrant', [340, 200, 80, 150]), ('a sports ball', [200, 250, 100, 100]), ('a potted plant', [60, 200, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toaster to the right of a bicycle. a bicycle above a surfboard. a surfboard to the left of a laptop. a laptop above a bottle": [
+        "[('a toaster', [350, 50, 100, 100]), ('a bicycle', [200, 50, 100, 100]), ('a surfboard', [200, 200, 100, 100]), ('a laptop', [350, 200, 100, 100]), ('a bottle', [350, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bottle to the right of a toaster. a toaster above a cow. a cow above a teddy bear. a teddy bear to the left of a couch": [
+        "[('a bottle', [320, 50, 80, 200]), ('a toaster', [200, 100, 100, 100]), ('a cow', [200, 220, 200, 150]), ('a teddy bear', [200, 390, 100, 100]), ('a couch', [50, 400, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball glove to the right of a pizza. a pizza to the left of a laptop": [
+        "[('a baseball glove', [10, 200, 150, 150]), ('a pizza', [200, 200, 150, 150]), ('a laptop', [390, 200, 120, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a clock to the right of a baseball glove. a baseball glove to the left of a umbrella. a umbrella above a cell phone": [
+        "[('a clock', [340, 100, 150, 150]), ('a baseball glove', [170, 100, 150, 150]), ('an umbrella', [170, 260, 150, 150]), ('a cell phone', [170, 420, 150, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a couch to the right of a train. a train above a remote. a remote above a bottle": [
+        "[('a couch', [280, 200, 232, 312]), ('a train', [20, 200, 232, 312]), ('a remote', [20, 50, 232, 100]), ('a bottle', [20, 0, 232, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bird to the right of a clock. a clock to the left of a carrot. a carrot above a apple": [
+        "[('a bird', [330, 100, 120, 80]), ('a clock', [180, 100, 120, 120]), ('a carrot', [180, 250, 60, 120]), ('an apple', [180, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a mouse to the right of a toothbrush. a toothbrush below a bird": [
+        "[('a mouse', [300, 200, 100, 100]), ('a toothbrush', [150, 300, 100, 100]), ('a bird', [150, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bus to the right of a chair. a chair to the right of a bird": [
+        "[('a bus', [300, 200, 200, 200]), ('a chair', [150, 200, 100, 200]), ('a bird', [50, 200, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tv to the right of a toilet. a toilet below a bowl. a bowl to the left of a surfboard": [
+        "[('a tv', [300, 100, 200, 200]), ('a toilet', [100, 200, 150, 150]), ('a bowl', [100, 50, 100, 100]), ('a surfboard', [250, 50, 200, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a zebra to the right of a suitcase. a suitcase above a cow": [
+        "[('a zebra', [269, 171, 222, 221]), ('a suitcase', [30, 171, 212, 226]), ('a cow', [30, 398, 212, 114])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bowl to the right of a apple. a apple to the right of a baseball glove": [
+        "[('a bowl', [340, 200, 150, 150]), ('an apple', [200, 200, 120, 120]), ('a baseball glove', [60, 200, 120, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a donut to the right of a bottle. a bottle below a cake. a cake to the left of a cup": [
+        "[('a donut', [300, 200, 100, 100]), ('a bottle', [200, 200, 100, 100]), ('a cake', [200, 100, 100, 100]), ('a cup', [300, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tie to the right of a elephant. a elephant below a microwave. a microwave below a bed. a bed above a surfboard": [
+        "[('a tie', [300, 200, 50, 100]), ('an elephant', [100, 200, 150, 150]), ('a microwave', [200, 350, 100, 100]), ('a bed', [200, 450, 200, 50]), ('a surfboard', [0, 500, 512, 12])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a person to the right of a umbrella. a umbrella above a spoon. a spoon below a hot dog. a hot dog to the left of a pizza": [
+        "[('a person', [300, 100, 100, 300]), ('an umbrella', [200, 100, 100, 300]), ('a spoon', [200, 400, 100, 100]), ('a hot dog', [100, 400, 100, 100]), ('a pizza', [100, 100, 100, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toilet to the right of a traffic light. a traffic light below a airplane": [
+        "[('a toilet', [280, 200, 150, 200]), ('a traffic light', [50, 200, 100, 200]), ('an airplane', [50, 50, 400, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a couch to the right of a laptop. a laptop to the left of a skateboard. a skateboard below a umbrella. a umbrella below a clock": [
+        "[('a couch', [300, 200, 200, 150]), ('a laptop', [150, 200, 100, 75]), ('a skateboard', [150, 300, 100, 75]), ('an umbrella', [150, 100, 100, 75]), ('a clock', [150, 25, 75, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a airplane to the right of a microwave. a microwave to the left of a motorcycle. a motorcycle above a toaster": [
+        "[('a airplane', [340, 50, 172, 100]), ('a microwave', [180, 200, 150, 150]), ('a motorcycle', [340, 350, 172, 150]), ('a toaster', [180, 500, 150, 12])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a broccoli to the right of a bench. a bench to the left of a bird. a bird below a boat": [
+        "[('a broccoli', [300, 200, 100, 100]), ('a bench', [150, 200, 100, 100]), ('a bird', [150, 300, 100, 100]), ('a boat', [150, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cat to the right of a tennis racket. a tennis racket below a zebra. a zebra to the right of a elephant. a elephant below a chair": [
+        "[('a cat', [300, 200, 100, 100]), ('a tennis racket', [150, 200, 100, 100]), ('a zebra', [150, 100, 100, 100]), ('an elephant', [300, 100, 100, 100]), ('a chair', [300, 0, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a banana to the right of a cake. a cake below a cow. a cow above a bear": [
+        "[('a banana', [322, 200, 80, 150]), ('a cake', [150, 200, 150, 150]), ('a cow', [150, 50, 150, 150]), ('a bear', [150, 350, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a motorcycle to the right of a laptop. a laptop above a sheep. a sheep below a toaster. a toaster to the left of a fork": [
+        "[('a motorcycle', [300, 200, 200, 150]), ('a laptop', [150, 200, 150, 150]), ('a sheep', [150, 350, 150, 150]), ('a toaster', [0, 350, 150, 150]), ('a fork', [0, 200, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep to the right of a motorcycle. a motorcycle to the right of a apple. a apple below a clock. a clock to the left of a banana": [
+        "[('a sheep', [100, 200, 100, 100]), ('a motorcycle', [200, 200, 100, 100]), ('an apple', [300, 200, 100, 100]), ('a clock', [300, 100, 100, 100]), ('a banana', [400, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the right of a broccoli. a broccoli above a surfboard. a surfboard to the left of a sink": [
+        "[('a microwave', [300, 100, 150, 150]), ('a broccoli', [200, 100, 80, 80]), ('a surfboard', [50, 200, 400, 100]), ('a sink', [450, 350, 60, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a train to the right of a tennis racket. a tennis racket to the left of a mouse. a mouse below a surfboard. a surfboard to the right of a bottle": [
+        "[('a train', [400, 200, 100, 100]), ('a tennis racket', [250, 200, 100, 100]), ('a mouse', [250, 350, 100, 100]), ('a surfboard', [400, 350, 100, 100]), ('a bottle', [300, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a zebra to the right of a mouse. a mouse to the left of a apple": [
+        "[('a zebra', [300, 150, 200, 300]), ('a mouse', [150, 200, 100, 100]), ('an apple', [50, 200, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a elephant to the right of a carrot. a carrot to the right of a baseball glove": [
+        "[('an elephant', [300, 200, 200, 300]), ('a carrot', [150, 250, 100, 100]), ('a baseball glove', [0, 250, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the right of a potted plant. a potted plant to the right of a oven. a oven below a cup. a cup above a remote": [
+        "[('a microwave', [350, 100, 150, 150]), ('a potted plant', [200, 100, 150, 150]), ('an oven', [50, 300, 150, 150]), ('a cup', [250, 300, 150, 150]), ('a remote', [450, 300, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baseball glove to the right of a car. a car to the right of a bicycle. a bicycle to the left of a remote": [
+        "[('a baseball glove', [20, 200, 100, 100]), ('a car', [140, 200, 100, 100]), ('a bicycle', [260, 200, 100, 100]), ('a remote', [380, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a orange to the right of a hair drier. a hair drier to the right of a wine glass. a wine glass to the left of a traffic light": [
+        "[('an orange', [350, 200, 100, 100]), ('a hair drier', [200, 200, 100, 100]), ('a wine glass', [50, 200, 100, 100]), ('a traffic light', [450, 200, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a scissors to the right of a bottle. a bottle to the right of a sheep. a sheep to the right of a teddy bear. a teddy bear below a broccoli": [
+        "[('a scissors', [400, 200, 100, 100]), ('a bottle', [280, 200, 100, 100]), ('a sheep', [160, 200, 100, 100]), ('a teddy bear', [40, 200, 100, 100]), ('a broccoli', [40, 80, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a oven to the right of a truck. a truck below a sports ball. a sports ball below a handbag. a handbag below a bed": [
+        "[('a oven', [300, 100, 200, 150]), ('a truck', [50, 100, 200, 150]), ('a sports ball', [200, 275, 100, 100]), ('a handbag', [200, 400, 100, 100]), ('a bed', [200, 150, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep to the right of a bicycle. a bicycle to the right of a keyboard. a keyboard to the left of a chair": [
+        "[('a sheep', [360, 200, 100, 100]), ('a bicycle', [250, 200, 100, 100]), ('a keyboard', [140, 200, 100, 100]), ('a chair', [30, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stop sign to the right of a vase. a vase to the right of a toilet": [
+        "[('a stop sign', [350, 200, 100, 100]), ('a vase', [200, 200, 100, 100]), ('a toilet', [50, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a oven to the right of a potted plant. a potted plant to the left of a wine glass. a wine glass to the right of a elephant. a elephant to the right of a clock": [
+        "[('a oven', [20, 200, 100, 200]), ('a potted plant', [140, 200, 100, 200]), ('a wine glass', [260, 200, 100, 200]), ('a elephant', [380, 200, 100, 200]), ('a clock', [500, 200, 12, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bear to the right of a orange. a orange to the left of a bus": [
+        "[('a bear', [300, 200, 200, 200]), ('an orange', [200, 200, 100, 100]), ('a bus', [0, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sheep to the right of a tie. a tie above a bench. a bench to the left of a refrigerator. a refrigerator to the right of a keyboard": [
+        "[('a sheep', [380, 150, 120, 120]), ('a tie', [260, 50, 100, 200]), ('a bench', [100, 250, 150, 100]), ('a refrigerator', [260, 350, 100, 150]), ('a keyboard', [380, 450, 120, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bench to the right of a dining table. a dining table to the left of a sheep": [
+        "[('a bench', [300, 200, 200, 150]), ('a dining table', [150, 200, 150, 150]), ('a sheep', [0, 200, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a dining table to the right of a cup. a cup above a vase. a vase below a bench. a bench above a book": [
+        "[('a dining table', [250, 200, 250, 200]), ('a cup', [50, 150, 50, 50]), ('a vase', [50, 250, 50, 50]), ('a bench', [50, 350, 100, 100]), ('a book', [50, 450, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stop sign to the right of a laptop. a laptop below a tv. a tv above a bottle": [
+        "[('a stop sign', [300, 200, 100, 100]), ('a laptop', [100, 300, 200, 100]), ('a tv', [100, 100, 200, 100]), ('a bottle', [100, 400, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bear to the right of a cat. a cat to the right of a orange. a orange below a train. a train above a snowboard": [
+        "[('a bear', [300, 200, 150, 200]), ('a cat', [150, 200, 100, 150]), ('an orange', [50, 350, 50, 50]), ('a train', [50, 250, 100, 50]), ('a snowboard', [0, 450, 512, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bed to the right of a bus. a bus to the right of a truck. a truck to the left of a toilet": [
+        "[('a bed', [364, 150, 148, 200]), ('a bus', [200, 150, 148, 200]), ('a truck', [36, 150, 148, 200]), ('a toilet', [0, 150, 36, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a surfboard to the right of a motorcycle. a motorcycle above a elephant": [
+        "[('a surfboard', [280, 200, 100, 300]), ('a motorcycle', [100, 200, 150, 200]), ('a motorcycle', [350, 50, 150, 200]), ('an elephant', [350, 300, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a microwave to the right of a elephant. a elephant to the left of a cow. a cow to the right of a orange": [
+        "[('a microwave', [350, 150, 150, 150]), ('an elephant', [200, 150, 150, 150]), ('a cow', [50, 150, 150, 150]), ('an orange', [0, 150, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tie to the right of a wine glass. a wine glass above a fork. a fork above a remote": [
+        "[('a tie', [300, 150, 100, 300]), ('a wine glass', [200, 100, 100, 200]), ('a fork', [200, 300, 100, 200]), ('a remote', [200, 400, 100, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a dog to the right of a cake. a cake below a person. a person below a fork. a fork above a skateboard": [
+        "[('a dog', [280, 250, 232, 262]), ('a cake', [50, 250, 200, 200]), ('a person', [50, 50, 200, 200]), ('a fork', [280, 50, 232, 200]), ('a skateboard', [280, 0, 232, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a scissors to the right of a microwave. a microwave to the left of a pizza. a pizza below a dog. a dog above a mouse": [
+        "[('a scissors', [340, 200, 100, 100]), ('a microwave', [200, 200, 100, 100]), ('a pizza', [200, 320, 100, 100]), ('a dog', [200, 80, 100, 100]), ('a mouse', [200, 0, 100, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stop sign to the right of a carrot. a carrot to the left of a couch": [
+        "[('a stop sign', [350, 200, 100, 100]), ('a carrot', [200, 200, 100, 100]), ('a couch', [50, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bird to the right of a person. a person to the right of a bowl. a bowl to the left of a giraffe": [
+        "[('a bird', [350, 50, 100, 100]), ('a person', [200, 150, 100, 200]), ('a bowl', [100, 250, 50, 50]), ('a giraffe', [0, 100, 80, 400])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a oven to the right of a fork. a fork above a boat": [
+        "[('an oven', [280, 200, 200, 200]), ('a fork', [50, 200, 200, 200]), ('a boat', [50, 400, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wine glass to the right of a horse. a horse below a couch": [
+        "[('a wine glass', [300, 200, 50, 100]), ('a horse', [100, 200, 150, 200]), ('a horse', [100, 400, 150, 100]), ('a couch', [100, 300, 300, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wine glass to the right of a vase. a vase to the right of a horse": [
+        "[('a wine glass', [340, 200, 80, 180]), ('a vase', [200, 180, 100, 200]), ('a horse', [60, 220, 100, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a book to the right of a parking meter. a parking meter above a couch. a couch to the right of a stop sign. a stop sign below a carrot": [
+        "[('a book', [300, 200, 100, 150]), ('a parking meter', [150, 100, 100, 300]), ('a couch', [150, 350, 300, 150]), ('a stop sign', [50, 350, 80, 150]), ('a carrot', [50, 200, 80, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a donut to the right of a cat. a cat to the left of a cow": [
+        "[('a donut', [350, 200, 100, 100]), ('a cat', [200, 200, 100, 100]), ('a cow', [50, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a handbag to the right of a book. a book to the right of a scissors. a scissors to the left of a broccoli": [
+        "[('a handbag', [350, 200, 150, 200]), ('a book', [200, 200, 100, 200]), ('a scissors', [100, 200, 75, 200]), ('a broccoli', [50, 200, 40, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cell phone to the right of a airplane. a airplane above a donut": [
+        "[('a cell phone', [300, 200, 100, 200]), ('an airplane', [100, 100, 150, 75]), ('a donut', [100, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a boat to the right of a baseball bat. a baseball bat to the left of a tennis racket. a tennis racket above a vase. a vase to the left of a dog": [
+        "[('a boat', [350, 200, 150, 100]), ('a baseball bat', [200, 200, 100, 20]), ('a tennis racket', [200, 50, 50, 100]), ('a vase', [100, 200, 50, 100]), ('a dog', [150, 300, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a laptop to the right of a banana. a banana below a pizza. a pizza to the right of a snowboard": [
+        "[('a laptop', [300, 200, 200, 150]), ('a banana', [100, 200, 50, 100]), ('a banana', [300, 350, 50, 100]), ('a pizza', [200, 350, 100, 100]), ('a snowboard', [100, 450, 300, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sink to the right of a potted plant. a potted plant to the right of a teddy bear": [
+        "[('a sink', [340, 150, 150, 200]), ('a potted plant', [180, 150, 150, 200]), ('a teddy bear', [20, 150, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a person to the right of a hot dog. a hot dog to the left of a apple. a apple below a tennis racket": [
+        "[('a person', [350, 150, 150, 350]), ('a hot dog', [200, 150, 150, 100]), ('an apple', [200, 300, 100, 100]), ('a tennis racket', [200, 50, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a bed to the right of a oven. a oven to the right of a microwave. a microwave to the right of a bottle. a bottle to the left of a sheep": [
+        "[('a bed', [400, 200, 100, 150]), ('an oven', [280, 200, 100, 150]), ('a microwave', [160, 200, 100, 150]), ('a bottle', [40, 200, 100, 150]), ('a sheep', [0, 200, 30, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a toothbrush to the right of a bird. a bird to the right of a sports ball": [
+        "[('a toothbrush', [340, 200, 100, 100]), ('a bird', [200, 200, 100, 100]), ('a sports ball', [60, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cup to the right of a chair. a chair to the left of a zebra": [
+        "[('a cup', [322, 202, 90, 120]), ('a chair', [202, 192, 100, 200]), ('a zebra', [22, 102, 160, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a handbag to the right of a couch. a couch below a carrot": [
+        "[('a handbag', [300, 200, 150, 200]), ('a couch', [50, 200, 200, 200]), ('a carrot', [125, 50, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a umbrella to the right of a parking meter. a parking meter to the right of a teddy bear. a teddy bear to the right of a sink. a sink to the right of a banana": [
+        "[('a umbrella', [400, 180, 100, 200]), ('a parking meter', [280, 200, 100, 150]), ('a teddy bear', [160, 220, 100, 140]), ('a sink', [40, 240, 100, 130]), ('a banana', [20, 260, 10, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ]
+}

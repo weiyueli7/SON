@@ -98,7 +98,7 @@ if __name__ == "__main__":
         model=args.model, template_version=template_version)
 
     cache.cache_format = "json"
-    cache.cache_path = f'{os.getcwd()}/cache/cache_{args.prompt_type}_{template_version}_{model}.json'
+    cache.cache_path = f'{os.getcwd()}/cache/cache_{(args.prompt_type).split("lmd")[1][1:]}_{template_version}_{model}.json'
     text_objects_path = f'{os.getcwd()}/data/{args.data_json}'
     cache.init_cache()
     
