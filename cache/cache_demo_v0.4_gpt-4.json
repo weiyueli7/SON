@@ -1,0 +1,5 @@
+{
+    "A white background with 8 objects (['tennis racket', 'suitcase', 'pizza', 'cow', 'bear', 'oven', 'refrigerator', 'skis']): the tennis racket is above the suitcase; the suitcase is to the left of the pizza; the pizza is to the right of the cow; the cow is to the right of the bear; the bear is above the oven; the oven is to the left of the refrigerator; the refrigerator is to the right of the skis": [
+        "[('tennis racket', [30, 30, 80, 200]), ('suitcase', [30, 250, 80, 200]), ('pizza', [130, 250, 80, 80]), ('cow', [240, 250, 80, 80]), ('bear', [350, 250, 80, 80]), ('oven', [350, 350, 80, 80]), ('refrigerator', [460, 350, 50, 160]), ('skis', [460, 30, 50, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ]
+}

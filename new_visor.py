@@ -102,15 +102,16 @@ def add_more_objects(data_pt, num_new_objects):
     for _ in range(1, num_new_objects + 1):
         new_data_pt['obj_attributes'].append(sample_new_obj(new_data_pt))
         new_data_pt['rel_type'].append(np.random.choice(list(all_spatial_rel_phrases), 1)[0])
-    text = ". ".join([f'a {new_data_pt["obj_attributes"][i]} {new_data_pt["rel_type"][i]} a {new_data_pt["obj_attributes"][i+1]}' for i in range(len(new_data_pt['obj_attributes']) - 1)])
+    text = f"A white background with {new_data_pt['num_objects']} objects ({new_data_pt['obj_attributes']}): " + "; ".join([f'the {new_data_pt["obj_attributes"][i]} is {new_data_pt["rel_type"][i]} the {new_data_pt["obj_attributes"][i+1]}' for i in range(len(new_data_pt['obj_attributes']) - 1)]) + "."
     new_data_pt['text'] = text
     return new_data_pt
 
 
-new_num_objects = np.random.randint(1, 4, 400)
+new_num_objects = np.array([np.ones(50)*i for i in range(1, 9)]).flatten()
+np.random.shuffle(new_num_objects)
 new_data = []
 for ind, data_pt in enumerate(data):
-    ramdom_num = np.random.randint(1, 4)
-    new_data.append(add_more_objects(data_pt, new_num_objects[ind]))
+    # ramdom_num = np.random.randint(1, 4)
+    new_data.append(add_more_objects(data_pt, int(new_num_objects[ind])))
 new_data
-json.dump(new_data, open("data/new_sample.json", "w"), indent=2)
+json.dump(new_data, open("data/new_sample_3.json", "w"), indent=2)

@@ -52,6 +52,13 @@ def get_llm_kwargs(model, template_version):
 def get_layout(prompt, llm_kwargs, suffix=""):
     # No cache in this function
     model, template, api_base, max_tokens, temperature, stop, headers = llm_kwargs.model, llm_kwargs.template, llm_kwargs.api_base, llm_kwargs.max_tokens, llm_kwargs.temperature, llm_kwargs.stop, llm_kwargs.headers
+    # print(f"Using model: {model}")
+    # print(f"Using template: {template}")
+    # print(f"Using API base: {api_base}")
+    # print(f"Using max tokens: {max_tokens}")
+    # print(f"Using temperature: {temperature}")
+    # print(f"Using stop: {stop}")
+    # print(f"Using headers: {headers}")
 
     done = False
     attempts = 0

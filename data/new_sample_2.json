@@ -1,0 +1,6364 @@
+[
+  {
+    "unique_id": 8736,
+    "num_objects": 3,
+    "obj_attributes": [
+      "stop sign",
+      "sink",
+      "snowboard"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['stop sign', 'sink', 'snowboard']): the stop sign is below the sink; the sink is below the snowboard."
+  },
+  {
+    "unique_id": 19397,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball glove",
+      "skis",
+      "traffic light",
+      "kite"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['baseball glove', 'skis', 'traffic light', 'kite']): the baseball glove is below the skis; the skis is to the right of the traffic light; the traffic light is above the kite."
+  },
+  {
+    "unique_id": 26197,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cell phone",
+      "banana",
+      "suitcase"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['cell phone', 'banana', 'suitcase']): the cell phone is below the banana; the banana is to the left of the suitcase."
+  },
+  {
+    "unique_id": 22316,
+    "num_objects": 4,
+    "obj_attributes": [
+      "skateboard",
+      "donut",
+      "hot dog",
+      "couch"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['skateboard', 'donut', 'hot dog', 'couch']): the skateboard is below the donut; the donut is to the right of the hot dog; the hot dog is to the left of the couch."
+  },
+  {
+    "unique_id": 3867,
+    "num_objects": 4,
+    "obj_attributes": [
+      "truck",
+      "bus",
+      "oven",
+      "backpack"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['truck', 'bus', 'oven', 'backpack']): the truck is below the bus; the bus is to the right of the oven; the oven is above the backpack."
+  },
+  {
+    "unique_id": 14486,
+    "num_objects": 5,
+    "obj_attributes": [
+      "elephant",
+      "toothbrush",
+      "bowl",
+      "motorcycle",
+      "parking meter"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['elephant', 'toothbrush', 'bowl', 'motorcycle', 'parking meter']): the elephant is below the toothbrush; the toothbrush is to the left of the bowl; the bowl is above the motorcycle; the motorcycle is to the right of the parking meter."
+  },
+  {
+    "unique_id": 25247,
+    "num_objects": 3,
+    "obj_attributes": [
+      "clock",
+      "knife",
+      "hair drier"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['clock', 'knife', 'hair drier']): the clock is below the knife; the knife is to the left of the hair drier."
+  },
+  {
+    "unique_id": 13606,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cow",
+      "broccoli",
+      "toothbrush",
+      "laptop",
+      "car"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['cow', 'broccoli', 'toothbrush', 'laptop', 'car']): the cow is below the broccoli; the broccoli is above the toothbrush; the toothbrush is to the left of the laptop; the laptop is below the car."
+  },
+  {
+    "unique_id": 26706,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sandwich",
+      "cake",
+      "wine glass"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['sandwich', 'cake', 'wine glass']): the sandwich is below the cake; the cake is above the wine glass."
+  },
+  {
+    "unique_id": 25807,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toilet",
+      "bowl",
+      "laptop"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['toilet', 'bowl', 'laptop']): the toilet is below the bowl; the bowl is to the right of the laptop."
+  },
+  {
+    "unique_id": 856,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bicycle",
+      "boat",
+      "cup"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['bicycle', 'boat', 'cup']): the bicycle is below the boat; the boat is to the left of the cup."
+  },
+  {
+    "unique_id": 20596,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sports ball",
+      "dining table",
+      "remote",
+      "toilet",
+      "frisbee"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['sports ball', 'dining table', 'remote', 'toilet', 'frisbee']): the sports ball is below the dining table; the dining table is to the right of the remote; the remote is above the toilet; the toilet is above the frisbee."
+  },
+  {
+    "unique_id": 31387,
+    "num_objects": 4,
+    "obj_attributes": [
+      "toothbrush",
+      "refrigerator",
+      "handbag",
+      "microwave"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['toothbrush', 'refrigerator', 'handbag', 'microwave']): the toothbrush is below the refrigerator; the refrigerator is to the right of the handbag; the handbag is below the microwave."
+  },
+  {
+    "unique_id": 16316,
+    "num_objects": 5,
+    "obj_attributes": [
+      "backpack",
+      "skateboard",
+      "broccoli",
+      "parking meter",
+      "bird"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['backpack', 'skateboard', 'broccoli', 'parking meter', 'bird']): the backpack is below the skateboard; the skateboard is to the left of the broccoli; the broccoli is to the right of the parking meter; the parking meter is above the bird."
+  },
+  {
+    "unique_id": 8636,
+    "num_objects": 5,
+    "obj_attributes": [
+      "stop sign",
+      "toilet",
+      "knife",
+      "bus",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['stop sign', 'toilet', 'knife', 'bus', 'teddy bear']): the stop sign is below the toilet; the toilet is above the knife; the knife is above the bus; the bus is below the teddy bear."
+  },
+  {
+    "unique_id": 9356,
+    "num_objects": 3,
+    "obj_attributes": [
+      "parking meter",
+      "keyboard",
+      "kite"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['parking meter', 'keyboard', 'kite']): the parking meter is below the keyboard; the keyboard is below the kite."
+  },
+  {
+    "unique_id": 15626,
+    "num_objects": 4,
+    "obj_attributes": [
+      "zebra",
+      "hair drier",
+      "truck",
+      "train"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['zebra', 'hair drier', 'truck', 'train']): the zebra is below the hair drier; the hair drier is to the left of the truck; the truck is to the left of the train."
+  },
+  {
+    "unique_id": 25766,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bowl",
+      "couch",
+      "vase",
+      "skateboard"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['bowl', 'couch', 'vase', 'skateboard']): the bowl is below the couch; the couch is to the left of the vase; the vase is above the skateboard."
+  },
+  {
+    "unique_id": 10956,
+    "num_objects": 4,
+    "obj_attributes": [
+      "cat",
+      "snowboard",
+      "vase",
+      "knife"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['cat', 'snowboard', 'vase', 'knife']): the cat is below the snowboard; the snowboard is to the right of the vase; the vase is above the knife."
+  },
+  {
+    "unique_id": 6597,
+    "num_objects": 4,
+    "obj_attributes": [
+      "mouse",
+      "boat",
+      "bear",
+      "parking meter"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['mouse', 'boat', 'bear', 'parking meter']): the mouse is below the boat; the boat is to the right of the bear; the bear is to the left of the parking meter."
+  },
+  {
+    "unique_id": 7826,
+    "num_objects": 3,
+    "obj_attributes": [
+      "fire hydrant",
+      "sandwich",
+      "skateboard"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['fire hydrant', 'sandwich', 'skateboard']): the fire hydrant is below the sandwich; the sandwich is to the right of the skateboard."
+  },
+  {
+    "unique_id": 1976,
+    "num_objects": 4,
+    "obj_attributes": [
+      "car",
+      "knife",
+      "bowl",
+      "wine glass"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['car', 'knife', 'bowl', 'wine glass']): the car is below the knife; the knife is to the right of the bowl; the bowl is below the wine glass."
+  },
+  {
+    "unique_id": 13447,
+    "num_objects": 3,
+    "obj_attributes": [
+      "baseball bat",
+      "cow",
+      "apple"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['baseball bat', 'cow', 'apple']): the baseball bat is below the cow; the cow is above the apple."
+  },
+  {
+    "unique_id": 22986,
+    "num_objects": 3,
+    "obj_attributes": [
+      "surfboard",
+      "toothbrush",
+      "cake"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['surfboard', 'toothbrush', 'cake']): the surfboard is below the toothbrush; the toothbrush is to the right of the cake."
+  },
+  {
+    "unique_id": 4696,
+    "num_objects": 4,
+    "obj_attributes": [
+      "train",
+      "horse",
+      "bird",
+      "bottle"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['train', 'horse', 'bird', 'bottle']): the train is below the horse; the horse is above the bird; the bird is to the right of the bottle."
+  },
+  {
+    "unique_id": 5806,
+    "num_objects": 5,
+    "obj_attributes": [
+      "truck",
+      "chair",
+      "laptop",
+      "horse",
+      "bench"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['truck', 'chair', 'laptop', 'horse', 'bench']): the truck is below the chair; the chair is to the right of the laptop; the laptop is above the horse; the horse is to the left of the bench."
+  },
+  {
+    "unique_id": 10477,
+    "num_objects": 3,
+    "obj_attributes": [
+      "apple",
+      "bird",
+      "stop sign"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['apple', 'bird', 'stop sign']): the apple is below the bird; the bird is to the left of the stop sign."
+  },
+  {
+    "unique_id": 8116,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fire hydrant",
+      "teddy bear",
+      "cat",
+      "suitcase",
+      "sports ball"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['fire hydrant', 'teddy bear', 'cat', 'suitcase', 'sports ball']): the fire hydrant is below the teddy bear; the teddy bear is above the cat; the cat is to the left of the suitcase; the suitcase is to the right of the sports ball."
+  },
+  {
+    "unique_id": 2516,
+    "num_objects": 3,
+    "obj_attributes": [
+      "motorcycle",
+      "bear",
+      "banana"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['motorcycle', 'bear', 'banana']): the motorcycle is below the bear; the bear is below the banana."
+  },
+  {
+    "unique_id": 2797,
+    "num_objects": 4,
+    "obj_attributes": [
+      "orange",
+      "motorcycle",
+      "toilet",
+      "hair drier"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['orange', 'motorcycle', 'toilet', 'hair drier']): the orange is below the motorcycle; the motorcycle is above the toilet; the toilet is to the left of the hair drier."
+  },
+  {
+    "unique_id": 19087,
+    "num_objects": 4,
+    "obj_attributes": [
+      "pizza",
+      "frisbee",
+      "train",
+      "snowboard"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['pizza', 'frisbee', 'train', 'snowboard']): the pizza is below the frisbee; the frisbee is above the train; the train is below the snowboard."
+  },
+  {
+    "unique_id": 29677,
+    "num_objects": 5,
+    "obj_attributes": [
+      "teddy bear",
+      "bed",
+      "truck",
+      "wine glass",
+      "baseball bat"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['teddy bear', 'bed', 'truck', 'wine glass', 'baseball bat']): the teddy bear is below the bed; the bed is above the truck; the truck is below the wine glass; the wine glass is below the baseball bat."
+  },
+  {
+    "unique_id": 10456,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bird",
+      "bowl",
+      "parking meter"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['bird', 'bowl', 'parking meter']): the bird is below the bowl; the bowl is above the parking meter."
+  },
+  {
+    "unique_id": 5477,
+    "num_objects": 4,
+    "obj_attributes": [
+      "giraffe",
+      "truck",
+      "bear",
+      "donut"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['giraffe', 'truck', 'bear', 'donut']): the giraffe is below the truck; the truck is above the bear; the bear is to the left of the donut."
+  },
+  {
+    "unique_id": 28597,
+    "num_objects": 4,
+    "obj_attributes": [
+      "toothbrush",
+      "donut",
+      "toaster",
+      "laptop"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['toothbrush', 'donut', 'toaster', 'laptop']): the toothbrush is below the donut; the donut is to the right of the toaster; the toaster is above the laptop."
+  },
+  {
+    "unique_id": 28506,
+    "num_objects": 4,
+    "obj_attributes": [
+      "donut",
+      "toaster",
+      "handbag",
+      "bowl"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['donut', 'toaster', 'handbag', 'bowl']): the donut is below the toaster; the toaster is above the handbag; the handbag is below the bowl."
+  },
+  {
+    "unique_id": 23897,
+    "num_objects": 3,
+    "obj_attributes": [
+      "broccoli",
+      "wine glass",
+      "airplane"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['broccoli', 'wine glass', 'airplane']): the broccoli is below the wine glass; the wine glass is above the airplane."
+  },
+  {
+    "unique_id": 22666,
+    "num_objects": 5,
+    "obj_attributes": [
+      "surfboard",
+      "apple",
+      "tie",
+      "backpack",
+      "boat"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['surfboard', 'apple', 'tie', 'backpack', 'boat']): the surfboard is below the apple; the apple is to the left of the tie; the tie is below the backpack; the backpack is to the left of the boat."
+  },
+  {
+    "unique_id": 26966,
+    "num_objects": 3,
+    "obj_attributes": [
+      "orange",
+      "carrot",
+      "remote"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['orange', 'carrot', 'remote']): the orange is below the carrot; the carrot is below the remote."
+  },
+  {
+    "unique_id": 2656,
+    "num_objects": 5,
+    "obj_attributes": [
+      "motorcycle",
+      "baseball glove",
+      "person",
+      "zebra",
+      "clock"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['motorcycle', 'baseball glove', 'person', 'zebra', 'clock']): the motorcycle is below the baseball glove; the baseball glove is below the person; the person is below the zebra; the zebra is below the clock."
+  },
+  {
+    "unique_id": 3426,
+    "num_objects": 5,
+    "obj_attributes": [
+      "airplane",
+      "surfboard",
+      "person",
+      "cup",
+      "fork"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['airplane', 'surfboard', 'person', 'cup', 'fork']): the airplane is below the surfboard; the surfboard is below the person; the person is below the cup; the cup is to the right of the fork."
+  },
+  {
+    "unique_id": 18467,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cup",
+      "suitcase",
+      "spoon"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['cup', 'suitcase', 'spoon']): the cup is below the suitcase; the suitcase is to the right of the spoon."
+  },
+  {
+    "unique_id": 29487,
+    "num_objects": 5,
+    "obj_attributes": [
+      "hair drier",
+      "potted plant",
+      "cup",
+      "vase",
+      "bowl"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['hair drier', 'potted plant', 'cup', 'vase', 'bowl']): the hair drier is below the potted plant; the potted plant is below the cup; the cup is below the vase; the vase is above the bowl."
+  },
+  {
+    "unique_id": 11086,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cat",
+      "spoon",
+      "giraffe"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['cat', 'spoon', 'giraffe']): the cat is below the spoon; the spoon is to the left of the giraffe."
+  },
+  {
+    "unique_id": 18457,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "suitcase",
+      "train"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['wine glass', 'suitcase', 'train']): the wine glass is below the suitcase; the suitcase is to the left of the train."
+  },
+  {
+    "unique_id": 5207,
+    "num_objects": 3,
+    "obj_attributes": [
+      "microwave",
+      "train",
+      "toaster"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['microwave', 'train', 'toaster']): the microwave is below the train; the train is to the left of the toaster."
+  },
+  {
+    "unique_id": 4096,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bus",
+      "skis",
+      "refrigerator",
+      "sink"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['bus', 'skis', 'refrigerator', 'sink']): the bus is below the skis; the skis is above the refrigerator; the refrigerator is to the left of the sink."
+  },
+  {
+    "unique_id": 13537,
+    "num_objects": 4,
+    "obj_attributes": [
+      "knife",
+      "cow",
+      "bicycle",
+      "spoon"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['knife', 'cow', 'bicycle', 'spoon']): the knife is below the cow; the cow is to the left of the bicycle; the bicycle is to the right of the spoon."
+  },
+  {
+    "unique_id": 22556,
+    "num_objects": 5,
+    "obj_attributes": [
+      "skateboard",
+      "hair drier",
+      "pizza",
+      "sandwich",
+      "cow"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['skateboard', 'hair drier', 'pizza', 'sandwich', 'cow']): the skateboard is below the hair drier; the hair drier is above the pizza; the pizza is above the sandwich; the sandwich is to the right of the cow."
+  },
+  {
+    "unique_id": 6816,
+    "num_objects": 3,
+    "obj_attributes": [
+      "traffic light",
+      "dog",
+      "surfboard"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['traffic light', 'dog', 'surfboard']): the traffic light is below the dog; the dog is below the surfboard."
+  },
+  {
+    "unique_id": 30527,
+    "num_objects": 3,
+    "obj_attributes": [
+      "teddy bear",
+      "mouse",
+      "pizza"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['teddy bear', 'mouse', 'pizza']): the teddy bear is below the mouse; the mouse is to the right of the pizza."
+  },
+  {
+    "unique_id": 15167,
+    "num_objects": 4,
+    "obj_attributes": [
+      "sports ball",
+      "zebra",
+      "baseball glove",
+      "hot dog"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['sports ball', 'zebra', 'baseball glove', 'hot dog']): the sports ball is below the zebra; the zebra is above the baseball glove; the baseball glove is to the right of the hot dog."
+  },
+  {
+    "unique_id": 9187,
+    "num_objects": 3,
+    "obj_attributes": [
+      "orange",
+      "parking meter",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['orange', 'parking meter', 'toothbrush']): the orange is below the parking meter; the parking meter is to the left of the toothbrush."
+  },
+  {
+    "unique_id": 28126,
+    "num_objects": 4,
+    "obj_attributes": [
+      "pizza",
+      "couch",
+      "giraffe",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['pizza', 'couch', 'giraffe', 'toothbrush']): the pizza is below the couch; the couch is above the giraffe; the giraffe is to the left of the toothbrush."
+  },
+  {
+    "unique_id": 13776,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cow",
+      "cell phone",
+      "surfboard",
+      "keyboard",
+      "cup"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['cow', 'cell phone', 'surfboard', 'keyboard', 'cup']): the cow is below the cell phone; the cell phone is above the surfboard; the surfboard is to the right of the keyboard; the keyboard is below the cup."
+  },
+  {
+    "unique_id": 14247,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cake",
+      "elephant",
+      "stop sign",
+      "train",
+      "fork"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['cake', 'elephant', 'stop sign', 'train', 'fork']): the cake is below the elephant; the elephant is to the left of the stop sign; the stop sign is below the train; the train is above the fork."
+  },
+  {
+    "unique_id": 19086,
+    "num_objects": 3,
+    "obj_attributes": [
+      "frisbee",
+      "pizza",
+      "bowl"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['frisbee', 'pizza', 'bowl']): the frisbee is below the pizza; the pizza is to the left of the bowl."
+  },
+  {
+    "unique_id": 18256,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tie",
+      "sink",
+      "remote",
+      "kite"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['tie', 'sink', 'remote', 'kite']): the tie is below the sink; the sink is to the left of the remote; the remote is below the kite."
+  },
+  {
+    "unique_id": 6337,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tennis racket",
+      "boat",
+      "bench",
+      "toaster"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['tennis racket', 'boat', 'bench', 'toaster']): the tennis racket is below the boat; the boat is above the bench; the bench is above the toaster."
+  },
+  {
+    "unique_id": 17456,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "knife",
+      "keyboard",
+      "book"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['handbag', 'knife', 'keyboard', 'book']): the handbag is below the knife; the knife is above the keyboard; the keyboard is to the left of the book."
+  },
+  {
+    "unique_id": 21017,
+    "num_objects": 4,
+    "obj_attributes": [
+      "chair",
+      "kite",
+      "mouse",
+      "cake"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['chair', 'kite', 'mouse', 'cake']): the chair is below the kite; the kite is below the mouse; the mouse is above the cake."
+  },
+  {
+    "unique_id": 18476,
+    "num_objects": 5,
+    "obj_attributes": [
+      "suitcase",
+      "fork",
+      "vase",
+      "apple",
+      "dining table"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['suitcase', 'fork', 'vase', 'apple', 'dining table']): the suitcase is below the fork; the fork is to the right of the vase; the vase is below the apple; the apple is below the dining table."
+  },
+  {
+    "unique_id": 7906,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fire hydrant",
+      "chair",
+      "dog",
+      "truck",
+      "skateboard"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['fire hydrant', 'chair', 'dog', 'truck', 'skateboard']): the fire hydrant is below the chair; the chair is to the left of the dog; the dog is to the left of the truck; the truck is above the skateboard."
+  },
+  {
+    "unique_id": 18326,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tie",
+      "hair drier",
+      "clock",
+      "frisbee",
+      "tennis racket"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['tie', 'hair drier', 'clock', 'frisbee', 'tennis racket']): the tie is below the hair drier; the hair drier is to the right of the clock; the clock is below the frisbee; the frisbee is to the right of the tennis racket."
+  },
+  {
+    "unique_id": 25386,
+    "num_objects": 3,
+    "obj_attributes": [
+      "spoon",
+      "pizza",
+      "laptop"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['spoon', 'pizza', 'laptop']): the spoon is below the pizza; the pizza is above the laptop."
+  },
+  {
+    "unique_id": 717,
+    "num_objects": 5,
+    "obj_attributes": [
+      "refrigerator",
+      "person",
+      "sink",
+      "book",
+      "knife"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['refrigerator', 'person', 'sink', 'book', 'knife']): the refrigerator is below the person; the person is to the right of the sink; the sink is below the book; the book is above the knife."
+  },
+  {
+    "unique_id": 28886,
+    "num_objects": 4,
+    "obj_attributes": [
+      "chair",
+      "toilet",
+      "potted plant",
+      "knife"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['chair', 'toilet', 'potted plant', 'knife']): the chair is below the toilet; the toilet is below the potted plant; the potted plant is to the left of the knife."
+  },
+  {
+    "unique_id": 6196,
+    "num_objects": 3,
+    "obj_attributes": [
+      "boat",
+      "backpack",
+      "elephant"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['boat', 'backpack', 'elephant']): the boat is below the backpack; the backpack is below the elephant."
+  },
+  {
+    "unique_id": 18317,
+    "num_objects": 4,
+    "obj_attributes": [
+      "teddy bear",
+      "tie",
+      "spoon",
+      "bottle"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['teddy bear', 'tie', 'spoon', 'bottle']): the teddy bear is below the tie; the tie is to the right of the spoon; the spoon is above the bottle."
+  },
+  {
+    "unique_id": 29537,
+    "num_objects": 5,
+    "obj_attributes": [
+      "laptop",
+      "bed",
+      "sink",
+      "truck",
+      "cell phone"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['laptop', 'bed', 'sink', 'truck', 'cell phone']): the laptop is below the bed; the bed is to the right of the sink; the sink is below the truck; the truck is above the cell phone."
+  },
+  {
+    "unique_id": 10676,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bird",
+      "cell phone",
+      "umbrella"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['bird', 'cell phone', 'umbrella']): the bird is below the cell phone; the cell phone is above the umbrella."
+  },
+  {
+    "unique_id": 26847,
+    "num_objects": 3,
+    "obj_attributes": [
+      "oven",
+      "sandwich",
+      "keyboard"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['oven', 'sandwich', 'keyboard']): the oven is below the sandwich; the sandwich is to the right of the keyboard."
+  },
+  {
+    "unique_id": 12776,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "tie",
+      "clock",
+      "orange",
+      "wine glass"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['sheep', 'tie', 'clock', 'orange', 'wine glass']): the sheep is below the tie; the tie is below the clock; the clock is to the right of the orange; the orange is to the right of the wine glass."
+  },
+  {
+    "unique_id": 2597,
+    "num_objects": 3,
+    "obj_attributes": [
+      "frisbee",
+      "motorcycle",
+      "oven"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['frisbee', 'motorcycle', 'oven']): the frisbee is below the motorcycle; the motorcycle is below the oven."
+  },
+  {
+    "unique_id": 20746,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sports ball",
+      "vase",
+      "baseball glove"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['sports ball', 'vase', 'baseball glove']): the sports ball is below the vase; the vase is above the baseball glove."
+  },
+  {
+    "unique_id": 27437,
+    "num_objects": 3,
+    "obj_attributes": [
+      "oven",
+      "broccoli",
+      "cup"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['oven', 'broccoli', 'cup']): the oven is below the broccoli; the broccoli is to the right of the cup."
+  },
+  {
+    "unique_id": 26166,
+    "num_objects": 3,
+    "obj_attributes": [
+      "banana",
+      "mouse",
+      "traffic light"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['banana', 'mouse', 'traffic light']): the banana is below the mouse; the mouse is above the traffic light."
+  },
+  {
+    "unique_id": 626,
+    "num_objects": 3,
+    "obj_attributes": [
+      "person",
+      "laptop",
+      "suitcase"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['person', 'laptop', 'suitcase']): the person is below the laptop; the laptop is to the right of the suitcase."
+  },
+  {
+    "unique_id": 24636,
+    "num_objects": 3,
+    "obj_attributes": [
+      "fork",
+      "orange",
+      "parking meter"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['fork', 'orange', 'parking meter']): the fork is below the orange; the orange is below the parking meter."
+  },
+  {
+    "unique_id": 13847,
+    "num_objects": 5,
+    "obj_attributes": [
+      "clock",
+      "cow",
+      "person",
+      "elephant",
+      "remote"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['clock', 'cow', 'person', 'elephant', 'remote']): the clock is below the cow; the cow is to the left of the person; the person is to the right of the elephant; the elephant is to the right of the remote."
+  },
+  {
+    "unique_id": 4066,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bus",
+      "tie",
+      "donut"
+    ],
+    "rel_type": [
+      "below",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['bus', 'tie', 'donut']): the bus is below the tie; the tie is above the donut."
+  },
+  {
+    "unique_id": 14697,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fork",
+      "bear",
+      "zebra",
+      "donut",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['fork', 'bear', 'zebra', 'donut', 'teddy bear']): the fork is below the bear; the bear is above the zebra; the zebra is above the donut; the donut is to the right of the teddy bear."
+  },
+  {
+    "unique_id": 8947,
+    "num_objects": 4,
+    "obj_attributes": [
+      "umbrella",
+      "parking meter",
+      "apple",
+      "bus"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['umbrella', 'parking meter', 'apple', 'bus']): the umbrella is below the parking meter; the parking meter is to the right of the apple; the apple is below the bus."
+  },
+  {
+    "unique_id": 17086,
+    "num_objects": 4,
+    "obj_attributes": [
+      "umbrella",
+      "bed",
+      "refrigerator",
+      "skateboard"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['umbrella', 'bed', 'refrigerator', 'skateboard']): the umbrella is below the bed; the bed is to the right of the refrigerator; the refrigerator is to the left of the skateboard."
+  },
+  {
+    "unique_id": 21586,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball bat",
+      "microwave",
+      "book",
+      "tennis racket"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['baseball bat', 'microwave', 'book', 'tennis racket']): the baseball bat is below the microwave; the microwave is to the right of the book; the book is to the right of the tennis racket."
+  },
+  {
+    "unique_id": 1476,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bicycle",
+      "toaster",
+      "cow"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['bicycle', 'toaster', 'cow']): the bicycle is below the toaster; the toaster is to the right of the cow."
+  },
+  {
+    "unique_id": 30717,
+    "num_objects": 4,
+    "obj_attributes": [
+      "oven",
+      "keyboard",
+      "cell phone",
+      "carrot"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['oven', 'keyboard', 'cell phone', 'carrot']): the oven is below the keyboard; the keyboard is below the cell phone; the cell phone is to the left of the carrot."
+  },
+  {
+    "unique_id": 16336,
+    "num_objects": 4,
+    "obj_attributes": [
+      "backpack",
+      "tennis racket",
+      "donut",
+      "dog"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['backpack', 'tennis racket', 'donut', 'dog']): the backpack is below the tennis racket; the tennis racket is below the donut; the donut is below the dog."
+  },
+  {
+    "unique_id": 2547,
+    "num_objects": 4,
+    "obj_attributes": [
+      "backpack",
+      "motorcycle",
+      "tie",
+      "bicycle"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['backpack', 'motorcycle', 'tie', 'bicycle']): the backpack is below the motorcycle; the motorcycle is to the left of the tie; the tie is to the right of the bicycle."
+  },
+  {
+    "unique_id": 19527,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sandwich",
+      "skis",
+      "spoon"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['sandwich', 'skis', 'spoon']): the sandwich is below the skis; the skis is to the right of the spoon."
+  },
+  {
+    "unique_id": 14287,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bed",
+      "elephant",
+      "fork",
+      "zebra"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['bed', 'elephant', 'fork', 'zebra']): the bed is below the elephant; the elephant is above the fork; the fork is below the zebra."
+  },
+  {
+    "unique_id": 6387,
+    "num_objects": 5,
+    "obj_attributes": [
+      "knife",
+      "boat",
+      "baseball bat",
+      "car",
+      "pizza"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['knife', 'boat', 'baseball bat', 'car', 'pizza']): the knife is below the boat; the boat is to the left of the baseball bat; the baseball bat is to the right of the car; the car is below the pizza."
+  },
+  {
+    "unique_id": 3846,
+    "num_objects": 3,
+    "obj_attributes": [
+      "airplane",
+      "toothbrush",
+      "donut"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['airplane', 'toothbrush', 'donut']): the airplane is below the toothbrush; the toothbrush is below the donut."
+  },
+  {
+    "unique_id": 3657,
+    "num_objects": 4,
+    "obj_attributes": [
+      "dining table",
+      "airplane",
+      "bird",
+      "elephant"
+    ],
+    "rel_type": [
+      "below",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['dining table', 'airplane', 'bird', 'elephant']): the dining table is below the airplane; the airplane is to the left of the bird; the bird is above the elephant."
+  },
+  {
+    "unique_id": 26266,
+    "num_objects": 5,
+    "obj_attributes": [
+      "banana",
+      "clock",
+      "kite",
+      "frisbee",
+      "bus"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['banana', 'clock', 'kite', 'frisbee', 'bus']): the banana is below the clock; the clock is below the kite; the kite is below the frisbee; the frisbee is to the left of the bus."
+  },
+  {
+    "unique_id": 3176,
+    "num_objects": 3,
+    "obj_attributes": [
+      "airplane",
+      "parking meter",
+      "skateboard"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['airplane', 'parking meter', 'skateboard']): the airplane is below the parking meter; the parking meter is below the skateboard."
+  },
+  {
+    "unique_id": 18667,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toilet",
+      "suitcase",
+      "chair",
+      "hot dog",
+      "sheep"
+    ],
+    "rel_type": [
+      "below",
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['toilet', 'suitcase', 'chair', 'hot dog', 'sheep']): the toilet is below the suitcase; the suitcase is above the chair; the chair is below the hot dog; the hot dog is to the left of the sheep."
+  },
+  {
+    "unique_id": 20996,
+    "num_objects": 3,
+    "obj_attributes": [
+      "kite",
+      "donut",
+      "zebra"
+    ],
+    "rel_type": [
+      "below",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['kite', 'donut', 'zebra']): the kite is below the donut; the donut is below the zebra."
+  },
+  {
+    "unique_id": 23446,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bottle",
+      "spoon",
+      "fork",
+      "bicycle"
+    ],
+    "rel_type": [
+      "below",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['bottle', 'spoon', 'fork', 'bicycle']): the bottle is below the spoon; the spoon is below the fork; the fork is below the bicycle."
+  },
+  {
+    "unique_id": 29916,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toilet",
+      "mouse",
+      "snowboard",
+      "vase",
+      "fire hydrant"
+    ],
+    "rel_type": [
+      "below",
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['toilet', 'mouse', 'snowboard', 'vase', 'fire hydrant']): the toilet is below the mouse; the mouse is to the right of the snowboard; the snowboard is to the left of the vase; the vase is above the fire hydrant."
+  },
+  {
+    "unique_id": 2535,
+    "num_objects": 5,
+    "obj_attributes": [
+      "giraffe",
+      "motorcycle",
+      "couch",
+      "elephant",
+      "bottle"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['giraffe', 'motorcycle', 'couch', 'elephant', 'bottle']): the giraffe is above the motorcycle; the motorcycle is to the right of the couch; the couch is to the right of the elephant; the elephant is above the bottle."
+  },
+  {
+    "unique_id": 21204,
+    "num_objects": 4,
+    "obj_attributes": [
+      "kite",
+      "vase",
+      "train",
+      "hair drier"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['kite', 'vase', 'train', 'hair drier']): the kite is above the vase; the vase is to the left of the train; the train is to the right of the hair drier."
+  },
+  {
+    "unique_id": 18264,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tie",
+      "refrigerator",
+      "sports ball"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['tie', 'refrigerator', 'sports ball']): the tie is above the refrigerator; the refrigerator is below the sports ball."
+  },
+  {
+    "unique_id": 2674,
+    "num_objects": 4,
+    "obj_attributes": [
+      "motorcycle",
+      "surfboard",
+      "knife",
+      "microwave"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['motorcycle', 'surfboard', 'knife', 'microwave']): the motorcycle is above the surfboard; the surfboard is to the left of the knife; the knife is to the left of the microwave."
+  },
+  {
+    "unique_id": 5484,
+    "num_objects": 4,
+    "obj_attributes": [
+      "truck",
+      "backpack",
+      "giraffe",
+      "broccoli"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['truck', 'backpack', 'giraffe', 'broccoli']): the truck is above the backpack; the backpack is below the giraffe; the giraffe is to the left of the broccoli."
+  },
+  {
+    "unique_id": 24164,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "teddy bear",
+      "pizza"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['wine glass', 'teddy bear', 'pizza']): the wine glass is above the teddy bear; the teddy bear is below the pizza."
+  },
+  {
+    "unique_id": 6534,
+    "num_objects": 5,
+    "obj_attributes": [
+      "boat",
+      "potted plant",
+      "teddy bear",
+      "tie",
+      "suitcase"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['boat', 'potted plant', 'teddy bear', 'tie', 'suitcase']): the boat is above the potted plant; the potted plant is above the teddy bear; the teddy bear is to the right of the tie; the tie is below the suitcase."
+  },
+  {
+    "unique_id": 3024,
+    "num_objects": 5,
+    "obj_attributes": [
+      "motorcycle",
+      "refrigerator",
+      "cake",
+      "baseball glove",
+      "scissors"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['motorcycle', 'refrigerator', 'cake', 'baseball glove', 'scissors']): the motorcycle is above the refrigerator; the refrigerator is to the right of the cake; the cake is above the baseball glove; the baseball glove is to the left of the scissors."
+  },
+  {
+    "unique_id": 16725,
+    "num_objects": 5,
+    "obj_attributes": [
+      "teddy bear",
+      "backpack",
+      "airplane",
+      "banana",
+      "book"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['teddy bear', 'backpack', 'airplane', 'banana', 'book']): the teddy bear is above the backpack; the backpack is below the airplane; the airplane is to the left of the banana; the banana is below the book."
+  },
+  {
+    "unique_id": 665,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cell phone",
+      "person",
+      "kite",
+      "tv",
+      "bicycle"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['cell phone', 'person', 'kite', 'tv', 'bicycle']): the cell phone is above the person; the person is to the left of the kite; the kite is above the tv; the tv is to the right of the bicycle."
+  },
+  {
+    "unique_id": 26785,
+    "num_objects": 4,
+    "obj_attributes": [
+      "laptop",
+      "sandwich",
+      "person",
+      "skateboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['laptop', 'sandwich', 'person', 'skateboard']): the laptop is above the sandwich; the sandwich is to the right of the person; the person is below the skateboard."
+  },
+  {
+    "unique_id": 21434,
+    "num_objects": 5,
+    "obj_attributes": [
+      "baseball bat",
+      "pizza",
+      "surfboard",
+      "vase",
+      "skis"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['baseball bat', 'pizza', 'surfboard', 'vase', 'skis']): the baseball bat is above the pizza; the pizza is above the surfboard; the surfboard is below the vase; the vase is to the left of the skis."
+  },
+  {
+    "unique_id": 16734,
+    "num_objects": 5,
+    "obj_attributes": [
+      "backpack",
+      "hair drier",
+      "laptop",
+      "cup",
+      "orange"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['backpack', 'hair drier', 'laptop', 'cup', 'orange']): the backpack is above the hair drier; the hair drier is above the laptop; the laptop is above the cup; the cup is to the right of the orange."
+  },
+  {
+    "unique_id": 14084,
+    "num_objects": 5,
+    "obj_attributes": [
+      "elephant",
+      "bottle",
+      "motorcycle",
+      "cat",
+      "couch"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['elephant', 'bottle', 'motorcycle', 'cat', 'couch']): the elephant is above the bottle; the bottle is to the right of the motorcycle; the motorcycle is to the right of the cat; the cat is below the couch."
+  },
+  {
+    "unique_id": 17915,
+    "num_objects": 5,
+    "obj_attributes": [
+      "surfboard",
+      "tie",
+      "cell phone",
+      "potted plant",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['surfboard', 'tie', 'cell phone', 'potted plant', 'motorcycle']): the surfboard is above the tie; the tie is above the cell phone; the cell phone is below the potted plant; the potted plant is to the left of the motorcycle."
+  },
+  {
+    "unique_id": 29415,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sink",
+      "potted plant",
+      "dining table",
+      "tennis racket",
+      "scissors"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['sink', 'potted plant', 'dining table', 'tennis racket', 'scissors']): the sink is above the potted plant; the potted plant is below the dining table; the dining table is to the left of the tennis racket; the tennis racket is below the scissors."
+  },
+  {
+    "unique_id": 27754,
+    "num_objects": 3,
+    "obj_attributes": [
+      "carrot",
+      "book",
+      "pizza"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['carrot', 'book', 'pizza']): the carrot is above the book; the book is above the pizza."
+  },
+  {
+    "unique_id": 20485,
+    "num_objects": 4,
+    "obj_attributes": [
+      "orange",
+      "sports ball",
+      "traffic light",
+      "refrigerator"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['orange', 'sports ball', 'traffic light', 'refrigerator']): the orange is above the sports ball; the sports ball is to the right of the traffic light; the traffic light is to the right of the refrigerator."
+  },
+  {
+    "unique_id": 20095,
+    "num_objects": 5,
+    "obj_attributes": [
+      "couch",
+      "snowboard",
+      "apple",
+      "potted plant",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['couch', 'snowboard', 'apple', 'potted plant', 'toothbrush']): the couch is above the snowboard; the snowboard is below the apple; the apple is to the right of the potted plant; the potted plant is to the left of the toothbrush."
+  },
+  {
+    "unique_id": 28574,
+    "num_objects": 5,
+    "obj_attributes": [
+      "donut",
+      "teddy bear",
+      "sink",
+      "traffic light",
+      "car"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['donut', 'teddy bear', 'sink', 'traffic light', 'car']): the donut is above the teddy bear; the teddy bear is above the sink; the sink is above the traffic light; the traffic light is below the car."
+  },
+  {
+    "unique_id": 3284,
+    "num_objects": 4,
+    "obj_attributes": [
+      "airplane",
+      "giraffe",
+      "hot dog",
+      "train"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['airplane', 'giraffe', 'hot dog', 'train']): the airplane is above the giraffe; the giraffe is to the left of the hot dog; the hot dog is below the train."
+  },
+  {
+    "unique_id": 13484,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cow",
+      "tennis racket",
+      "motorcycle",
+      "suitcase",
+      "elephant"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['cow', 'tennis racket', 'motorcycle', 'suitcase', 'elephant']): the cow is above the tennis racket; the tennis racket is above the motorcycle; the motorcycle is below the suitcase; the suitcase is to the left of the elephant."
+  },
+  {
+    "unique_id": 24395,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "cup",
+      "bench",
+      "spoon"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['tv', 'cup', 'bench', 'spoon']): the tv is above the cup; the cup is above the bench; the bench is to the right of the spoon."
+  },
+  {
+    "unique_id": 6785,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bench",
+      "traffic light",
+      "snowboard"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['bench', 'traffic light', 'snowboard']): the bench is above the traffic light; the traffic light is above the snowboard."
+  },
+  {
+    "unique_id": 12704,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "elephant",
+      "wine glass",
+      "tie",
+      "pizza"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['sheep', 'elephant', 'wine glass', 'tie', 'pizza']): the sheep is above the elephant; the elephant is above the wine glass; the wine glass is above the tie; the tie is to the left of the pizza."
+  },
+  {
+    "unique_id": 4704,
+    "num_objects": 5,
+    "obj_attributes": [
+      "train",
+      "sheep",
+      "cat",
+      "vase",
+      "book"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['train', 'sheep', 'cat', 'vase', 'book']): the train is above the sheep; the sheep is below the cat; the cat is to the right of the vase; the vase is to the left of the book."
+  },
+  {
+    "unique_id": 10644,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bird",
+      "mouse",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['bird', 'mouse', 'motorcycle']): the bird is above the mouse; the mouse is to the right of the motorcycle."
+  },
+  {
+    "unique_id": 10764,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bird",
+      "scissors",
+      "train",
+      "giraffe",
+      "stop sign"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['bird', 'scissors', 'train', 'giraffe', 'stop sign']): the bird is above the scissors; the scissors is below the train; the train is to the left of the giraffe; the giraffe is to the left of the stop sign."
+  },
+  {
+    "unique_id": 31534,
+    "num_objects": 3,
+    "obj_attributes": [
+      "vase",
+      "toothbrush",
+      "sandwich"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['vase', 'toothbrush', 'sandwich']): the vase is above the toothbrush; the toothbrush is above the sandwich."
+  },
+  {
+    "unique_id": 30434,
+    "num_objects": 3,
+    "obj_attributes": [
+      "mouse",
+      "microwave",
+      "bus"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['mouse', 'microwave', 'bus']): the mouse is above the microwave; the microwave is to the left of the bus."
+  },
+  {
+    "unique_id": 4244,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bus",
+      "bowl",
+      "sandwich",
+      "microwave",
+      "surfboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['bus', 'bowl', 'sandwich', 'microwave', 'surfboard']): the bus is above the bowl; the bowl is to the left of the sandwich; the sandwich is below the microwave; the microwave is to the right of the surfboard."
+  },
+  {
+    "unique_id": 9624,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bench",
+      "tie",
+      "carrot"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['bench', 'tie', 'carrot']): the bench is above the tie; the tie is to the left of the carrot."
+  },
+  {
+    "unique_id": 515,
+    "num_objects": 5,
+    "obj_attributes": [
+      "hot dog",
+      "person",
+      "baseball bat",
+      "cake",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['hot dog', 'person', 'baseball bat', 'cake', 'motorcycle']): the hot dog is above the person; the person is to the left of the baseball bat; the baseball bat is below the cake; the cake is below the motorcycle."
+  },
+  {
+    "unique_id": 5274,
+    "num_objects": 5,
+    "obj_attributes": [
+      "train",
+      "vase",
+      "backpack",
+      "hot dog",
+      "bus"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['train', 'vase', 'backpack', 'hot dog', 'bus']): the train is above the vase; the vase is to the left of the backpack; the backpack is to the right of the hot dog; the hot dog is above the bus."
+  },
+  {
+    "unique_id": 7334,
+    "num_objects": 5,
+    "obj_attributes": [
+      "traffic light",
+      "microwave",
+      "clock",
+      "tennis racket",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['traffic light', 'microwave', 'clock', 'tennis racket', 'motorcycle']): the traffic light is above the microwave; the microwave is above the clock; the clock is below the tennis racket; the tennis racket is to the left of the motorcycle."
+  },
+  {
+    "unique_id": 17534,
+    "num_objects": 3,
+    "obj_attributes": [
+      "handbag",
+      "carrot",
+      "remote"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['handbag', 'carrot', 'remote']): the handbag is above the carrot; the carrot is to the left of the remote."
+  },
+  {
+    "unique_id": 7444,
+    "num_objects": 3,
+    "obj_attributes": [
+      "traffic light",
+      "toothbrush",
+      "sheep"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['traffic light', 'toothbrush', 'sheep']): the traffic light is above the toothbrush; the toothbrush is to the left of the sheep."
+  },
+  {
+    "unique_id": 13144,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "mouse",
+      "fork"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['sheep', 'mouse', 'fork']): the sheep is above the mouse; the mouse is to the left of the fork."
+  },
+  {
+    "unique_id": 6464,
+    "num_objects": 4,
+    "obj_attributes": [
+      "boat",
+      "carrot",
+      "teddy bear",
+      "bottle"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['boat', 'carrot', 'teddy bear', 'bottle']): the boat is above the carrot; the carrot is below the teddy bear; the teddy bear is to the right of the bottle."
+  },
+  {
+    "unique_id": 7654,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fire hydrant",
+      "snowboard",
+      "bottle",
+      "person",
+      "fork"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['fire hydrant', 'snowboard', 'bottle', 'person', 'fork']): the fire hydrant is above the snowboard; the snowboard is above the bottle; the bottle is to the left of the person; the person is to the right of the fork."
+  },
+  {
+    "unique_id": 2605,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skis",
+      "motorcycle",
+      "sandwich"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['skis', 'motorcycle', 'sandwich']): the skis is above the motorcycle; the motorcycle is to the left of the sandwich."
+  },
+  {
+    "unique_id": 30124,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "microwave",
+      "cup",
+      "baseball glove"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['tv', 'microwave', 'cup', 'baseball glove']): the tv is above the microwave; the microwave is to the left of the cup; the cup is below the baseball glove."
+  },
+  {
+    "unique_id": 12575,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "horse",
+      "broccoli",
+      "stop sign",
+      "sheep"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['microwave', 'horse', 'broccoli', 'stop sign', 'sheep']): the microwave is above the horse; the horse is above the broccoli; the broccoli is above the stop sign; the stop sign is to the right of the sheep."
+  },
+  {
+    "unique_id": 23414,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bottle",
+      "cup",
+      "bear",
+      "hot dog",
+      "sandwich"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['bottle', 'cup', 'bear', 'hot dog', 'sandwich']): the bottle is above the cup; the cup is to the right of the bear; the bear is above the hot dog; the hot dog is above the sandwich."
+  },
+  {
+    "unique_id": 25484,
+    "num_objects": 5,
+    "obj_attributes": [
+      "spoon",
+      "laptop",
+      "suitcase",
+      "hot dog",
+      "boat"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['spoon', 'laptop', 'suitcase', 'hot dog', 'boat']): the spoon is above the laptop; the laptop is to the right of the suitcase; the suitcase is below the hot dog; the hot dog is to the right of the boat."
+  },
+  {
+    "unique_id": 17544,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "hot dog",
+      "frisbee",
+      "clock"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['handbag', 'hot dog', 'frisbee', 'clock']): the handbag is above the hot dog; the hot dog is to the left of the frisbee; the frisbee is to the right of the clock."
+  },
+  {
+    "unique_id": 21115,
+    "num_objects": 3,
+    "obj_attributes": [
+      "keyboard",
+      "kite",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['keyboard', 'kite', 'toothbrush']): the keyboard is above the kite; the kite is below the toothbrush."
+  },
+  {
+    "unique_id": 9595,
+    "num_objects": 3,
+    "obj_attributes": [
+      "backpack",
+      "bench",
+      "traffic light"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['backpack', 'bench', 'traffic light']): the backpack is above the bench; the bench is to the left of the traffic light."
+  },
+  {
+    "unique_id": 9225,
+    "num_objects": 3,
+    "obj_attributes": [
+      "pizza",
+      "parking meter",
+      "skis"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['pizza', 'parking meter', 'skis']): the pizza is above the parking meter; the parking meter is above the skis."
+  },
+  {
+    "unique_id": 27464,
+    "num_objects": 3,
+    "obj_attributes": [
+      "broccoli",
+      "refrigerator",
+      "tennis racket"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['broccoli', 'refrigerator', 'tennis racket']): the broccoli is above the refrigerator; the refrigerator is to the right of the tennis racket."
+  },
+  {
+    "unique_id": 18314,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tie",
+      "teddy bear",
+      "suitcase",
+      "person",
+      "snowboard"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['tie', 'teddy bear', 'suitcase', 'person', 'snowboard']): the tie is above the teddy bear; the teddy bear is above the suitcase; the suitcase is above the person; the person is to the right of the snowboard."
+  },
+  {
+    "unique_id": 5784,
+    "num_objects": 5,
+    "obj_attributes": [
+      "truck",
+      "donut",
+      "remote",
+      "dining table",
+      "car"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['truck', 'donut', 'remote', 'dining table', 'car']): the truck is above the donut; the donut is below the remote; the remote is above the dining table; the dining table is above the car."
+  },
+  {
+    "unique_id": 18435,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tennis racket",
+      "suitcase",
+      "bottle"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['tennis racket', 'suitcase', 'bottle']): the tennis racket is above the suitcase; the suitcase is above the bottle."
+  },
+  {
+    "unique_id": 25915,
+    "num_objects": 3,
+    "obj_attributes": [
+      "refrigerator",
+      "bowl",
+      "skis"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['refrigerator', 'bowl', 'skis']): the refrigerator is above the bowl; the bowl is to the left of the skis."
+  },
+  {
+    "unique_id": 16505,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cake",
+      "backpack",
+      "zebra"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['cake', 'backpack', 'zebra']): the cake is above the backpack; the backpack is below the zebra."
+  },
+  {
+    "unique_id": 25705,
+    "num_objects": 4,
+    "obj_attributes": [
+      "carrot",
+      "bowl",
+      "bus",
+      "toaster"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['carrot', 'bowl', 'bus', 'toaster']): the carrot is above the bowl; the bowl is to the left of the bus; the bus is above the toaster."
+  },
+  {
+    "unique_id": 19405,
+    "num_objects": 5,
+    "obj_attributes": [
+      "skateboard",
+      "skis",
+      "frisbee",
+      "sports ball",
+      "backpack"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['skateboard', 'skis', 'frisbee', 'sports ball', 'backpack']): the skateboard is above the skis; the skis is above the frisbee; the frisbee is to the right of the sports ball; the sports ball is below the backpack."
+  },
+  {
+    "unique_id": 12754,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "umbrella",
+      "baseball bat"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['sheep', 'umbrella', 'baseball bat']): the sheep is above the umbrella; the umbrella is below the baseball bat."
+  },
+  {
+    "unique_id": 18395,
+    "num_objects": 3,
+    "obj_attributes": [
+      "baseball bat",
+      "suitcase",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['baseball bat', 'suitcase', 'teddy bear']): the baseball bat is above the suitcase; the suitcase is to the right of the teddy bear."
+  },
+  {
+    "unique_id": 10144,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bench",
+      "toothbrush",
+      "sink",
+      "carrot"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['bench', 'toothbrush', 'sink', 'carrot']): the bench is above the toothbrush; the toothbrush is to the right of the sink; the sink is above the carrot."
+  },
+  {
+    "unique_id": 20004,
+    "num_objects": 3,
+    "obj_attributes": [
+      "snowboard",
+      "sandwich",
+      "bus"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['snowboard', 'sandwich', 'bus']): the snowboard is above the sandwich; the sandwich is to the right of the bus."
+  },
+  {
+    "unique_id": 28464,
+    "num_objects": 5,
+    "obj_attributes": [
+      "donut",
+      "keyboard",
+      "tie",
+      "umbrella",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['donut', 'keyboard', 'tie', 'umbrella', 'toothbrush']): the donut is above the keyboard; the keyboard is to the right of the tie; the tie is below the umbrella; the umbrella is to the left of the toothbrush."
+  },
+  {
+    "unique_id": 16914,
+    "num_objects": 4,
+    "obj_attributes": [
+      "umbrella",
+      "fork",
+      "donut",
+      "tv"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['umbrella', 'fork', 'donut', 'tv']): the umbrella is above the fork; the fork is below the donut; the donut is to the right of the tv."
+  },
+  {
+    "unique_id": 23335,
+    "num_objects": 4,
+    "obj_attributes": [
+      "book",
+      "tennis racket",
+      "horse",
+      "bowl"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['book', 'tennis racket', 'horse', 'bowl']): the book is above the tennis racket; the tennis racket is above the horse; the horse is below the bowl."
+  },
+  {
+    "unique_id": 7965,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "fire hydrant",
+      "clock",
+      "cat"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['tv', 'fire hydrant', 'clock', 'cat']): the tv is above the fire hydrant; the fire hydrant is to the right of the clock; the clock is above the cat."
+  },
+  {
+    "unique_id": 16464,
+    "num_objects": 3,
+    "obj_attributes": [
+      "backpack",
+      "carrot",
+      "bicycle"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['backpack', 'carrot', 'bicycle']): the backpack is above the carrot; the carrot is below the bicycle."
+  },
+  {
+    "unique_id": 25215,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sink",
+      "knife",
+      "vase"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['sink', 'knife', 'vase']): the sink is above the knife; the knife is below the vase."
+  },
+  {
+    "unique_id": 13774,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cow",
+      "cell phone",
+      "cake"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['cow', 'cell phone', 'cake']): the cow is above the cell phone; the cell phone is to the left of the cake."
+  },
+  {
+    "unique_id": 17484,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "banana",
+      "parking meter",
+      "spoon"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['handbag', 'banana', 'parking meter', 'spoon']): the handbag is above the banana; the banana is below the parking meter; the parking meter is to the right of the spoon."
+  },
+  {
+    "unique_id": 11624,
+    "num_objects": 4,
+    "obj_attributes": [
+      "dog",
+      "baseball glove",
+      "apple",
+      "toilet"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['dog', 'baseball glove', 'apple', 'toilet']): the dog is above the baseball glove; the baseball glove is below the apple; the apple is to the left of the toilet."
+  },
+  {
+    "unique_id": 17105,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toilet",
+      "umbrella",
+      "toothbrush",
+      "hair drier",
+      "tv"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['toilet', 'umbrella', 'toothbrush', 'hair drier', 'tv']): the toilet is above the umbrella; the umbrella is to the left of the toothbrush; the toothbrush is below the hair drier; the hair drier is above the tv."
+  },
+  {
+    "unique_id": 1294,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bicycle",
+      "hot dog",
+      "cat",
+      "parking meter"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['bicycle', 'hot dog', 'cat', 'parking meter']): the bicycle is above the hot dog; the hot dog is below the cat; the cat is to the left of the parking meter."
+  },
+  {
+    "unique_id": 23954,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "chair",
+      "refrigerator"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['wine glass', 'chair', 'refrigerator']): the wine glass is above the chair; the chair is above the refrigerator."
+  },
+  {
+    "unique_id": 21505,
+    "num_objects": 3,
+    "obj_attributes": [
+      "dining table",
+      "baseball bat",
+      "dog"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['dining table', 'baseball bat', 'dog']): the dining table is above the baseball bat; the baseball bat is to the left of the dog."
+  },
+  {
+    "unique_id": 19025,
+    "num_objects": 4,
+    "obj_attributes": [
+      "apple",
+      "frisbee",
+      "giraffe",
+      "cat"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['apple', 'frisbee', 'giraffe', 'cat']): the apple is above the frisbee; the frisbee is below the giraffe; the giraffe is to the right of the cat."
+  },
+  {
+    "unique_id": 20154,
+    "num_objects": 5,
+    "obj_attributes": [
+      "snowboard",
+      "laptop",
+      "hair drier",
+      "orange",
+      "wine glass"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['snowboard', 'laptop', 'hair drier', 'orange', 'wine glass']): the snowboard is above the laptop; the laptop is above the hair drier; the hair drier is above the orange; the orange is to the right of the wine glass."
+  },
+  {
+    "unique_id": 8634,
+    "num_objects": 4,
+    "obj_attributes": [
+      "stop sign",
+      "toilet",
+      "clock",
+      "scissors"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['stop sign', 'toilet', 'clock', 'scissors']): the stop sign is above the toilet; the toilet is to the right of the clock; the clock is below the scissors."
+  },
+  {
+    "unique_id": 4444,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bus",
+      "remote",
+      "baseball glove",
+      "couch"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['bus', 'remote', 'baseball glove', 'couch']): the bus is above the remote; the remote is to the left of the baseball glove; the baseball glove is to the right of the couch."
+  },
+  {
+    "unique_id": 14174,
+    "num_objects": 4,
+    "obj_attributes": [
+      "elephant",
+      "sandwich",
+      "truck",
+      "clock"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['elephant', 'sandwich', 'truck', 'clock']): the elephant is above the sandwich; the sandwich is above the truck; the truck is below the clock."
+  },
+  {
+    "unique_id": 9274,
+    "num_objects": 3,
+    "obj_attributes": [
+      "parking meter",
+      "potted plant",
+      "snowboard"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['parking meter', 'potted plant', 'snowboard']): the parking meter is above the potted plant; the potted plant is to the right of the snowboard."
+  },
+  {
+    "unique_id": 1975,
+    "num_objects": 3,
+    "obj_attributes": [
+      "knife",
+      "car",
+      "cake"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['knife', 'car', 'cake']): the knife is above the car; the car is to the left of the cake."
+  },
+  {
+    "unique_id": 27515,
+    "num_objects": 3,
+    "obj_attributes": [
+      "teddy bear",
+      "broccoli",
+      "kite"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['teddy bear', 'broccoli', 'kite']): the teddy bear is above the broccoli; the broccoli is to the left of the kite."
+  },
+  {
+    "unique_id": 21385,
+    "num_objects": 4,
+    "obj_attributes": [
+      "sandwich",
+      "baseball bat",
+      "keyboard",
+      "sheep"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['sandwich', 'baseball bat', 'keyboard', 'sheep']): the sandwich is above the baseball bat; the baseball bat is above the keyboard; the keyboard is below the sheep."
+  },
+  {
+    "unique_id": 18675,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tv",
+      "suitcase",
+      "sandwich",
+      "potted plant",
+      "car"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['tv', 'suitcase', 'sandwich', 'potted plant', 'car']): the tv is above the suitcase; the suitcase is to the left of the sandwich; the sandwich is above the potted plant; the potted plant is below the car."
+  },
+  {
+    "unique_id": 13125,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "sheep",
+      "cow",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['tv', 'sheep', 'cow', 'teddy bear']): the tv is above the sheep; the sheep is above the cow; the cow is to the left of the teddy bear."
+  },
+  {
+    "unique_id": 16554,
+    "num_objects": 4,
+    "obj_attributes": [
+      "backpack",
+      "dining table",
+      "traffic light",
+      "elephant"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['backpack', 'dining table', 'traffic light', 'elephant']): the backpack is above the dining table; the dining table is above the traffic light; the traffic light is to the left of the elephant."
+  },
+  {
+    "unique_id": 28385,
+    "num_objects": 3,
+    "obj_attributes": [
+      "potted plant",
+      "donut",
+      "broccoli"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['potted plant', 'donut', 'broccoli']): the potted plant is above the donut; the donut is below the broccoli."
+  },
+  {
+    "unique_id": 19704,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skis",
+      "keyboard",
+      "bottle"
+    ],
+    "rel_type": [
+      "above",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['skis', 'keyboard', 'bottle']): the skis is above the keyboard; the keyboard is above the bottle."
+  },
+  {
+    "unique_id": 7695,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball glove",
+      "fire hydrant",
+      "stop sign",
+      "person"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['baseball glove', 'fire hydrant', 'stop sign', 'person']): the baseball glove is above the fire hydrant; the fire hydrant is above the stop sign; the stop sign is to the left of the person."
+  },
+  {
+    "unique_id": 13185,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "sheep",
+      "spoon",
+      "train",
+      "refrigerator"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['microwave', 'sheep', 'spoon', 'train', 'refrigerator']): the microwave is above the sheep; the sheep is to the right of the spoon; the spoon is above the train; the train is to the right of the refrigerator."
+  },
+  {
+    "unique_id": 7544,
+    "num_objects": 3,
+    "obj_attributes": [
+      "fire hydrant",
+      "elephant",
+      "tie"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['fire hydrant', 'elephant', 'tie']): the fire hydrant is above the elephant; the elephant is to the left of the tie."
+  },
+  {
+    "unique_id": 25735,
+    "num_objects": 5,
+    "obj_attributes": [
+      "donut",
+      "bowl",
+      "laptop",
+      "potted plant",
+      "suitcase"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['donut', 'bowl', 'laptop', 'potted plant', 'suitcase']): the donut is above the bowl; the bowl is above the laptop; the laptop is to the left of the potted plant; the potted plant is to the right of the suitcase."
+  },
+  {
+    "unique_id": 23044,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tennis racket",
+      "spoon",
+      "orange",
+      "fire hydrant",
+      "stop sign"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['tennis racket', 'spoon', 'orange', 'fire hydrant', 'stop sign']): the tennis racket is above the spoon; the spoon is below the orange; the orange is below the fire hydrant; the fire hydrant is above the stop sign."
+  },
+  {
+    "unique_id": 17675,
+    "num_objects": 4,
+    "obj_attributes": [
+      "remote",
+      "handbag",
+      "bus",
+      "boat"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['remote', 'handbag', 'bus', 'boat']): the remote is above the handbag; the handbag is to the left of the bus; the bus is above the boat."
+  },
+  {
+    "unique_id": 11354,
+    "num_objects": 4,
+    "obj_attributes": [
+      "cat",
+      "sink",
+      "cake",
+      "airplane"
+    ],
+    "rel_type": [
+      "above",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['cat', 'sink', 'cake', 'airplane']): the cat is above the sink; the sink is to the left of the cake; the cake is to the right of the airplane."
+  },
+  {
+    "unique_id": 1835,
+    "num_objects": 4,
+    "obj_attributes": [
+      "frisbee",
+      "car",
+      "backpack",
+      "spoon"
+    ],
+    "rel_type": [
+      "above",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['frisbee', 'car', 'backpack', 'spoon']): the frisbee is above the car; the car is above the backpack; the backpack is to the right of the spoon."
+  },
+  {
+    "unique_id": 13524,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cow",
+      "fork",
+      "vase",
+      "bicycle",
+      "cell phone"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['cow', 'fork', 'vase', 'bicycle', 'cell phone']): the cow is above the fork; the fork is below the vase; the vase is above the bicycle; the bicycle is to the left of the cell phone."
+  },
+  {
+    "unique_id": 4764,
+    "num_objects": 3,
+    "obj_attributes": [
+      "train",
+      "backpack",
+      "carrot"
+    ],
+    "rel_type": [
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['train', 'backpack', 'carrot']): the train is above the backpack; the backpack is to the right of the carrot."
+  },
+  {
+    "unique_id": 5204,
+    "num_objects": 3,
+    "obj_attributes": [
+      "train",
+      "microwave",
+      "keyboard"
+    ],
+    "rel_type": [
+      "above",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['train', 'microwave', 'keyboard']): the train is above the microwave; the microwave is below the keyboard."
+  },
+  {
+    "unique_id": 18725,
+    "num_objects": 4,
+    "obj_attributes": [
+      "cell phone",
+      "suitcase",
+      "teddy bear",
+      "bicycle"
+    ],
+    "rel_type": [
+      "above",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['cell phone', 'suitcase', 'teddy bear', 'bicycle']): the cell phone is above the suitcase; the suitcase is below the teddy bear; the teddy bear is below the bicycle."
+  },
+  {
+    "unique_id": 28901,
+    "num_objects": 3,
+    "obj_attributes": [
+      "laptop",
+      "chair",
+      "boat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['laptop', 'chair', 'boat']): the laptop is to the left of the chair; the chair is below the boat."
+  },
+  {
+    "unique_id": 2211,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cell phone",
+      "car",
+      "keyboard",
+      "boat",
+      "stop sign"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['cell phone', 'car', 'keyboard', 'boat', 'stop sign']): the cell phone is to the left of the car; the car is to the right of the keyboard; the keyboard is to the right of the boat; the boat is above the stop sign."
+  },
+  {
+    "unique_id": 17171,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "umbrella",
+      "couch",
+      "traffic light",
+      "pizza"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['microwave', 'umbrella', 'couch', 'traffic light', 'pizza']): the microwave is to the left of the umbrella; the umbrella is to the left of the couch; the couch is to the right of the traffic light; the traffic light is to the left of the pizza."
+  },
+  {
+    "unique_id": 12880,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "tennis racket",
+      "clock"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['sheep', 'tennis racket', 'clock']): the sheep is to the left of the tennis racket; the tennis racket is below the clock."
+  },
+  {
+    "unique_id": 16911,
+    "num_objects": 5,
+    "obj_attributes": [
+      "fork",
+      "umbrella",
+      "baseball glove",
+      "skateboard",
+      "bottle"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['fork', 'umbrella', 'baseball glove', 'skateboard', 'bottle']): the fork is to the left of the umbrella; the umbrella is to the left of the baseball glove; the baseball glove is below the skateboard; the skateboard is above the bottle."
+  },
+  {
+    "unique_id": 6631,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "boat",
+      "giraffe",
+      "umbrella",
+      "broccoli"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['microwave', 'boat', 'giraffe', 'umbrella', 'broccoli']): the microwave is to the left of the boat; the boat is to the left of the giraffe; the giraffe is to the left of the umbrella; the umbrella is to the right of the broccoli."
+  },
+  {
+    "unique_id": 11091,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bowl",
+      "cat",
+      "toilet",
+      "backpack",
+      "handbag"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['bowl', 'cat', 'toilet', 'backpack', 'handbag']): the bowl is to the left of the cat; the cat is below the toilet; the toilet is to the right of the backpack; the backpack is to the right of the handbag."
+  },
+  {
+    "unique_id": 28931,
+    "num_objects": 4,
+    "obj_attributes": [
+      "keyboard",
+      "chair",
+      "bench",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['keyboard', 'chair', 'bench', 'laptop']): the keyboard is to the left of the chair; the chair is below the bench; the bench is to the right of the laptop."
+  },
+  {
+    "unique_id": 25621,
+    "num_objects": 4,
+    "obj_attributes": [
+      "teddy bear",
+      "spoon",
+      "wine glass",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['teddy bear', 'spoon', 'wine glass', 'suitcase']): the teddy bear is to the left of the spoon; the spoon is below the wine glass; the wine glass is below the suitcase."
+  },
+  {
+    "unique_id": 23971,
+    "num_objects": 3,
+    "obj_attributes": [
+      "potted plant",
+      "wine glass",
+      "donut"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['potted plant', 'wine glass', 'donut']): the potted plant is to the left of the wine glass; the wine glass is to the left of the donut."
+  },
+  {
+    "unique_id": 29601,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toaster",
+      "bed",
+      "potted plant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['toaster', 'bed', 'potted plant']): the toaster is to the left of the bed; the bed is to the left of the potted plant."
+  },
+  {
+    "unique_id": 13250,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "vase",
+      "bear"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['sheep', 'vase', 'bear']): the sheep is to the left of the vase; the vase is below the bear."
+  },
+  {
+    "unique_id": 30310,
+    "num_objects": 5,
+    "obj_attributes": [
+      "laptop",
+      "sink",
+      "person",
+      "microwave",
+      "bear"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['laptop', 'sink', 'person', 'microwave', 'bear']): the laptop is to the left of the sink; the sink is below the person; the person is to the left of the microwave; the microwave is to the left of the bear."
+  },
+  {
+    "unique_id": 5520,
+    "num_objects": 5,
+    "obj_attributes": [
+      "truck",
+      "suitcase",
+      "potted plant",
+      "cell phone",
+      "skateboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['truck', 'suitcase', 'potted plant', 'cell phone', 'skateboard']): the truck is to the left of the suitcase; the suitcase is to the right of the potted plant; the potted plant is to the right of the cell phone; the cell phone is below the skateboard."
+  },
+  {
+    "unique_id": 28781,
+    "num_objects": 4,
+    "obj_attributes": [
+      "clock",
+      "cake",
+      "cat",
+      "traffic light"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['clock', 'cake', 'cat', 'traffic light']): the clock is to the left of the cake; the cake is to the left of the cat; the cat is to the left of the traffic light."
+  },
+  {
+    "unique_id": 1101,
+    "num_objects": 4,
+    "obj_attributes": [
+      "kite",
+      "bicycle",
+      "hot dog",
+      "sports ball"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['kite', 'bicycle', 'hot dog', 'sports ball']): the kite is to the left of the bicycle; the bicycle is to the right of the hot dog; the hot dog is to the left of the sports ball."
+  },
+  {
+    "unique_id": 17391,
+    "num_objects": 3,
+    "obj_attributes": [
+      "surfboard",
+      "handbag",
+      "scissors"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['surfboard', 'handbag', 'scissors']): the surfboard is to the left of the handbag; the handbag is above the scissors."
+  },
+  {
+    "unique_id": 3870,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bus",
+      "boat",
+      "bench"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['bus', 'boat', 'bench']): the bus is to the left of the boat; the boat is below the bench."
+  },
+  {
+    "unique_id": 26071,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cake",
+      "banana",
+      "car",
+      "refrigerator",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['cake', 'banana', 'car', 'refrigerator', 'surfboard']): the cake is to the left of the banana; the banana is to the left of the car; the car is to the left of the refrigerator; the refrigerator is above the surfboard."
+  },
+  {
+    "unique_id": 10200,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bird",
+      "elephant",
+      "sports ball",
+      "giraffe"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['bird', 'elephant', 'sports ball', 'giraffe']): the bird is to the left of the elephant; the elephant is to the left of the sports ball; the sports ball is below the giraffe."
+  },
+  {
+    "unique_id": 4580,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bus",
+      "toothbrush",
+      "bicycle",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['bus', 'toothbrush', 'bicycle', 'surfboard']): the bus is to the left of the toothbrush; the toothbrush is to the left of the bicycle; the bicycle is to the left of the surfboard."
+  },
+  {
+    "unique_id": 4531,
+    "num_objects": 5,
+    "obj_attributes": [
+      "clock",
+      "bus",
+      "tie",
+      "kite",
+      "donut"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['clock', 'bus', 'tie', 'kite', 'donut']): the clock is to the left of the bus; the bus is above the tie; the tie is above the kite; the kite is below the donut."
+  },
+  {
+    "unique_id": 23121,
+    "num_objects": 3,
+    "obj_attributes": [
+      "hot dog",
+      "tennis racket",
+      "oven"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['hot dog', 'tennis racket', 'oven']): the hot dog is to the left of the tennis racket; the tennis racket is above the oven."
+  },
+  {
+    "unique_id": 22560,
+    "num_objects": 4,
+    "obj_attributes": [
+      "skateboard",
+      "toothbrush",
+      "book",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['skateboard', 'toothbrush', 'book', 'laptop']): the skateboard is to the left of the toothbrush; the toothbrush is above the book; the book is to the right of the laptop."
+  },
+  {
+    "unique_id": 14650,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bear",
+      "tennis racket",
+      "stop sign",
+      "wine glass"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['bear', 'tennis racket', 'stop sign', 'wine glass']): the bear is to the left of the tennis racket; the tennis racket is above the stop sign; the stop sign is below the wine glass."
+  },
+  {
+    "unique_id": 14961,
+    "num_objects": 4,
+    "obj_attributes": [
+      "oven",
+      "bear",
+      "chair",
+      "vase"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['oven', 'bear', 'chair', 'vase']): the oven is to the left of the bear; the bear is to the left of the chair; the chair is to the left of the vase."
+  },
+  {
+    "unique_id": 600,
+    "num_objects": 4,
+    "obj_attributes": [
+      "person",
+      "toilet",
+      "backpack",
+      "fork"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['person', 'toilet', 'backpack', 'fork']): the person is to the left of the toilet; the toilet is below the backpack; the backpack is to the left of the fork."
+  },
+  {
+    "unique_id": 25600,
+    "num_objects": 4,
+    "obj_attributes": [
+      "spoon",
+      "vase",
+      "oven",
+      "person"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['spoon', 'vase', 'oven', 'person']): the spoon is to the left of the vase; the vase is below the oven; the oven is to the right of the person."
+  },
+  {
+    "unique_id": 24651,
+    "num_objects": 5,
+    "obj_attributes": [
+      "carrot",
+      "fork",
+      "pizza",
+      "orange",
+      "horse"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['carrot', 'fork', 'pizza', 'orange', 'horse']): the carrot is to the left of the fork; the fork is above the pizza; the pizza is below the orange; the orange is below the horse."
+  },
+  {
+    "unique_id": 26650,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sandwich",
+      "broccoli",
+      "umbrella",
+      "bottle",
+      "frisbee"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['sandwich', 'broccoli', 'umbrella', 'bottle', 'frisbee']): the sandwich is to the left of the broccoli; the broccoli is to the left of the umbrella; the umbrella is above the bottle; the bottle is below the frisbee."
+  },
+  {
+    "unique_id": 19291,
+    "num_objects": 5,
+    "obj_attributes": [
+      "clock",
+      "frisbee",
+      "bottle",
+      "banana",
+      "fork"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['clock', 'frisbee', 'bottle', 'banana', 'fork']): the clock is to the left of the frisbee; the frisbee is above the bottle; the bottle is to the right of the banana; the banana is below the fork."
+  },
+  {
+    "unique_id": 29061,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toothbrush",
+      "chair",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['toothbrush', 'chair', 'laptop']): the toothbrush is to the left of the chair; the chair is to the left of the laptop."
+  },
+  {
+    "unique_id": 29111,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "couch",
+      "wine glass",
+      "skateboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['tv', 'couch', 'wine glass', 'skateboard']): the tv is to the left of the couch; the couch is below the wine glass; the wine glass is to the left of the skateboard."
+  },
+  {
+    "unique_id": 30220,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tv",
+      "hair drier",
+      "potted plant",
+      "bicycle",
+      "fire hydrant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['tv', 'hair drier', 'potted plant', 'bicycle', 'fire hydrant']): the tv is to the left of the hair drier; the hair drier is to the left of the potted plant; the potted plant is to the right of the bicycle; the bicycle is above the fire hydrant."
+  },
+  {
+    "unique_id": 8250,
+    "num_objects": 4,
+    "obj_attributes": [
+      "stop sign",
+      "giraffe",
+      "bird",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['stop sign', 'giraffe', 'bird', 'toothbrush']): the stop sign is to the left of the giraffe; the giraffe is below the bird; the bird is to the left of the toothbrush."
+  },
+  {
+    "unique_id": 14931,
+    "num_objects": 4,
+    "obj_attributes": [
+      "keyboard",
+      "bear",
+      "sink",
+      "carrot"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['keyboard', 'bear', 'sink', 'carrot']): the keyboard is to the left of the bear; the bear is below the sink; the sink is to the left of the carrot."
+  },
+  {
+    "unique_id": 29220,
+    "num_objects": 4,
+    "obj_attributes": [
+      "couch",
+      "book",
+      "hair drier",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['couch', 'book', 'hair drier', 'suitcase']): the couch is to the left of the book; the book is above the hair drier; the hair drier is to the right of the suitcase."
+  },
+  {
+    "unique_id": 16441,
+    "num_objects": 4,
+    "obj_attributes": [
+      "orange",
+      "backpack",
+      "bus",
+      "book"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['orange', 'backpack', 'bus', 'book']): the orange is to the left of the backpack; the backpack is above the bus; the bus is to the left of the book."
+  },
+  {
+    "unique_id": 28541,
+    "num_objects": 3,
+    "obj_attributes": [
+      "clock",
+      "donut",
+      "orange"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['clock', 'donut', 'orange']): the clock is to the left of the donut; the donut is below the orange."
+  },
+  {
+    "unique_id": 19150,
+    "num_objects": 5,
+    "obj_attributes": [
+      "frisbee",
+      "dining table",
+      "cup",
+      "bench",
+      "person"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['frisbee', 'dining table', 'cup', 'bench', 'person']): the frisbee is to the left of the dining table; the dining table is above the cup; the cup is below the bench; the bench is below the person."
+  },
+  {
+    "unique_id": 29130,
+    "num_objects": 5,
+    "obj_attributes": [
+      "couch",
+      "mouse",
+      "bench",
+      "spoon",
+      "fire hydrant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['couch', 'mouse', 'bench', 'spoon', 'fire hydrant']): the couch is to the left of the mouse; the mouse is to the right of the bench; the bench is above the spoon; the spoon is below the fire hydrant."
+  },
+  {
+    "unique_id": 6570,
+    "num_objects": 3,
+    "obj_attributes": [
+      "boat",
+      "tv",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['boat', 'tv', 'toothbrush']): the boat is to the left of the tv; the tv is below the toothbrush."
+  },
+  {
+    "unique_id": 22061,
+    "num_objects": 4,
+    "obj_attributes": [
+      "refrigerator",
+      "baseball glove",
+      "teddy bear",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['refrigerator', 'baseball glove', 'teddy bear', 'motorcycle']): the refrigerator is to the left of the baseball glove; the baseball glove is above the teddy bear; the teddy bear is to the right of the motorcycle."
+  },
+  {
+    "unique_id": 7221,
+    "num_objects": 4,
+    "obj_attributes": [
+      "couch",
+      "traffic light",
+      "sandwich",
+      "bicycle"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['couch', 'traffic light', 'sandwich', 'bicycle']): the couch is to the left of the traffic light; the traffic light is below the sandwich; the sandwich is to the left of the bicycle."
+  },
+  {
+    "unique_id": 6700,
+    "num_objects": 3,
+    "obj_attributes": [
+      "boat",
+      "vase",
+      "skis"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['boat', 'vase', 'skis']): the boat is to the left of the vase; the vase is to the left of the skis."
+  },
+  {
+    "unique_id": 6060,
+    "num_objects": 3,
+    "obj_attributes": [
+      "boat",
+      "stop sign",
+      "skis"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['boat', 'stop sign', 'skis']): the boat is to the left of the stop sign; the stop sign is below the skis."
+  },
+  {
+    "unique_id": 13021,
+    "num_objects": 3,
+    "obj_attributes": [
+      "hot dog",
+      "sheep",
+      "potted plant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['hot dog', 'sheep', 'potted plant']): the hot dog is to the left of the sheep; the sheep is to the left of the potted plant."
+  },
+  {
+    "unique_id": 28441,
+    "num_objects": 5,
+    "obj_attributes": [
+      "mouse",
+      "donut",
+      "parking meter",
+      "hot dog",
+      "umbrella"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['mouse', 'donut', 'parking meter', 'hot dog', 'umbrella']): the mouse is to the left of the donut; the donut is to the right of the parking meter; the parking meter is above the hot dog; the hot dog is above the umbrella."
+  },
+  {
+    "unique_id": 881,
+    "num_objects": 4,
+    "obj_attributes": [
+      "stop sign",
+      "bicycle",
+      "surfboard",
+      "boat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['stop sign', 'bicycle', 'surfboard', 'boat']): the stop sign is to the left of the bicycle; the bicycle is to the right of the surfboard; the surfboard is to the right of the boat."
+  },
+  {
+    "unique_id": 22980,
+    "num_objects": 5,
+    "obj_attributes": [
+      "surfboard",
+      "toothbrush",
+      "toilet",
+      "banana",
+      "toaster"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['surfboard', 'toothbrush', 'toilet', 'banana', 'toaster']): the surfboard is to the left of the toothbrush; the toothbrush is below the toilet; the toilet is to the left of the banana; the banana is to the right of the toaster."
+  },
+  {
+    "unique_id": 14200,
+    "num_objects": 4,
+    "obj_attributes": [
+      "elephant",
+      "carrot",
+      "sports ball",
+      "airplane"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['elephant', 'carrot', 'sports ball', 'airplane']): the elephant is to the left of the carrot; the carrot is below the sports ball; the sports ball is below the airplane."
+  },
+  {
+    "unique_id": 9331,
+    "num_objects": 5,
+    "obj_attributes": [
+      "mouse",
+      "parking meter",
+      "kite",
+      "book",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['mouse', 'parking meter', 'kite', 'book', 'motorcycle']): the mouse is to the left of the parking meter; the parking meter is below the kite; the kite is above the book; the book is below the motorcycle."
+  },
+  {
+    "unique_id": 20461,
+    "num_objects": 3,
+    "obj_attributes": [
+      "apple",
+      "sports ball",
+      "parking meter"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['apple', 'sports ball', 'parking meter']): the apple is to the left of the sports ball; the sports ball is to the right of the parking meter."
+  },
+  {
+    "unique_id": 16061,
+    "num_objects": 5,
+    "obj_attributes": [
+      "keyboard",
+      "giraffe",
+      "mouse",
+      "bench",
+      "apple"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['keyboard', 'giraffe', 'mouse', 'bench', 'apple']): the keyboard is to the left of the giraffe; the giraffe is below the mouse; the mouse is above the bench; the bench is above the apple."
+  },
+  {
+    "unique_id": 19380,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skis",
+      "baseball bat",
+      "person"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['skis', 'baseball bat', 'person']): the skis is to the left of the baseball bat; the baseball bat is to the left of the person."
+  },
+  {
+    "unique_id": 24810,
+    "num_objects": 4,
+    "obj_attributes": [
+      "fork",
+      "cell phone",
+      "bottle",
+      "bear"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['fork', 'cell phone', 'bottle', 'bear']): the fork is to the left of the cell phone; the cell phone is above the bottle; the bottle is above the bear."
+  },
+  {
+    "unique_id": 21131,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "kite",
+      "fire hydrant",
+      "clock"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['microwave', 'kite', 'fire hydrant', 'clock']): the microwave is to the left of the kite; the kite is to the right of the fire hydrant; the fire hydrant is to the left of the clock."
+  },
+  {
+    "unique_id": 31461,
+    "num_objects": 4,
+    "obj_attributes": [
+      "scissors",
+      "clock",
+      "refrigerator",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['scissors', 'clock', 'refrigerator', 'elephant']): the scissors is to the left of the clock; the clock is to the right of the refrigerator; the refrigerator is below the elephant."
+  },
+  {
+    "unique_id": 24941,
+    "num_objects": 3,
+    "obj_attributes": [
+      "spoon",
+      "knife",
+      "scissors"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['spoon', 'knife', 'scissors']): the spoon is to the left of the knife; the knife is above the scissors."
+  },
+  {
+    "unique_id": 15221,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tennis racket",
+      "zebra",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['tennis racket', 'zebra', 'suitcase']): the tennis racket is to the left of the zebra; the zebra is to the right of the suitcase."
+  },
+  {
+    "unique_id": 30780,
+    "num_objects": 3,
+    "obj_attributes": [
+      "keyboard",
+      "scissors",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['keyboard', 'scissors', 'surfboard']): the keyboard is to the left of the scissors; the scissors is below the surfboard."
+  },
+  {
+    "unique_id": 13080,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sheep",
+      "potted plant",
+      "carrot"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['sheep', 'potted plant', 'carrot']): the sheep is to the left of the potted plant; the potted plant is to the left of the carrot."
+  },
+  {
+    "unique_id": 8531,
+    "num_objects": 3,
+    "obj_attributes": [
+      "carrot",
+      "stop sign",
+      "snowboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['carrot', 'stop sign', 'snowboard']): the carrot is to the left of the stop sign; the stop sign is to the right of the snowboard."
+  },
+  {
+    "unique_id": 23500,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bottle",
+      "broccoli",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['bottle', 'broccoli', 'surfboard']): the bottle is to the left of the broccoli; the broccoli is below the surfboard."
+  },
+  {
+    "unique_id": 28121,
+    "num_objects": 4,
+    "obj_attributes": [
+      "couch",
+      "pizza",
+      "cake",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['couch', 'pizza', 'cake', 'elephant']): the couch is to the left of the pizza; the pizza is above the cake; the cake is above the elephant."
+  },
+  {
+    "unique_id": 1130,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bicycle",
+      "skateboard",
+      "cup"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['bicycle', 'skateboard', 'cup']): the bicycle is to the left of the skateboard; the skateboard is to the right of the cup."
+  },
+  {
+    "unique_id": 29931,
+    "num_objects": 5,
+    "obj_attributes": [
+      "keyboard",
+      "toilet",
+      "stop sign",
+      "skateboard",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['keyboard', 'toilet', 'stop sign', 'skateboard', 'elephant']): the keyboard is to the left of the toilet; the toilet is to the left of the stop sign; the stop sign is below the skateboard; the skateboard is below the elephant."
+  },
+  {
+    "unique_id": 20251,
+    "num_objects": 5,
+    "obj_attributes": [
+      "book",
+      "snowboard",
+      "sports ball",
+      "bed",
+      "fire hydrant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['book', 'snowboard', 'sports ball', 'bed', 'fire hydrant']): the book is to the left of the snowboard; the snowboard is above the sports ball; the sports ball is below the bed; the bed is below the fire hydrant."
+  },
+  {
+    "unique_id": 12731,
+    "num_objects": 4,
+    "obj_attributes": [
+      "giraffe",
+      "sheep",
+      "bear",
+      "skateboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['giraffe', 'sheep', 'bear', 'skateboard']): the giraffe is to the left of the sheep; the sheep is to the left of the bear; the bear is to the left of the skateboard."
+  },
+  {
+    "unique_id": 31010,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "scissors",
+      "snowboard",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['microwave', 'scissors', 'snowboard', 'suitcase']): the microwave is to the left of the scissors; the scissors is to the left of the snowboard; the snowboard is above the suitcase."
+  },
+  {
+    "unique_id": 4440,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bus",
+      "remote",
+      "zebra",
+      "couch"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['bus', 'remote', 'zebra', 'couch']): the bus is to the left of the remote; the remote is to the right of the zebra; the zebra is to the right of the couch."
+  },
+  {
+    "unique_id": 19550,
+    "num_objects": 5,
+    "obj_attributes": [
+      "skis",
+      "carrot",
+      "umbrella",
+      "broccoli",
+      "dog"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['skis', 'carrot', 'umbrella', 'broccoli', 'dog']): the skis is to the left of the carrot; the carrot is to the right of the umbrella; the umbrella is to the right of the broccoli; the broccoli is to the right of the dog."
+  },
+  {
+    "unique_id": 24830,
+    "num_objects": 4,
+    "obj_attributes": [
+      "fork",
+      "oven",
+      "cake",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['fork', 'oven', 'cake', 'laptop']): the fork is to the left of the oven; the oven is below the cake; the cake is to the right of the laptop."
+  },
+  {
+    "unique_id": 15301,
+    "num_objects": 4,
+    "obj_attributes": [
+      "banana",
+      "zebra",
+      "train",
+      "fire hydrant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['banana', 'zebra', 'train', 'fire hydrant']): the banana is to the left of the zebra; the zebra is to the left of the train; the train is above the fire hydrant."
+  },
+  {
+    "unique_id": 16990,
+    "num_objects": 3,
+    "obj_attributes": [
+      "umbrella",
+      "broccoli",
+      "frisbee"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['umbrella', 'broccoli', 'frisbee']): the umbrella is to the left of the broccoli; the broccoli is to the left of the frisbee."
+  },
+  {
+    "unique_id": 15361,
+    "num_objects": 4,
+    "obj_attributes": [
+      "hot dog",
+      "zebra",
+      "laptop",
+      "car"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['hot dog', 'zebra', 'laptop', 'car']): the hot dog is to the left of the zebra; the zebra is below the laptop; the laptop is above the car."
+  },
+  {
+    "unique_id": 19421,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tennis racket",
+      "skis",
+      "surfboard",
+      "clock",
+      "apple"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['tennis racket', 'skis', 'surfboard', 'clock', 'apple']): the tennis racket is to the left of the skis; the skis is to the left of the surfboard; the surfboard is to the left of the clock; the clock is below the apple."
+  },
+  {
+    "unique_id": 20891,
+    "num_objects": 4,
+    "obj_attributes": [
+      "spoon",
+      "kite",
+      "motorcycle",
+      "mouse"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['spoon', 'kite', 'motorcycle', 'mouse']): the spoon is to the left of the kite; the kite is below the motorcycle; the motorcycle is above the mouse."
+  },
+  {
+    "unique_id": 26400,
+    "num_objects": 4,
+    "obj_attributes": [
+      "apple",
+      "chair",
+      "person",
+      "tennis racket"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['apple', 'chair', 'person', 'tennis racket']): the apple is to the left of the chair; the chair is to the left of the person; the person is below the tennis racket."
+  },
+  {
+    "unique_id": 3620,
+    "num_objects": 3,
+    "obj_attributes": [
+      "airplane",
+      "couch",
+      "keyboard"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['airplane', 'couch', 'keyboard']): the airplane is to the left of the couch; the couch is below the keyboard."
+  },
+  {
+    "unique_id": 23220,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tennis racket",
+      "tv",
+      "apple"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['tennis racket', 'tv', 'apple']): the tennis racket is to the left of the tv; the tv is below the apple."
+  },
+  {
+    "unique_id": 22431,
+    "num_objects": 4,
+    "obj_attributes": [
+      "keyboard",
+      "skateboard",
+      "orange",
+      "zebra"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['keyboard', 'skateboard', 'orange', 'zebra']): the keyboard is to the left of the skateboard; the skateboard is to the right of the orange; the orange is to the right of the zebra."
+  },
+  {
+    "unique_id": 26840,
+    "num_objects": 4,
+    "obj_attributes": [
+      "sandwich",
+      "oven",
+      "bed",
+      "wine glass"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['sandwich', 'oven', 'bed', 'wine glass']): the sandwich is to the left of the oven; the oven is below the bed; the bed is to the right of the wine glass."
+  },
+  {
+    "unique_id": 16101,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toaster",
+      "giraffe",
+      "snowboard",
+      "oven",
+      "boat"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['toaster', 'giraffe', 'snowboard', 'oven', 'boat']): the toaster is to the left of the giraffe; the giraffe is to the left of the snowboard; the snowboard is below the oven; the oven is to the right of the boat."
+  },
+  {
+    "unique_id": 4781,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "train",
+      "wine glass",
+      "tv"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['handbag', 'train', 'wine glass', 'tv']): the handbag is to the left of the train; the train is above the wine glass; the wine glass is above the tv."
+  },
+  {
+    "unique_id": 4221,
+    "num_objects": 5,
+    "obj_attributes": [
+      "knife",
+      "bus",
+      "apple",
+      "laptop",
+      "stop sign"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['knife', 'bus', 'apple', 'laptop', 'stop sign']): the knife is to the left of the bus; the bus is to the left of the apple; the apple is above the laptop; the laptop is below the stop sign."
+  },
+  {
+    "unique_id": 23481,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sandwich",
+      "bottle",
+      "cat",
+      "motorcycle",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['sandwich', 'bottle', 'cat', 'motorcycle', 'elephant']): the sandwich is to the left of the bottle; the bottle is above the cat; the cat is below the motorcycle; the motorcycle is below the elephant."
+  },
+  {
+    "unique_id": 5750,
+    "num_objects": 4,
+    "obj_attributes": [
+      "truck",
+      "carrot",
+      "traffic light",
+      "frisbee"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['truck', 'carrot', 'traffic light', 'frisbee']): the truck is to the left of the carrot; the carrot is below the traffic light; the traffic light is below the frisbee."
+  },
+  {
+    "unique_id": 30950,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "toaster",
+      "motorcycle",
+      "hair drier",
+      "skis"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['microwave', 'toaster', 'motorcycle', 'hair drier', 'skis']): the microwave is to the left of the toaster; the toaster is to the left of the motorcycle; the motorcycle is above the hair drier; the hair drier is below the skis."
+  },
+  {
+    "unique_id": 12870,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "surfboard",
+      "potted plant",
+      "cow",
+      "truck"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['sheep', 'surfboard', 'potted plant', 'cow', 'truck']): the sheep is to the left of the surfboard; the surfboard is to the left of the potted plant; the potted plant is above the cow; the cow is below the truck."
+  },
+  {
+    "unique_id": 22450,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skateboard",
+      "microwave",
+      "bus"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['skateboard', 'microwave', 'bus']): the skateboard is to the left of the microwave; the microwave is below the bus."
+  },
+  {
+    "unique_id": 29030,
+    "num_objects": 4,
+    "obj_attributes": [
+      "chair",
+      "scissors",
+      "sandwich",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['chair', 'scissors', 'sandwich', 'toothbrush']): the chair is to the left of the scissors; the scissors is above the sandwich; the sandwich is to the right of the toothbrush."
+  },
+  {
+    "unique_id": 14920,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bear",
+      "remote",
+      "bicycle",
+      "umbrella"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['bear', 'remote', 'bicycle', 'umbrella']): the bear is to the left of the remote; the remote is above the bicycle; the bicycle is below the umbrella."
+  },
+  {
+    "unique_id": 21010,
+    "num_objects": 4,
+    "obj_attributes": [
+      "kite",
+      "chair",
+      "scissors",
+      "potted plant"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['kite', 'chair', 'scissors', 'potted plant']): the kite is to the left of the chair; the chair is to the right of the scissors; the scissors is below the potted plant."
+  },
+  {
+    "unique_id": 4561,
+    "num_objects": 5,
+    "obj_attributes": [
+      "teddy bear",
+      "bus",
+      "tv",
+      "mouse",
+      "pizza"
+    ],
+    "rel_type": [
+      "to the left of",
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['teddy bear', 'bus', 'tv', 'mouse', 'pizza']): the teddy bear is to the left of the bus; the bus is below the tv; the tv is to the left of the mouse; the mouse is to the right of the pizza."
+  },
+  {
+    "unique_id": 31541,
+    "num_objects": 4,
+    "obj_attributes": [
+      "teddy bear",
+      "scissors",
+      "vase",
+      "laptop"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['teddy bear', 'scissors', 'vase', 'laptop']): the teddy bear is to the left of the scissors; the scissors is above the vase; the vase is to the right of the laptop."
+  },
+  {
+    "unique_id": 20671,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "sports ball",
+      "skateboard",
+      "backpack"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['microwave', 'sports ball', 'skateboard', 'backpack']): the microwave is to the left of the sports ball; the sports ball is to the right of the skateboard; the skateboard is above the backpack."
+  },
+  {
+    "unique_id": 22070,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball glove",
+      "book",
+      "hot dog",
+      "handbag"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['baseball glove', 'book', 'hot dog', 'handbag']): the baseball glove is to the left of the book; the book is to the left of the hot dog; the hot dog is to the right of the handbag."
+  },
+  {
+    "unique_id": 17631,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toilet",
+      "handbag",
+      "backpack",
+      "laptop",
+      "skis"
+    ],
+    "rel_type": [
+      "to the left of",
+      "to the right of",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['toilet', 'handbag', 'backpack', 'laptop', 'skis']): the toilet is to the left of the handbag; the handbag is to the right of the backpack; the backpack is above the laptop; the laptop is to the left of the skis."
+  },
+  {
+    "unique_id": 9621,
+    "num_objects": 3,
+    "obj_attributes": [
+      "tie",
+      "bench",
+      "kite"
+    ],
+    "rel_type": [
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['tie', 'bench', 'kite']): the tie is to the left of the bench; the bench is above the kite."
+  },
+  {
+    "unique_id": 25693,
+    "num_objects": 4,
+    "obj_attributes": [
+      "broccoli",
+      "bowl",
+      "banana",
+      "dog"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['broccoli', 'bowl', 'banana', 'dog']): the broccoli is to the right of the bowl; the bowl is to the left of the banana; the banana is below the dog."
+  },
+  {
+    "unique_id": 31023,
+    "num_objects": 3,
+    "obj_attributes": [
+      "teddy bear",
+      "microwave",
+      "handbag"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['teddy bear', 'microwave', 'handbag']): the teddy bear is to the right of the microwave; the microwave is above the handbag."
+  },
+  {
+    "unique_id": 23152,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tennis racket",
+      "cake",
+      "skateboard",
+      "tv"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['tennis racket', 'cake', 'skateboard', 'tv']): the tennis racket is to the right of the cake; the cake is to the left of the skateboard; the skateboard is above the tv."
+  },
+  {
+    "unique_id": 32,
+    "num_objects": 4,
+    "obj_attributes": [
+      "person",
+      "airplane",
+      "parking meter",
+      "horse"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['person', 'airplane', 'parking meter', 'horse']): the person is to the right of the airplane; the airplane is to the left of the parking meter; the parking meter is below the horse."
+  },
+  {
+    "unique_id": 6462,
+    "num_objects": 5,
+    "obj_attributes": [
+      "boat",
+      "carrot",
+      "dog",
+      "toaster",
+      "cat"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "below",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['boat', 'carrot', 'dog', 'toaster', 'cat']): the boat is to the right of the carrot; the carrot is above the dog; the dog is below the toaster; the toaster is above the cat."
+  },
+  {
+    "unique_id": 3542,
+    "num_objects": 3,
+    "obj_attributes": [
+      "airplane",
+      "orange",
+      "knife"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['airplane', 'orange', 'knife']): the airplane is to the right of the orange; the orange is above the knife."
+  },
+  {
+    "unique_id": 24143,
+    "num_objects": 5,
+    "obj_attributes": [
+      "vase",
+      "wine glass",
+      "hair drier",
+      "bench",
+      "umbrella"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['vase', 'wine glass', 'hair drier', 'bench', 'umbrella']): the vase is to the right of the wine glass; the wine glass is to the right of the hair drier; the hair drier is to the left of the bench; the bench is above the umbrella."
+  },
+  {
+    "unique_id": 2853,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cake",
+      "motorcycle",
+      "refrigerator"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['cake', 'motorcycle', 'refrigerator']): the cake is to the right of the motorcycle; the motorcycle is below the refrigerator."
+  },
+  {
+    "unique_id": 18403,
+    "num_objects": 5,
+    "obj_attributes": [
+      "baseball glove",
+      "suitcase",
+      "chair",
+      "tennis racket",
+      "hair drier"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['baseball glove', 'suitcase', 'chair', 'tennis racket', 'hair drier']): the baseball glove is to the right of the suitcase; the suitcase is to the left of the chair; the chair is to the left of the tennis racket; the tennis racket is below the hair drier."
+  },
+  {
+    "unique_id": 16583,
+    "num_objects": 3,
+    "obj_attributes": [
+      "laptop",
+      "backpack",
+      "mouse"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['laptop', 'backpack', 'mouse']): the laptop is to the right of the backpack; the backpack is above the mouse."
+  },
+  {
+    "unique_id": 5782,
+    "num_objects": 5,
+    "obj_attributes": [
+      "truck",
+      "donut",
+      "microwave",
+      "potted plant",
+      "skateboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['truck', 'donut', 'microwave', 'potted plant', 'skateboard']): the truck is to the right of the donut; the donut is to the right of the microwave; the microwave is to the left of the potted plant; the potted plant is to the right of the skateboard."
+  },
+  {
+    "unique_id": 16272,
+    "num_objects": 3,
+    "obj_attributes": [
+      "backpack",
+      "sports ball",
+      "bus"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['backpack', 'sports ball', 'bus']): the backpack is to the right of the sports ball; the sports ball is to the right of the bus."
+  },
+  {
+    "unique_id": 11513,
+    "num_objects": 3,
+    "obj_attributes": [
+      "backpack",
+      "dog",
+      "apple"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['backpack', 'dog', 'apple']): the backpack is to the right of the dog; the dog is to the left of the apple."
+  },
+  {
+    "unique_id": 8292,
+    "num_objects": 3,
+    "obj_attributes": [
+      "stop sign",
+      "tie",
+      "couch"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['stop sign', 'tie', 'couch']): the stop sign is to the right of the tie; the tie is to the right of the couch."
+  },
+  {
+    "unique_id": 7473,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bench",
+      "fire hydrant",
+      "sink"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['bench', 'fire hydrant', 'sink']): the bench is to the right of the fire hydrant; the fire hydrant is to the left of the sink."
+  },
+  {
+    "unique_id": 15372,
+    "num_objects": 4,
+    "obj_attributes": [
+      "zebra",
+      "pizza",
+      "wine glass",
+      "kite"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['zebra', 'pizza', 'wine glass', 'kite']): the zebra is to the right of the pizza; the pizza is to the left of the wine glass; the wine glass is to the right of the kite."
+  },
+  {
+    "unique_id": 9442,
+    "num_objects": 5,
+    "obj_attributes": [
+      "parking meter",
+      "vase",
+      "cake",
+      "motorcycle",
+      "toilet"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['parking meter', 'vase', 'cake', 'motorcycle', 'toilet']): the parking meter is to the right of the vase; the vase is above the cake; the cake is to the right of the motorcycle; the motorcycle is below the toilet."
+  },
+  {
+    "unique_id": 17713,
+    "num_objects": 3,
+    "obj_attributes": [
+      "oven",
+      "handbag",
+      "tie"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['oven', 'handbag', 'tie']): the oven is to the right of the handbag; the handbag is to the right of the tie."
+  },
+  {
+    "unique_id": 9103,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cup",
+      "parking meter",
+      "hot dog"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['cup', 'parking meter', 'hot dog']): the cup is to the right of the parking meter; the parking meter is to the left of the hot dog."
+  },
+  {
+    "unique_id": 753,
+    "num_objects": 4,
+    "obj_attributes": [
+      "scissors",
+      "person",
+      "sports ball",
+      "teddy bear"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['scissors', 'person', 'sports ball', 'teddy bear']): the scissors is to the right of the person; the person is below the sports ball; the sports ball is to the right of the teddy bear."
+  },
+  {
+    "unique_id": 3233,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "airplane",
+      "fire hydrant",
+      "oven",
+      "cake"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['sheep', 'airplane', 'fire hydrant', 'oven', 'cake']): the sheep is to the right of the airplane; the airplane is to the left of the fire hydrant; the fire hydrant is to the right of the oven; the oven is to the left of the cake."
+  },
+  {
+    "unique_id": 18583,
+    "num_objects": 4,
+    "obj_attributes": [
+      "pizza",
+      "suitcase",
+      "scissors",
+      "bicycle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['pizza', 'suitcase', 'scissors', 'bicycle']): the pizza is to the right of the suitcase; the suitcase is to the right of the scissors; the scissors is below the bicycle."
+  },
+  {
+    "unique_id": 21643,
+    "num_objects": 3,
+    "obj_attributes": [
+      "clock",
+      "baseball bat",
+      "skis"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['clock', 'baseball bat', 'skis']): the clock is to the right of the baseball bat; the baseball bat is above the skis."
+  },
+  {
+    "unique_id": 153,
+    "num_objects": 3,
+    "obj_attributes": [
+      "dog",
+      "person",
+      "donut"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['dog', 'person', 'donut']): the dog is to the right of the person; the person is to the left of the donut."
+  },
+  {
+    "unique_id": 22502,
+    "num_objects": 3,
+    "obj_attributes": [
+      "skateboard",
+      "book",
+      "bicycle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['skateboard', 'book', 'bicycle']): the skateboard is to the right of the book; the book is to the right of the bicycle."
+  },
+  {
+    "unique_id": 5952,
+    "num_objects": 3,
+    "obj_attributes": [
+      "truck",
+      "sink",
+      "donut"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['truck', 'sink', 'donut']): the truck is to the right of the sink; the sink is to the left of the donut."
+  },
+  {
+    "unique_id": 13233,
+    "num_objects": 3,
+    "obj_attributes": [
+      "book",
+      "sheep",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['book', 'sheep', 'motorcycle']): the book is to the right of the sheep; the sheep is to the left of the motorcycle."
+  },
+  {
+    "unique_id": 6562,
+    "num_objects": 4,
+    "obj_attributes": [
+      "boat",
+      "toilet",
+      "skis",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['boat', 'toilet', 'skis', 'suitcase']): the boat is to the right of the toilet; the toilet is to the right of the skis; the skis is to the right of the suitcase."
+  },
+  {
+    "unique_id": 11352,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cat",
+      "sink",
+      "microwave"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['cat', 'sink', 'microwave']): the cat is to the right of the sink; the sink is above the microwave."
+  },
+  {
+    "unique_id": 8832,
+    "num_objects": 5,
+    "obj_attributes": [
+      "parking meter",
+      "bird",
+      "baseball bat",
+      "handbag",
+      "cell phone"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['parking meter', 'bird', 'baseball bat', 'handbag', 'cell phone']): the parking meter is to the right of the bird; the bird is to the left of the baseball bat; the baseball bat is to the right of the handbag; the handbag is to the right of the cell phone."
+  },
+  {
+    "unique_id": 30213,
+    "num_objects": 5,
+    "obj_attributes": [
+      "teddy bear",
+      "tv",
+      "toaster",
+      "car",
+      "sports ball"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['teddy bear', 'tv', 'toaster', 'car', 'sports ball']): the teddy bear is to the right of the tv; the tv is to the left of the toaster; the toaster is to the left of the car; the car is below the sports ball."
+  },
+  {
+    "unique_id": 31152,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toaster",
+      "sink",
+      "teddy bear",
+      "sheep",
+      "bowl"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['toaster', 'sink', 'teddy bear', 'sheep', 'bowl']): the toaster is to the right of the sink; the sink is below the teddy bear; the teddy bear is below the sheep; the sheep is to the left of the bowl."
+  },
+  {
+    "unique_id": 18063,
+    "num_objects": 3,
+    "obj_attributes": [
+      "hot dog",
+      "tie",
+      "zebra"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['hot dog', 'tie', 'zebra']): the hot dog is to the right of the tie; the tie is above the zebra."
+  },
+  {
+    "unique_id": 333,
+    "num_objects": 3,
+    "obj_attributes": [
+      "baseball bat",
+      "person",
+      "motorcycle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['baseball bat', 'person', 'motorcycle']): the baseball bat is to the right of the person; the person is above the motorcycle."
+  },
+  {
+    "unique_id": 23332,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tennis racket",
+      "book",
+      "airplane",
+      "umbrella",
+      "train"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['tennis racket', 'book', 'airplane', 'umbrella', 'train']): the tennis racket is to the right of the book; the book is to the left of the airplane; the airplane is to the left of the umbrella; the umbrella is above the train."
+  },
+  {
+    "unique_id": 7662,
+    "num_objects": 3,
+    "obj_attributes": [
+      "fire hydrant",
+      "sports ball",
+      "bench"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['fire hydrant', 'sports ball', 'bench']): the fire hydrant is to the right of the sports ball; the sports ball is to the left of the bench."
+  },
+  {
+    "unique_id": 1473,
+    "num_objects": 5,
+    "obj_attributes": [
+      "toaster",
+      "bicycle",
+      "bus",
+      "dining table",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['toaster', 'bicycle', 'bus', 'dining table', 'surfboard']): the toaster is to the right of the bicycle; the bicycle is below the bus; the bus is to the left of the dining table; the dining table is below the surfboard."
+  },
+  {
+    "unique_id": 23702,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bottle",
+      "toaster",
+      "vase",
+      "dining table",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['bottle', 'toaster', 'vase', 'dining table', 'sheep']): the bottle is to the right of the toaster; the toaster is below the vase; the vase is below the dining table; the dining table is to the left of the sheep."
+  },
+  {
+    "unique_id": 21872,
+    "num_objects": 3,
+    "obj_attributes": [
+      "baseball glove",
+      "pizza",
+      "dining table"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['baseball glove', 'pizza', 'dining table']): the baseball glove is to the right of the pizza; the pizza is to the left of the dining table."
+  },
+  {
+    "unique_id": 22083,
+    "num_objects": 4,
+    "obj_attributes": [
+      "clock",
+      "baseball glove",
+      "mouse",
+      "giraffe"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['clock', 'baseball glove', 'mouse', 'giraffe']): the clock is to the right of the baseball glove; the baseball glove is to the left of the mouse; the mouse is below the giraffe."
+  },
+  {
+    "unique_id": 5093,
+    "num_objects": 4,
+    "obj_attributes": [
+      "couch",
+      "train",
+      "scissors",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['couch', 'train', 'scissors', 'surfboard']): the couch is to the right of the train; the train is below the scissors; the scissors is below the surfboard."
+  },
+  {
+    "unique_id": 10742,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bird",
+      "clock",
+      "cake",
+      "kite"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['bird', 'clock', 'cake', 'kite']): the bird is to the right of the clock; the clock is to the left of the cake; the cake is below the kite."
+  },
+  {
+    "unique_id": 30542,
+    "num_objects": 3,
+    "obj_attributes": [
+      "mouse",
+      "toothbrush",
+      "car"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['mouse', 'toothbrush', 'car']): the mouse is to the right of the toothbrush; the toothbrush is above the car."
+  },
+  {
+    "unique_id": 4352,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bus",
+      "chair",
+      "car"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['bus', 'chair', 'car']): the bus is to the right of the chair; the chair is to the right of the car."
+  },
+  {
+    "unique_id": 29893,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tv",
+      "toilet",
+      "baseball bat",
+      "bus"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['tv', 'toilet', 'baseball bat', 'bus']): the tv is to the right of the toilet; the toilet is above the baseball bat; the baseball bat is to the left of the bus."
+  },
+  {
+    "unique_id": 15122,
+    "num_objects": 3,
+    "obj_attributes": [
+      "zebra",
+      "suitcase",
+      "vase"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['zebra', 'suitcase', 'vase']): the zebra is to the right of the suitcase; the suitcase is below the vase."
+  },
+  {
+    "unique_id": 25662,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bowl",
+      "apple",
+      "frisbee"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['bowl', 'apple', 'frisbee']): the bowl is to the right of the apple; the apple is to the right of the frisbee."
+  },
+  {
+    "unique_id": 23543,
+    "num_objects": 4,
+    "obj_attributes": [
+      "donut",
+      "bottle",
+      "potted plant",
+      "vase"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['donut', 'bottle', 'potted plant', 'vase']): the donut is to the right of the bottle; the bottle is above the potted plant; the potted plant is to the left of the vase."
+  },
+  {
+    "unique_id": 13963,
+    "num_objects": 5,
+    "obj_attributes": [
+      "tie",
+      "elephant",
+      "pizza",
+      "bottle",
+      "bus"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['tie', 'elephant', 'pizza', 'bottle', 'bus']): the tie is to the right of the elephant; the elephant is above the pizza; the pizza is above the bottle; the bottle is below the bus."
+  },
+  {
+    "unique_id": 242,
+    "num_objects": 5,
+    "obj_attributes": [
+      "person",
+      "umbrella",
+      "laptop",
+      "scissors",
+      "parking meter"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['person', 'umbrella', 'laptop', 'scissors', 'parking meter']): the person is to the right of the umbrella; the umbrella is below the laptop; the laptop is above the scissors; the scissors is to the left of the parking meter."
+  },
+  {
+    "unique_id": 7263,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toilet",
+      "traffic light",
+      "fork"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['toilet', 'traffic light', 'fork']): the toilet is to the right of the traffic light; the traffic light is above the fork."
+  },
+  {
+    "unique_id": 29122,
+    "num_objects": 5,
+    "obj_attributes": [
+      "couch",
+      "laptop",
+      "sports ball",
+      "mouse",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['couch', 'laptop', 'sports ball', 'mouse', 'sheep']): the couch is to the right of the laptop; the laptop is to the left of the sports ball; the sports ball is above the mouse; the mouse is above the sheep."
+  },
+  {
+    "unique_id": 3732,
+    "num_objects": 4,
+    "obj_attributes": [
+      "airplane",
+      "microwave",
+      "bicycle",
+      "orange"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['airplane', 'microwave', 'bicycle', 'orange']): the airplane is to the right of the microwave; the microwave is to the left of the bicycle; the bicycle is below the orange."
+  },
+  {
+    "unique_id": 9853,
+    "num_objects": 4,
+    "obj_attributes": [
+      "broccoli",
+      "bench",
+      "snowboard",
+      "traffic light"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['broccoli', 'bench', 'snowboard', 'traffic light']): the broccoli is to the right of the bench; the bench is to the left of the snowboard; the snowboard is above the traffic light."
+  },
+  {
+    "unique_id": 11022,
+    "num_objects": 5,
+    "obj_attributes": [
+      "cat",
+      "tennis racket",
+      "teddy bear",
+      "truck",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['cat', 'tennis racket', 'teddy bear', 'truck', 'toothbrush']): the cat is to the right of the tennis racket; the tennis racket is above the teddy bear; the teddy bear is to the right of the truck; the truck is above the toothbrush."
+  },
+  {
+    "unique_id": 26072,
+    "num_objects": 4,
+    "obj_attributes": [
+      "banana",
+      "cake",
+      "donut",
+      "handbag"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['banana', 'cake', 'donut', 'handbag']): the banana is to the right of the cake; the cake is above the donut; the donut is below the handbag."
+  },
+  {
+    "unique_id": 2932,
+    "num_objects": 5,
+    "obj_attributes": [
+      "motorcycle",
+      "laptop",
+      "umbrella",
+      "orange",
+      "cup"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['motorcycle', 'laptop', 'umbrella', 'orange', 'cup']): the motorcycle is to the right of the laptop; the laptop is below the umbrella; the umbrella is above the orange; the orange is to the left of the cup."
+  },
+  {
+    "unique_id": 2483,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "motorcycle",
+      "tie",
+      "orange",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "above",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['sheep', 'motorcycle', 'tie', 'orange', 'elephant']): the sheep is to the right of the motorcycle; the motorcycle is to the right of the tie; the tie is above the orange; the orange is to the left of the elephant."
+  },
+  {
+    "unique_id": 27423,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "broccoli",
+      "toothbrush",
+      "sandwich"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['microwave', 'broccoli', 'toothbrush', 'sandwich']): the microwave is to the right of the broccoli; the broccoli is below the toothbrush; the toothbrush is to the left of the sandwich."
+  },
+  {
+    "unique_id": 4902,
+    "num_objects": 5,
+    "obj_attributes": [
+      "train",
+      "tennis racket",
+      "bed",
+      "bus",
+      "banana"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['train', 'tennis racket', 'bed', 'bus', 'banana']): the train is to the right of the tennis racket; the tennis racket is to the left of the bed; the bed is above the bus; the bus is to the right of the banana."
+  },
+  {
+    "unique_id": 15482,
+    "num_objects": 3,
+    "obj_attributes": [
+      "zebra",
+      "mouse",
+      "kite"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['zebra', 'mouse', 'kite']): the zebra is to the right of the mouse; the mouse is to the left of the kite."
+  },
+  {
+    "unique_id": 14202,
+    "num_objects": 3,
+    "obj_attributes": [
+      "elephant",
+      "carrot",
+      "frisbee"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['elephant', 'carrot', 'frisbee']): the elephant is to the right of the carrot; the carrot is to the right of the frisbee."
+  },
+  {
+    "unique_id": 29383,
+    "num_objects": 5,
+    "obj_attributes": [
+      "microwave",
+      "potted plant",
+      "elephant",
+      "donut",
+      "scissors"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['microwave', 'potted plant', 'elephant', 'donut', 'scissors']): the microwave is to the right of the potted plant; the potted plant is to the right of the elephant; the elephant is above the donut; the donut is below the scissors."
+  },
+  {
+    "unique_id": 1893,
+    "num_objects": 4,
+    "obj_attributes": [
+      "baseball glove",
+      "car",
+      "spoon",
+      "scissors"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['baseball glove', 'car', 'spoon', 'scissors']): the baseball glove is to the right of the car; the car is to the right of the spoon; the spoon is to the left of the scissors."
+  },
+  {
+    "unique_id": 27232,
+    "num_objects": 4,
+    "obj_attributes": [
+      "orange",
+      "hair drier",
+      "couch",
+      "clock"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['orange', 'hair drier', 'couch', 'clock']): the orange is to the right of the hair drier; the hair drier is to the right of the couch; the couch is to the left of the clock."
+  },
+  {
+    "unique_id": 23763,
+    "num_objects": 5,
+    "obj_attributes": [
+      "scissors",
+      "bottle",
+      "umbrella",
+      "tv",
+      "cow"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['scissors', 'bottle', 'umbrella', 'tv', 'cow']): the scissors is to the right of the bottle; the bottle is to the right of the umbrella; the umbrella is to the right of the tv; the tv is above the cow."
+  },
+  {
+    "unique_id": 5933,
+    "num_objects": 5,
+    "obj_attributes": [
+      "oven",
+      "truck",
+      "toaster",
+      "teddy bear",
+      "kite"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "above",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['oven', 'truck', 'toaster', 'teddy bear', 'kite']): the oven is to the right of the truck; the truck is above the toaster; the toaster is above the teddy bear; the teddy bear is above the kite."
+  },
+  {
+    "unique_id": 953,
+    "num_objects": 4,
+    "obj_attributes": [
+      "sheep",
+      "bicycle",
+      "knife",
+      "toothbrush"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['sheep', 'bicycle', 'knife', 'toothbrush']): the sheep is to the right of the bicycle; the bicycle is to the right of the knife; the knife is to the left of the toothbrush."
+  },
+  {
+    "unique_id": 8772,
+    "num_objects": 3,
+    "obj_attributes": [
+      "stop sign",
+      "vase",
+      "kite"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['stop sign', 'vase', 'kite']): the stop sign is to the right of the vase; the vase is to the right of the kite."
+  },
+  {
+    "unique_id": 29393,
+    "num_objects": 5,
+    "obj_attributes": [
+      "oven",
+      "potted plant",
+      "sink",
+      "backpack",
+      "carrot"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['oven', 'potted plant', 'sink', 'backpack', 'carrot']): the oven is to the right of the potted plant; the potted plant is to the left of the sink; the sink is to the right of the backpack; the backpack is to the right of the carrot."
+  },
+  {
+    "unique_id": 14762,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bear",
+      "orange",
+      "cat"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['bear', 'orange', 'cat']): the bear is to the right of the orange; the orange is to the left of the cat."
+  },
+  {
+    "unique_id": 12772,
+    "num_objects": 5,
+    "obj_attributes": [
+      "sheep",
+      "tie",
+      "dog",
+      "umbrella",
+      "knife"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['sheep', 'tie', 'dog', 'umbrella', 'knife']): the sheep is to the right of the tie; the tie is below the dog; the dog is to the left of the umbrella; the umbrella is to the right of the knife."
+  },
+  {
+    "unique_id": 9952,
+    "num_objects": 3,
+    "obj_attributes": [
+      "bench",
+      "dining table",
+      "umbrella"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['bench', 'dining table', 'umbrella']): the bench is to the right of the dining table; the dining table is to the left of the umbrella."
+  },
+  {
+    "unique_id": 24373,
+    "num_objects": 5,
+    "obj_attributes": [
+      "dining table",
+      "cup",
+      "train",
+      "boat",
+      "apple"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['dining table', 'cup', 'train', 'boat', 'apple']): the dining table is to the right of the cup; the cup is below the train; the train is above the boat; the boat is below the apple."
+  },
+  {
+    "unique_id": 8652,
+    "num_objects": 4,
+    "obj_attributes": [
+      "stop sign",
+      "laptop",
+      "person",
+      "surfboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['stop sign', 'laptop', 'person', 'surfboard']): the stop sign is to the right of the laptop; the laptop is above the person; the person is below the surfboard."
+  },
+  {
+    "unique_id": 10853,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bear",
+      "cat",
+      "person",
+      "tie",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['bear', 'cat', 'person', 'tie', 'suitcase']): the bear is to the right of the cat; the cat is to the right of the person; the person is above the tie; the tie is below the suitcase."
+  },
+  {
+    "unique_id": 4383,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bed",
+      "bus",
+      "book",
+      "tie"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['bed', 'bus', 'book', 'tie']): the bed is to the right of the bus; the bus is to the right of the book; the book is to the left of the tie."
+  },
+  {
+    "unique_id": 2673,
+    "num_objects": 3,
+    "obj_attributes": [
+      "surfboard",
+      "motorcycle",
+      "backpack"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['surfboard', 'motorcycle', 'backpack']): the surfboard is to the right of the motorcycle; the motorcycle is below the backpack."
+  },
+  {
+    "unique_id": 14373,
+    "num_objects": 4,
+    "obj_attributes": [
+      "microwave",
+      "elephant",
+      "donut",
+      "tennis racket"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['microwave', 'elephant', 'donut', 'tennis racket']): the microwave is to the right of the elephant; the elephant is to the left of the donut; the donut is to the right of the tennis racket."
+  },
+  {
+    "unique_id": 17942,
+    "num_objects": 4,
+    "obj_attributes": [
+      "tie",
+      "wine glass",
+      "cup",
+      "scissors"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "below"
+    ],
+    "text": "A white background with 4 objects (['tie', 'wine glass', 'cup', 'scissors']): the tie is to the right of the wine glass; the wine glass is below the cup; the cup is below the scissors."
+  },
+  {
+    "unique_id": 11822,
+    "num_objects": 5,
+    "obj_attributes": [
+      "dog",
+      "cake",
+      "remote",
+      "giraffe",
+      "horse"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['dog', 'cake', 'remote', 'giraffe', 'horse']): the dog is to the right of the cake; the cake is above the remote; the remote is above the giraffe; the giraffe is below the horse."
+  },
+  {
+    "unique_id": 31013,
+    "num_objects": 5,
+    "obj_attributes": [
+      "scissors",
+      "microwave",
+      "parking meter",
+      "snowboard",
+      "bed"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above",
+      "below"
+    ],
+    "text": "A white background with 5 objects (['scissors', 'microwave', 'parking meter', 'snowboard', 'bed']): the scissors is to the right of the microwave; the microwave is to the left of the parking meter; the parking meter is above the snowboard; the snowboard is below the bed."
+  },
+  {
+    "unique_id": 8532,
+    "num_objects": 3,
+    "obj_attributes": [
+      "stop sign",
+      "carrot",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['stop sign', 'carrot', 'sheep']): the stop sign is to the right of the carrot; the carrot is to the left of the sheep."
+  },
+  {
+    "unique_id": 133,
+    "num_objects": 4,
+    "obj_attributes": [
+      "bird",
+      "person",
+      "surfboard",
+      "airplane"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['bird', 'person', 'surfboard', 'airplane']): the bird is to the right of the person; the person is to the right of the surfboard; the surfboard is to the left of the airplane."
+  },
+  {
+    "unique_id": 24833,
+    "num_objects": 3,
+    "obj_attributes": [
+      "oven",
+      "fork",
+      "dog"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['oven', 'fork', 'dog']): the oven is to the right of the fork; the fork is below the dog."
+  },
+  {
+    "unique_id": 12293,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "horse",
+      "sheep"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['wine glass', 'horse', 'sheep']): the wine glass is to the right of the horse; the horse is above the sheep."
+  },
+  {
+    "unique_id": 24142,
+    "num_objects": 3,
+    "obj_attributes": [
+      "wine glass",
+      "vase",
+      "toilet"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['wine glass', 'vase', 'toilet']): the wine glass is to the right of the vase; the vase is to the right of the toilet."
+  },
+  {
+    "unique_id": 9423,
+    "num_objects": 5,
+    "obj_attributes": [
+      "book",
+      "parking meter",
+      "carrot",
+      "handbag",
+      "cake"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below",
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 5 objects (['book', 'parking meter', 'carrot', 'handbag', 'cake']): the book is to the right of the parking meter; the parking meter is below the carrot; the carrot is to the right of the handbag; the handbag is above the cake."
+  },
+  {
+    "unique_id": 11183,
+    "num_objects": 3,
+    "obj_attributes": [
+      "donut",
+      "cat",
+      "bowl"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['donut', 'cat', 'bowl']): the donut is to the right of the cat; the cat is to the left of the bowl."
+  },
+  {
+    "unique_id": 17752,
+    "num_objects": 4,
+    "obj_attributes": [
+      "handbag",
+      "book",
+      "bird",
+      "cow"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 4 objects (['handbag', 'book', 'bird', 'cow']): the handbag is to the right of the book; the book is to the right of the bird; the bird is to the left of the cow."
+  },
+  {
+    "unique_id": 3723,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cell phone",
+      "airplane",
+      "apple"
+    ],
+    "rel_type": [
+      "to the right of",
+      "below"
+    ],
+    "text": "A white background with 3 objects (['cell phone', 'airplane', 'apple']): the cell phone is to the right of the airplane; the airplane is below the apple."
+  },
+  {
+    "unique_id": 6292,
+    "num_objects": 5,
+    "obj_attributes": [
+      "boat",
+      "baseball bat",
+      "chair",
+      "train",
+      "snowboard"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "below",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['boat', 'baseball bat', 'chair', 'train', 'snowboard']): the boat is to the right of the baseball bat; the baseball bat is to the left of the chair; the chair is below the train; the train is to the left of the snowboard."
+  },
+  {
+    "unique_id": 26153,
+    "num_objects": 4,
+    "obj_attributes": [
+      "laptop",
+      "banana",
+      "parking meter",
+      "suitcase"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above",
+      "to the right of"
+    ],
+    "text": "A white background with 4 objects (['laptop', 'banana', 'parking meter', 'suitcase']): the laptop is to the right of the banana; the banana is above the parking meter; the parking meter is to the right of the suitcase."
+  },
+  {
+    "unique_id": 29413,
+    "num_objects": 3,
+    "obj_attributes": [
+      "sink",
+      "potted plant",
+      "dining table"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['sink', 'potted plant', 'dining table']): the sink is to the right of the potted plant; the potted plant is to the right of the dining table."
+  },
+  {
+    "unique_id": 512,
+    "num_objects": 4,
+    "obj_attributes": [
+      "person",
+      "hot dog",
+      "kite",
+      "chair"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of",
+      "above"
+    ],
+    "text": "A white background with 4 objects (['person', 'hot dog', 'kite', 'chair']): the person is to the right of the hot dog; the hot dog is to the left of the kite; the kite is above the chair."
+  },
+  {
+    "unique_id": 29592,
+    "num_objects": 5,
+    "obj_attributes": [
+      "bed",
+      "oven",
+      "pizza",
+      "surfboard",
+      "umbrella"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 5 objects (['bed', 'oven', 'pizza', 'surfboard', 'umbrella']): the bed is to the right of the oven; the oven is to the right of the pizza; the pizza is to the right of the surfboard; the surfboard is to the left of the umbrella."
+  },
+  {
+    "unique_id": 10793,
+    "num_objects": 3,
+    "obj_attributes": [
+      "toothbrush",
+      "bird",
+      "bottle"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 3 objects (['toothbrush', 'bird', 'bottle']): the toothbrush is to the right of the bird; the bird is to the right of the bottle."
+  },
+  {
+    "unique_id": 24332,
+    "num_objects": 3,
+    "obj_attributes": [
+      "cup",
+      "chair",
+      "tv"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the left of"
+    ],
+    "text": "A white background with 3 objects (['cup', 'chair', 'tv']): the cup is to the right of the chair; the chair is to the left of the tv."
+  },
+  {
+    "unique_id": 17592,
+    "num_objects": 3,
+    "obj_attributes": [
+      "handbag",
+      "couch",
+      "cake"
+    ],
+    "rel_type": [
+      "to the right of",
+      "above"
+    ],
+    "text": "A white background with 3 objects (['handbag', 'couch', 'cake']): the handbag is to the right of the couch; the couch is above the cake."
+  },
+  {
+    "unique_id": 8943,
+    "num_objects": 5,
+    "obj_attributes": [
+      "umbrella",
+      "parking meter",
+      "dining table",
+      "microwave",
+      "elephant"
+    ],
+    "rel_type": [
+      "to the right of",
+      "to the right of",
+      "to the right of",
+      "to the right of"
+    ],
+    "text": "A white background with 5 objects (['umbrella', 'parking meter', 'dining table', 'microwave', 'elephant']): the umbrella is to the right of the parking meter; the parking meter is to the right of the dining table; the dining table is to the right of the microwave; the microwave is to the right of the elephant."
+  }
+]

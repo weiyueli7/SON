@@ -1,0 +1,1202 @@
+{
+    "A white background with 3 objects (['stop sign', 'sink', 'snowboard']): the stop sign is below the sink; the sink is below the snowboard": [
+        "[('a stop sign', [200, 350, 100, 100]), ('a sink', [200, 200, 100, 100]), ('a snowboard', [200, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['baseball glove', 'skis', 'traffic light', 'kite']): the baseball glove is below the skis; the skis is to the right of the traffic light; the traffic light is above the kite": [
+        "[('baseball glove', [150, 300, 100, 100]), ('skis', [150, 150, 100, 100]), ('traffic light', [50, 50, 50, 150]), ('kite', [50, 250, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cell phone', 'banana', 'suitcase']): the cell phone is below the banana; the banana is to the left of the suitcase": [
+        "[('cell phone', [200, 300, 100, 200]), ('banana', [200, 100, 100, 100]), ('suitcase', [350, 100, 150, 400])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['skateboard', 'donut', 'hot dog', 'couch']): the skateboard is below the donut; the donut is to the right of the hot dog; the hot dog is to the left of the couch": [
+        "[('a skateboard', [120, 300, 280, 80]), ('a donut', [120, 200, 80, 80]), ('a hot dog', [20, 200, 80, 80]), ('a couch', [220, 200, 280, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['truck', 'bus', 'oven', 'backpack']): the truck is below the bus; the bus is to the right of the oven; the oven is above the backpack": [
+        "[('a truck', [20, 300, 200, 200]), ('a bus', [250, 20, 200, 200]), ('an oven', [20, 20, 200, 200]), ('a backpack', [20, 250, 200, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['elephant', 'toothbrush', 'bowl', 'motorcycle', 'parking meter']): the elephant is below the toothbrush; the toothbrush is to the left of the bowl; the bowl is above the motorcycle; the motorcycle is to the right of the parking meter": [
+        "[('elephant', [200, 300, 100, 100]), ('toothbrush', [200, 200, 100, 100]), ('bowl', [300, 200, 100, 100]), ('motorcycle', [300, 300, 100, 100]), ('parking meter', [200, 400, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['clock', 'knife', 'hair drier']): the clock is below the knife; the knife is to the left of the hair drier": [
+        "[('a clock', [200, 300, 100, 100]), ('a knife', [200, 200, 100, 50]), ('a hair drier', [310, 200, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cow', 'broccoli', 'toothbrush', 'laptop', 'car']): the cow is below the broccoli; the broccoli is above the toothbrush; the toothbrush is to the left of the laptop; the laptop is below the car": [
+        "[('a cow', [50, 300, 100, 100]), ('a broccoli', [50, 200, 100, 100]), ('a toothbrush', [0, 400, 100, 100]), ('a laptop', [150, 400, 100, 100]), ('a car', [150, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sandwich', 'cake', 'wine glass']): the sandwich is below the cake; the cake is above the wine glass": [
+        "[('a sandwich', [150, 300, 200, 100]), ('a cake', [150, 200, 200, 100]), ('a wine glass', [150, 100, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['toilet', 'bowl', 'laptop']): the toilet is below the bowl; the bowl is to the right of the laptop": [
+        "[('a toilet', [50, 300, 150, 200]), ('a bowl', [250, 150, 100, 100]), ('a laptop', [50, 50, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bicycle', 'boat', 'cup']): the bicycle is below the boat; the boat is to the left of the cup": [
+        "[('a bicycle', [150, 300, 200, 150]), ('a boat', [150, 100, 200, 150]), ('a cup', [400, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sports ball', 'dining table', 'remote', 'toilet', 'frisbee']): the sports ball is below the dining table; the dining table is to the right of the remote; the remote is above the toilet; the toilet is above the frisbee": [
+        "[('sports ball', [202, 322, 100, 100]), ('dining table', [202, 202, 100, 100]), ('remote', [102, 202, 100, 100]), ('toilet', [102, 322, 100, 100]), ('frisbee', [102, 422, 100, 90])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['toothbrush', 'refrigerator', 'handbag', 'microwave']): the toothbrush is below the refrigerator; the refrigerator is to the right of the handbag; the handbag is below the microwave": [
+        "[('toothbrush', [20, 320, 80, 180]), ('refrigerator', [120, 20, 150, 480]), ('handbag', [20, 120, 80, 180]), ('microwave', [20, 20, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['backpack', 'skateboard', 'broccoli', 'parking meter', 'bird']): the backpack is below the skateboard; the skateboard is to the left of the broccoli; the broccoli is to the right of the parking meter; the parking meter is above the bird": [
+        "[('a backpack', [100, 300, 100, 100]), ('a skateboard', [100, 200, 100, 100]), ('a broccoli', [200, 200, 100, 100]), ('a parking meter', [300, 200, 100, 100]), ('a bird', [300, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['stop sign', 'toilet', 'knife', 'bus', 'teddy bear']): the stop sign is below the toilet; the toilet is above the knife; the knife is above the bus; the bus is below the teddy bear": [
+        "[('stop sign', [100, 400, 100, 100]), ('toilet', [100, 300, 100, 100]), ('knife', [100, 200, 100, 100]), ('bus', [100, 100, 100, 100]), ('teddy bear', [100, 0, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['parking meter', 'keyboard', 'kite']): the parking meter is below the keyboard; the keyboard is below the kite": [
+        "[('a parking meter', [206, 346, 100, 166]), ('a keyboard', [206, 186, 100, 160]), ('a kite', [206, 26, 100, 160])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['zebra', 'hair drier', 'truck', 'train']): the zebra is below the hair drier; the hair drier is to the left of the truck; the truck is to the left of the train": [
+        "[('a zebra', [50, 300, 100, 200]), ('a hair drier', [50, 50, 100, 200]), ('a truck', [200, 50, 100, 200]), ('a train', [350, 50, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bowl', 'couch', 'vase', 'skateboard']): the bowl is below the couch; the couch is to the left of the vase; the vase is above the skateboard": [
+        "[('a bowl', [100, 300, 100, 100]), ('a couch', [100, 200, 200, 100]), ('a vase', [300, 200, 100, 100]), ('a skateboard', [300, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['cat', 'snowboard', 'vase', 'knife']): the cat is below the snowboard; the snowboard is to the right of the vase; the vase is above the knife": [
+        "[('a cat', [180, 300, 150, 150]), ('a snowboard', [350, 150, 150, 150]), ('a vase', [180, 0, 150, 150]), ('a knife', [0, 150, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['mouse', 'boat', 'bear', 'parking meter']): the mouse is below the boat; the boat is to the right of the bear; the bear is to the left of the parking meter": [
+        "[('a mouse', [200, 300, 100, 100]), ('a boat', [200, 100, 100, 100]), ('a bear', [50, 100, 100, 100]), ('a parking meter', [350, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['fire hydrant', 'sandwich', 'skateboard']): the fire hydrant is below the sandwich; the sandwich is to the right of the skateboard": [
+        "[('a fire hydrant', [200, 300, 100, 150]), ('a sandwich', [100, 100, 100, 50]), ('a skateboard', [0, 100, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['car', 'knife', 'bowl', 'wine glass']): the car is below the knife; the knife is to the right of the bowl; the bowl is below the wine glass": [
+        "[('a car', [200, 300, 100, 100]), ('a knife', [350, 200, 50, 100]), ('a bowl', [200, 200, 100, 100]), ('a wine glass', [200, 100, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['baseball bat', 'cow', 'apple']): the baseball bat is below the cow; the cow is above the apple": [
+        "[('a baseball bat', [200, 340, 112, 172]), ('a cow', [200, 180, 112, 160]), ('an apple', [200, 20, 112, 160])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['surfboard', 'toothbrush', 'cake']): the surfboard is below the toothbrush; the toothbrush is to the right of the cake": [
+        "[('a surfboard', [150, 300, 200, 100]), ('a toothbrush', [150, 150, 50, 100]), ('a cake', [50, 150, 50, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['train', 'horse', 'bird', 'bottle']): the train is below the horse; the horse is above the bird; the bird is to the right of the bottle": [
+        "[('a train', [100, 300, 200, 150]), ('a horse', [100, 100, 200, 150]), ('a bird', [350, 200, 100, 100]), ('a bottle', [250, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['truck', 'chair', 'laptop', 'horse', 'bench']): the truck is below the chair; the chair is to the right of the laptop; the laptop is above the horse; the horse is to the left of the bench": [
+        "[('truck', [100, 300, 100, 100]), ('chair', [200, 200, 100, 100]), ('laptop', [100, 100, 100, 100]), ('horse', [0, 200, 100, 100]), ('bench', [200, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['apple', 'bird', 'stop sign']): the apple is below the bird; the bird is to the left of the stop sign": [
+        "[('an apple', [200, 300, 100, 100]), ('a bird', [150, 150, 100, 100]), ('a stop sign', [300, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['fire hydrant', 'teddy bear', 'cat', 'suitcase', 'sports ball']): the fire hydrant is below the teddy bear; the teddy bear is above the cat; the cat is to the left of the suitcase; the suitcase is to the right of the sports ball": [
+        "[('fire hydrant', [120, 350, 80, 80]), ('teddy bear', [120, 250, 80, 80]), ('cat', [50, 400, 80, 80]), ('suitcase', [200, 400, 80, 80]), ('sports ball', [300, 400, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['motorcycle', 'bear', 'banana']): the motorcycle is below the bear; the bear is below the banana": [
+        "[('a motorcycle', [200, 350, 112, 162]), ('a bear', [200, 200, 112, 150]), ('a banana', [200, 50, 112, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['orange', 'motorcycle', 'toilet', 'hair drier']): the orange is below the motorcycle; the motorcycle is above the toilet; the toilet is to the left of the hair drier": [
+        "[('an orange', [120, 350, 100, 100]), ('a motorcycle', [120, 200, 100, 100]), ('a toilet', [120, 50, 100, 100]), ('a hair drier', [250, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['pizza', 'frisbee', 'train', 'snowboard']): the pizza is below the frisbee; the frisbee is above the train; the train is below the snowboard": [
+        "[('a pizza', [200, 300, 112, 112]), ('a frisbee', [200, 200, 112, 112]), ('a train', [200, 100, 112, 112]), ('a snowboard', [200, 0, 112, 512])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['teddy bear', 'bed', 'truck', 'wine glass', 'baseball bat']): the teddy bear is below the bed; the bed is above the truck; the truck is below the wine glass; the wine glass is below the baseball bat": [
+        "[('teddy bear', [180, 410, 150, 100]), ('bed', [180, 300, 150, 100]), ('truck', [180, 190, 150, 100]), ('wine glass', [180, 80, 150, 100]), ('baseball bat', [180, 0, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bird', 'bowl', 'parking meter']): the bird is below the bowl; the bowl is above the parking meter": [
+        "[('a bird', [150, 300, 100, 100]), ('a bowl', [150, 200, 100, 100]), ('a parking meter', [150, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['giraffe', 'truck', 'bear', 'donut']): the giraffe is below the truck; the truck is above the bear; the bear is to the left of the donut": [
+        "[('a giraffe', [50, 300, 100, 200]), ('a truck', [50, 100, 100, 200]), ('a bear', [200, 300, 100, 200]), ('a donut', [350, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['toothbrush', 'donut', 'toaster', 'laptop']): the toothbrush is below the donut; the donut is to the right of the toaster; the toaster is above the laptop": [
+        "[('toothbrush', [110, 310, 80, 150]), ('donut', [210, 210, 80, 80]), ('toaster', [110, 110, 80, 80]), ('laptop', [10, 10, 150, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['donut', 'toaster', 'handbag', 'bowl']): the donut is below the toaster; the toaster is above the handbag; the handbag is below the bowl": [
+        "[('a donut', [200, 300, 100, 100]), ('a toaster', [200, 200, 100, 100]), ('a handbag', [200, 100, 100, 100]), ('a bowl', [200, 0, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['broccoli', 'wine glass', 'airplane']): the broccoli is below the wine glass; the wine glass is above the airplane": [
+        "[('broccoli', [200, 300, 100, 100]), ('wine glass', [200, 200, 100, 100]), ('airplane', [200, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['surfboard', 'apple', 'tie', 'backpack', 'boat']): the surfboard is below the apple; the apple is to the left of the tie; the tie is below the backpack; the backpack is to the left of the boat": [
+        "[('a surfboard', [30, 300, 150, 200]), ('an apple', [30, 100, 100, 100]), ('a tie', [150, 200, 50, 150]), ('a backpack', [150, 50, 150, 150]), ('a boat', [300, 50, 200, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['orange', 'carrot', 'remote']): the orange is below the carrot; the carrot is below the remote": [
+        "[('an orange', [200, 350, 100, 100]), ('a carrot', [200, 225, 100, 50]), ('a remote', [200, 150, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['motorcycle', 'baseball glove', 'person', 'zebra', 'clock']): the motorcycle is below the baseball glove; the baseball glove is below the person; the person is below the zebra; the zebra is below the clock": [
+        "[('a motorcycle', [205, 410, 100, 100]), ('a baseball glove', [205, 310, 100, 100]), ('a person', [205, 210, 100, 100]), ('a zebra', [205, 110, 100, 100]), ('a clock', [205, 10, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['airplane', 'surfboard', 'person', 'cup', 'fork']): the airplane is below the surfboard; the surfboard is below the person; the person is below the cup; the cup is to the right of the fork": [
+        "[('airplane', [200, 400, 112, 80]), ('surfboard', [200, 300, 112, 80]), ('person', [200, 200, 112, 80]), ('cup', [200, 100, 112, 80]), ('fork', [88, 100, 112, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cup', 'suitcase', 'spoon']): the cup is below the suitcase; the suitcase is to the right of the spoon": [
+        "[('a cup', [200, 300, 100, 100]), ('a suitcase', [200, 100, 100, 100]), ('a spoon', [50, 100, 50, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['hair drier', 'potted plant', 'cup', 'vase', 'bowl']): the hair drier is below the potted plant; the potted plant is below the cup; the cup is below the vase; the vase is above the bowl": [
+        "[('hair drier', [200, 400, 100, 100]), ('potted plant', [200, 300, 100, 100]), ('cup', [200, 200, 100, 100]), ('vase', [200, 100, 100, 100]), ('bowl', [200, 0, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cat', 'spoon', 'giraffe']): the cat is below the spoon; the spoon is to the left of the giraffe": [
+        "[('a cat', [120, 300, 200, 200]), ('a spoon', [120, 100, 50, 150]), ('a giraffe', [200, 50, 150, 450])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['wine glass', 'suitcase', 'train']): the wine glass is below the suitcase; the suitcase is to the left of the train": [
+        "[('a wine glass', [100, 300, 100, 150]), ('a suitcase', [100, 100, 200, 150]), ('a train', [350, 100, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['microwave', 'train', 'toaster']): the microwave is below the train; the train is to the left of the toaster": [
+        "[('a microwave', [100, 300, 150, 150]), ('a train', [100, 100, 150, 150]), ('a toaster', [300, 100, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bus', 'skis', 'refrigerator', 'sink']): the bus is below the skis; the skis is above the refrigerator; the refrigerator is to the left of the sink": [
+        "[('bus', [20, 330, 200, 150]), ('skis', [20, 150, 200, 150]), ('refrigerator', [250, 150, 100, 330]), ('sink', [370, 150, 120, 330])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['knife', 'cow', 'bicycle', 'spoon']): the knife is below the cow; the cow is to the left of the bicycle; the bicycle is to the right of the spoon": [
+        "[('a knife', [40, 300, 100, 50]), ('a cow', [40, 150, 100, 100]), ('a bicycle', [200, 150, 100, 100]), ('a spoon', [360, 150, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['skateboard', 'hair drier', 'pizza', 'sandwich', 'cow']): the skateboard is below the hair drier; the hair drier is above the pizza; the pizza is above the sandwich; the sandwich is to the right of the cow": [
+        "[('a skateboard', [200, 400, 200, 100]), ('a hair drier', [200, 300, 200, 100]), ('a pizza', [200, 200, 200, 100]), ('a sandwich', [400, 100, 100, 200]), ('a cow', [300, 100, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['traffic light', 'dog', 'surfboard']): the traffic light is below the dog; the dog is below the surfboard": [
+        "[('a traffic light', [200, 350, 100, 150]), ('a dog', [200, 200, 100, 150]), ('a surfboard', [200, 50, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['teddy bear', 'mouse', 'pizza']): the teddy bear is below the mouse; the mouse is to the right of the pizza": [
+        "[('a teddy bear', [200, 300, 100, 100]), ('a mouse', [200, 100, 100, 100]), ('a pizza', [50, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['sports ball', 'zebra', 'baseball glove', 'hot dog']): the sports ball is below the zebra; the zebra is above the baseball glove; the baseball glove is to the right of the hot dog": [
+        "[('a sports ball', [100, 300, 100, 100]), ('a zebra', [100, 150, 100, 100]), ('a baseball glove', [250, 300, 100, 100]), ('a hot dog', [100, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['orange', 'parking meter', 'toothbrush']): the orange is below the parking meter; the parking meter is to the left of the toothbrush": [
+        "[('an orange', [200, 300, 100, 100]), ('a parking meter', [200, 100, 100, 150]), ('a toothbrush', [350, 150, 50, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['pizza', 'couch', 'giraffe', 'toothbrush']): the pizza is below the couch; the couch is above the giraffe; the giraffe is to the left of the toothbrush": [
+        "[('pizza', [200, 300, 100, 100]), ('couch', [200, 200, 100, 100]), ('giraffe', [100, 400, 100, 100]), ('toothbrush', [300, 400, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cow', 'cell phone', 'surfboard', 'keyboard', 'cup']): the cow is below the cell phone; the cell phone is above the surfboard; the surfboard is to the right of the keyboard; the keyboard is below the cup": [
+        "[('a cow', [120, 300, 200, 200]), ('a cell phone', [120, 150, 200, 100]), ('a surfboard', [350, 200, 100, 300]), ('a keyboard', [20, 200, 300, 100]), ('a cup', [20, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cake', 'elephant', 'stop sign', 'train', 'fork']): the cake is below the elephant; the elephant is to the left of the stop sign; the stop sign is below the train; the train is above the fork": [
+        "[('cake', [100, 350, 100, 100]), ('elephant', [100, 200, 100, 100]), ('stop sign', [250, 200, 100, 100]), ('train', [250, 50, 100, 100]), ('fork', [250, 400, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['frisbee', 'pizza', 'bowl']): the frisbee is below the pizza; the pizza is to the left of the bowl": [
+        "[('a frisbee', [150, 300, 200, 50]), ('a pizza', [150, 150, 200, 100]), ('a bowl', [400, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tie', 'sink', 'remote', 'kite']): the tie is below the sink; the sink is to the left of the remote; the remote is below the kite": [
+        "[('a tie', [100, 300, 50, 150]), ('a sink', [100, 150, 100, 100]), ('a remote', [250, 250, 50, 100]), ('a kite', [250, 50, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tennis racket', 'boat', 'bench', 'toaster']): the tennis racket is below the boat; the boat is above the bench; the bench is above the toaster": [
+        "[('tennis racket', [100, 350, 150, 100]), ('boat', [100, 250, 150, 100]), ('bench', [100, 150, 150, 100]), ('toaster', [100, 50, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['handbag', 'knife', 'keyboard', 'book']): the handbag is below the knife; the knife is above the keyboard; the keyboard is to the left of the book": [
+        "[('a handbag', [100, 300, 100, 100]), ('a knife', [100, 200, 100, 50]), ('a keyboard', [50, 100, 150, 50]), ('a book', [250, 100, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['chair', 'kite', 'mouse', 'cake']): the chair is below the kite; the kite is below the mouse; the mouse is above the cake": [
+        "[('chair', [100, 300, 150, 200]), ('kite', [100, 150, 150, 150]), ('mouse', [100, 50, 150, 100]), ('cake', [100, 0, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['suitcase', 'fork', 'vase', 'apple', 'dining table']): the suitcase is below the fork; the fork is to the right of the vase; the vase is below the apple; the apple is below the dining table": [
+        "[('a suitcase', [112, 320, 100, 100]), ('a fork', [212, 220, 100, 100]), ('a vase', [112, 220, 100, 100]), ('an apple', [112, 120, 100, 100]), ('a dining table', [112, 20, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['fire hydrant', 'chair', 'dog', 'truck', 'skateboard']): the fire hydrant is below the chair; the chair is to the left of the dog; the dog is to the left of the truck; the truck is above the skateboard": [
+        "[('fire hydrant', [100, 300, 50, 70]), ('chair', [100, 200, 50, 70]), ('dog', [200, 200, 70, 70]), ('truck', [300, 200, 70, 70]), ('skateboard', [300, 300, 70, 20])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['tie', 'hair drier', 'clock', 'frisbee', 'tennis racket']): the tie is below the hair drier; the hair drier is to the right of the clock; the clock is below the frisbee; the frisbee is to the right of the tennis racket": [
+        "[('tie', [150, 300, 100, 200]), ('hair drier', [270, 150, 100, 100]), ('clock', [150, 150, 100, 100]), ('frisbee', [270, 50, 100, 100]), ('tennis racket', [150, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['spoon', 'pizza', 'laptop']): the spoon is below the pizza; the pizza is above the laptop": [
+        "[('a spoon', [200, 350, 100, 50]), ('a pizza', [200, 250, 100, 50]), ('a laptop', [200, 150, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['refrigerator', 'person', 'sink', 'book', 'knife']): the refrigerator is below the person; the person is to the right of the sink; the sink is below the book; the book is above the knife": [
+        "[('refrigerator', [200, 300, 100, 200]), ('person', [320, 100, 100, 200]), ('sink', [100, 200, 100, 100]), ('book', [100, 50, 100, 100]), ('knife', [100, 0, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['chair', 'toilet', 'potted plant', 'knife']): the chair is below the toilet; the toilet is below the potted plant; the potted plant is to the left of the knife": [
+        "[('chair', [200, 350, 112, 162]), ('toilet', [200, 200, 112, 150]), ('potted plant', [200, 50, 112, 150]), ('knife', [350, 50, 112, 450])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['boat', 'backpack', 'elephant']): the boat is below the backpack; the backpack is below the elephant": [
+        "[('a boat', [200, 350, 112, 112]), ('a backpack', [200, 200, 112, 112]), ('an elephant', [200, 50, 112, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['teddy bear', 'tie', 'spoon', 'bottle']): the teddy bear is below the tie; the tie is to the right of the spoon; the spoon is above the bottle": [
+        "[('teddy bear', [100, 300, 100, 100]), ('tie', [250, 200, 50, 100]), ('spoon', [150, 100, 50, 100]), ('bottle', [150, 250, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['laptop', 'bed', 'sink', 'truck', 'cell phone']): the laptop is below the bed; the bed is to the right of the sink; the sink is below the truck; the truck is above the cell phone": [
+        "[('laptop', [200, 300, 100, 100]), ('bed', [300, 200, 100, 100]), ('sink', [200, 100, 100, 100]), ('truck', [100, 200, 100, 100]), ('cell phone', [100, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bird', 'cell phone', 'umbrella']): the bird is below the cell phone; the cell phone is above the umbrella": [
+        "[('a bird', [200, 300, 100, 100]), ('a cell phone', [200, 200, 100, 100]), ('an umbrella', [200, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['oven', 'sandwich', 'keyboard']): the oven is below the sandwich; the sandwich is to the right of the keyboard": [
+        "[('an oven', [200, 300, 150, 200]), ('a sandwich', [100, 100, 150, 150]), ('a keyboard', [0, 100, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sheep', 'tie', 'clock', 'orange', 'wine glass']): the sheep is below the tie; the tie is below the clock; the clock is to the right of the orange; the orange is to the right of the wine glass": [
+        "[('a sheep', [150, 350, 100, 100]), ('a tie', [150, 250, 100, 100]), ('a clock', [300, 150, 100, 100]), ('an orange', [200, 150, 100, 100]), ('a wine glass', [100, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['frisbee', 'motorcycle', 'oven']): the frisbee is below the motorcycle; the motorcycle is below the oven": [
+        "[('a frisbee', [200, 350, 100, 50]), ('a motorcycle', [150, 200, 200, 100]), ('an oven', [100, 50, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sports ball', 'vase', 'baseball glove']): the sports ball is below the vase; the vase is above the baseball glove": [
+        "[('sports ball', [200, 300, 100, 100]), ('vase', [200, 150, 100, 150]), ('baseball glove', [200, 0, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['oven', 'broccoli', 'cup']): the oven is below the broccoli; the broccoli is to the right of the cup": [
+        "[('an oven', [150, 300, 200, 200]), ('a broccoli', [150, 100, 100, 100]), ('a cup', [50, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['banana', 'mouse', 'traffic light']): the banana is below the mouse; the mouse is above the traffic light": [
+        "[('a banana', [200, 300, 100, 100]), ('a mouse', [200, 200, 100, 100]), ('a traffic light', [200, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['person', 'laptop', 'suitcase']): the person is below the laptop; the laptop is to the right of the suitcase": [
+        "[('a person', [200, 300, 112, 200]), ('a laptop', [100, 100, 112, 75]), ('a suitcase', [10, 150, 75, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['fork', 'orange', 'parking meter']): the fork is below the orange; the orange is below the parking meter": [
+        "[('a fork', [200, 300, 112, 200]), ('an orange', [200, 150, 112, 112]), ('a parking meter', [200, 20, 112, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['clock', 'cow', 'person', 'elephant', 'remote']): the clock is below the cow; the cow is to the left of the person; the person is to the right of the elephant; the elephant is to the right of the remote": [
+        "[('a clock', [100, 300, 80, 80]), ('a cow', [100, 200, 80, 80]), ('a person', [200, 200, 80, 80]), ('an elephant', [300, 200, 80, 80]), ('a remote', [400, 200, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bus', 'tie', 'donut']): the bus is below the tie; the tie is above the donut": [
+        "[('a bus', [150, 300, 200, 150]), ('a tie', [150, 150, 50, 100]), ('a donut', [150, 50, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['fork', 'bear', 'zebra', 'donut', 'teddy bear']): the fork is below the bear; the bear is above the zebra; the zebra is above the donut; the donut is to the right of the teddy bear": [
+        "[('a fork', [200, 400, 100, 50]), ('a bear', [200, 300, 100, 50]), ('a zebra', [200, 200, 100, 50]), ('a donut', [350, 100, 100, 100]), ('a teddy bear', [200, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['umbrella', 'parking meter', 'apple', 'bus']): the umbrella is below the parking meter; the parking meter is to the right of the apple; the apple is below the bus": [
+        "[('an umbrella', [100, 300, 100, 100]), ('a parking meter', [250, 150, 50, 150]), ('an apple', [100, 150, 50, 50]), ('a bus', [100, 50, 200, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['umbrella', 'bed', 'refrigerator', 'skateboard']): the umbrella is below the bed; the bed is to the right of the refrigerator; the refrigerator is to the left of the skateboard": [
+        "[('an umbrella', [200, 300, 112, 212]), ('a bed', [312, 100, 200, 150]), ('a refrigerator', [100, 100, 100, 200]), ('a skateboard', [400, 400, 112, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['baseball bat', 'microwave', 'book', 'tennis racket']): the baseball bat is below the microwave; the microwave is to the right of the book; the book is to the right of the tennis racket": [
+        "[('a baseball bat', [20, 300, 472, 50]), ('a microwave', [20, 200, 472, 50]), ('a book', [20, 100, 472, 50]), ('a tennis racket', [20, 0, 472, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bicycle', 'toaster', 'cow']): the bicycle is below the toaster; the toaster is to the right of the cow": [
+        "[('a bicycle', [50, 300, 200, 200]), ('a toaster', [300, 150, 150, 150]), ('a cow', [150, 50, 200, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['oven', 'keyboard', 'cell phone', 'carrot']): the oven is below the keyboard; the keyboard is below the cell phone; the cell phone is to the left of the carrot": [
+        "[('an oven', [150, 350, 200, 150]), ('a keyboard', [150, 200, 200, 100]), ('a cell phone', [150, 50, 50, 100]), ('a carrot', [250, 50, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['backpack', 'tennis racket', 'donut', 'dog']): the backpack is below the tennis racket; the tennis racket is below the donut; the donut is below the dog": [
+        "[('a backpack', [200, 350, 112, 162]), ('a tennis racket', [200, 250, 112, 100]), ('a donut', [200, 150, 112, 100]), ('a dog', [200, 50, 112, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['backpack', 'motorcycle', 'tie', 'bicycle']): the backpack is below the motorcycle; the motorcycle is to the left of the tie; the tie is to the right of the bicycle": [
+        "[('backpack', [50, 300, 100, 150]), ('motorcycle', [50, 100, 150, 150]), ('tie', [250, 200, 50, 150]), ('bicycle', [350, 200, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sandwich', 'skis', 'spoon']): the sandwich is below the skis; the skis is to the right of the spoon": [
+        "[('a sandwich', [150, 300, 200, 150]), ('skis', [350, 150, 100, 300]), ('a spoon', [50, 150, 50, 300])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bed', 'elephant', 'fork', 'zebra']): the bed is below the elephant; the elephant is above the fork; the fork is below the zebra": [
+        "[('a bed', [20, 350, 472, 162]), ('an elephant', [20, 250, 472, 100]), ('a fork', [20, 150, 472, 100]), ('a zebra', [20, 50, 472, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['knife', 'boat', 'baseball bat', 'car', 'pizza']): the knife is below the boat; the boat is to the left of the baseball bat; the baseball bat is to the right of the car; the car is below the pizza": [
+        "[('a knife', [20, 300, 100, 50]), ('a boat', [20, 200, 100, 50]), ('a baseball bat', [150, 200, 100, 50]), ('a car', [280, 300, 100, 50]), ('a pizza', [280, 200, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['airplane', 'toothbrush', 'donut']): the airplane is below the toothbrush; the toothbrush is below the donut": [
+        "[('an airplane', [200, 350, 112, 62]), ('a toothbrush', [200, 250, 112, 62]), ('a donut', [200, 150, 112, 62])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['dining table', 'airplane', 'bird', 'elephant']): the dining table is below the airplane; the airplane is to the left of the bird; the bird is above the elephant": [
+        "[('dining table', [50, 300, 200, 150]), ('airplane', [50, 100, 200, 100]), ('bird', [300, 50, 150, 100]), ('elephant', [300, 200, 150, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['banana', 'clock', 'kite', 'frisbee', 'bus']): the banana is below the clock; the clock is below the kite; the kite is below the frisbee; the frisbee is to the left of the bus": [
+        "[('a banana', [200, 350, 100, 50]), ('a clock', [200, 250, 100, 50]), ('a kite', [200, 150, 100, 50]), ('a frisbee', [200, 50, 100, 50]), ('a bus', [350, 50, 150, 350])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['airplane', 'parking meter', 'skateboard']): the airplane is below the parking meter; the parking meter is below the skateboard": [
+        "[('an airplane', [150, 350, 200, 100]), ('a parking meter', [200, 200, 100, 100]), ('a skateboard', [250, 50, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['toilet', 'suitcase', 'chair', 'hot dog', 'sheep']): the toilet is below the suitcase; the suitcase is above the chair; the chair is below the hot dog; the hot dog is to the left of the sheep": [
+        "[('a toilet', [50, 300, 100, 100]), ('a suitcase', [50, 200, 100, 100]), ('a chair', [50, 100, 100, 100]), ('a hot dog', [200, 100, 100, 100]), ('a sheep', [300, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['kite', 'donut', 'zebra']): the kite is below the donut; the donut is below the zebra": [
+        "[('a kite', [200, 300, 112, 100]), ('a donut', [200, 200, 112, 100]), ('a zebra', [200, 100, 112, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bottle', 'spoon', 'fork', 'bicycle']): the bottle is below the spoon; the spoon is below the fork; the fork is below the bicycle": [
+        "[('a bottle', [200, 350, 100, 100]), ('a spoon', [200, 250, 100, 100]), ('a fork', [200, 150, 100, 100]), ('a bicycle', [200, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['toilet', 'mouse', 'snowboard', 'vase', 'fire hydrant']): the toilet is below the mouse; the mouse is to the right of the snowboard; the snowboard is to the left of the vase; the vase is above the fire hydrant": [
+        "[('toilet', [100, 350, 100, 100]), ('mouse', [250, 200, 100, 100]), ('snowboard', [100, 200, 100, 100]), ('vase', [350, 100, 100, 100]), ('fire hydrant', [350, 250, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['giraffe', 'motorcycle', 'couch', 'elephant', 'bottle']): the giraffe is above the motorcycle; the motorcycle is to the right of the couch; the couch is to the right of the elephant; the elephant is above the bottle": [
+        "[('a giraffe', [20, 20, 100, 200]), ('a motorcycle', [130, 220, 100, 100]), ('a couch', [20, 220, 100, 100]), ('an elephant', [20, 330, 100, 100]), ('a bottle', [130, 330, 50, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['kite', 'vase', 'train', 'hair drier']): the kite is above the vase; the vase is to the left of the train; the train is to the right of the hair drier": [
+        "[('a kite', [50, 20, 100, 100]), ('a vase', [50, 150, 100, 100]), ('a train', [200, 150, 100, 100]), ('a hair drier', [350, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['tie', 'refrigerator', 'sports ball']): the tie is above the refrigerator; the refrigerator is below the sports ball": [
+        "[('a tie', [150, 20, 100, 50]), ('a refrigerator', [150, 80, 100, 200]), ('a sports ball', [150, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['motorcycle', 'surfboard', 'knife', 'microwave']): the motorcycle is above the surfboard; the surfboard is to the left of the knife; the knife is to the left of the microwave": [
+        "[('a motorcycle', [20, 20, 200, 100]), ('a surfboard', [20, 150, 200, 100]), ('a knife', [250, 150, 100, 50]), ('a microwave', [400, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['truck', 'backpack', 'giraffe', 'broccoli']): the truck is above the backpack; the backpack is below the giraffe; the giraffe is to the left of the broccoli": [
+        "[('a truck', [100, 20, 150, 100]), ('a backpack', [100, 140, 150, 100]), ('a giraffe', [100, 260, 150, 200]), ('a broccoli', [280, 260, 150, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['wine glass', 'teddy bear', 'pizza']): the wine glass is above the teddy bear; the teddy bear is below the pizza": [
+        "[('a wine glass', [156, 50, 200, 150]), ('a teddy bear', [156, 210, 200, 150]), ('a pizza', [156, 370, 200, 142])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['boat', 'potted plant', 'teddy bear', 'tie', 'suitcase']): the boat is above the potted plant; the potted plant is above the teddy bear; the teddy bear is to the right of the tie; the tie is below the suitcase": [
+        "[('a boat', [200, 50, 100, 50]), ('a potted plant', [200, 120, 100, 50]), ('a teddy bear', [320, 190, 80, 80]), ('a tie', [200, 260, 20, 100]), ('a suitcase', [180, 380, 140, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['motorcycle', 'refrigerator', 'cake', 'baseball glove', 'scissors']): the motorcycle is above the refrigerator; the refrigerator is to the right of the cake; the cake is above the baseball glove; the baseball glove is to the left of the scissors": [
+        "[('motorcycle', [100, 30, 150, 80]), ('refrigerator', [100, 150, 150, 200]), ('cake', [10, 150, 80, 80]), ('baseball glove', [10, 250, 80, 80]), ('scissors', [100, 250, 150, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['teddy bear', 'backpack', 'airplane', 'banana', 'book']): the teddy bear is above the backpack; the backpack is below the airplane; the airplane is to the left of the banana; the banana is below the book": [
+        "[('teddy bear', [100, 50, 80, 80]), ('backpack', [100, 150, 80, 80]), ('airplane', [100, 250, 80, 80]), ('banana', [200, 250, 80, 80]), ('book', [200, 150, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cell phone', 'person', 'kite', 'tv', 'bicycle']): the cell phone is above the person; the person is to the left of the kite; the kite is above the tv; the tv is to the right of the bicycle": [
+        "[('cell phone', [150, 50, 50, 100]), ('person', [150, 200, 50, 150]), ('kite', [250, 100, 100, 100]), ('tv', [250, 250, 100, 100]), ('bicycle', [150, 400, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['laptop', 'sandwich', 'person', 'skateboard']): the laptop is above the sandwich; the sandwich is to the right of the person; the person is below the skateboard": [
+        "[('a laptop', [150, 50, 200, 150]), ('a sandwich', [150, 250, 200, 150]), ('a person', [50, 250, 80, 200]), ('a skateboard', [50, 50, 200, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['baseball bat', 'pizza', 'surfboard', 'vase', 'skis']): the baseball bat is above the pizza; the pizza is above the surfboard; the surfboard is below the vase; the vase is to the left of the skis": [
+        "[('a baseball bat', [206, 20, 100, 300]), ('a pizza', [206, 330, 100, 60]), ('a surfboard', [206, 400, 100, 100]), ('a vase', [106, 400, 80, 100]), ('skis', [316, 400, 80, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['backpack', 'hair drier', 'laptop', 'cup', 'orange']): the backpack is above the hair drier; the hair drier is above the laptop; the laptop is above the cup; the cup is to the right of the orange": [
+        "[('backpack', [200, 20, 112, 80]), ('hair drier', [200, 110, 112, 80]), ('laptop', [200, 200, 112, 80]), ('cup', [200, 290, 112, 80]), ('orange', [80, 290, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['elephant', 'bottle', 'motorcycle', 'cat', 'couch']): the elephant is above the bottle; the bottle is to the right of the motorcycle; the motorcycle is to the right of the cat; the cat is below the couch": [
+        "[('elephant', [100, 50, 150, 100]), ('bottle', [300, 200, 50, 150]), ('motorcycle', [200, 300, 150, 100]), ('cat', [50, 400, 100, 100]), ('couch', [50, 300, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['surfboard', 'tie', 'cell phone', 'potted plant', 'motorcycle']): the surfboard is above the tie; the tie is above the cell phone; the cell phone is below the potted plant; the potted plant is to the left of the motorcycle": [
+        "[('a surfboard', [200, 20, 112, 300]), ('a tie', [200, 330, 112, 50]), ('a cell phone', [200, 390, 112, 80]), ('a potted plant', [50, 390, 112, 80]), ('a motorcycle', [350, 390, 112, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sink', 'potted plant', 'dining table', 'tennis racket', 'scissors']): the sink is above the potted plant; the potted plant is below the dining table; the dining table is to the left of the tennis racket; the tennis racket is below the scissors": [
+        "[('sink', [20, 20, 100, 100]), ('potted plant', [20, 130, 100, 100]), ('dining table', [20, 240, 100, 100]), ('tennis racket', [130, 240, 100, 100]), ('scissors', [130, 130, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['carrot', 'book', 'pizza']): the carrot is above the book; the book is above the pizza": [
+        "[('a carrot', [200, 50, 112, 50]), ('a book', [200, 150, 112, 50]), ('a pizza', [200, 250, 112, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['orange', 'sports ball', 'traffic light', 'refrigerator']): the orange is above the sports ball; the sports ball is to the right of the traffic light; the traffic light is to the right of the refrigerator": [
+        "[('an orange', [200, 50, 50, 50]), ('a sports ball', [200, 150, 50, 50]), ('a traffic light', [100, 200, 50, 150]), ('a refrigerator', [0, 200, 50, 300])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['couch', 'snowboard', 'apple', 'potted plant', 'toothbrush']): the couch is above the snowboard; the snowboard is below the apple; the apple is to the right of the potted plant; the potted plant is to the left of the toothbrush": [
+        "[('couch', [30, 50, 200, 100]), ('snowboard', [30, 160, 200, 50]), ('apple', [250, 160, 50, 50]), ('potted plant', [250, 220, 50, 100]), ('toothbrush', [310, 220, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['donut', 'teddy bear', 'sink', 'traffic light', 'car']): the donut is above the teddy bear; the teddy bear is above the sink; the sink is above the traffic light; the traffic light is below the car": [
+        "[('a donut', [210, 20, 92, 92]), ('a teddy bear', [210, 132, 92, 92]), ('a sink', [210, 244, 92, 92]), ('a traffic light', [210, 356, 92, 92]), ('a car', [210, 468, 92, 44])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['airplane', 'giraffe', 'hot dog', 'train']): the airplane is above the giraffe; the giraffe is to the left of the hot dog; the hot dog is below the train": [
+        "[('an airplane', [100, 20, 150, 100]), ('a giraffe', [100, 150, 100, 200]), ('a hot dog', [250, 250, 150, 50]), ('a train', [250, 150, 200, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cow', 'tennis racket', 'motorcycle', 'suitcase', 'elephant']): the cow is above the tennis racket; the tennis racket is above the motorcycle; the motorcycle is below the suitcase; the suitcase is to the left of the elephant": [
+        "[('a cow', [150, 10, 200, 100]), ('a tennis racket', [150, 120, 200, 100]), ('a motorcycle', [150, 230, 200, 100]), ('a suitcase', [150, 340, 200, 100]), ('an elephant', [360, 340, 140, 160])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tv', 'cup', 'bench', 'spoon']): the tv is above the cup; the cup is above the bench; the bench is to the right of the spoon": [
+        "[('tv', [155, 20, 200, 120]), ('cup', [155, 160, 200, 120]), ('bench', [155, 300, 200, 120]), ('spoon', [20, 300, 100, 120])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bench', 'traffic light', 'snowboard']): the bench is above the traffic light; the traffic light is above the snowboard": [
+        "[('a bench', [200, 50, 112, 50]), ('a traffic light', [200, 150, 112, 100]), ('a snowboard', [200, 300, 112, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sheep', 'elephant', 'wine glass', 'tie', 'pizza']): the sheep is above the elephant; the elephant is above the wine glass; the wine glass is above the tie; the tie is to the left of the pizza": [
+        "[('a sheep', [200, 10, 112, 80]), ('an elephant', [200, 100, 112, 80]), ('a wine glass', [200, 190, 112, 80]), ('a tie', [200, 280, 112, 80]), ('a pizza', [322, 280, 112, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['train', 'sheep', 'cat', 'vase', 'book']): the train is above the sheep; the sheep is below the cat; the cat is to the right of the vase; the vase is to the left of the book": [
+        "[('a train', [20, 20, 80, 60]), ('a sheep', [20, 100, 80, 60]), ('a cat', [120, 100, 80, 60]), ('a vase', [20, 200, 80, 60]), ('a book', [120, 200, 80, 60])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bird', 'mouse', 'motorcycle']): the bird is above the mouse; the mouse is to the right of the motorcycle": [
+        "[('a bird', [50, 50, 100, 100]), ('a mouse', [200, 200, 100, 100]), ('a motorcycle', [50, 300, 200, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['bird', 'scissors', 'train', 'giraffe', 'stop sign']): the bird is above the scissors; the scissors is below the train; the train is to the left of the giraffe; the giraffe is to the left of the stop sign": [
+        "[('a bird', [50, 20, 80, 80]), ('scissors', [50, 120, 80, 80]), ('a train', [50, 220, 80, 80]), ('a giraffe', [150, 220, 80, 80]), ('a stop sign', [250, 220, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['vase', 'toothbrush', 'sandwich']): the vase is above the toothbrush; the toothbrush is above the sandwich": [
+        "[('a vase', [200, 50, 100, 150]), ('a toothbrush', [200, 210, 100, 150]), ('a sandwich', [200, 370, 100, 142])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['mouse', 'microwave', 'bus']): the mouse is above the microwave; the microwave is to the left of the bus": [
+        "[('a mouse', [100, 100, 100, 100]), ('a microwave', [100, 220, 100, 100]), ('a bus', [220, 220, 200, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['bus', 'bowl', 'sandwich', 'microwave', 'surfboard']): the bus is above the bowl; the bowl is to the left of the sandwich; the sandwich is below the microwave; the microwave is to the right of the surfboard": [
+        "[('a bus', [50, 20, 150, 100]), ('a bowl', [50, 150, 100, 100]), ('a sandwich', [200, 150, 100, 100]), ('a microwave', [200, 20, 150, 100]), ('a surfboard', [50, 300, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bench', 'tie', 'carrot']): the bench is above the tie; the tie is to the left of the carrot": [
+        "[('a bench', [100, 100, 300, 100]), ('a tie', [100, 250, 50, 200]), ('a carrot', [200, 250, 50, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['hot dog', 'person', 'baseball bat', 'cake', 'motorcycle']): the hot dog is above the person; the person is to the left of the baseball bat; the baseball bat is below the cake; the cake is below the motorcycle": [
+        "[('a hot dog', [100, 50, 100, 50]), ('a person', [100, 150, 100, 200]), ('a baseball bat', [250, 200, 50, 150]), ('a cake', [250, 100, 100, 50]), ('a motorcycle', [250, 0, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['train', 'vase', 'backpack', 'hot dog', 'bus']): the train is above the vase; the vase is to the left of the backpack; the backpack is to the right of the hot dog; the hot dog is above the bus": [
+        "[('a train', [50, 50, 100, 50]), ('a vase', [50, 150, 50, 100]), ('a backpack', [150, 200, 100, 150]), ('a hot dog', [100, 350, 100, 50]), ('a bus', [50, 400, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['traffic light', 'microwave', 'clock', 'tennis racket', 'motorcycle']): the traffic light is above the microwave; the microwave is above the clock; the clock is below the tennis racket; the tennis racket is to the left of the motorcycle": [
+        "[('a traffic light', [200, 20, 112, 112]), ('a microwave', [200, 142, 112, 112]), ('a clock', [200, 264, 112, 112]), ('a tennis racket', [20, 386, 112, 112]), ('a motorcycle', [342, 386, 150, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['handbag', 'carrot', 'remote']): the handbag is above the carrot; the carrot is to the left of the remote": [
+        "[('a handbag', [145, 100, 200, 150]), ('a carrot', [145, 280, 50, 100]), ('a remote', [225, 280, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['traffic light', 'toothbrush', 'sheep']): the traffic light is above the toothbrush; the toothbrush is to the left of the sheep": [
+        "[('a traffic light', [100, 50, 50, 150]), ('a toothbrush', [100, 210, 50, 150]), ('a sheep', [200, 210, 200, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sheep', 'mouse', 'fork']): the sheep is above the mouse; the mouse is to the left of the fork": [
+        "[('a sheep', [100, 50, 150, 100]), ('a mouse', [100, 200, 100, 100]), ('a fork', [250, 200, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['boat', 'carrot', 'teddy bear', 'bottle']): the boat is above the carrot; the carrot is below the teddy bear; the teddy bear is to the right of the bottle": [
+        "[('a boat', [50, 50, 100, 50]), ('a carrot', [50, 150, 100, 50]), ('a teddy bear', [200, 150, 100, 100]), ('a bottle', [50, 250, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['fire hydrant', 'snowboard', 'bottle', 'person', 'fork']): the fire hydrant is above the snowboard; the snowboard is above the bottle; the bottle is to the left of the person; the person is to the right of the fork": [
+        "[('fire hydrant', [200, 20, 100, 100]), ('snowboard', [200, 150, 100, 300]), ('bottle', [200, 470, 50, 42]), ('person', [270, 470, 50, 42]), ('fork', [340, 470, 50, 42])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['skis', 'motorcycle', 'sandwich']): the skis is above the motorcycle; the motorcycle is to the left of the sandwich": [
+        "[('skis', [100, 20, 312, 80]), ('motorcycle', [100, 120, 312, 180]), ('sandwich', [420, 220, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tv', 'microwave', 'cup', 'baseball glove']): the tv is above the microwave; the microwave is to the left of the cup; the cup is below the baseball glove": [
+        "[('tv', [100, 50, 150, 100]), ('microwave', [100, 200, 150, 100]), ('cup', [300, 300, 50, 50]), ('baseball glove', [300, 200, 50, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['microwave', 'horse', 'broccoli', 'stop sign', 'sheep']): the microwave is above the horse; the horse is above the broccoli; the broccoli is above the stop sign; the stop sign is to the right of the sheep": [
+        "[('a microwave', [200, 20, 120, 80]), ('a horse', [200, 110, 120, 80]), ('a broccoli', [200, 200, 120, 80]), ('a stop sign', [200, 290, 120, 80]), ('a sheep', [60, 290, 120, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['bottle', 'cup', 'bear', 'hot dog', 'sandwich']): the bottle is above the cup; the cup is to the right of the bear; the bear is above the hot dog; the hot dog is above the sandwich": [
+        "[('a bottle', [200, 50, 50, 100]), ('a cup', [200, 200, 50, 50]), ('a bear', [100, 200, 100, 100]), ('a hot dog', [100, 350, 100, 50]), ('a sandwich', [100, 450, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['spoon', 'laptop', 'suitcase', 'hot dog', 'boat']): the spoon is above the laptop; the laptop is to the right of the suitcase; the suitcase is below the hot dog; the hot dog is to the right of the boat": [
+        "[('a spoon', [20, 20, 100, 50]), ('a laptop', [20, 100, 100, 50]), ('a suitcase', [150, 200, 100, 50]), ('a hot dog', [20, 300, 100, 50]), ('a boat', [150, 400, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['handbag', 'hot dog', 'frisbee', 'clock']): the handbag is above the hot dog; the hot dog is to the left of the frisbee; the frisbee is to the right of the clock": [
+        "[('handbag', [50, 50, 100, 100]), ('hot dog', [50, 200, 100, 100]), ('frisbee', [200, 200, 100, 100]), ('clock', [200, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['keyboard', 'kite', 'toothbrush']): the keyboard is above the kite; the kite is below the toothbrush": [
+        "[('a keyboard', [100, 50, 312, 100]), ('a kite', [100, 200, 312, 100]), ('a toothbrush', [100, 350, 312, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['backpack', 'bench', 'traffic light']): the backpack is above the bench; the bench is to the left of the traffic light": [
+        "[('a backpack', [100, 100, 100, 100]), ('a bench', [100, 210, 100, 100]), ('a traffic light', [210, 210, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['pizza', 'parking meter', 'skis']): the pizza is above the parking meter; the parking meter is above the skis": [
+        "[('a pizza', [200, 50, 112, 112]), ('a parking meter', [200, 200, 112, 112]), ('skis', [200, 350, 112, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['broccoli', 'refrigerator', 'tennis racket']): the broccoli is above the refrigerator; the refrigerator is to the right of the tennis racket": [
+        "[('broccoli', [200, 50, 100, 100]), ('refrigerator', [200, 160, 100, 200]), ('tennis racket', [50, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['tie', 'teddy bear', 'suitcase', 'person', 'snowboard']): the tie is above the teddy bear; the teddy bear is above the suitcase; the suitcase is above the person; the person is to the right of the snowboard": [
+        "[('a tie', [200, 20, 112, 50]), ('a teddy bear', [200, 80, 112, 50]), ('a suitcase', [200, 140, 112, 50]), ('a person', [200, 200, 112, 150]), ('a snowboard', [80, 200, 112, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['truck', 'donut', 'remote', 'dining table', 'car']): the truck is above the donut; the donut is below the remote; the remote is above the dining table; the dining table is above the car": [
+        "[('a truck', [100, 20, 100, 50]), ('a donut', [100, 90, 50, 50]), ('a remote', [100, 160, 70, 30]), ('a dining table', [100, 210, 150, 80]), ('a car', [100, 310, 100, 70])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['tennis racket', 'suitcase', 'bottle']): the tennis racket is above the suitcase; the suitcase is above the bottle": [
+        "[('a tennis racket', [150, 50, 200, 100]), ('a suitcase', [150, 200, 200, 100]), ('a bottle', [150, 350, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['refrigerator', 'bowl', 'skis']): the refrigerator is above the bowl; the bowl is to the left of the skis": [
+        "[('a refrigerator', [100, 10, 100, 200]), ('a bowl', [100, 220, 100, 50]), ('skis', [210, 220, 50, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cake', 'backpack', 'zebra']): the cake is above the backpack; the backpack is below the zebra": [
+        "[('a cake', [200, 50, 112, 112]), ('a backpack', [200, 162, 112, 112]), ('a zebra', [200, 274, 112, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['carrot', 'bowl', 'bus', 'toaster']): the carrot is above the bowl; the bowl is to the left of the bus; the bus is above the toaster": [
+        "[('a carrot', [100, 100, 50, 100]), ('a bowl', [100, 200, 100, 100]), ('a bus', [200, 300, 150, 100]), ('a toaster', [200, 400, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['skateboard', 'skis', 'frisbee', 'sports ball', 'backpack']): the skateboard is above the skis; the skis is above the frisbee; the frisbee is to the right of the sports ball; the sports ball is below the backpack": [
+        "[('a skateboard', [200, 50, 112, 30]), ('skis', [200, 100, 112, 30]), ('a frisbee', [350, 150, 30, 30]), ('a sports ball', [300, 200, 30, 30]), ('a backpack', [300, 50, 30, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sheep', 'umbrella', 'baseball bat']): the sheep is above the umbrella; the umbrella is below the baseball bat": [
+        "[('a sheep', [150, 50, 200, 150]), ('an umbrella', [150, 220, 200, 150]), ('a baseball bat', [150, 390, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['baseball bat', 'suitcase', 'teddy bear']): the baseball bat is above the suitcase; the suitcase is to the right of the teddy bear": [
+        "[('a baseball bat', [150, 50, 200, 50]), ('a suitcase', [150, 150, 200, 150]), ('a teddy bear', [50, 200, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bench', 'toothbrush', 'sink', 'carrot']): the bench is above the toothbrush; the toothbrush is to the right of the sink; the sink is above the carrot": [
+        "[('a bench', [30, 50, 200, 100]), ('a toothbrush', [250, 100, 50, 150]), ('a sink', [150, 250, 150, 150]), ('a carrot', [200, 400, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['snowboard', 'sandwich', 'bus']): the snowboard is above the sandwich; the sandwich is to the right of the bus": [
+        "[('a snowboard', [100, 50, 300, 100]), ('a sandwich', [100, 200, 100, 100]), ('a bus', [0, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['donut', 'keyboard', 'tie', 'umbrella', 'toothbrush']): the donut is above the keyboard; the keyboard is to the right of the tie; the tie is below the umbrella; the umbrella is to the left of the toothbrush": [
+        "[('a donut', [110, 90, 100, 100]), ('a keyboard', [110, 210, 150, 50]), ('a tie', [30, 300, 50, 150]), ('an umbrella', [30, 100, 50, 150]), ('a toothbrush', [210, 300, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['umbrella', 'fork', 'donut', 'tv']): the umbrella is above the fork; the fork is below the donut; the donut is to the right of the tv": [
+        "[('an umbrella', [100, 20, 100, 100]), ('a fork', [100, 140, 100, 100]), ('a donut', [220, 140, 100, 100]), ('a tv', [220, 260, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['book', 'tennis racket', 'horse', 'bowl']): the book is above the tennis racket; the tennis racket is above the horse; the horse is below the bowl": [
+        "[('a book', [200, 50, 112, 150]), ('a tennis racket', [200, 200, 112, 150]), ('a horse', [200, 350, 112, 150]), ('a bowl', [200, 500, 112, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tv', 'fire hydrant', 'clock', 'cat']): the tv is above the fire hydrant; the fire hydrant is to the right of the clock; the clock is above the cat": [
+        "[('tv', [200, 50, 112, 80]), ('fire hydrant', [200, 150, 112, 80]), ('clock', [50, 150, 112, 80]), ('cat', [50, 250, 112, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['backpack', 'carrot', 'bicycle']): the backpack is above the carrot; the carrot is below the bicycle": [
+        "[('a backpack', [100, 50, 100, 100]), ('a carrot', [100, 200, 50, 100]), ('a bicycle', [100, 350, 200, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sink', 'knife', 'vase']): the sink is above the knife; the knife is below the vase": [
+        "[('a sink', [150, 50, 200, 100]), ('a knife', [150, 200, 200, 50]), ('a vase', [150, 300, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cow', 'cell phone', 'cake']): the cow is above the cell phone; the cell phone is to the left of the cake": [
+        "[('a cow', [50, 50, 150, 150]), ('a cell phone', [50, 250, 150, 150]), ('a cake', [250, 250, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['handbag', 'banana', 'parking meter', 'spoon']): the handbag is above the banana; the banana is below the parking meter; the parking meter is to the right of the spoon": [
+        "[('a handbag', [100, 50, 100, 100]), ('a banana', [100, 200, 100, 100]), ('a parking meter', [250, 150, 100, 100]), ('a spoon', [50, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['dog', 'baseball glove', 'apple', 'toilet']): the dog is above the baseball glove; the baseball glove is below the apple; the apple is to the left of the toilet": [
+        "[('a dog', [80, 20, 100, 100]), ('a baseball glove', [80, 140, 100, 100]), ('an apple', [80, 260, 100, 100]), ('a toilet', [220, 260, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['toilet', 'umbrella', 'toothbrush', 'hair drier', 'tv']): the toilet is above the umbrella; the umbrella is to the left of the toothbrush; the toothbrush is below the hair drier; the hair drier is above the tv": [
+        "[('toilet', [100, 50, 100, 100]), ('umbrella', [100, 200, 100, 100]), ('toothbrush', [250, 200, 100, 100]), ('hair drier', [250, 50, 100, 100]), ('tv', [250, 350, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bicycle', 'hot dog', 'cat', 'parking meter']): the bicycle is above the hot dog; the hot dog is below the cat; the cat is to the left of the parking meter": [
+        "[('bicycle', [100, 50, 200, 100]), ('hot dog', [100, 200, 200, 100]), ('cat', [100, 350, 200, 100]), ('parking meter', [350, 350, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['wine glass', 'chair', 'refrigerator']): the wine glass is above the chair; the chair is above the refrigerator": [
+        "[('wine glass', [200, 50, 100, 100]), ('chair', [200, 200, 100, 100]), ('refrigerator', [200, 350, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['dining table', 'baseball bat', 'dog']): the dining table is above the baseball bat; the baseball bat is to the left of the dog": [
+        "[('a dining table', [50, 50, 200, 100]), ('a baseball bat', [50, 200, 50, 200]), ('a dog', [150, 250, 150, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['apple', 'frisbee', 'giraffe', 'cat']): the apple is above the frisbee; the frisbee is below the giraffe; the giraffe is to the right of the cat": [
+        "[('an apple', [200, 50, 100, 100]), ('a frisbee', [200, 200, 100, 100]), ('a giraffe', [350, 150, 100, 300]), ('a cat', [50, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['snowboard', 'laptop', 'hair drier', 'orange', 'wine glass']): the snowboard is above the laptop; the laptop is above the hair drier; the hair drier is above the orange; the orange is to the right of the wine glass": [
+        "[('a snowboard', [200, 20, 112, 300]), ('a laptop', [200, 330, 112, 70]), ('a hair drier', [200, 410, 112, 50]), ('an orange', [320, 460, 50, 50]), ('a wine glass', [260, 460, 50, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['stop sign', 'toilet', 'clock', 'scissors']): the stop sign is above the toilet; the toilet is to the right of the clock; the clock is below the scissors": [
+        "[('stop sign', [50, 50, 100, 100]), ('toilet', [50, 200, 100, 100]), ('clock', [200, 200, 100, 100]), ('scissors', [200, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bus', 'remote', 'baseball glove', 'couch']): the bus is above the remote; the remote is to the left of the baseball glove; the baseball glove is to the right of the couch": [
+        "[('a bus', [20, 20, 200, 100]), ('a remote', [20, 150, 100, 50]), ('a baseball glove', [150, 150, 100, 50]), ('a couch', [300, 200, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['elephant', 'sandwich', 'truck', 'clock']): the elephant is above the sandwich; the sandwich is above the truck; the truck is below the clock": [
+        "[('an elephant', [100, 20, 300, 100]), ('a sandwich', [100, 140, 300, 100]), ('a truck', [100, 260, 300, 100]), ('a clock', [100, 380, 300, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['parking meter', 'potted plant', 'snowboard']): the parking meter is above the potted plant; the potted plant is to the right of the snowboard": [
+        "[('a parking meter', [150, 50, 70, 150]), ('a potted plant', [150, 220, 70, 150]), ('a snowboard', [50, 300, 50, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['knife', 'car', 'cake']): the knife is above the car; the car is to the left of the cake": [
+        "[('a knife', [100, 100, 100, 50]), ('a car', [100, 200, 100, 50]), ('a cake', [250, 200, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['teddy bear', 'broccoli', 'kite']): the teddy bear is above the broccoli; the broccoli is to the left of the kite": [
+        "[('a teddy bear', [150, 50, 100, 100]), ('a broccoli', [150, 200, 100, 100]), ('a kite', [300, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['sandwich', 'baseball bat', 'keyboard', 'sheep']): the sandwich is above the baseball bat; the baseball bat is above the keyboard; the keyboard is below the sheep": [
+        "[('a sandwich', [200, 50, 112, 70]), ('a baseball bat', [200, 130, 112, 70]), ('a keyboard', [200, 210, 112, 70]), ('a sheep', [200, 290, 112, 70])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['tv', 'suitcase', 'sandwich', 'potted plant', 'car']): the tv is above the suitcase; the suitcase is to the left of the sandwich; the sandwich is above the potted plant; the potted plant is below the car": [
+        "[('tv', [50, 50, 100, 100]), ('suitcase', [50, 200, 100, 100]), ('sandwich', [200, 200, 100, 100]), ('potted plant', [200, 350, 100, 100]), ('car', [200, 500, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tv', 'sheep', 'cow', 'teddy bear']): the tv is above the sheep; the sheep is above the cow; the cow is to the left of the teddy bear": [
+        "[('tv', [150, 20, 200, 100]), ('sheep', [150, 140, 200, 100]), ('cow', [150, 260, 200, 100]), ('teddy bear', [370, 260, 120, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['backpack', 'dining table', 'traffic light', 'elephant']): the backpack is above the dining table; the dining table is above the traffic light; the traffic light is to the left of the elephant": [
+        "[('backpack', [200, 50, 100, 100]), ('dining table', [200, 200, 100, 100]), ('traffic light', [200, 350, 100, 100]), ('elephant', [350, 350, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['potted plant', 'donut', 'broccoli']): the potted plant is above the donut; the donut is below the broccoli": [
+        "[('a potted plant', [150, 50, 200, 200]), ('a donut', [150, 270, 200, 100]), ('a broccoli', [150, 390, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['skis', 'keyboard', 'bottle']): the skis is above the keyboard; the keyboard is above the bottle": [
+        "[('skis', [150, 50, 212, 100]), ('keyboard', [150, 200, 212, 100]), ('bottle', [150, 350, 212, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['baseball glove', 'fire hydrant', 'stop sign', 'person']): the baseball glove is above the fire hydrant; the fire hydrant is above the stop sign; the stop sign is to the left of the person": [
+        "[('a baseball glove', [200, 50, 100, 100]), ('a fire hydrant', [200, 170, 100, 100]), ('a stop sign', [200, 290, 100, 100]), ('a person', [320, 290, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['microwave', 'sheep', 'spoon', 'train', 'refrigerator']): the microwave is above the sheep; the sheep is to the right of the spoon; the spoon is above the train; the train is to the right of the refrigerator": [
+        "[('a microwave', [200, 50, 100, 100]), ('a sheep', [200, 200, 100, 100]), ('a spoon', [50, 150, 100, 100]), ('a train', [50, 350, 100, 100]), ('a refrigerator', [350, 350, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['fire hydrant', 'elephant', 'tie']): the fire hydrant is above the elephant; the elephant is to the left of the tie": [
+        "[('a fire hydrant', [150, 50, 100, 100]), ('an elephant', [150, 200, 200, 200]), ('a tie', [400, 300, 50, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['donut', 'bowl', 'laptop', 'potted plant', 'suitcase']): the donut is above the bowl; the bowl is above the laptop; the laptop is to the left of the potted plant; the potted plant is to the right of the suitcase": [
+        "[('donut', [200, 50, 100, 100]), ('bowl', [200, 160, 100, 100]), ('laptop', [200, 270, 100, 100]), ('potted plant', [310, 270, 100, 100]), ('suitcase', [310, 380, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['tennis racket', 'spoon', 'orange', 'fire hydrant', 'stop sign']): the tennis racket is above the spoon; the spoon is below the orange; the orange is below the fire hydrant; the fire hydrant is above the stop sign": [
+        "[('tennis racket', [200, 20, 100, 60]), ('spoon', [200, 100, 100, 60]), ('orange', [200, 180, 100, 60]), ('fire hydrant', [200, 260, 100, 60]), ('stop sign', [200, 340, 100, 60])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['remote', 'handbag', 'bus', 'boat']): the remote is above the handbag; the handbag is to the left of the bus; the bus is above the boat": [
+        "[('remote', [100, 50, 100, 50]), ('handbag', [100, 150, 100, 100]), ('bus', [200, 150, 150, 100]), ('boat', [200, 250, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['cat', 'sink', 'cake', 'airplane']): the cat is above the sink; the sink is to the left of the cake; the cake is to the right of the airplane": [
+        "[('a cat', [20, 20, 100, 100]), ('a sink', [20, 140, 100, 100]), ('a cake', [140, 260, 100, 100]), ('an airplane', [260, 380, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['frisbee', 'car', 'backpack', 'spoon']): the frisbee is above the car; the car is above the backpack; the backpack is to the right of the spoon": [
+        "[('a frisbee', [150, 50, 100, 100]), ('a car', [150, 200, 100, 100]), ('a backpack', [150, 350, 100, 100]), ('a spoon', [50, 350, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cow', 'fork', 'vase', 'bicycle', 'cell phone']): the cow is above the fork; the fork is below the vase; the vase is above the bicycle; the bicycle is to the left of the cell phone": [
+        "[('a cow', [50, 20, 100, 100]), ('a fork', [50, 130, 100, 100]), ('a vase', [50, 240, 100, 100]), ('a bicycle', [50, 350, 100, 100]), ('a cell phone', [200, 350, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['train', 'backpack', 'carrot']): the train is above the backpack; the backpack is to the right of the carrot": [
+        "[('a train', [100, 50, 150, 100]), ('a backpack', [100, 200, 150, 200]), ('a carrot', [20, 300, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['train', 'microwave', 'keyboard']): the train is above the microwave; the microwave is below the keyboard": [
+        "[('a train', [150, 50, 200, 100]), ('a microwave', [150, 200, 200, 100]), ('a keyboard', [150, 350, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['cell phone', 'suitcase', 'teddy bear', 'bicycle']): the cell phone is above the suitcase; the suitcase is below the teddy bear; the teddy bear is below the bicycle": [
+        "[('cell phone', [200, 50, 100, 150]), ('suitcase', [200, 200, 100, 150]), ('teddy bear', [200, 350, 100, 100]), ('bicycle', [200, 450, 100, 62])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['laptop', 'chair', 'boat']): the laptop is to the left of the chair; the chair is below the boat": [
+        "[('a laptop', [30, 200, 150, 100]), ('a chair', [200, 250, 100, 150]), ('a boat', [200, 50, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cell phone', 'car', 'keyboard', 'boat', 'stop sign']): the cell phone is to the left of the car; the car is to the right of the keyboard; the keyboard is to the right of the boat; the boat is above the stop sign": [
+        "[('cell phone', [10, 200, 80, 150]), ('car', [100, 200, 80, 150]), ('keyboard', [190, 200, 80, 150]), ('boat', [280, 100, 80, 150]), ('stop sign', [280, 260, 80, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['microwave', 'umbrella', 'couch', 'traffic light', 'pizza']): the microwave is to the left of the umbrella; the umbrella is to the left of the couch; the couch is to the right of the traffic light; the traffic light is to the left of the pizza": [
+        "[('a microwave', [10, 200, 80, 80]), ('an umbrella', [110, 200, 80, 80]), ('a couch', [210, 200, 80, 80]), ('a traffic light', [310, 200, 80, 80]), ('a pizza', [410, 200, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sheep', 'tennis racket', 'clock']): the sheep is to the left of the tennis racket; the tennis racket is below the clock": [
+        "[('a sheep', [50, 200, 150, 150]), ('a tennis racket', [250, 300, 100, 200]), ('a clock', [250, 50, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['fork', 'umbrella', 'baseball glove', 'skateboard', 'bottle']): the fork is to the left of the umbrella; the umbrella is to the left of the baseball glove; the baseball glove is below the skateboard; the skateboard is above the bottle": [
+        "[('a fork', [20, 200, 50, 150]), ('an umbrella', [90, 200, 50, 150]), ('a baseball glove', [160, 300, 50, 150]), ('a skateboard', [230, 200, 50, 150]), ('a bottle', [300, 200, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['microwave', 'boat', 'giraffe', 'umbrella', 'broccoli']): the microwave is to the left of the boat; the boat is to the left of the giraffe; the giraffe is to the left of the umbrella; the umbrella is to the right of the broccoli": [
+        "[('a microwave', [20, 200, 80, 80]), ('a boat', [120, 200, 80, 80]), ('a giraffe', [220, 200, 80, 80]), ('an umbrella', [320, 200, 80, 80]), ('a broccoli', [420, 200, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['bowl', 'cat', 'toilet', 'backpack', 'handbag']): the bowl is to the left of the cat; the cat is below the toilet; the toilet is to the right of the backpack; the backpack is to the right of the handbag": [
+        "[('a bowl', [20, 200, 80, 80]), ('a cat', [120, 200, 80, 80]), ('a toilet', [120, 100, 80, 80]), ('a backpack', [40, 100, 80, 80]), ('a handbag', [20, 100, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['keyboard', 'chair', 'bench', 'laptop']): the keyboard is to the left of the chair; the chair is below the bench; the bench is to the right of the laptop": [
+        "[('keyboard', [30, 200, 150, 100]), ('chair', [200, 300, 100, 150]), ('bench', [350, 200, 150, 100]), ('laptop', [200, 50, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['teddy bear', 'spoon', 'wine glass', 'suitcase']): the teddy bear is to the left of the spoon; the spoon is below the wine glass; the wine glass is below the suitcase": [
+        "[('teddy bear', [50, 200, 100, 150]), ('spoon', [200, 250, 50, 150]), ('wine glass', [200, 100, 50, 100]), ('suitcase', [200, 0, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['potted plant', 'wine glass', 'donut']): the potted plant is to the left of the wine glass; the wine glass is to the left of the donut": [
+        "[('a potted plant', [50, 200, 100, 200]), ('a wine glass', [200, 200, 100, 200]), ('a donut', [350, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['toaster', 'bed', 'potted plant']): the toaster is to the left of the bed; the bed is to the left of the potted plant": [
+        "[('a toaster', [50, 200, 100, 100]), ('a bed', [200, 150, 150, 200]), ('a potted plant', [400, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sheep', 'vase', 'bear']): the sheep is to the left of the vase; the vase is below the bear": [
+        "[('a sheep', [30, 200, 150, 150]), ('a vase', [200, 200, 150, 150]), ('a bear', [200, 30, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['laptop', 'sink', 'person', 'microwave', 'bear']): the laptop is to the left of the sink; the sink is below the person; the person is to the left of the microwave; the microwave is to the left of the bear": [
+        "[('a laptop', [20, 200, 90, 70]), ('a sink', [130, 200, 90, 70]), ('a person', [130, 100, 70, 90]), ('a microwave', [220, 100, 90, 70]), ('a bear', [330, 100, 90, 70])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['truck', 'suitcase', 'potted plant', 'cell phone', 'skateboard']): the truck is to the left of the suitcase; the suitcase is to the right of the potted plant; the potted plant is to the right of the cell phone; the cell phone is below the skateboard": [
+        "[('a truck', [20, 200, 80, 80]), ('a suitcase', [120, 200, 80, 80]), ('a potted plant', [220, 200, 80, 80]), ('a cell phone', [320, 200, 80, 80]), ('a skateboard', [420, 200, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['clock', 'cake', 'cat', 'traffic light']): the clock is to the left of the cake; the cake is to the left of the cat; the cat is to the left of the traffic light": [
+        "[('a clock', [30, 206, 100, 100]), ('a cake', [160, 206, 100, 100]), ('a cat', [290, 206, 100, 100]), ('a traffic light', [420, 206, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['kite', 'bicycle', 'hot dog', 'sports ball']): the kite is to the left of the bicycle; the bicycle is to the right of the hot dog; the hot dog is to the left of the sports ball": [
+        "[('a kite', [20, 100, 100, 100]), ('a bicycle', [140, 100, 100, 100]), ('a hot dog', [260, 100, 100, 100]), ('a sports ball', [380, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['surfboard', 'handbag', 'scissors']): the surfboard is to the left of the handbag; the handbag is above the scissors": [
+        "[('a surfboard', [20, 150, 100, 300]), ('a handbag', [150, 150, 100, 100]), ('scissors', [150, 270, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bus', 'boat', 'bench']): the bus is to the left of the boat; the boat is below the bench": [
+        "[('a bus', [30, 200, 150, 100]), ('a boat', [200, 300, 150, 100]), ('a bench', [200, 100, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cake', 'banana', 'car', 'refrigerator', 'surfboard']): the cake is to the left of the banana; the banana is to the left of the car; the car is to the left of the refrigerator; the refrigerator is above the surfboard": [
+        "[('a cake', [20, 200, 80, 80]), ('a banana', [120, 200, 80, 80]), ('a car', [220, 200, 80, 80]), ('a refrigerator', [320, 100, 80, 180]), ('a surfboard', [320, 300, 80, 180])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bird', 'elephant', 'sports ball', 'giraffe']): the bird is to the left of the elephant; the elephant is to the left of the sports ball; the sports ball is below the giraffe": [
+        "[('a bird', [20, 200, 100, 100]), ('an elephant', [150, 200, 100, 100]), ('a sports ball', [280, 300, 100, 100]), ('a giraffe', [280, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bus', 'toothbrush', 'bicycle', 'surfboard']): the bus is to the left of the toothbrush; the toothbrush is to the left of the bicycle; the bicycle is to the left of the surfboard": [
+        "[('a bus', [20, 206, 100, 100]), ('a toothbrush', [140, 206, 100, 100]), ('a bicycle', [260, 206, 100, 100]), ('a surfboard', [380, 206, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['clock', 'bus', 'tie', 'kite', 'donut']): the clock is to the left of the bus; the bus is above the tie; the tie is above the kite; the kite is below the donut": [
+        "[('a clock', [20, 200, 80, 80]), ('a bus', [120, 180, 100, 80]), ('a tie', [130, 280, 80, 120]), ('a kite', [140, 420, 80, 80]), ('a donut', [150, 100, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['hot dog', 'tennis racket', 'oven']): the hot dog is to the left of the tennis racket; the tennis racket is above the oven": [
+        "[('a hot dog', [50, 200, 100, 50]), ('a tennis racket', [200, 150, 50, 200]), ('an oven', [200, 400, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['skateboard', 'toothbrush', 'book', 'laptop']): the skateboard is to the left of the toothbrush; the toothbrush is above the book; the book is to the right of the laptop": [
+        "[('a skateboard', [20, 200, 150, 50]), ('a toothbrush', [200, 150, 50, 100]), ('a book', [300, 300, 100, 150]), ('a laptop', [200, 400, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bear', 'tennis racket', 'stop sign', 'wine glass']): the bear is to the left of the tennis racket; the tennis racket is above the stop sign; the stop sign is below the wine glass": [
+        "[('a bear', [30, 200, 100, 100]), ('a tennis racket', [150, 150, 50, 200]), ('a stop sign', [150, 370, 100, 100]), ('a wine glass', [270, 370, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['oven', 'bear', 'chair', 'vase']): the oven is to the left of the bear; the bear is to the left of the chair; the chair is to the left of the vase": [
+        "[('an oven', [20, 150, 100, 200]), ('a bear', [140, 180, 100, 150]), ('a chair', [260, 170, 100, 180]), ('a vase', [380, 200, 80, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['person', 'toilet', 'backpack', 'fork']): the person is to the left of the toilet; the toilet is below the backpack; the backpack is to the left of the fork": [
+        "[('a person', [20, 200, 100, 300]), ('a toilet', [150, 200, 100, 300]), ('a backpack', [150, 20, 100, 150]), ('a fork', [280, 20, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['spoon', 'vase', 'oven', 'person']): the spoon is to the left of the vase; the vase is below the oven; the oven is to the right of the person": [
+        "[('a spoon', [50, 200, 50, 150]), ('a vase', [150, 250, 50, 150]), ('an oven', [250, 100, 150, 150]), ('a person', [100, 50, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['carrot', 'fork', 'pizza', 'orange', 'horse']): the carrot is to the left of the fork; the fork is above the pizza; the pizza is below the orange; the orange is below the horse": [
+        "[('a carrot', [20, 200, 80, 80]), ('a fork', [120, 180, 80, 80]), ('a pizza', [120, 280, 80, 80]), ('an orange', [120, 380, 80, 80]), ('a horse', [120, 480, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sandwich', 'broccoli', 'umbrella', 'bottle', 'frisbee']): the sandwich is to the left of the broccoli; the broccoli is to the left of the umbrella; the umbrella is above the bottle; the bottle is below the frisbee": [
+        "[('a sandwich', [20, 200, 80, 80]), ('a broccoli', [120, 200, 80, 80]), ('an umbrella', [220, 100, 80, 80]), ('a bottle', [220, 300, 80, 80]), ('a frisbee', [320, 200, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['clock', 'frisbee', 'bottle', 'banana', 'fork']): the clock is to the left of the frisbee; the frisbee is above the bottle; the bottle is to the right of the banana; the banana is below the fork": [
+        "[('a clock', [20, 200, 80, 80]), ('a frisbee', [120, 150, 80, 80]), ('a bottle', [220, 250, 80, 80]), ('a banana', [120, 350, 80, 80]), ('a fork', [120, 450, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['toothbrush', 'chair', 'laptop']): the toothbrush is to the left of the chair; the chair is to the left of the laptop": [
+        "[('a toothbrush', [50, 200, 50, 150]), ('a chair', [200, 150, 100, 200]), ('a laptop', [400, 200, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tv', 'couch', 'wine glass', 'skateboard']): the tv is to the left of the couch; the couch is below the wine glass; the wine glass is to the left of the skateboard": [
+        "[('tv', [20, 150, 150, 100]), ('couch', [200, 200, 150, 100]), ('wine glass', [200, 50, 50, 50]), ('skateboard', [300, 50, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['tv', 'hair drier', 'potted plant', 'bicycle', 'fire hydrant']): the tv is to the left of the hair drier; the hair drier is to the left of the potted plant; the potted plant is to the right of the bicycle; the bicycle is above the fire hydrant": [
+        "[('tv', [10, 200, 100, 100]), ('hair drier', [120, 200, 100, 100]), ('potted plant', [230, 200, 100, 100]), ('bicycle', [340, 100, 100, 100]), ('fire hydrant', [340, 210, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['stop sign', 'giraffe', 'bird', 'toothbrush']): the stop sign is to the left of the giraffe; the giraffe is below the bird; the bird is to the left of the toothbrush": [
+        "[('stop sign', [20, 200, 100, 100]), ('giraffe', [140, 300, 100, 200]), ('bird', [140, 50, 100, 100]), ('toothbrush', [260, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['keyboard', 'bear', 'sink', 'carrot']): the keyboard is to the left of the bear; the bear is below the sink; the sink is to the left of the carrot": [
+        "[('keyboard', [20, 200, 150, 80]), ('bear', [200, 300, 100, 100]), ('sink', [20, 100, 150, 80]), ('carrot', [200, 100, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['couch', 'book', 'hair drier', 'suitcase']): the couch is to the left of the book; the book is above the hair drier; the hair drier is to the right of the suitcase": [
+        "[('couch', [20, 200, 150, 150]), ('book', [200, 100, 100, 100]), ('hair drier', [320, 200, 100, 100]), ('suitcase', [200, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['orange', 'backpack', 'bus', 'book']): the orange is to the left of the backpack; the backpack is above the bus; the bus is to the left of the book": [
+        "[('an orange', [50, 200, 100, 100]), ('a backpack', [200, 150, 100, 150]), ('a bus', [200, 350, 150, 100]), ('a book', [400, 350, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['clock', 'donut', 'orange']): the clock is to the left of the donut; the donut is below the orange": [
+        "[('a clock', [30, 180, 150, 150]), ('a donut', [200, 180, 150, 150]), ('an orange', [200, 20, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['frisbee', 'dining table', 'cup', 'bench', 'person']): the frisbee is to the left of the dining table; the dining table is above the cup; the cup is below the bench; the bench is below the person": [
+        "[('frisbee', [20, 200, 100, 100]), ('dining table', [150, 150, 200, 100]), ('cup', [150, 275, 100, 100]), ('bench', [150, 400, 200, 100]), ('person', [150, 450, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['couch', 'mouse', 'bench', 'spoon', 'fire hydrant']): the couch is to the left of the mouse; the mouse is to the right of the bench; the bench is above the spoon; the spoon is below the fire hydrant": [
+        "[('couch', [20, 200, 120, 80]), ('mouse', [160, 200, 60, 40]), ('bench', [240, 150, 100, 50]), ('spoon', [240, 220, 30, 60]), ('fire hydrant', [300, 300, 60, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['boat', 'tv', 'toothbrush']): the boat is to the left of the tv; the tv is below the toothbrush": [
+        "[('a boat', [20, 200, 150, 100]), ('a tv', [200, 300, 150, 100]), ('a toothbrush', [200, 100, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['refrigerator', 'baseball glove', 'teddy bear', 'motorcycle']): the refrigerator is to the left of the baseball glove; the baseball glove is above the teddy bear; the teddy bear is to the right of the motorcycle": [
+        "[('a refrigerator', [20, 100, 100, 300]), ('a baseball glove', [150, 50, 100, 100]), ('a teddy bear', [150, 200, 100, 100]), ('a motorcycle', [50, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['couch', 'traffic light', 'sandwich', 'bicycle']): the couch is to the left of the traffic light; the traffic light is below the sandwich; the sandwich is to the left of the bicycle": [
+        "[('couch', [20, 200, 150, 150]), ('traffic light', [200, 300, 50, 150]), ('sandwich', [200, 100, 100, 100]), ('bicycle', [350, 100, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['boat', 'vase', 'skis']): the boat is to the left of the vase; the vase is to the left of the skis": [
+        "[('a boat', [20, 200, 150, 112]), ('a vase', [200, 200, 112, 112]), ('skis', [350, 200, 112, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['boat', 'stop sign', 'skis']): the boat is to the left of the stop sign; the stop sign is below the skis": [
+        "[('a boat', [20, 200, 150, 100]), ('a stop sign', [200, 300, 100, 100]), ('skis', [200, 100, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['hot dog', 'sheep', 'potted plant']): the hot dog is to the left of the sheep; the sheep is to the left of the potted plant": [
+        "[('a hot dog', [50, 200, 100, 50]), ('a sheep', [200, 180, 100, 70]), ('a potted plant', [350, 190, 80, 120])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['mouse', 'donut', 'parking meter', 'hot dog', 'umbrella']): the mouse is to the left of the donut; the donut is to the right of the parking meter; the parking meter is above the hot dog; the hot dog is above the umbrella": [
+        "[('a mouse', [20, 200, 80, 80]), ('a donut', [120, 200, 80, 80]), ('a parking meter', [220, 100, 80, 200]), ('a hot dog', [320, 200, 80, 80]), ('an umbrella', [420, 300, 80, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['stop sign', 'bicycle', 'surfboard', 'boat']): the stop sign is to the left of the bicycle; the bicycle is to the right of the surfboard; the surfboard is to the right of the boat": [
+        "[('stop sign', [30, 206, 100, 100]), ('bicycle', [150, 206, 100, 100]), ('surfboard', [270, 206, 100, 100]), ('boat', [390, 206, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['surfboard', 'toothbrush', 'toilet', 'banana', 'toaster']): the surfboard is to the left of the toothbrush; the toothbrush is below the toilet; the toilet is to the left of the banana; the banana is to the right of the toaster": [
+        "[('a surfboard', [20, 200, 100, 300]), ('a toothbrush', [140, 300, 50, 200]), ('a toilet', [210, 100, 100, 200]), ('a banana', [330, 150, 50, 100]), ('a toaster', [400, 250, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['elephant', 'carrot', 'sports ball', 'airplane']): the elephant is to the left of the carrot; the carrot is below the sports ball; the sports ball is below the airplane": [
+        "[('elephant', [20, 200, 150, 150]), ('carrot', [200, 250, 50, 100]), ('sports ball', [200, 150, 50, 50]), ('airplane', [200, 50, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['mouse', 'parking meter', 'kite', 'book', 'motorcycle']): the mouse is to the left of the parking meter; the parking meter is below the kite; the kite is above the book; the book is below the motorcycle": [
+        "[('mouse', [30, 250, 70, 70]), ('parking meter', [130, 250, 70, 70]), ('kite', [130, 150, 70, 70]), ('book', [130, 350, 70, 70]), ('motorcycle', [130, 450, 70, 70])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['apple', 'sports ball', 'parking meter']): the apple is to the left of the sports ball; the sports ball is to the right of the parking meter": [
+        "[('an apple', [50, 206, 100, 100]), ('a sports ball', [200, 206, 100, 100]), ('a parking meter', [350, 206, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['keyboard', 'giraffe', 'mouse', 'bench', 'apple']): the keyboard is to the left of the giraffe; the giraffe is below the mouse; the mouse is above the bench; the bench is above the apple": [
+        "[('keyboard', [20, 200, 120, 60]), ('giraffe', [160, 250, 80, 200]), ('mouse', [160, 150, 80, 80]), ('bench', [160, 350, 80, 80]), ('apple', [160, 450, 60, 60])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['skis', 'baseball bat', 'person']): the skis is to the left of the baseball bat; the baseball bat is to the left of the person": [
+        "[('skis', [50, 200, 50, 300]), ('baseball bat', [150, 200, 50, 300]), ('person', [250, 100, 200, 400])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['fork', 'cell phone', 'bottle', 'bear']): the fork is to the left of the cell phone; the cell phone is above the bottle; the bottle is above the bear": [
+        "[('a fork', [30, 200, 100, 100]), ('a cell phone', [150, 200, 100, 100]), ('a bottle', [150, 310, 100, 100]), ('a bear', [150, 420, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['microwave', 'kite', 'fire hydrant', 'clock']): the microwave is to the left of the kite; the kite is to the right of the fire hydrant; the fire hydrant is to the left of the clock": [
+        "[('microwave', [20, 200, 100, 100]), ('kite', [150, 200, 100, 100]), ('fire hydrant', [280, 200, 100, 100]), ('clock', [410, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['scissors', 'clock', 'refrigerator', 'elephant']): the scissors is to the left of the clock; the clock is to the right of the refrigerator; the refrigerator is below the elephant": [
+        "[('scissors', [30, 200, 100, 100]), ('clock', [150, 200, 100, 100]), ('refrigerator', [270, 200, 100, 200]), ('elephant', [270, 30, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['spoon', 'knife', 'scissors']): the spoon is to the left of the knife; the knife is above the scissors": [
+        "[('a spoon', [50, 200, 100, 50]), ('a knife', [200, 150, 100, 50]), ('scissors', [200, 250, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['tennis racket', 'zebra', 'suitcase']): the tennis racket is to the left of the zebra; the zebra is to the right of the suitcase": [
+        "[('a tennis racket', [20, 150, 150, 300]), ('a zebra', [200, 50, 150, 400]), ('a suitcase', [380, 150, 120, 300])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['keyboard', 'scissors', 'surfboard']): the keyboard is to the left of the scissors; the scissors is below the surfboard": [
+        "[('a keyboard', [50, 200, 200, 100]), ('scissors', [300, 300, 100, 50]), ('a surfboard', [300, 100, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sheep', 'potted plant', 'carrot']): the sheep is to the left of the potted plant; the potted plant is to the left of the carrot": [
+        "[('a sheep', [50, 150, 100, 100]), ('a potted plant', [200, 150, 100, 100]), ('a carrot', [350, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['carrot', 'stop sign', 'snowboard']): the carrot is to the left of the stop sign; the stop sign is to the right of the snowboard": [
+        "[('a carrot', [50, 206, 100, 100]), ('a stop sign', [200, 206, 100, 100]), ('a snowboard', [350, 206, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bottle', 'broccoli', 'surfboard']): the bottle is to the left of the broccoli; the broccoli is below the surfboard": [
+        "[('a bottle', [50, 200, 100, 300]), ('a broccoli', [200, 300, 100, 100]), ('a surfboard', [200, 50, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['couch', 'pizza', 'cake', 'elephant']): the couch is to the left of the pizza; the pizza is above the cake; the cake is above the elephant": [
+        "[('couch', [20, 200, 150, 100]), ('pizza', [200, 150, 100, 100]), ('cake', [200, 250, 100, 100]), ('elephant', [200, 350, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bicycle', 'skateboard', 'cup']): the bicycle is to the left of the skateboard; the skateboard is to the right of the cup": [
+        "[('a bicycle', [30, 171, 150, 150]), ('a skateboard', [210, 171, 150, 150]), ('a cup', [390, 171, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['keyboard', 'toilet', 'stop sign', 'skateboard', 'elephant']): the keyboard is to the left of the toilet; the toilet is to the left of the stop sign; the stop sign is below the skateboard; the skateboard is below the elephant": [
+        "[('keyboard', [10, 206, 100, 100]), ('toilet', [120, 206, 100, 100]), ('stop sign', [230, 316, 100, 100]), ('skateboard', [230, 206, 100, 100]), ('elephant', [230, 96, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['book', 'snowboard', 'sports ball', 'bed', 'fire hydrant']): the book is to the left of the snowboard; the snowboard is above the sports ball; the sports ball is below the bed; the bed is below the fire hydrant": [
+        "[('a book', [30, 200, 80, 120]), ('a snowboard', [130, 150, 200, 50]), ('a sports ball', [200, 250, 80, 80]), ('a bed', [300, 350, 200, 100]), ('a fire hydrant', [400, 470, 80, 42])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['giraffe', 'sheep', 'bear', 'skateboard']): the giraffe is to the left of the sheep; the sheep is to the left of the bear; the bear is to the left of the skateboard": [
+        "[('a giraffe', [10, 100, 100, 400]), ('a sheep', [130, 200, 100, 200]), ('a bear', [250, 200, 100, 200]), ('a skateboard', [370, 300, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['microwave', 'scissors', 'snowboard', 'suitcase']): the microwave is to the left of the scissors; the scissors is to the left of the snowboard; the snowboard is above the suitcase": [
+        "[('a microwave', [20, 200, 100, 100]), ('scissors', [140, 200, 100, 100]), ('a snowboard', [260, 100, 100, 300]), ('a suitcase', [260, 250, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bus', 'remote', 'zebra', 'couch']): the bus is to the left of the remote; the remote is to the right of the zebra; the zebra is to the right of the couch": [
+        "[('a bus', [10, 200, 100, 100]), ('a remote', [150, 200, 100, 100]), ('a zebra', [290, 200, 100, 100]), ('a couch', [430, 200, 80, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['skis', 'carrot', 'umbrella', 'broccoli', 'dog']): the skis is to the left of the carrot; the carrot is to the right of the umbrella; the umbrella is to the right of the broccoli; the broccoli is to the right of the dog": [
+        "[('skis', [20, 200, 80, 200]), ('carrot', [120, 200, 80, 200]), ('umbrella', [220, 200, 80, 200]), ('broccoli', [320, 200, 80, 200]), ('dog', [420, 200, 80, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['fork', 'oven', 'cake', 'laptop']): the fork is to the left of the oven; the oven is below the cake; the cake is to the right of the laptop": [
+        "[('a fork', [30, 200, 50, 150]), ('an oven', [100, 200, 150, 200]), ('a cake', [270, 50, 150, 150]), ('a laptop', [100, 50, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['banana', 'zebra', 'train', 'fire hydrant']): the banana is to the left of the zebra; the zebra is to the left of the train; the train is above the fire hydrant": [
+        "[('a banana', [20, 200, 100, 100]), ('a zebra', [140, 200, 100, 100]), ('a train', [260, 100, 100, 100]), ('a fire hydrant', [260, 220, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['umbrella', 'broccoli', 'frisbee']): the umbrella is to the left of the broccoli; the broccoli is to the left of the frisbee": [
+        "[('an umbrella', [50, 150, 100, 200]), ('a broccoli', [200, 150, 100, 200]), ('a frisbee', [350, 150, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['hot dog', 'zebra', 'laptop', 'car']): the hot dog is to the left of the zebra; the zebra is below the laptop; the laptop is above the car": [
+        "[('a hot dog', [30, 250, 100, 50]), ('a zebra', [150, 250, 100, 100]), ('a laptop', [150, 100, 100, 100]), ('a car', [150, 400, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['tennis racket', 'skis', 'surfboard', 'clock', 'apple']): the tennis racket is to the left of the skis; the skis is to the left of the surfboard; the surfboard is to the left of the clock; the clock is below the apple": [
+        "[('tennis racket', [20, 200, 80, 200]), ('skis', [120, 200, 80, 200]), ('surfboard', [220, 200, 80, 200]), ('clock', [320, 300, 80, 80]), ('apple', [320, 200, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['spoon', 'kite', 'motorcycle', 'mouse']): the spoon is to the left of the kite; the kite is below the motorcycle; the motorcycle is above the mouse": [
+        "[('a spoon', [20, 200, 80, 120]), ('a kite', [120, 250, 120, 150]), ('a motorcycle', [120, 50, 200, 150]), ('a mouse', [120, 400, 100, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['apple', 'chair', 'person', 'tennis racket']): the apple is to the left of the chair; the chair is to the left of the person; the person is below the tennis racket": [
+        "[('an apple', [30, 200, 100, 100]), ('a chair', [150, 200, 100, 200]), ('a person', [270, 200, 100, 300]), ('a tennis racket', [270, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['airplane', 'couch', 'keyboard']): the airplane is to the left of the couch; the couch is below the keyboard": [
+        "[('an airplane', [20, 200, 150, 100]), ('a couch', [200, 300, 200, 150]), ('a keyboard', [200, 100, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['tennis racket', 'tv', 'apple']): the tennis racket is to the left of the tv; the tv is below the apple": [
+        "[('a tennis racket', [20, 180, 150, 300]), ('a tv', [200, 250, 200, 200]), ('an apple', [250, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['keyboard', 'skateboard', 'orange', 'zebra']): the keyboard is to the left of the skateboard; the skateboard is to the right of the orange; the orange is to the right of the zebra": [
+        "[('keyboard', [20, 206, 118, 100]), ('skateboard', [158, 206, 118, 100]), ('orange', [296, 206, 100, 100]), ('zebra', [416, 206, 96, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['sandwich', 'oven', 'bed', 'wine glass']): the sandwich is to the left of the oven; the oven is below the bed; the bed is to the right of the wine glass": [
+        "[('a sandwich', [30, 256, 120, 100]), ('an oven', [180, 256, 120, 100]), ('a bed', [180, 30, 120, 100]), ('a wine glass', [30, 30, 120, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['toaster', 'giraffe', 'snowboard', 'oven', 'boat']): the toaster is to the left of the giraffe; the giraffe is to the left of the snowboard; the snowboard is below the oven; the oven is to the right of the boat": [
+        "[('a toaster', [20, 200, 80, 80]), ('a giraffe', [120, 150, 80, 200]), ('a snowboard', [220, 300, 80, 200]), ('an oven', [320, 100, 80, 200]), ('a boat', [220, 50, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['handbag', 'train', 'wine glass', 'tv']): the handbag is to the left of the train; the train is above the wine glass; the wine glass is above the tv": [
+        "[('handbag', [30, 200, 100, 100]), ('train', [150, 200, 100, 100]), ('wine glass', [150, 320, 100, 100]), ('tv', [150, 440, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['knife', 'bus', 'apple', 'laptop', 'stop sign']): the knife is to the left of the bus; the bus is to the left of the apple; the apple is above the laptop; the laptop is below the stop sign": [
+        "[('a knife', [20, 200, 80, 112]), ('a bus', [120, 200, 80, 112]), ('an apple', [220, 200, 80, 80]), ('a laptop', [220, 300, 80, 112]), ('a stop sign', [220, 420, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sandwich', 'bottle', 'cat', 'motorcycle', 'elephant']): the sandwich is to the left of the bottle; the bottle is above the cat; the cat is below the motorcycle; the motorcycle is below the elephant": [
+        "[('a sandwich', [20, 230, 100, 50]), ('a bottle', [150, 200, 50, 100]), ('a cat', [150, 320, 100, 100]), ('a motorcycle', [150, 440, 100, 50]), ('an elephant', [150, 500, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['truck', 'carrot', 'traffic light', 'frisbee']): the truck is to the left of the carrot; the carrot is below the traffic light; the traffic light is below the frisbee": [
+        "[('a truck', [30, 250, 150, 100]), ('a carrot', [200, 250, 50, 100]), ('a traffic light', [200, 150, 50, 100]), ('a frisbee', [200, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['microwave', 'toaster', 'motorcycle', 'hair drier', 'skis']): the microwave is to the left of the toaster; the toaster is to the left of the motorcycle; the motorcycle is above the hair drier; the hair drier is below the skis": [
+        "[('a microwave', [20, 200, 80, 80]), ('a toaster', [120, 200, 80, 80]), ('a motorcycle', [220, 100, 80, 80]), ('a hair drier', [220, 300, 80, 80]), ('skis', [220, 400, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sheep', 'surfboard', 'potted plant', 'cow', 'truck']): the sheep is to the left of the surfboard; the surfboard is to the left of the potted plant; the potted plant is above the cow; the cow is below the truck": [
+        "[('a sheep', [20, 200, 80, 80]), ('a surfboard', [120, 200, 80, 80]), ('a potted plant', [220, 100, 80, 80]), ('a cow', [220, 300, 80, 80]), ('a truck', [320, 400, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['skateboard', 'microwave', 'bus']): the skateboard is to the left of the microwave; the microwave is below the bus": [
+        "[('a skateboard', [20, 200, 150, 50]), ('a microwave', [200, 200, 150, 100]), ('a bus', [200, 50, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['chair', 'scissors', 'sandwich', 'toothbrush']): the chair is to the left of the scissors; the scissors is above the sandwich; the sandwich is to the right of the toothbrush": [
+        "[('chair', [30, 200, 100, 200]), ('scissors', [150, 100, 100, 100]), ('sandwich', [270, 200, 100, 100]), ('toothbrush', [200, 320, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bear', 'remote', 'bicycle', 'umbrella']): the bear is to the left of the remote; the remote is above the bicycle; the bicycle is below the umbrella": [
+        "[('a bear', [20, 200, 100, 100]), ('a remote', [150, 200, 100, 50]), ('a bicycle', [150, 300, 150, 100]), ('an umbrella', [150, 450, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['kite', 'chair', 'scissors', 'potted plant']): the kite is to the left of the chair; the chair is to the right of the scissors; the scissors is below the potted plant": [
+        "[('a kite', [20, 180, 100, 100]), ('a chair', [150, 180, 100, 100]), ('scissors', [280, 280, 100, 100]), ('a potted plant', [280, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['teddy bear', 'bus', 'tv', 'mouse', 'pizza']): the teddy bear is to the left of the bus; the bus is below the tv; the tv is to the left of the mouse; the mouse is to the right of the pizza": [
+        "[('teddy bear', [20, 200, 80, 80]), ('bus', [120, 300, 80, 80]), ('tv', [20, 100, 80, 80]), ('mouse', [200, 100, 80, 80]), ('pizza', [120, 20, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['teddy bear', 'scissors', 'vase', 'laptop']): the teddy bear is to the left of the scissors; the scissors is above the vase; the vase is to the right of the laptop": [
+        "[('teddy bear', [50, 200, 100, 100]), ('scissors', [200, 150, 100, 100]), ('vase', [300, 300, 100, 100]), ('laptop', [200, 400, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['microwave', 'sports ball', 'skateboard', 'backpack']): the microwave is to the left of the sports ball; the sports ball is to the right of the skateboard; the skateboard is above the backpack": [
+        "[('a microwave', [20, 200, 100, 100]), ('a sports ball', [140, 200, 100, 100]), ('a skateboard', [260, 100, 100, 50]), ('a backpack', [260, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['baseball glove', 'book', 'hot dog', 'handbag']): the baseball glove is to the left of the book; the book is to the left of the hot dog; the hot dog is to the right of the handbag": [
+        "[('a baseball glove', [30, 206, 100, 100]), ('a book', [150, 206, 100, 100]), ('a hot dog', [270, 206, 100, 100]), ('a handbag', [390, 206, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['toilet', 'handbag', 'backpack', 'laptop', 'skis']): the toilet is to the left of the handbag; the handbag is to the right of the backpack; the backpack is above the laptop; the laptop is to the left of the skis": [
+        "[('a toilet', [20, 200, 80, 120]), ('a handbag', [120, 200, 80, 120]), ('a backpack', [220, 100, 80, 120]), ('a laptop', [220, 300, 80, 120]), ('skis', [320, 300, 80, 120])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['tie', 'bench', 'kite']): the tie is to the left of the bench; the bench is above the kite": [
+        "[('a tie', [50, 200, 100, 200]), ('a bench', [200, 150, 200, 100]), ('a kite', [200, 300, 200, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['broccoli', 'bowl', 'banana', 'dog']): the broccoli is to the right of the bowl; the bowl is to the left of the banana; the banana is below the dog": [
+        "[('broccoli', [150, 200, 100, 100]), ('bowl', [50, 200, 100, 100]), ('banana', [250, 200, 100, 100]), ('dog', [250, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['teddy bear', 'microwave', 'handbag']): the teddy bear is to the right of the microwave; the microwave is above the handbag": [
+        "[('a teddy bear', [300, 150, 150, 150]), ('a microwave', [100, 150, 150, 150]), ('a handbag', [100, 350, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tennis racket', 'cake', 'skateboard', 'tv']): the tennis racket is to the right of the cake; the cake is to the left of the skateboard; the skateboard is above the tv": [
+        "[('a tennis racket', [140, 200, 80, 200]), ('a cake', [60, 200, 60, 60]), ('a skateboard', [220, 200, 100, 20]), ('a tv', [220, 230, 100, 70])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['person', 'airplane', 'parking meter', 'horse']): the person is to the right of the airplane; the airplane is to the left of the parking meter; the parking meter is below the horse": [
+        "[('a person', [130, 200, 80, 180]), ('an airplane', [50, 200, 70, 50]), ('a parking meter', [220, 200, 50, 100]), ('a horse', [220, 50, 150, 130])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['boat', 'carrot', 'dog', 'toaster', 'cat']): the boat is to the right of the carrot; the carrot is above the dog; the dog is below the toaster; the toaster is above the cat": [
+        "[('a boat', [350, 200, 150, 100]), ('a carrot', [200, 150, 50, 100]), ('a dog', [200, 250, 100, 100]), ('a toaster', [200, 350, 100, 100]), ('a cat', [200, 450, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['airplane', 'orange', 'knife']): the airplane is to the right of the orange; the orange is above the knife": [
+        "[('an airplane', [300, 150, 200, 100]), ('an orange', [150, 150, 100, 100]), ('a knife', [150, 300, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['vase', 'wine glass', 'hair drier', 'bench', 'umbrella']): the vase is to the right of the wine glass; the wine glass is to the right of the hair drier; the hair drier is to the left of the bench; the bench is above the umbrella": [
+        "[('a vase', [400, 200, 50, 100]), ('a wine glass', [300, 200, 50, 100]), ('a hair drier', [200, 200, 50, 100]), ('a bench', [100, 100, 300, 50]), ('an umbrella', [100, 250, 300, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cake', 'motorcycle', 'refrigerator']): the cake is to the right of the motorcycle; the motorcycle is below the refrigerator": [
+        "[('a cake', [300, 200, 150, 150]), ('a motorcycle', [150, 300, 150, 150]), ('a refrigerator', [150, 50, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['baseball glove', 'suitcase', 'chair', 'tennis racket', 'hair drier']): the baseball glove is to the right of the suitcase; the suitcase is to the left of the chair; the chair is to the left of the tennis racket; the tennis racket is below the hair drier": [
+        "[('a baseball glove', [100, 200, 80, 80]), ('a suitcase', [200, 200, 80, 80]), ('a chair', [300, 200, 80, 80]), ('a tennis racket', [400, 300, 80, 80]), ('a hair drier', [400, 200, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['laptop', 'backpack', 'mouse']): the laptop is to the right of the backpack; the backpack is above the mouse": [
+        "[('a laptop', [300, 100, 200, 150]), ('a backpack', [50, 50, 200, 150]), ('a mouse', [50, 250, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['truck', 'donut', 'microwave', 'potted plant', 'skateboard']): the truck is to the right of the donut; the donut is to the right of the microwave; the microwave is to the left of the potted plant; the potted plant is to the right of the skateboard": [
+        "[('a truck', [400, 200, 100, 100]), ('a donut', [300, 200, 100, 100]), ('a microwave', [200, 200, 100, 100]), ('a potted plant', [100, 200, 100, 100]), ('a skateboard', [0, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['backpack', 'sports ball', 'bus']): the backpack is to the right of the sports ball; the sports ball is to the right of the bus": [
+        "[('a backpack', [300, 200, 150, 200]), ('a sports ball', [150, 200, 100, 100]), ('a bus', [20, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['backpack', 'dog', 'apple']): the backpack is to the right of the dog; the dog is to the left of the apple": [
+        "[('a backpack', [334, 200, 178, 312]), ('a dog', [144, 206, 190, 306]), ('an apple', [20, 206, 124, 306])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['stop sign', 'tie', 'couch']): the stop sign is to the right of the tie; the tie is to the right of the couch": [
+        "[('a stop sign', [350, 200, 100, 100]), ('a tie', [200, 200, 100, 100]), ('a couch', [50, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bench', 'fire hydrant', 'sink']): the bench is to the right of the fire hydrant; the fire hydrant is to the left of the sink": [
+        "[('a bench', [300, 200, 200, 200]), ('a fire hydrant', [150, 200, 100, 200]), ('a sink', [50, 200, 50, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['zebra', 'pizza', 'wine glass', 'kite']): the zebra is to the right of the pizza; the pizza is to the left of the wine glass; the wine glass is to the right of the kite": [
+        "[('a zebra', [400, 150, 100, 200]), ('a pizza', [300, 200, 80, 80]), ('a wine glass', [200, 200, 80, 120]), ('a kite', [100, 150, 80, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['parking meter', 'vase', 'cake', 'motorcycle', 'toilet']): the parking meter is to the right of the vase; the vase is above the cake; the cake is to the right of the motorcycle; the motorcycle is below the toilet": [
+        "[('parking meter', [350, 150, 100, 200]), ('vase', [200, 50, 100, 150]), ('cake', [200, 250, 100, 100]), ('motorcycle', [50, 350, 150, 150]), ('toilet', [50, 150, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['oven', 'handbag', 'tie']): the oven is to the right of the handbag; the handbag is to the right of the tie": [
+        "[('a tie', [20, 206, 157, 100]), ('a handbag', [177, 206, 157, 100]), ('an oven', [334, 206, 157, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cup', 'parking meter', 'hot dog']): the cup is to the right of the parking meter; the parking meter is to the left of the hot dog": [
+        "[('a cup', [310, 200, 100, 100]), ('a parking meter', [210, 200, 100, 100]), ('a hot dog', [110, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['scissors', 'person', 'sports ball', 'teddy bear']): the scissors is to the right of the person; the person is below the sports ball; the sports ball is to the right of the teddy bear": [
+        "[('scissors', [300, 200, 100, 100]), ('person', [200, 300, 100, 100]), ('sports ball', [100, 100, 100, 100]), ('teddy bear', [0, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sheep', 'airplane', 'fire hydrant', 'oven', 'cake']): the sheep is to the right of the airplane; the airplane is to the left of the fire hydrant; the fire hydrant is to the right of the oven; the oven is to the left of the cake": [
+        "[('a sheep', [102, 200, 100, 100]), ('an airplane', [212, 200, 100, 100]), ('a fire hydrant', [322, 200, 100, 100]), ('an oven', [432, 200, 100, 100]), ('a cake', [342, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['pizza', 'suitcase', 'scissors', 'bicycle']): the pizza is to the right of the suitcase; the suitcase is to the right of the scissors; the scissors is below the bicycle": [
+        "[('a pizza', [350, 200, 100, 100]), ('a suitcase', [200, 200, 100, 100]), ('scissors', [50, 300, 100, 100]), ('a bicycle', [50, 50, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['clock', 'baseball bat', 'skis']): the clock is to the right of the baseball bat; the baseball bat is above the skis": [
+        "[('a clock', [300, 100, 150, 150]), ('a baseball bat', [100, 100, 150, 50]), ('skis', [100, 200, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['dog', 'person', 'donut']): the dog is to the right of the person; the person is to the left of the donut": [
+        "[('a dog', [300, 150, 200, 300]), ('a person', [150, 100, 150, 400]), ('a donut', [0, 200, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['skateboard', 'book', 'bicycle']): the skateboard is to the right of the book; the book is to the right of the bicycle": [
+        "[('a skateboard', [340, 200, 150, 50]), ('a book', [190, 200, 130, 50]), ('a bicycle', [20, 200, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['truck', 'sink', 'donut']): the truck is to the right of the sink; the sink is to the left of the donut": [
+        "[('a truck', [350, 200, 150, 150]), ('a sink', [200, 200, 150, 150]), ('a donut', [50, 200, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['book', 'sheep', 'motorcycle']): the book is to the right of the sheep; the sheep is to the left of the motorcycle": [
+        "[('a book', [300, 200, 100, 150]), ('a sheep', [150, 200, 100, 150]), ('a motorcycle', [450, 200, 50, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['boat', 'toilet', 'skis', 'suitcase']): the boat is to the right of the toilet; the toilet is to the right of the skis; the skis is to the right of the suitcase": [
+        "[('a boat', [400, 200, 100, 100]), ('a toilet', [300, 200, 100, 100]), ('skis', [200, 200, 100, 100]), ('a suitcase', [100, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cat', 'sink', 'microwave']): the cat is to the right of the sink; the sink is above the microwave": [
+        "[('a cat', [300, 100, 200, 200]), ('a sink', [100, 100, 150, 150]), ('a microwave', [100, 300, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['parking meter', 'bird', 'baseball bat', 'handbag', 'cell phone']): the parking meter is to the right of the bird; the bird is to the left of the baseball bat; the baseball bat is to the right of the handbag; the handbag is to the right of the cell phone": [
+        "[('parking meter', [410, 200, 80, 300]), ('bird', [310, 200, 80, 100]), ('baseball bat', [210, 200, 80, 300]), ('handbag', [110, 200, 80, 100]), ('cell phone', [10, 200, 80, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['teddy bear', 'tv', 'toaster', 'car', 'sports ball']): the teddy bear is to the right of the tv; the tv is to the left of the toaster; the toaster is to the left of the car; the car is below the sports ball": [
+        "[('teddy bear', [30, 200, 70, 100]), ('tv', [120, 200, 70, 100]), ('toaster', [210, 200, 70, 100]), ('car', [300, 200, 70, 100]), ('sports ball', [300, 100, 70, 70])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['toaster', 'sink', 'teddy bear', 'sheep', 'bowl']): the toaster is to the right of the sink; the sink is below the teddy bear; the teddy bear is below the sheep; the sheep is to the left of the bowl": [
+        "[('a toaster', [320, 200, 100, 100]), ('a sink', [200, 200, 100, 100]), ('a teddy bear', [200, 100, 100, 100]), ('a sheep', [200, 0, 100, 100]), ('a bowl', [320, 0, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['hot dog', 'tie', 'zebra']): the hot dog is to the right of the tie; the tie is above the zebra": [
+        "[('a hot dog', [300, 200, 150, 80]), ('a tie', [100, 200, 150, 80]), ('a zebra', [100, 300, 150, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['baseball bat', 'person', 'motorcycle']): the baseball bat is to the right of the person; the person is above the motorcycle": [
+        "[('a baseball bat', [300, 200, 100, 50]), ('a person', [150, 200, 100, 200]), ('a motorcycle', [150, 400, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['tennis racket', 'book', 'airplane', 'umbrella', 'train']): the tennis racket is to the right of the book; the book is to the left of the airplane; the airplane is to the left of the umbrella; the umbrella is above the train": [
+        "[('tennis racket', [40, 200, 80, 200]), ('book', [140, 200, 80, 200]), ('airplane', [240, 200, 80, 200]), ('umbrella', [340, 100, 80, 200]), ('train', [340, 300, 80, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['fire hydrant', 'sports ball', 'bench']): the fire hydrant is to the right of the sports ball; the sports ball is to the left of the bench": [
+        "[('fire hydrant', [190, 200, 100, 150]), ('sports ball', [100, 250, 50, 50]), ('bench', [300, 200, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['toaster', 'bicycle', 'bus', 'dining table', 'surfboard']): the toaster is to the right of the bicycle; the bicycle is below the bus; the bus is to the left of the dining table; the dining table is below the surfboard": [
+        "[('a toaster', [350, 200, 100, 100]), ('a bicycle', [200, 200, 100, 100]), ('a bus', [200, 50, 100, 100]), ('a dining table', [350, 50, 100, 100]), ('a surfboard', [350, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['bottle', 'toaster', 'vase', 'dining table', 'sheep']): the bottle is to the right of the toaster; the toaster is below the vase; the vase is below the dining table; the dining table is to the left of the sheep": [
+        "[('a bottle', [300, 200, 50, 100]), ('a toaster', [200, 200, 50, 50]), ('a vase', [200, 100, 50, 50]), ('a dining table', [100, 200, 100, 100]), ('a sheep', [400, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['baseball glove', 'pizza', 'dining table']): the baseball glove is to the right of the pizza; the pizza is to the left of the dining table": [
+        "[('a baseball glove', [200, 200, 100, 100]), ('a pizza', [100, 200, 100, 100]), ('a dining table', [300, 200, 200, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['clock', 'baseball glove', 'mouse', 'giraffe']): the clock is to the right of the baseball glove; the baseball glove is to the left of the mouse; the mouse is below the giraffe": [
+        "[('a clock', [200, 100, 100, 100]), ('a baseball glove', [100, 100, 100, 100]), ('a mouse', [300, 200, 100, 100]), ('a giraffe', [300, 0, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['couch', 'train', 'scissors', 'surfboard']): the couch is to the right of the train; the train is below the scissors; the scissors is below the surfboard": [
+        "[('a couch', [271, 200, 221, 212]), ('a train', [21, 200, 221, 212]), ('scissors', [21, 50, 221, 100]), ('a surfboard', [271, 50, 221, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bird', 'clock', 'cake', 'kite']): the bird is to the right of the clock; the clock is to the left of the cake; the cake is below the kite": [
+        "[('a bird', [200, 200, 100, 100]), ('a clock', [100, 200, 100, 100]), ('a cake', [300, 200, 100, 100]), ('a kite', [300, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['mouse', 'toothbrush', 'car']): the mouse is to the right of the toothbrush; the toothbrush is above the car": [
+        "[('a mouse', [300, 200, 100, 100]), ('a toothbrush', [100, 100, 100, 100]), ('a car', [100, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bus', 'chair', 'car']): the bus is to the right of the chair; the chair is to the right of the car": [
+        "[('a bus', [350, 150, 150, 200]), ('a chair', [200, 200, 100, 150]), ('a car', [50, 250, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tv', 'toilet', 'baseball bat', 'bus']): the tv is to the right of the toilet; the toilet is above the baseball bat; the baseball bat is to the left of the bus": [
+        "[('tv', [300, 100, 150, 100]), ('toilet', [100, 100, 150, 100]), ('baseball bat', [100, 250, 150, 50]), ('bus', [300, 250, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['zebra', 'suitcase', 'vase']): the zebra is to the right of the suitcase; the suitcase is below the vase": [
+        "[('a zebra', [300, 100, 200, 400]), ('a suitcase', [100, 300, 150, 200]), ('a vase', [100, 50, 150, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bowl', 'apple', 'frisbee']): the bowl is to the right of the apple; the apple is to the right of the frisbee": [
+        "[('a frisbee', [20, 226, 157, 157]), ('an apple', [197, 226, 157, 157]), ('a bowl', [374, 226, 157, 157])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['donut', 'bottle', 'potted plant', 'vase']): the donut is to the right of the bottle; the bottle is above the potted plant; the potted plant is to the left of the vase": [
+        "[('donut', [300, 200, 100, 100]), ('bottle', [200, 100, 100, 100]), ('potted plant', [200, 300, 100, 100]), ('vase', [300, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['tie', 'elephant', 'pizza', 'bottle', 'bus']): the tie is to the right of the elephant; the elephant is above the pizza; the pizza is above the bottle; the bottle is below the bus": [
+        "[('a tie', [200, 100, 50, 150]), ('an elephant', [50, 100, 100, 150]), ('a pizza', [50, 250, 100, 100]), ('a bottle', [50, 350, 50, 100]), ('a bus', [200, 350, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['person', 'umbrella', 'laptop', 'scissors', 'parking meter']): the person is to the right of the umbrella; the umbrella is below the laptop; the laptop is above the scissors; the scissors is to the left of the parking meter": [
+        "[('a person', [300, 200, 100, 200]), ('an umbrella', [100, 300, 100, 100]), ('a laptop', [100, 100, 100, 100]), ('scissors', [100, 200, 100, 100]), ('a parking meter', [200, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['toilet', 'traffic light', 'fork']): the toilet is to the right of the traffic light; the traffic light is above the fork": [
+        "[('a toilet', [300, 150, 200, 300]), ('a traffic light', [100, 50, 150, 400]), ('a fork', [100, 450, 150, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['couch', 'laptop', 'sports ball', 'mouse', 'sheep']): the couch is to the right of the laptop; the laptop is to the left of the sports ball; the sports ball is above the mouse; the mouse is above the sheep": [
+        "[('couch', [350, 200, 150, 100]), ('laptop', [200, 200, 100, 50]), ('sports ball', [275, 100, 50, 50]), ('mouse', [275, 200, 50, 50]), ('sheep', [275, 275, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['airplane', 'microwave', 'bicycle', 'orange']): the airplane is to the right of the microwave; the microwave is to the left of the bicycle; the bicycle is below the orange": [
+        "[('an airplane', [410, 100, 100, 100]), ('a microwave', [200, 100, 100, 100]), ('a bicycle', [200, 300, 100, 100]), ('an orange', [200, 0, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['broccoli', 'bench', 'snowboard', 'traffic light']): the broccoli is to the right of the bench; the bench is to the left of the snowboard; the snowboard is above the traffic light": [
+        "[('broccoli', [150, 200, 50, 50]), ('bench', [50, 200, 50, 50]), ('snowboard', [250, 150, 50, 200]), ('traffic light', [250, 350, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['cat', 'tennis racket', 'teddy bear', 'truck', 'toothbrush']): the cat is to the right of the tennis racket; the tennis racket is above the teddy bear; the teddy bear is to the right of the truck; the truck is above the toothbrush": [
+        "[('a cat', [300, 50, 100, 100]), ('a tennis racket', [150, 50, 100, 100]), ('a teddy bear', [150, 200, 100, 100]), ('a truck', [50, 200, 100, 100]), ('a toothbrush', [50, 350, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['banana', 'cake', 'donut', 'handbag']): the banana is to the right of the cake; the cake is above the donut; the donut is below the handbag": [
+        "[('a banana', [300, 200, 100, 100]), ('a cake', [100, 100, 100, 100]), ('a donut', [100, 300, 100, 100]), ('a handbag', [300, 300, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['motorcycle', 'laptop', 'umbrella', 'orange', 'cup']): the motorcycle is to the right of the laptop; the laptop is below the umbrella; the umbrella is above the orange; the orange is to the left of the cup": [
+        "[('motorcycle', [320, 200, 180, 120]), ('laptop', [140, 200, 160, 120]), ('umbrella', [140, 60, 160, 120]), ('orange', [60, 320, 60, 60]), ('cup', [140, 320, 60, 60])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sheep', 'motorcycle', 'tie', 'orange', 'elephant']): the sheep is to the right of the motorcycle; the motorcycle is to the right of the tie; the tie is above the orange; the orange is to the left of the elephant": [
+        "[('a sheep', [300, 200, 100, 100]), ('a motorcycle', [200, 200, 100, 100]), ('a tie', [100, 100, 50, 150]), ('an orange', [100, 300, 100, 100]), ('an elephant', [300, 300, 200, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['microwave', 'broccoli', 'toothbrush', 'sandwich']): the microwave is to the right of the broccoli; the broccoli is below the toothbrush; the toothbrush is to the left of the sandwich": [
+        "[('a microwave', [300, 200, 150, 150]), ('a broccoli', [100, 200, 150, 150]), ('a toothbrush', [100, 50, 150, 100]), ('a sandwich', [300, 50, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['train', 'tennis racket', 'bed', 'bus', 'banana']): the train is to the right of the tennis racket; the tennis racket is to the left of the bed; the bed is above the bus; the bus is to the right of the banana": [
+        "[('train', [212, 100, 100, 100]), ('tennis racket', [112, 100, 100, 100]), ('bed', [312, 100, 100, 100]), ('bus', [312, 200, 100, 100]), ('banana', [212, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['zebra', 'mouse', 'kite']): the zebra is to the right of the mouse; the mouse is to the left of the kite": [
+        "[('a zebra', [300, 100, 200, 300]), ('a mouse', [100, 200, 100, 100]), ('a kite', [220, 50, 70, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['elephant', 'carrot', 'frisbee']): the elephant is to the right of the carrot; the carrot is to the right of the frisbee": [
+        "[('an elephant', [300, 100, 200, 300]), ('a carrot', [150, 200, 100, 100]), ('a frisbee', [50, 200, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['microwave', 'potted plant', 'elephant', 'donut', 'scissors']): the microwave is to the right of the potted plant; the potted plant is to the right of the elephant; the elephant is above the donut; the donut is below the scissors": [
+        "[('a microwave', [350, 180, 150, 150]), ('a potted plant', [200, 180, 150, 150]), ('an elephant', [50, 180, 150, 150]), ('a donut', [50, 330, 150, 150]), ('scissors', [50, 50, 150, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['baseball glove', 'car', 'spoon', 'scissors']): the baseball glove is to the right of the car; the car is to the right of the spoon; the spoon is to the left of the scissors": [
+        "[('a baseball glove', [350, 200, 100, 100]), ('a car', [250, 200, 100, 100]), ('a spoon', [150, 200, 100, 100]), ('scissors', [50, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['orange', 'hair drier', 'couch', 'clock']): the orange is to the right of the hair drier; the hair drier is to the right of the couch; the couch is to the left of the clock": [
+        "[('an orange', [401, 226, 100, 100]), ('a hair drier', [301, 226, 100, 100]), ('a couch', [201, 226, 100, 100]), ('a clock', [101, 226, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['scissors', 'bottle', 'umbrella', 'tv', 'cow']): the scissors is to the right of the bottle; the bottle is to the right of the umbrella; the umbrella is to the right of the tv; the tv is above the cow": [
+        "[('scissors', [400, 200, 80, 80]), ('bottle', [300, 200, 80, 80]), ('umbrella', [200, 200, 80, 80]), ('tv', [100, 100, 80, 80]), ('cow', [100, 300, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['oven', 'truck', 'toaster', 'teddy bear', 'kite']): the oven is to the right of the truck; the truck is above the toaster; the toaster is above the teddy bear; the teddy bear is above the kite": [
+        "[('oven', [300, 20, 200, 100]), ('truck', [100, 20, 200, 100]), ('toaster', [100, 140, 200, 100]), ('teddy bear', [100, 260, 200, 100]), ('kite', [100, 380, 200, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['sheep', 'bicycle', 'knife', 'toothbrush']): the sheep is to the right of the bicycle; the bicycle is to the right of the knife; the knife is to the left of the toothbrush": [
+        "[('a sheep', [375, 200, 120, 120]), ('a bicycle', [250, 200, 120, 120]), ('a knife', [125, 200, 120, 120]), ('a toothbrush', [0, 200, 120, 120])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['stop sign', 'vase', 'kite']): the stop sign is to the right of the vase; the vase is to the right of the kite": [
+        "[('a stop sign', [320, 150, 100, 100]), ('a vase', [200, 150, 100, 100]), ('a kite', [80, 150, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['oven', 'potted plant', 'sink', 'backpack', 'carrot']): the oven is to the right of the potted plant; the potted plant is to the left of the sink; the sink is to the right of the backpack; the backpack is to the right of the carrot": [
+        "[('oven', [410, 200, 100, 200]), ('potted plant', [310, 200, 100, 200]), ('sink', [210, 200, 100, 200]), ('backpack', [110, 200, 100, 200]), ('carrot', [10, 200, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bear', 'orange', 'cat']): the bear is to the right of the orange; the orange is to the left of the cat": [
+        "[('a bear', [200, 200, 100, 100]), ('an orange', [100, 200, 100, 100]), ('a cat', [300, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['sheep', 'tie', 'dog', 'umbrella', 'knife']): the sheep is to the right of the tie; the tie is below the dog; the dog is to the left of the umbrella; the umbrella is to the right of the knife": [
+        "[('a sheep', [300, 200, 100, 100]), ('a tie', [200, 300, 100, 100]), ('a dog', [100, 200, 100, 100]), ('an umbrella', [400, 300, 100, 100]), ('a knife', [400, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['bench', 'dining table', 'umbrella']): the bench is to the right of the dining table; the dining table is to the left of the umbrella": [
+        "[('a bench', [340, 200, 150, 200]), ('a dining table', [180, 200, 150, 200]), ('an umbrella', [20, 200, 150, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['dining table', 'cup', 'train', 'boat', 'apple']): the dining table is to the right of the cup; the cup is below the train; the train is above the boat; the boat is below the apple": [
+        "[('dining table', [300, 200, 200, 200]), ('cup', [100, 300, 100, 100]), ('train', [100, 100, 100, 100]), ('boat', [100, 200, 100, 100]), ('apple', [100, 400, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['stop sign', 'laptop', 'person', 'surfboard']): the stop sign is to the right of the laptop; the laptop is above the person; the person is below the surfboard": [
+        "[('stop sign', [320, 50, 100, 100]), ('laptop', [150, 50, 100, 50]), ('person', [150, 150, 50, 100]), ('surfboard', [150, 300, 50, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['bear', 'cat', 'person', 'tie', 'suitcase']): the bear is to the right of the cat; the cat is to the right of the person; the person is above the tie; the tie is below the suitcase": [
+        "[('a bear', [300, 200, 100, 100]), ('a cat', [200, 200, 100, 100]), ('a person', [100, 200, 100, 100]), ('a tie', [100, 300, 100, 50]), ('a suitcase', [100, 350, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bed', 'bus', 'book', 'tie']): the bed is to the right of the bus; the bus is to the right of the book; the book is to the left of the tie": [
+        "[('a bed', [350, 100, 150, 300]), ('a bus', [200, 100, 150, 300]), ('a book', [50, 100, 150, 300]), ('a tie', [500, 100, 12, 300])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['surfboard', 'motorcycle', 'backpack']): the surfboard is to the right of the motorcycle; the motorcycle is below the backpack": [
+        "[('a surfboard', [320, 140, 180, 350]), ('a motorcycle', [120, 260, 180, 240]), ('a backpack', [120, 20, 180, 180])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['microwave', 'elephant', 'donut', 'tennis racket']): the microwave is to the right of the elephant; the elephant is to the left of the donut; the donut is to the right of the tennis racket": [
+        "[('a microwave', [400, 200, 100, 100]), ('an elephant', [280, 200, 100, 100]), ('a donut', [160, 200, 100, 100]), ('a tennis racket', [40, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['tie', 'wine glass', 'cup', 'scissors']): the tie is to the right of the wine glass; the wine glass is below the cup; the cup is below the scissors": [
+        "[('a tie', [300, 200, 100, 200]), ('a wine glass', [150, 300, 100, 150]), ('a cup', [150, 150, 100, 100]), ('scissors', [150, 50, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['dog', 'cake', 'remote', 'giraffe', 'horse']): the dog is to the right of the cake; the cake is above the remote; the remote is above the giraffe; the giraffe is below the horse": [
+        "[('a dog', [300, 200, 100, 100]), ('a cake', [200, 200, 100, 100]), ('a remote', [200, 300, 100, 50]), ('a giraffe', [200, 350, 100, 100]), ('a horse', [200, 450, 100, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['scissors', 'microwave', 'parking meter', 'snowboard', 'bed']): the scissors is to the right of the microwave; the microwave is to the left of the parking meter; the parking meter is above the snowboard; the snowboard is below the bed": [
+        "[('scissors', [20, 200, 80, 80]), ('microwave', [120, 200, 80, 80]), ('parking meter', [220, 200, 80, 80]), ('snowboard', [220, 300, 80, 80]), ('bed', [220, 400, 80, 80])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['stop sign', 'carrot', 'sheep']): the stop sign is to the right of the carrot; the carrot is to the left of the sheep": [
+        "[('stop sign', [340, 185, 100, 100]), ('carrot', [220, 185, 100, 100]), ('sheep', [100, 185, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['bird', 'person', 'surfboard', 'airplane']): the bird is to the right of the person; the person is to the right of the surfboard; the surfboard is to the left of the airplane": [
+        "[('a bird', [400, 200, 50, 50]), ('a person', [300, 200, 50, 50]), ('a surfboard', [200, 200, 50, 50]), ('an airplane', [100, 200, 50, 50])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['oven', 'fork', 'dog']): the oven is to the right of the fork; the fork is below the dog": [
+        "[('an oven', [300, 200, 200, 300]), ('a fork', [100, 300, 100, 200]), ('a dog', [100, 50, 200, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['wine glass', 'horse', 'sheep']): the wine glass is to the right of the horse; the horse is above the sheep": [
+        "[('a wine glass', [320, 150, 100, 200]), ('a horse', [150, 50, 150, 100]), ('a sheep', [150, 200, 150, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['wine glass', 'vase', 'toilet']): the wine glass is to the right of the vase; the vase is to the right of the toilet": [
+        "[('a toilet', [50, 150, 100, 200]), ('a vase', [200, 150, 100, 200]), ('a wine glass', [350, 150, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['book', 'parking meter', 'carrot', 'handbag', 'cake']): the book is to the right of the parking meter; the parking meter is below the carrot; the carrot is to the right of the handbag; the handbag is above the cake": [
+        "[('book', [350, 200, 100, 150]), ('parking meter', [200, 250, 100, 150]), ('carrot', [300, 100, 50, 150]), ('handbag', [150, 50, 100, 150]), ('cake', [50, 200, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['donut', 'cat', 'bowl']): the donut is to the right of the cat; the cat is to the left of the bowl": [
+        "[('a donut', [350, 200, 100, 100]), ('a cat', [200, 150, 100, 150]), ('a bowl', [50, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['handbag', 'book', 'bird', 'cow']): the handbag is to the right of the book; the book is to the right of the bird; the bird is to the left of the cow": [
+        "[('a handbag', [350, 200, 100, 100]), ('a book', [200, 200, 100, 100]), ('a bird', [50, 200, 100, 100]), ('a cow', [500, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cell phone', 'airplane', 'apple']): the cell phone is to the right of the airplane; the airplane is below the apple": [
+        "[('a cell phone', [300, 200, 100, 200]), ('an airplane', [150, 300, 100, 100]), ('an apple', [150, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['boat', 'baseball bat', 'chair', 'train', 'snowboard']): the boat is to the right of the baseball bat; the baseball bat is to the left of the chair; the chair is below the train; the train is to the left of the snowboard": [
+        "[('a boat', [400, 200, 100, 100]), ('a baseball bat', [300, 200, 100, 100]), ('a chair', [300, 300, 100, 100]), ('a train', [200, 200, 100, 100]), ('a snowboard', [400, 100, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['laptop', 'banana', 'parking meter', 'suitcase']): the laptop is to the right of the banana; the banana is above the parking meter; the parking meter is to the right of the suitcase": [
+        "[('laptop', [300, 100, 150, 100]), ('banana', [150, 100, 100, 50]), ('parking meter', [150, 200, 50, 100]), ('suitcase', [50, 300, 100, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['sink', 'potted plant', 'dining table']): the sink is to the right of the potted plant; the potted plant is to the right of the dining table": [
+        "[('sink', [332, 100, 180, 200]), ('potted plant', [172, 120, 150, 180]), ('dining table', [20, 150, 142, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 4 objects (['person', 'hot dog', 'kite', 'chair']): the person is to the right of the hot dog; the hot dog is to the left of the kite; the kite is above the chair": [
+        "[('a person', [300, 100, 100, 300]), ('a hot dog', [200, 200, 100, 100]), ('a kite', [100, 100, 100, 100]), ('a chair', [100, 300, 100, 200])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['bed', 'oven', 'pizza', 'surfboard', 'umbrella']): the bed is to the right of the oven; the oven is to the right of the pizza; the pizza is to the right of the surfboard; the surfboard is to the left of the umbrella": [
+        "[('bed', [400, 200, 100, 100]), ('oven', [300, 200, 100, 100]), ('pizza', [200, 200, 100, 100]), ('surfboard', [100, 200, 100, 100]), ('umbrella', [0, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['toothbrush', 'bird', 'bottle']): the toothbrush is to the right of the bird; the bird is to the right of the bottle": [
+        "[('a toothbrush', [350, 200, 100, 112]), ('a bird', [200, 200, 100, 112]), ('a bottle', [50, 200, 100, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['cup', 'chair', 'tv']): the cup is to the right of the chair; the chair is to the left of the tv": [
+        "[('a cup', [320, 200, 100, 100]), ('a chair', [200, 200, 100, 100]), ('a tv', [80, 200, 100, 100])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 3 objects (['handbag', 'couch', 'cake']): the handbag is to the right of the couch; the couch is above the cake": [
+        "[('a handbag', [300, 100, 150, 200]), ('a couch', [50, 100, 200, 150]), ('a cake', [50, 300, 200, 150])]\nBackground prompt: A white background\nNegative prompt: "
+    ],
+    "A white background with 5 objects (['umbrella', 'parking meter', 'dining table', 'microwave', 'elephant']): the umbrella is to the right of the parking meter; the parking meter is to the right of the dining table; the dining table is to the right of the microwave; the microwave is to the right of the elephant": [
+        "[('an umbrella', [410, 100, 80, 312]), ('a parking meter', [310, 150, 80, 262]), ('a dining table', [210, 200, 80, 212]), ('a microwave', [110, 250, 80, 162]), ('an elephant', [10, 300, 80, 112])]\nBackground prompt: A white background\nNegative prompt: "
+    ]
+}
