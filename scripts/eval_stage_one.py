@@ -64,19 +64,40 @@ def spatial_evaluation(objects, text_objects):
     # print("did not early stop")
     for i in range(len(text_objects['rel_type'])):
         relationship = []
-        if centroid[i][0] < centroid[i+1][0]:
-            relationship += ["to the left of"]
-        if centroid[i][0] > centroid[i+1][0]:
-            relationship += ["to the right of"]
-        if centroid[i][1] < centroid[i+1][1]:
+        # if centroid[i][0] < centroid[i+1][0]:
+        #     relationship += ["to the left of"]
+        # if centroid[i][0] > centroid[i+1][0]:
+        #     relationship += ["to the right of"]
+        # if centroid[i][1] < centroid[i+1][1]:
+        #     relationship += ["above"]
+        # if centroid[i][1] > centroid[i+1][1]:
+        #     relationship += ["below"]   
+        d = euclidean_distance(centroid[i], centroid[i+1])
+        print(d)
+        print(centroid[i])
+        print(centroid[i+1])
+        if (centroid[i+1][1] - centroid[i][1])/d >= np.sin(np.pi/4):
             relationship += ["above"]
-        if centroid[i][1] > centroid[i+1][1]:
-            relationship += ["below"]   
+        if (centroid[i+1][1] - centroid[i][1])/d <= np.sin(-np.pi/4):
+            relationship += ["below"]
+        if (centroid[i][0] - centroid[i+1][0])/d >= np.cos(np.pi/4):
+            relationship += ["to the right of"]
+        if (centroid[i][0] - centroid[i+1][0])/d <= np.cos(3*np.pi/4):
+            relationship += ["to the left of"]
+        print(text_objects['rel_type'][i])
+        print(relationship)
         if text_objects['rel_type'][i] in relationship:
+
             credit += 1
             
     return credit/len(text_objects['rel_type'])
 
+def euclidean_distance(point1, point2):
+
+    x1, y1 = point1
+    x2, y2 = point2
+    distance = np.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+    return distance
 
 def calculate_overlapping_area_rate(objects):
     total_overlap = calculate_overlapping_area(objects)
@@ -178,8 +199,8 @@ if __name__ == "__main__":
         # break
         
     
-    # print("Overlap Areas: ", overlap_areas)
-    # print("Object Areas: ", object_areas)
+    print("Overlap Areas: ", overlap_areas)
+    print("Object Areas: ", object_areas)
     
     print(f"Total overlap: {sum(overlap_areas)}, total object area: {sum(object_areas)}")
     print(f"Overlap rate: {sum(overlap_areas)/sum(object_areas)}")
