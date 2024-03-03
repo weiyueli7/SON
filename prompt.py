@@ -269,9 +269,14 @@ def get_prompts(prompt_type, model, allow_non_exist=False):
         # samples_left = np.random.choice(two_objs_data_left, 100, replace=False)
         # samples_right = np.random.choice(two_objs_data_right, 100, replace=False)
         # samples = list(np.concatenate([samples_below, samples_above, samples_left, samples_right]))
-        import json
-        samples = json.load(open("data/new_sample_3.json"))
-        prompts = {'lmd_spatial': [d['text'] for d in samples]}
+        if prompt_type == "lmd_spatial":
+            import json
+            samples = json.load(open("data/new_sample_3.json"))
+            prompts = {'lmd_spatial': [d['text'] for d in samples]}
+        elif prompt_type == "lmd_numeracy":
+            import json
+            samples = json.load(open("data/numeracy.json"))
+            prompts = {'lmd_numeracy': [d['prompt'] for d in samples]}
         # print(prompts)
         # We do not add to both dict to prevent duplicates when model is set to "all".
         if "gpt-4" in model:

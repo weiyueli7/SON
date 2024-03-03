@@ -31,6 +31,47 @@ def calculate_overlapping_area(objects):
 
     return total_overlap
 
+def numeracy_evaluation(objects, text_objects):
+    print(objects)
+    print(text_objects)
+    groud_truth = [obj[1] for obj in text_objects['num_object']]
+    objects_keys = [obj['name'] for obj in objects]
+    objects_keys = [obj[2:] if obj.startswith("a ") else obj[3:] if obj.startswith("an ") else obj for obj in objects_keys]
+    prediction = [objects_keys.count(obj[0]) for obj in text_objects['num_object']]
+    if text_objects['type'] == 'comparison':
+        obj1, obj2 = text_objects['num_object']
+        rel = []
+        if obj1[1] > obj2[1]:
+            rel += "more"
+        elif obj1[1] < obj2[1]:
+            rel += "less"
+        else:
+            rel += "equal"
+        prd_rel = []
+        if prediction[0] > prediction[1]:
+            prd_rel += "more"
+        elif prediction[0] < prediction[1]:
+            prd_rel += "less"
+        else:
+            prd_rel += "equal"
+        if rel == prd_rel:
+            return 0, 0, 1
+        else:
+            return 0, 0, 0
+        import subprocess
+        subprocess.run("exit()", shell=True, check=True)
+    # groud_truth = [obj[1] for obj in text_objects['num_object']]
+    # objects_keys = [obj['name'] for obj in objects]
+    # objects_keys = [obj[2:] if obj.startswith("a ") else obj[3:] if obj.startswith("an ") else obj for obj in objects_keys]
+    prediction = [objects_keys.count(obj[0]) for obj in text_objects['num_object']]
+    print(groud_truth)
+    print(prediction)
+    precision = sum([min(groud_truth[i], prediction[i]) for i in range(len(groud_truth))])/sum(prediction)
+    recall = sum([min(groud_truth[i], prediction[i]) for i in range(len(groud_truth))])/sum(groud_truth)
+
+    return precision, recall, prediction == groud_truth
+
+
 def spatial_evaluation(objects, text_objects):
     
     if len(objects) != len(text_objects['obj_attributes']):
@@ -124,6 +165,11 @@ object_areas = []
 spatial_check = {}
 spatial_check['overall'] = []
 spatial_check['fail'] = []
+
+numeracy_check = {}
+numeracy_check['precision'] = []
+numeracy_check['recall'] = []
+numeracy_check['accuracy'] = []
 eval_all_counts = {}
 counter = []
 
@@ -135,6 +181,7 @@ if __name__ == "__main__":
     parser.add_argument("--template_version",
                         choices=template_versions, required=True)
     parser.add_argument("--data_json", default="new_sample_3.json", type=str)
+    parser.add_argument("--numeracy_json", default="numeracy.json", type=str)
     parser.add_argument("--skip_first_prompts", default=0, type=int)
     parser.add_argument("--num_prompts", default=None, type=int)
     parser.add_argument("--verbose", action='store_true')
@@ -150,7 +197,10 @@ if __name__ == "__main__":
         cache.cache_path = f'{os.getcwd()}/cache/cache_{(args.prompt_type).split("lmd")[1][1:]}_{template_version}_{model}.json'
     else:
         cache.cache_path = f'{os.getcwd()}/cache/cache_{(args.prompt_type)}_{template_version}_{model}.json'
-    text_objects_path = f'{os.getcwd()}/data/{args.data_json}'
+    if args.prompt_type.endswith("numeracy"):
+        text_objects_path = f'{os.getcwd()}/data/{args.numeracy_json}'
+    elif args.prompt_type.endswith("spatial"):
+        text_objects_path = f'{os.getcwd()}/data/{args.data_json}'
     cache.init_cache()
     
     print(cache.cache_path)
@@ -193,10 +243,18 @@ if __name__ == "__main__":
             spatial_check['overall'].append(check_spatial)
             if check_spatial == 0:
                 spatial_check['fail'].append(ind)
+        if args.prompt_type.endswith("numeracy"):
+            numeracy_precision, numeracy_recall, numeracy_accuracy = numeracy_evaluation(gen_boxes, text_objects[ind])
+            print(f"Precision: {numeracy_precision}, Recall: {numeracy_recall}, Accuracy: {numeracy_accuracy}")
+            if text_objects[ind]['type'] != 'comparison':
+                numeracy_check['recall'].append(numeracy_recall)
+                numeracy_check['precision'].append(numeracy_precision)
+            numeracy_check['accuracy'].append(numeracy_accuracy)
+                
+
         
         object_areas.append(total_object_area)
         overlap_areas.append(total_overlap)
-        # break
         
     
     print("Overlap Areas: ", overlap_areas)
@@ -214,6 +272,10 @@ if __name__ == "__main__":
         #         continue
         for i in range(3, 10):
             print(f"Spatial Accuracy for {i} objects: {np.mean(spatial_check[i])}")
+    if args.prompt_type.endswith("numeracy"):
+        print(f"Overall Numeracy Precision: {np.mean(numeracy_check['precision'])}")
+        print(f"Overall Numeracy Recall: {np.mean(numeracy_check['recall'])}")
+        print(f"Overall Numeracy Accuracy: {np.mean(numeracy_check['accuracy'])}")
     
     # THE BOTTOM LINE OF OUR IMPLEMENTATION
         
