@@ -142,7 +142,7 @@ for idx, d in enumerate(comparison):
     new_d = {}
     new_d['id'] = int(idx)
     new_d['num_object'] = d['num_object']
-    new_d['prompt'] = d['prompt']
+    new_d['prompt'] = "A realistic scene: " + d['prompt']
     new_d['type'] = d['sub-type']
     new_data.append(new_d)
 
@@ -178,11 +178,11 @@ for i in range(1, 201):
     if num_object == 3:
         cur_prompt = templates[np.random.choice(three_categories)].format(*formated_objects)
         cur_prompt = cur_prompt[0].upper() + cur_prompt[1:]
-        cur_data['prompt'] = cur_prompt
+        cur_data['prompt'] = "A realistic scene: " + cur_prompt
     else:
         cur_prompt = templates[np.random.choice(four_categories)].format(*formated_objects)
         cur_prompt = cur_prompt[0].upper() + cur_prompt[1:]
-        cur_data['prompt'] = cur_prompt
+        cur_data['prompt'] = "A realistic scene: " + cur_prompt
     cur_data['type'] = f'{num_conversion[num_object]}-categories'
     multi_category.append(cur_data)
 

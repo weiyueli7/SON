@@ -199,7 +199,7 @@ if __name__ == "__main__":
         cache.cache_path = f'{os.getcwd()}/cache/cache_{(args.prompt_type)}_{template_version}_{model}.json'
     if args.prompt_type.endswith("numeracy"):
         text_objects_path = f'{os.getcwd()}/data/{args.numeracy_json}'
-    elif args.prompt_type.endswith("spatial"):
+    else: #args.prompt_type.endswith("spatial"):
         text_objects_path = f'{os.getcwd()}/data/{args.data_json}'
     cache.init_cache()
     

@@ -1,0 +1,1202 @@
+{
+    "A realistic scene: a picture of three potted plants along with a few vases, the number of potted plants is more than that of vases": [
+        "[('a potted plant', [35, 45, 130, 180]), ('a potted plant', [190, 60, 130, 180]), ('a potted plant', [345, 45, 130, 180]), ('a vase', [100, 250, 70, 100]), ('a vase', [270, 250, 70, 100])]\nBackground prompt: A realistic scene\nNegative prompt: vases"
+    ],
+    "A realistic scene: there are two potted plants together with a few vases, the number of potted plants is more than that of vases": [
+        "[('a potted plant', [50, 100, 150, 200]), ('a potted plant', [312, 120, 160, 180]), ('a vase', [100, 320, 80, 120]), ('a vase', [300, 320, 100, 140]), ('a vase', [200, 340, 80, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one potted plant together with a few vases, the number of potted plant is less than that of vases": [
+        "[('a potted plant', [186, 78, 140, 234]), ('a vase', [52, 322, 110, 143]), ('a vase', [350, 322, 110, 143])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of one bed along with a few cats, the number of bed is less than that of cats": [
+        "[('a bed', [50, 150, 412, 262]), ('a cat', [100, 100, 100, 100]), ('a cat', [250, 200, 100, 100]), ('a cat', [400, 300, 100, 100])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: bed"
+    ],
+    "A realistic scene: there are one bed with a few cats, the number of bed is less than that of cats": [
+        "[('a bed', [68, 150, 376, 212]), ('a cat', [100, 200, 100, 100]), ('a cat', [250, 200, 100, 100]), ('a cat', [350, 200, 100, 100])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one bed and a few cats, the number of bed is less than that of cats": [
+        "[('a bed', [76, 205, 360, 207]), ('a cat', [20, 20, 150, 150]), ('a cat', [200, 20, 150, 150]), ('a cat', [380, 20, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: bed"
+    ],
+    "A realistic scene: an image of one car and a few trucks, the number of car is less than that of trucks": [
+        "[('a car', [55, 285, 150, 100]), ('a truck', [220, 270, 130, 120]), ('a truck', [380, 260, 130, 140]), ('a truck', [100, 100, 120, 110]), ('a truck', [350, 110, 140, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of one car together with a few trucks, the number of car is less than that of trucks": [
+        "[('a car', [30, 280, 200, 150]), ('a truck', [260, 280, 200, 150]), ('a truck', [30, 80, 200, 150]), ('a truck', [260, 80, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of two cars along with a few traffic lights, the number of cars is more than that of traffic lights": [
+        "[('a car', [50, 250, 200, 150]), ('a car', [262, 250, 200, 150]), ('a traffic light', [100, 100, 50, 150]), ('a traffic light', [362, 100, 50, 150])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of five cars along with a few traffic lights, the number of cars is more than that of traffic lights": [
+        "[('a car', [27, 268, 112, 68]), ('a car', [156, 266, 112, 70]), ('a car', [284, 268, 112, 68]), ('a car', [412, 268, 112, 68]), ('a car', [141, 365, 112, 68]), ('a traffic light', [30, 30, 30, 90]), ('a traffic light', [100, 30, 30, 90])]\nBackground prompt: A realistic urban street scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one dining table with a few pizzas, the number of dining table is less than that of pizzas": [
+        "[('a dining table', [50, 150, 412, 250]), ('a pizza', [100, 200, 80, 80]), ('a pizza', [250, 200, 80, 80]), ('a pizza', [400, 200, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one dining table together with a few pizzas, the number of dining table is less than that of pizzas": [
+        "[('a dining table', [50, 150, 412, 262]), ('a pizza', [100, 200, 75, 75]), ('a pizza', [200, 250, 75, 75]), ('a pizza', [300, 200, 75, 75])]\nBackground prompt: A realistic dining scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of one giraffe with the same number of zebra": [
+        "[('a giraffe', [57, 50, 198, 324]), ('a zebra', [257, 67, 198, 324])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of two giraffes together with a few zebras, the number of giraffes is more than that of zebras": [
+        "[('a giraffe', [50, 100, 150, 250]), ('a giraffe', [312, 120, 140, 230]), ('a zebra', [200, 180, 120, 180]), ('a zebra', [80, 200, 100, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one car and a few buss, the number of car is less than that of buss": [
+        "[('one car', [50, 280, 150, 100]), ('a few buss', [250, 250, 100, 50]), ('a few buss', [350, 300, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are four cars together with a few buss, the number of cars is more than that of buss": [
+        "[('a car', [30, 50, 120, 80]), ('a car', [180, 50, 120, 80]), ('a car', [330, 50, 120, 80]), ('a car', [480, 50, 120, 80]), ('a bus', [60, 150, 100, 60]), ('a bus', [210, 150, 100, 60]), ('a bus', [360, 150, 100, 60])]\nBackground prompt: A realistic urban scene\nNegative prompt: buses"
+    ],
+    "A realistic scene: a photo of one bed with a few dogs, the number of bed is less than that of dogs": [
+        "[('a bed', [120, 150, 272, 212]), ('a dog', [50, 50, 150, 150]), ('a dog', [312, 50, 150, 150]), ('a dog', [50, 312, 150, 150])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of four cars along with a few fire hydrants, the number of cars is more than that of fire hydrants": [
+        "[('a car', [23, 287, 118, 67]), ('a car', [160, 290, 118, 67]), ('a car', [299, 289, 118, 67]), ('a car', [436, 287, 118, 67]), ('a fire hydrant', [23, 370, 35, 65]), ('a fire hydrant', [160, 370, 35, 65])]\nBackground prompt: A realistic urban scene\nNegative prompt: fire hydrants"
+    ],
+    "A realistic scene: a picture of one car together with the equal number of fire hydrant": [
+        "[('a car', [50, 250, 200, 100]), ('a fire hydrant', [262, 250, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of one bed and the equal number of chair": [
+        "[('a bed', [70, 200, 372, 212]), ('a chair', [70, 20, 212, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of one bed along with a few chairs, the number of bed is less than that of chairs": [
+        "[('a bed', [50, 100, 200, 150]), ('a chair', [275, 100, 100, 100]), ('a chair', [400, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: bed"
+    ],
+    "A realistic scene: an image of one airplane and a few trucks, the number of airplane is less than that of trucks": [
+        "[('an airplane', [42, 198, 204, 84]), ('a truck', [278, 282, 108, 67]), ('a truck', [67, 287, 109, 62]), ('a truck', [401, 285, 97, 64])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are four airplanes together with a few trucks, the number of airplanes is more than that of trucks": [
+        "[('an airplane', [23, 45, 123, 67]), ('an airplane', [178, 33, 123, 67]), ('an airplane', [332, 45, 123, 67]), ('an airplane', [123, 123, 123, 67]), ('a truck', [23, 200, 123, 67]), ('a truck', [178, 200, 123, 67])]\nBackground prompt: A realistic scene\nNegative prompt: trucks"
+    ],
+    "A realistic scene: an image of one airplane along with a few trucks, the number of airplane is less than that of trucks": [
+        "[('an airplane', [45, 187, 169, 69]), ('a truck', [240, 191, 80, 61]), ('a truck', [342, 190, 85, 63]), ('a truck', [446, 191, 65, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one airplane together with the same number of truck": [
+        "[('an airplane', [49, 265, 414, 146]), ('a truck', [49, 421, 414, 146])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are three traffic lights together with a few trains, the number of traffic lights is more than that of trains": [
+        "[('a traffic light', [55, 90, 55, 120]), ('a traffic light', [150, 90, 55, 120]), ('a traffic light', [245, 90, 55, 120]), ('a train', [360, 230, 120, 80]), ('a train', [100, 320, 120, 80])]\nBackground prompt: A realistic scene\nNegative prompt: trains"
+    ],
+    "A realistic scene: an image of one traffic light and the same number of train": [
+        "[('a traffic light', [209, 63, 94, 238]), ('a train', [209, 301, 94, 211])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one traffic light with the same number of train": [
+        "[('a traffic light', [203, 96, 106, 235]), ('a train', [88, 331, 335, 181])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one traffic light with a few trains, the number of traffic light is less than that of trains": [
+        "[('a traffic light', [215, 30, 82, 210]), ('a train', [30, 270, 160, 160]), ('a train', [322, 270, 160, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of three traffic lights along with a few trains, the number of traffic lights is more than that of trains": [
+        "[('a traffic light', [45, 56, 50, 150]), ('a traffic light', [210, 60, 50, 150]), ('a traffic light', [380, 56, 50, 150]), ('a train', [100, 250, 100, 100]), ('a train', [300, 250, 100, 100])]\nBackground prompt: A realistic urban scene\nNegative prompt: trains"
+    ],
+    "A realistic scene: there are two benchs along with a few cats, the number of benchs is more than that of cats": [
+        "[('a bench', [50, 100, 150, 50]), ('a bench', [312, 100, 150, 50]), ('a cat', [75, 200, 50, 50]), ('a cat', [150, 200, 50, 50]), ('a cat', [225, 200, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of two cars along with a few cats, the number of cars is more than that of cats": [
+        "[('a car', [50, 250, 200, 150]), ('a car', [262, 250, 200, 150]), ('a cat', [100, 50, 100, 100]), ('a cat', [312, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: birds"
+    ],
+    "A realistic scene: there are one car along with the equal number of cat": [
+        "[('a car', [20, 280, 211, 159]), ('a cat', [269, 283, 209, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of two cats along with a few chairs, the number of cats is less than that of chairs": [
+        "[('a cat', [50, 100, 150, 150]), ('a cat', [312, 120, 150, 150]), ('a chair', [20, 270, 100, 120]), ('a chair', [150, 270, 100, 120]), ('a chair', [280, 270, 100, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of two cats together with a few chairs, the number of cats is more than that of chairs": [
+        "[('a cat', [43, 76, 231, 285]), ('a cat', [238, 112, 211, 249]), ('a chair', [23, 389, 159, 123]), ('a chair', [194, 389, 159, 123])]\nBackground prompt: A realistic scene\nNegative prompt: chairs"
+    ],
+    "A realistic scene: there are five cars together with a few parking meters, the number of cars is more than that of parking meters": [
+        "[('a car', [32, 78, 118, 64]), ('a car', [172, 81, 118, 64]), ('a car', [312, 78, 118, 64]), ('a car', [92, 162, 118, 64]), ('a car', [232, 162, 118, 64]), ('a parking meter', [372, 162, 50, 120]), ('a parking meter', [12, 162, 50, 120])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of four cars along with a few parking meters, the number of cars is more than that of parking meters": [
+        "[('a car', [30, 250, 120, 70]), ('a car', [170, 250, 120, 70]), ('a car', [310, 250, 120, 70]), ('a car', [450, 250, 120, 70]), ('a parking meter', [30, 330, 50, 100]), ('a parking meter', [90, 330, 50, 100]), ('a parking meter', [150, 330, 50, 100])]\nBackground prompt: A realistic urban scene\nNegative prompt: parking meters"
+    ],
+    "A realistic scene: a picture of one couch together with the same number of dog": [
+        "[('a couch', [82, 200, 348, 200]), ('a dog', [432, 50, 80, 120])]\nBackground prompt: A realistic living room scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of two couchs together with a few dogs, the number of couchs is less than that of dogs": [
+        "[('two couchs', [70, 180, 372, 200]), ('a dog', [50, 50, 150, 150]), ('a dog', [312, 50, 150, 150]), ('a dog', [200, 250, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of one couch along with the equal number of dog": [
+        "[('a couch', [78, 174, 356, 214]), ('a dog', [150, 50, 212, 124])]\nBackground prompt: A realistic living room scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one couch and a few dogs, the number of couch is less than that of dogs": [
+        "[('a couch', [50, 200, 412, 250]), ('a dog', [100, 50, 150, 150]), ('a dog', [300, 50, 150, 150]), ('a dog', [100, 300, 150, 150])]\nBackground prompt: A realistic living room scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one car and the same number of motorcycle": [
+        "[('a car', [62, 289, 188, 119]), ('a motorcycle', [262, 289, 188, 119])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are four cars together with a few motorcycles, the number of cars is more than that of motorcycles": [
+        "[('a car', [30, 40, 120, 70]), ('a car', [180, 40, 120, 70]), ('a car', [330, 40, 120, 70]), ('a car', [480, 40, 120, 70]), ('a motorcycle', [30, 140, 80, 50]), ('a motorcycle', [130, 140, 80, 50])]\nBackground prompt: A realistic scene\nNegative prompt: motorcycles"
+    ],
+    "A realistic scene: a photo of one car and a few motorcycles, the number of car is less than that of motorcycles": [
+        "[('a car', [45, 285, 180, 120]), ('a motorcycle', [245, 285, 100, 100]), ('a motorcycle', [365, 285, 100, 100]), ('a motorcycle', [125, 285, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one car with the same number of stop sign": [
+        "[('a car', [50, 280, 200, 150]), ('a stop sign', [300, 300, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one cat with a few suitcases, the number of cat is less than that of suitcases": [
+        "[('a cat', [50, 120, 200, 150]), ('a suitcase', [270, 100, 100, 100]), ('a suitcase', [380, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of two clocks": [
+        "[('a clock', [90, 90, 150, 150]), ('a clock', [272, 90, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three clocks": [
+        "[('a clock', [50, 50, 150, 150]), ('a clock', [206, 50, 150, 150]), ('a clock', [362, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: five clocks in the picture": [
+        "[('a clock', [30, 30, 100, 100]), ('a clock', [150, 30, 100, 100]), ('a clock', [270, 30, 100, 100]), ('a clock', [390, 30, 100, 100]), ('a clock', [210, 150, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one giraffe is in the image": [
+        "[('a giraffe', [176, 58, 160, 454])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three giraffes in the photo": [
+        "[('a giraffe', [29, 45, 172, 324]), ('a giraffe', [206, 43, 174, 326]), ('a giraffe', [384, 44, 173, 325])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four giraffes in the picture": [
+        "[('a giraffe', [38, 41, 166, 263]), ('a giraffe', [308, 42, 166, 263]), ('a giraffe', [38, 308, 166, 263]), ('a giraffe', [308, 308, 166, 263])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one zebra is in the image": [
+        "[('a zebra', [90, 120, 332, 272])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two zebras are in the photo": [
+        "[('a zebra', [55, 98, 190, 214]), ('a zebra', [267, 106, 190, 214])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four zebras in the image": [
+        "[('a zebra', [52, 95, 132, 179]), ('a zebra', [214, 90, 131, 184]), ('a zebra', [52, 292, 132, 179]), ('a zebra', [214, 287, 131, 184])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are three trains in the picture": [
+        "[('a train', [20, 200, 150, 100]), ('a train', [200, 200, 150, 100]), ('a train', [380, 200, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four trains are in the photo": [
+        "[('a train', [19, 240, 123, 123]), ('a train', [150, 240, 123, 123]), ('a train', [281, 240, 123, 123]), ('a train', [412, 240, 123, 123])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two birds": [
+        "[('a bird', [68, 123, 123, 98]), ('a bird', [321, 167, 123, 98])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three birds in the picture": [
+        "[('a bird', [52, 96, 112, 97]), ('a bird', [268, 85, 128, 112]), ('a bird', [166, 263, 118, 103])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there is one airplane in the photo": [
+        "[('an airplane', [186, 206, 140, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one elephant": [
+        "[('an elephant', [162, 72, 188, 240])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two elephants in the photo": [
+        "[('an elephant', [57, 87, 209, 209]), ('an elephant', [246, 87, 209, 209])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are three elephants in the photo": [
+        "[('an elephant', [21, 78, 190, 234]), ('an elephant', [215, 98, 186, 214]), ('an elephant', [411, 83, 190, 241])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: five elephants in the photo": [
+        "[('an elephant', [8, 29, 118, 141]), ('an elephant', [138, 18, 118, 141]), ('an elephant', [267, 26, 118, 141]), ('an elephant', [396, 22, 118, 141]), ('an elephant', [74, 175, 118, 141])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two bears are in the photo": [
+        "[('a bear', [30, 150, 200, 200]), ('a bear', [282, 150, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of three bears": [
+        "[('a bear', [33, 67, 167, 199]), ('a bear', [213, 48, 174, 218]), ('a bear', [80, 294, 178, 198])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four bears are in the picture": [
+        "[('a bear', [27, 62, 160, 180]), ('a bear', [325, 63, 160, 180]), ('a bear', [27, 282, 160, 180]), ('a bear', [325, 282, 160, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: five bears are in the image": [
+        "[('a bear', [30, 50, 120, 150]), ('a bear', [180, 50, 120, 150]), ('a bear', [330, 50, 120, 150]), ('a bear', [90, 220, 120, 150]), ('a bear', [270, 220, 120, 150])]\nBackground prompt: A realistic forest scene\nNegative prompt: "
+    ],
+    "A realistic scene: there is one cow in the picture": [
+        "[('a cow', [178, 201, 156, 154])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of two horses": [
+        "[('a horse', [61, 77, 197, 235]), ('a horse', [254, 77, 197, 235])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are three cats in the photo": [
+        "[('a cat', [52, 79, 154, 156]), ('a cat', [210, 92, 160, 144]), ('a cat', [367, 78, 143, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two stop signs are in the picture": [
+        "[('a stop sign', [63, 176, 110, 110]), ('a stop sign', [339, 176, 110, 110])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are two benchs in the picture": [
+        "[('a bench', [50, 250, 150, 50]), ('a bench', [312, 250, 150, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are two fire hydrants in the image": [
+        "[('a fire hydrant', [78, 214, 88, 176]), ('a fire hydrant', [346, 214, 88, 176])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: five fire hydrants are in the picture": [
+        "[('a fire hydrant', [22, 72, 78, 156]), ('a fire hydrant', [122, 72, 78, 156]), ('a fire hydrant', [222, 72, 78, 156]), ('a fire hydrant', [322, 72, 78, 156]), ('a fire hydrant', [422, 72, 78, 156])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: one traffic light is in the photo": [
+        "[('a traffic light', [225, 40, 62, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are three traffic lights in the picture": [
+        "[('a traffic light', [34, 58, 50, 120]), ('a traffic light', [218, 58, 50, 120]), ('a traffic light', [402, 58, 50, 120])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: five traffic lights are in the photo": [
+        "[('a traffic light', [26, 52, 50, 150]), ('a traffic light', [100, 52, 50, 150]), ('a traffic light', [174, 52, 50, 150]), ('a traffic light', [248, 52, 50, 150]), ('a traffic light', [322, 52, 50, 150])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are four sheeps in the picture": [
+        "[('a sheep', [33, 58, 142, 117]), ('a sheep', [198, 40, 139, 135]), ('a sheep', [355, 58, 143, 117]), ('a sheep', [214, 204, 143, 117])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two vases": [
+        "[('a vase', [186, 186, 140, 240]), ('a vase', [186, 6, 140, 240])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three vases are in the photo": [
+        "[('a vase', [50, 100, 150, 200]), ('a vase', [200, 150, 100, 150]), ('a vase', [350, 100, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four vases in the photo": [
+        "[('a vase', [33, 48, 123, 189]), ('a vase', [356, 52, 123, 189]), ('a vase', [33, 275, 123, 189]), ('a vase', [356, 275, 123, 189])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one pizza in the image": [
+        "[('a pizza', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of two pizzas": [
+        "[('a pizza', [50, 150, 200, 200]), ('a pizza', [262, 150, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of three pizzas": [
+        "[('a pizza', [42, 52, 180, 180]), ('a pizza', [222, 52, 180, 180]), ('a pizza', [402, 52, 180, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are four pizzas in the photo": [
+        "[('a pizza', [26, 39, 160, 160]), ('a pizza', [26, 213, 160, 160]), ('a pizza', [326, 39, 160, 160]), ('a pizza', [326, 213, 160, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one dog": [
+        "[('a dog', [176, 100, 160, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two dogs in the photo": [
+        "[('a dog', [60, 60, 200, 200]), ('a dog', [252, 60, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four dogs are in the picture": [
+        "[('a dog', [33, 56, 145, 132]), ('a dog', [334, 56, 145, 132]), ('a dog', [33, 268, 145, 132]), ('a dog', [334, 268, 145, 132])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two trucks": [
+        "[('a truck', [50, 200, 150, 100]), ('a truck', [312, 200, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four trucks are in the photo": [
+        "[('a truck', [25, 20, 150, 100]), ('a truck', [200, 20, 150, 100]), ('a truck', [25, 150, 150, 100]), ('a truck', [200, 150, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two teddy bears are in the image": [
+        "[('a teddy bear', [72, 98, 168, 208]), ('a teddy bear', [272, 110, 168, 208])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are four teddy bears in the image": [
+        "[('a teddy bear', [50, 50, 150, 150]), ('a teddy bear', [312, 50, 150, 150]), ('a teddy bear', [50, 312, 150, 150]), ('a teddy bear', [312, 312, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: five teddy bears are in the picture": [
+        "[('a teddy bear', [35, 58, 99, 110]), ('a teddy bear', [167, 47, 109, 123]), ('a teddy bear', [309, 55, 98, 116]), ('a teddy bear', [97, 189, 101, 109]), ('a teddy bear', [262, 191, 100, 107])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one boat is in the photo": [
+        "[('a boat', [157, 173, 198, 166])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three boats are in the picture": [
+        "[('a boat', [31, 219, 150, 141]), ('a boat', [194, 219, 150, 141]), ('a boat', [357, 219, 150, 141])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there is one bed in the photo": [
+        "[('a bed', [96, 206, 320, 206])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four beds are in the picture": [
+        "[('a bed', [30, 30, 200, 150]), ('a bed', [282, 30, 200, 150]), ('a bed', [30, 232, 200, 150]), ('a bed', [282, 232, 200, 150])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one bus": [
+        "[('a bus', [90, 180, 332, 162])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are five buss in the photo": [
+        "[('a bus', [20, 150, 100, 50]), ('a bus', [150, 150, 100, 50]), ('a bus', [280, 150, 100, 50]), ('a bus', [410, 150, 100, 50]), ('a bus', [240, 250, 100, 50])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one motorcycle": [
+        "[('a motorcycle', [71, 222, 370, 226])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of two motorcycles": [
+        "[('a motorcycle', [50, 200, 200, 150]), ('a motorcycle', [262, 200, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are four motorcycles in the photo": [
+        "[('a motorcycle', [30, 280, 120, 80]), ('a motorcycle', [160, 280, 120, 80]), ('a motorcycle', [290, 280, 120, 80]), ('a motorcycle', [420, 280, 92, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three potted plants and one vase in the picture": [
+        "[('a potted plant', [33, 31, 169, 212]), ('a potted plant', [215, 29, 169, 212]), ('a potted plant', [398, 31, 169, 212]), ('a vase', [245, 285, 97, 154])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one potted plant together with two vases are in the photo": [
+        "[('a potted plant', [180, 50, 152, 222]), ('a vase', [50, 280, 100, 150]), ('a vase', [362, 280, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed along with two cats are in the image": [
+        "[('a bed', [101, 206, 310, 180]), ('a cat', [26, 319, 171, 147]), ('a cat', [315, 319, 171, 147])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed and one cat are in the photo": [
+        "[('a bed', [76, 233, 360, 209]), ('a cat', [214, 328, 84, 84])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of one bed along with three cats": [
+        "[('a bed', [90, 180, 332, 232]), ('a cat', [50, 50, 150, 150]), ('a cat', [200, 50, 150, 150]), ('a cat', [350, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed and three cats are in the picture": [
+        "[('a bed', [100, 200, 312, 212]), ('a cat', [50, 50, 150, 150]), ('a cat', [200, 50, 150, 150]), ('a cat', [350, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one car together with three trucks in the photo": [
+        "[('a car', [56, 289, 148, 95]), ('a truck', [214, 288, 137, 97]), ('a truck', [372, 287, 136, 98]), ('a truck', [139, 94, 142, 96])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one car and four traffic lights": [
+        "[('a car', [50, 300, 150, 100]), ('a traffic light', [50, 50, 50, 150]), ('a traffic light', [412, 50, 50, 150]), ('a traffic light', [50, 362, 50, 150]), ('a traffic light', [412, 362, 50, 150])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are five cars with three traffic lights in the picture": [
+        "[('a car', [20, 280, 100, 60]), ('a car', [140, 280, 100, 60]), ('a car', [260, 280, 100, 60]), ('a car', [380, 280, 100, 60]), ('a car', [200, 200, 100, 60]), ('a traffic light', [50, 50, 30, 80]), ('a traffic light', [230, 50, 30, 80]), ('a traffic light', [410, 50, 30, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one dining table together with two pizzas in the picture": [
+        "[('a dining table', [50, 200, 412, 250]), ('a pizza', [100, 250, 100, 100]), ('a pizza', [312, 250, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one dining table with three pizzas are in the image": [
+        "[('a dining table', [50, 200, 412, 212]), ('a pizza', [75, 225, 100, 100]), ('a pizza', [225, 225, 100, 100]), ('a pizza', [375, 225, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one dining table along with three pizzas": [
+        "[('a dining table', [50, 200, 412, 212]), ('a pizza', [70, 240, 120, 120]), ('a pizza', [220, 240, 120, 120]), ('a pizza', [370, 240, 120, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are two dining tables together with three pizzas in the photo": [
+        "[('a dining table', [30, 150, 220, 200]), ('a dining table', [262, 150, 220, 200]), ('a pizza', [50, 180, 80, 60]), ('a pizza', [150, 180, 80, 60]), ('a pizza', [350, 180, 80, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: four giraffes together with one zebra in the picture": [
+        "[('a giraffe', [27, 32, 158, 292]), ('a giraffe', [327, 18, 155, 306]), ('a giraffe', [179, 23, 148, 287]), ('a giraffe', [28, 336, 151, 155]), ('a zebra', [328, 332, 150, 159])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three giraffes along with four zebras in the image": [
+        "[('a giraffe', [20, 50, 150, 300]), ('a giraffe', [190, 70, 150, 280]), ('a giraffe', [360, 50, 150, 300]), ('a zebra', [40, 370, 120, 100]), ('a zebra', [200, 370, 120, 100]), ('a zebra', [360, 370, 120, 100]), ('a zebra', [120, 370, 120, 100])]\nBackground prompt: A realistic savanna scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one giraffe along with one zebra in the picture": [
+        "[('a giraffe', [100, 50, 150, 250]), ('a zebra', [262, 75, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one car with two buss in the picture": [
+        "[('a car', [20, 250, 200, 100]), ('a bus', [240, 250, 120, 80]), ('a bus', [380, 250, 120, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are four cars together with one bus in the photo": [
+        "[('a car', [45, 278, 120, 70]), ('a car', [190, 280, 120, 70]), ('a car', [335, 280, 120, 70]), ('a car', [480, 278, 120, 70]), ('a bus', [230, 100, 160, 80])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed with two dogs in the photo": [
+        "[('a bed', [100, 200, 312, 150]), ('a dog', [150, 250, 100, 100]), ('a dog', [262, 250, 100, 100])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one bed along with two dogs": [
+        "[('a bed', [50, 150, 412, 262]), ('a dog', [100, 200, 150, 150]), ('a dog', [262, 200, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed together with one dog are in the photo": [
+        "[('a bed', [90, 180, 332, 200]), ('a dog', [200, 300, 112, 112])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one bed along with three dogs in the picture": [
+        "[('a bed', [100, 200, 312, 180]), ('a dog', [50, 50, 150, 150]), ('a dog', [200, 50, 150, 150]), ('a dog', [350, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one car with one fire hydrant in the photo": [
+        "[('a car', [50, 250, 150, 100]), ('a fire hydrant', [300, 200, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of three cars along with one fire hydrant": [
+        "[('a car', [30, 280, 150, 100]), ('a car', [200, 280, 150, 100]), ('a car', [370, 280, 150, 100]), ('a fire hydrant', [240, 20, 32, 70])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: two beds together with one chair are in the picture": [
+        "[('two beds', [48, 140, 416, 228]), ('a chair', [224, 388, 64, 124])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one bed with one chair": [
+        "[('a bed', [50, 150, 412, 262]), ('a chair', [200, 50, 112, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one bed along with two chairs": [
+        "[('a bed', [50, 200, 412, 212]), ('a chair', [50, 50, 200, 150]), ('a chair', [262, 50, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed together with three chairs in the photo": [
+        "[('a bed', [20, 200, 472, 212]), ('a chair', [50, 50, 150, 150]), ('a chair', [200, 50, 150, 150]), ('a chair', [350, 50, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one airplane together with four trucks in the photo": [
+        "[('an airplane', [58, 201, 396, 110]), ('a truck', [20, 320, 140, 100]), ('a truck', [180, 320, 140, 100]), ('a truck', [340, 320, 140, 100]), ('a truck', [100, 430, 140, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of one airplane with two trucks": [
+        "[('an airplane', [105, 222, 302, 67]), ('a truck', [29, 319, 160, 93]), ('a truck', [323, 319, 160, 93])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one traffic light along with one train in the picture": [
+        "[('a traffic light', [210, 28, 92, 238]), ('a train', [100, 150, 312, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one traffic light together with one train in the photo": [
+        "[('a traffic light', [198, 76, 116, 276]), ('a train', [38, 180, 435, 332])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one traffic light with two trains in the photo": [
+        "[('a traffic light', [209, 23, 94, 253]), ('a train', [47, 286, 191, 166]), ('a train', [274, 293, 191, 159])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of two benchs along with one cat": [
+        "[('a bench', [50, 300, 150, 50]), ('a bench', [312, 300, 150, 50]), ('a cat', [200, 200, 112, 75])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one bench along with two cats": [
+        "[('a bench', [70, 250, 372, 162]), ('a cat', [30, 50, 180, 180]), ('a cat', [302, 50, 180, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bench along with one cat are in the picture": [
+        "[('a bench', [190, 285, 132, 59]), ('a cat', [320, 230, 120, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bench together with one cat are in the image": [
+        "[('a bench', [207, 256, 98, 50]), ('a cat', [92, 293, 72, 45])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are two cars together with one cat in the picture": [
+        "[('a car', [52, 278, 196, 134]), ('a car', [264, 278, 196, 134]), ('a cat', [182, 50, 148, 116])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two cats together with five chairs are in the image": [
+        "[('a cat', [50, 100, 150, 150]), ('a cat', [312, 100, 150, 150]), ('a chair', [20, 270, 100, 100]), ('a chair', [140, 270, 100, 100]), ('a chair', [260, 270, 100, 100]), ('a chair', [380, 270, 100, 100]), ('a chair', [200, 380, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two cats and one chair in the photo": [
+        "[('a cat', [61, 78, 191, 214]), ('a cat', [260, 79, 191, 214]), ('a chair', [151, 318, 210, 194])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one car with five parking meters in the photo": [
+        "[('a car', [30, 250, 200, 120]), ('a parking meter', [50, 100, 50, 150]), ('a parking meter', [120, 100, 50, 150]), ('a parking meter', [190, 100, 50, 150]), ('a parking meter', [260, 100, 50, 150]), ('a parking meter', [330, 100, 50, 150])]\nBackground prompt: A realistic urban scene\nNegative prompt: "
+    ],
+    "A realistic scene: four cars with two parking meters are in the picture": [
+        "[('a car', [30, 285, 116, 68]), ('a car', [160, 285, 116, 68]), ('a car', [290, 285, 116, 68]), ('a car', [420, 285, 116, 68]), ('a parking meter', [30, 370, 50, 142]), ('a parking meter', [420, 370, 50, 142])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two couchs and three dogs are in the photo": [
+        "[('a couch', [29, 265, 219, 147]), ('a couch', [264, 265, 219, 147]), ('a dog', [67, 79, 137, 135]), ('a dog', [262, 79, 137, 135]), ('a dog', [164, 79, 137, 135])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one couch together with one dog are in the image": [
+        "[('a couch', [50, 200, 412, 212]), ('a dog', [250, 50, 212, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two cars along with one motorcycle in the picture": [
+        "[('a car', [30, 260, 200, 120]), ('a car', [282, 260, 200, 120]), ('a motorcycle', [156, 100, 200, 120])]\nBackground prompt: A realistic street scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are five motorcycles together with two cars in the image": [
+        "[('a motorcycle', [30, 280, 100, 80]), ('a motorcycle', [150, 280, 100, 80]), ('a motorcycle', [270, 280, 100, 80]), ('a motorcycle', [390, 280, 100, 80]), ('a motorcycle', [110, 370, 100, 80]), ('a car', [230, 370, 120, 90]), ('a car', [360, 370, 120, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one car together with one motorcycle in the picture": [
+        "[('a car', [37, 278, 190, 134]), ('a motorcycle', [285, 283, 190, 129])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of five cars together with one stop sign": [
+        "[('a car', [30, 30, 100, 50]), ('a car', [150, 30, 100, 50]), ('a car', [270, 30, 100, 50]), ('a car', [390, 30, 100, 50]), ('a car', [210, 100, 100, 50]), ('a stop sign', [450, 100, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one car with one stop sign are in the picture": [
+        "[('a car', [51, 283, 211, 159]), ('a stop sign', [296, 42, 143, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one car and two stop signs": [
+        "[('a car', [78, 287, 356, 175]), ('a stop sign', [36, 123, 68, 68]), ('a stop sign', [408, 123, 68, 68])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two cars with one stop sign in the image": [
+        "[('a car', [25, 275, 200, 150]), ('a car', [287, 275, 200, 150]), ('a stop sign', [230, 25, 52, 52])]\nBackground prompt: A realistic street scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one cat with one suitcase": [
+        "[('a cat', [171, 122, 170, 190]), ('a suitcase', [331, 202, 151, 178])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one bed and three teddy bears in the image": [
+        "[('a bed', [70, 180, 372, 232]), ('a teddy bear', [50, 50, 100, 100]), ('a teddy bear', [200, 50, 100, 100]), ('a teddy bear', [350, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed and one teddy bear in the picture": [
+        "[('a bed', [50, 200, 412, 250]), ('a teddy bear', [200, 100, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of two beds with one teddy bear": [
+        "[('a bed', [30, 120, 200, 150]), ('a bed', [282, 120, 200, 150]), ('a teddy bear', [180, 180, 50, 70])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are two cats and one couch in the photo": [
+        "[('a cat', [52, 71, 220, 232]), ('a cat', [240, 85, 220, 232]), ('a couch', [108, 318, 296, 174])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one cat and two couchs in the image": [
+        "[('a cat', [91, 98, 191, 174]), ('a couch', [21, 283, 231, 148]), ('a couch', [260, 283, 231, 148])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed and five books in the photo": [
+        "[('a bed', [50, 200, 412, 250]), ('a book', [50, 50, 100, 150]), ('a book', [180, 50, 100, 150]), ('a book', [310, 50, 100, 150]), ('a book', [50, 400, 100, 150]), ('a book', [180, 400, 100, 150]), ('a book', [310, 400, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one bed along with one book": [
+        "[('a bed', [100, 200, 312, 212]), ('a book', [250, 100, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bed with three books are in the photo": [
+        "[('a bed', [50, 200, 412, 212]), ('a book', [80, 100, 100, 50]), ('a book', [200, 100, 100, 50]), ('a book', [320, 100, 100, 50])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one mouse together with two keyboards in the picture": [
+        "[('a mouse', [224, 287, 64, 64]), ('a keyboard', [60, 352, 192, 64]), ('a keyboard', [256, 352, 192, 64])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three giraffes with one bird": [
+        "[('a giraffe', [45, 79, 139, 278]), ('a giraffe', [202, 83, 139, 278]), ('a giraffe', [359, 79, 139, 278]), ('a bird', [440, 12, 70, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: an image of five giraffes with one bird": [
+        "[('a giraffe', [45, 38, 125, 240]), ('a giraffe', [194, 11, 129, 267]), ('a giraffe', [344, 38, 125, 240]), ('a giraffe', [115, 241, 129, 267]), ('a giraffe', [265, 241, 129, 267]), ('a bird', [420, 10, 82, 71])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are two giraffes together with one bird in the photo": [
+        "[('a giraffe', [76, 78, 211, 324]), ('a giraffe', [225, 82, 211, 320]), ('a bird', [398, 12, 93, 67])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of three carrots together with three broccolis": [
+        "[('a carrot', [64, 235, 112, 177]), ('a carrot', [210, 237, 112, 174]), ('a carrot', [354, 236, 112, 174]), ('a broccoli', [72, 25, 128, 191]), ('a broccoli', [214, 25, 128, 191]), ('a broccoli', [356, 25, 128, 191])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one cake together with one dining table in the picture": [
+        "[('a cake', [180, 200, 152, 152]), ('a dining table', [80, 80, 352, 240])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one dining table along with five cakes in the image": [
+        "[('a dining table', [50, 200, 412, 250]), ('a cake', [70, 100, 80, 80]), ('a cake', [180, 100, 80, 80]), ('a cake', [290, 100, 80, 80]), ('a cake', [400, 100, 80, 80]), ('a cake', [160, 300, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are two cakes with one dining table in the photo": [
+        "[('a cake', [58, 253, 162, 131]), ('a cake', [292, 253, 162, 131]), ('a dining table', [130, 392, 252, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two bowls with one broccoli in the picture": [
+        "[('a bowl', [45, 234, 178, 137]), ('a bowl', [289, 234, 178, 137]), ('a broccoli', [335, 123, 86, 92])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are three bowls with one broccoli in the photo": [
+        "[('a bowl', [38, 160, 130, 100]), ('a bowl', [198, 160, 130, 100]), ('a bowl', [358, 160, 130, 100]), ('a broccoli', [275, 30, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one tv and two cats": [
+        "[('a tv', [186, 78, 140, 100]), ('a cat', [52, 191, 150, 150]), ('a cat', [320, 191, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one tv and one cat in the picture": [
+        "[('a tv', [191, 89, 130, 92]), ('a cat', [81, 204, 174, 165])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one tv and two cats are in the photo": [
+        "[('a tv', [186, 96, 140, 90]), ('a cat', [52, 202, 120, 110]), ('a cat', [344, 202, 120, 110])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of two cats along with one bowl": [
+        "[('a cat', [45, 78, 221, 268]), ('a cat', [246, 86, 221, 268]), ('a bowl', [186, 356, 140, 76])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one cat with one bowl in the picture": [
+        "[('a cat', [47, 87, 218, 256]), ('a bowl', [254, 143, 160, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one bench with two trains": [
+        "[('a bench', [194, 340, 124, 40]), ('a train', [46, 200, 180, 80]), ('a train', [288, 200, 180, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two benchs with one train in the image": [
+        "[('two benchs', [50, 250, 150, 50]), ('a train', [250, 200, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are three benchs together with one train in the photo": [
+        "[('a bench', [27, 279, 153, 66]), ('a bench', [205, 279, 153, 66]), ('a bench', [382, 279, 153, 66]), ('a train', [191, 101, 130, 130])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two sandwichs together with one dining table are in the picture": [
+        "[('a sandwich', [50, 200, 150, 100]), ('a sandwich', [312, 200, 150, 100]), ('a dining table', [150, 350, 212, 162])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one sandwich together with one dining table": [
+        "[('a sandwich', [153, 192, 206, 124]), ('a dining table', [86, 320, 340, 192])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: three sandwichs and one dining table in the image": [
+        "[('a sandwich', [50, 200, 150, 100]), ('a sandwich', [200, 200, 150, 100]), ('a sandwich', [350, 200, 150, 100]), ('a dining table', [100, 350, 312, 162])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one dining table along with one broccoli in the picture": [
+        "[('a dining table', [50, 200, 412, 250]), ('a broccoli', [200, 150, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one dining table together with three broccolis are in the image": [
+        "[('a dining table', [50, 200, 412, 212]), ('a broccoli', [80, 80, 100, 100]), ('a broccoli', [220, 80, 100, 100]), ('a broccoli', [360, 80, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one dining table together with two broccolis are in the picture": [
+        "[('a dining table', [50, 200, 412, 212]), ('a broccoli', [100, 100, 50, 50]), ('a broccoli', [362, 100, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two clocks along with one bird in the image": [
+        "[('a clock', [60, 200, 120, 120]), ('a clock', [332, 200, 120, 120]), ('a bird', [200, 50, 112, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two clocks with one bird in the picture": [
+        "[('a clock', [52, 64, 120, 120]), ('a clock', [340, 64, 120, 120]), ('a bird', [200, 200, 112, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one clock together with three birds in the photo": [
+        "[('a clock', [198, 20, 116, 116]), ('a bird', [35, 332, 113, 90]), ('a bird', [198, 332, 113, 90]), ('a bird', [361, 332, 113, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a picture of one clock and one bird": [
+        "[('a clock', [192, 192, 128, 128]), ('a bird', [64, 64, 128, 128])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are two cars along with one train in the photo": [
+        "[('a car', [30, 280, 200, 120]), ('a car', [282, 280, 200, 120]), ('a train', [130, 50, 252, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of three cars along with one train": [
+        "[('a car', [21, 281, 211, 159]), ('a car', [269, 283, 209, 160]), ('a car', [66, 8, 145, 135]), ('a train', [296, 42, 143, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: two cars along with one train": [
+        "[('a car', [50, 280, 200, 120]), ('a car', [262, 280, 200, 120]), ('a train', [150, 100, 212, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one oven together with two pizzas in the photo": [
+        "[('an oven', [186, 140, 140, 180]), ('a pizza', [78, 340, 120, 80]), ('a pizza', [314, 340, 120, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one oven with two pizzas are in the photo": [
+        "[('an oven', [179, 176, 154, 234]), ('a pizza', [52, 54, 190, 136]), ('a pizza', [270, 54, 190, 136])]\nBackground prompt: A realistic kitchen scene\nNegative prompt: "
+    ],
+    "A realistic scene: one laptop together with one cat in the picture": [
+        "[('a laptop', [168, 143, 176, 126]), ('a cat', [38, 248, 142, 157])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: there are one dining table with two donuts in the image": [
+        "[('a dining table', [100, 200, 312, 212]), ('a donut', [150, 250, 50, 50]), ('a donut', [312, 250, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: one dining table along with three donuts in the image": [
+        "[('a dining table', [50, 200, 412, 212]), ('a donut', [100, 100, 100, 100]), ('a donut', [212, 100, 100, 100]), ('a donut', [324, 100, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: a photo of one dining table along with three donuts": [
+        "[('a dining table', [50, 200, 412, 212]), ('a donut', [100, 100, 100, 100]), ('a donut', [250, 100, 100, 100]), ('a donut', [400, 100, 100, 100])]\nBackground prompt: A realistic dining room scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three bananas, three remotes, and two bowls": [
+        "[('a banana', [50, 250, 70, 120]), ('a banana', [150, 250, 70, 120]), ('a banana', [250, 250, 70, 120]), ('a remote', [50, 100, 70, 30]), ('a remote', [150, 100, 70, 30]), ('a remote', [250, 100, 70, 30]), ('a bowl', [100, 50, 100, 50]), ('a bowl', [300, 50, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two traffic lights, two cups, two chairs, and one skateboard in the image": [
+        "[('a traffic light', [20, 20, 50, 100]), ('a traffic light', [442, 20, 50, 100]), ('a cup', [100, 200, 50, 50]), ('a cup', [362, 200, 50, 50]), ('a chair', [200, 350, 100, 150]), ('a skateboard', [200, 100, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One boat together with two ovens, one spoon, and three laptops": [
+        "[('a boat', [50, 200, 150, 100]), ('an oven', [200, 200, 100, 100]), ('an oven', [350, 200, 100, 100]), ('a spoon', [200, 350, 50, 50]), ('a laptop', [275, 350, 50, 50]), ('a laptop', [325, 350, 50, 50]), ('a laptop', [375, 350, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two cell phones together with three tvs, two broccolis, and three fire hydrants": [
+        "[('a cell phone', [66, 289, 124, 211]), ('a cell phone', [322, 289, 124, 211]), ('a tv', [34, 27, 160, 160]), ('a tv', [191, 27, 160, 160]), ('a tv', [348, 27, 160, 160]), ('a broccoli', [96, 460, 100, 52]), ('a broccoli', [258, 460, 100, 52]), ('a broccoli', [420, 460, 100, 52]), ('a fire hydrant', [15, 15, 50, 120]), ('a fire hydrant', [457, 15, 50, 120]), ('a fire hydrant', [229, 15, 50, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two toilets together with three elephants, two buses, and two backpacks": [
+        "[('a toilet', [50, 100, 150, 200]), ('a toilet', [312, 100, 150, 200]), ('an elephant', [20, 20, 100, 150]), ('an elephant', [200, 20, 100, 150]), ('an elephant', [380, 20, 100, 150]), ('a bus', [50, 350, 150, 100]), ('a bus', [312, 350, 150, 100]), ('a backpack', [100, 450, 100, 50]), ('a backpack', [312, 450, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two beds with three cups and one mouse are in the photo": [
+        "[('a bed', [30, 100, 200, 150]), ('a bed', [282, 100, 200, 150]), ('a cup', [50, 280, 80, 80]), ('a cup', [150, 280, 80, 80]), ('a cup', [250, 280, 80, 80]), ('a mouse', [400, 300, 80, 50])]\nBackground prompt: A realistic bedroom scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two cups together with two sports balls, three potted plants, and one kite": [
+        "[('two cups', [85, 283, 131, 98]), ('two sports balls', [306, 287, 98, 98]), ('a potted plant', [52, 57, 92, 128]), ('a potted plant', [372, 56, 92, 128]), ('a potted plant', [212, 24, 92, 128]), ('a kite', [156, 367, 200, 128])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are three baseball bats, one tie, one toilet, and three wine glasses in the image": [
+        "[('a baseball bat', [33, 206, 123, 295]), ('a baseball bat', [198, 206, 123, 295]), ('a baseball bat', [363, 206, 123, 295]), ('a tie', [188, 24, 136, 82]), ('a toilet', [28, 24, 144, 182]), ('a wine glass', [28, 25, 82, 181]), ('a wine glass', [402, 25, 82, 181]), ('a wine glass', [215, 25, 82, 181])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one bowl, one bottle, and two wine glasses along with three frisbees": [
+        "[('a bowl', [50, 150, 150, 100]), ('a bottle', [312, 150, 100, 200]), ('a wine glass', [50, 300, 100, 150]), ('a wine glass', [312, 300, 100, 150]), ('a frisbee', [100, 50, 100, 100]), ('a frisbee', [250, 50, 100, 100]), ('a frisbee', [400, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One boat along with one skateboard and one dining table are in the picture": [
+        "[('a boat', [33, 180, 168, 115]), ('a skateboard', [214, 207, 113, 75]), ('a dining table', [327, 301, 185, 111])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are one knife, one bottle, three donuts, and one tie in the image": [
+        "[('a knife', [63, 279, 107, 191]), ('a bottle', [346, 282, 105, 188]), ('a donut', [82, 40, 101, 101]), ('a donut', [231, 40, 101, 101]), ('a donut', [380, 40, 101, 101]), ('a tie', [197, 474, 118, 38])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three remotes, three pizzas, and two toilets": [
+        "[('a remote', [50, 50, 100, 50]), ('a remote', [200, 50, 100, 50]), ('a remote', [350, 50, 100, 50]), ('a pizza', [50, 150, 100, 100]), ('a pizza', [200, 150, 100, 100]), ('a pizza', [350, 150, 100, 100]), ('a toilet', [50, 300, 150, 100]), ('a toilet', [250, 300, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with two bowls, one tv, and one scissors with three parking meters": [
+        "[('a bowl', [45, 128, 130, 100]), ('a bowl', [337, 128, 130, 100]), ('a tv', [202, 10, 108, 90]), ('a pair of scissors', [263, 404, 100, 100]), ('a parking meter', [23, 313, 70, 180]), ('a parking meter', [174, 313, 70, 180]), ('a parking meter', [325, 313, 70, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one mouse, two backpacks, and one hot dog along with three sports balls": [
+        "[('a mouse', [45, 289, 101, 67]), ('a backpack', [165, 288, 113, 73]), ('a backpack', [318, 288, 113, 73]), ('a hot dog', [445, 290, 67, 35]), ('a sports ball', [23, 388, 67, 67]), ('a sports ball', [165, 388, 67, 67]), ('a sports ball', [318, 388, 67, 67])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One snowboard, three cell phones, and two suitcases": [
+        "[('a snowboard', [50, 200, 200, 300]), ('a cell phone', [100, 50, 50, 100]), ('a cell phone', [200, 50, 50, 100]), ('a cell phone', [300, 50, 50, 100]), ('a suitcase', [400, 50, 100, 100]), ('a suitcase', [50, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three spoons along with three airplanes and three handbags are in the picture": [
+        "[('a spoon', [30, 30, 100, 100]), ('an airplane', [150, 30, 100, 100]), ('a handbag', [270, 30, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two scissors, two cars, one cup, and one bus in the image": [
+        "[('two scissors', [58, 285, 106, 106]), ('two cars', [348, 285, 106, 106]), ('a cup', [203, 285, 106, 106]), ('a bus', [203, 58, 106, 106])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three birds, three vases, and one spoon": [
+        "[('a bird', [50, 100, 100, 100]), ('a bird', [200, 100, 100, 100]), ('a bird', [350, 100, 100, 100]), ('a vase', [50, 250, 100, 150]), ('a vase', [200, 250, 100, 150]), ('a vase', [350, 250, 100, 150]), ('a spoon', [225, 50, 62, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with two sheep, two sandwiches, and three cars along with three dining tables": [
+        "[('a sheep', [40, 280, 160, 120]), ('a sheep', [312, 280, 160, 120]), ('a sandwich', [40, 100, 120, 80]), ('a sandwich', [312, 100, 120, 80]), ('a car', [40, 20, 120, 60]), ('a car', [180, 20, 120, 60]), ('a car', [320, 20, 120, 60]), ('a dining table', [20, 180, 150, 100]), ('a dining table', [200, 180, 150, 100]), ('a dining table', [380, 180, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three scissors, two ties, and one orange": [
+        "[('a scissor', [68, 269, 95, 186]), ('a scissor', [193, 268, 95, 186]), ('a scissor', [320, 269, 95, 186]), ('a tie', [68, 98, 160, 160]), ('a tie', [284, 98, 160, 160]), ('an orange', [210, 98, 92, 92])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with three laptops, two toothbrushes, and two dogs along with three chairs": [
+        "[('a laptop', [50, 50, 150, 100]), ('a laptop', [210, 50, 150, 100]), ('a laptop', [370, 50, 150, 100]), ('a toothbrush', [50, 200, 100, 50]), ('a toothbrush', [210, 200, 100, 50]), ('a dog', [370, 200, 100, 100]), ('a chair', [50, 300, 100, 100]), ('a chair', [210, 300, 100, 100]), ('a chair', [370, 300, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: dogs"
+    ],
+    "A realistic scene: One skis with two keyboards and one knife are in the photo": [
+        "[('a ski', [22, 308, 124, 204]), ('a keyboard', [176, 308, 124, 204]), ('a keyboard', [330, 308, 124, 204]), ('a knife', [176, 22, 124, 204])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with three cups, three umbrellas, and two ovens along with one backpack": [
+        "[('a cup', [50, 250, 100, 100]), ('a cup', [200, 250, 100, 100]), ('a cup', [350, 250, 100, 100]), ('an umbrella', [50, 50, 100, 200]), ('an umbrella', [200, 50, 100, 200]), ('an umbrella', [350, 50, 100, 200]), ('an oven', [100, 400, 150, 100]), ('an oven', [262, 400, 150, 100]), ('a backpack', [412, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three ovens with two buses and one baseball bat are in the photo": [
+        "[('an oven', [31, 58, 150, 180]), ('an oven', [191, 58, 150, 180]), ('an oven', [351, 58, 150, 180]), ('a bus', [21, 258, 200, 120]), ('a bus', [291, 258, 200, 120]), ('a baseball bat', [161, 408, 190, 94])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two bowls, two scissors, three dogs, and two carrots in the image": [
+        "[('a bowl', [40, 120, 100, 80]), ('a bowl', [372, 120, 100, 80]), ('a pair of scissors', [120, 300, 60, 80]), ('a pair of scissors', [332, 300, 60, 80]), ('a dog', [40, 40, 100, 80]), ('a dog', [200, 40, 100, 80]), ('a dog', [360, 40, 100, 80]), ('a carrot', [200, 200, 40, 60]), ('a carrot', [272, 200, 40, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are three stop signs, one bowl, two laptops, and two forks in the image": [
+        "[('a stop sign', [33, 71, 105, 105]), ('a stop sign', [189, 70, 105, 105]), ('a stop sign', [345, 71, 105, 105]), ('a bowl', [33, 236, 105, 105]), ('a laptop', [189, 236, 105, 105]), ('a laptop', [345, 236, 105, 105]), ('a fork', [33, 401, 105, 105]), ('a fork', [189, 401, 105, 105])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one cat, one couch, and three teddy bears with two clocks": [
+        "[('a cat', [50, 100, 150, 150]), ('a couch', [200, 200, 250, 150]), ('a teddy bear', [50, 300, 100, 100]), ('a teddy bear', [200, 300, 100, 100]), ('a teddy bear', [350, 300, 100, 100]), ('a clock', [50, 50, 50, 50]), ('a clock', [400, 50, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One pizza along with three traffic lights and three potted plants are in the picture": [
+        "[('a pizza', [70, 200, 372, 200]), ('a traffic light', [50, 50, 30, 100]), ('a traffic light', [200, 50, 30, 100]), ('a traffic light', [350, 50, 30, 100]), ('a potted plant', [50, 350, 100, 150]), ('a potted plant', [200, 350, 100, 150]), ('a potted plant', [350, 350, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three cell phones together with one bicycle, three bears, and two trucks": [
+        "[('a cell phone', [52, 292, 134, 197]), ('a cell phone', [209, 292, 134, 197]), ('a cell phone', [366, 292, 134, 197]), ('a bicycle', [20, 20, 472, 236]), ('a bear', [20, 282, 134, 210]), ('a bear', [209, 282, 134, 210]), ('a bear', [366, 282, 134, 210]), ('a truck', [20, 20, 236, 236]), ('a truck', [256, 20, 236, 236])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with two broccolis, two skiss, and one spoon with three bears": [
+        "[('a broccoli', [62, 184, 86, 111]), ('a broccoli', [364, 188, 86, 111]), ('a ski', [42, 69, 121, 73]), ('a ski', [351, 69, 121, 73]), ('a spoon', [206, 312, 100, 100]), ('a bear', [40, 312, 100, 100]), ('a bear', [206, 40, 100, 100]), ('a bear', [372, 312, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with three elephants, two horses, and two toothbrushes with three sinks": [
+        "[('an elephant', [20, 50, 200, 250]), ('an elephant', [220, 50, 200, 250]), ('an elephant', [420, 50, 200, 250]), ('a horse', [50, 320, 200, 150]), ('a horse', [262, 320, 200, 150]), ('a toothbrush', [50, 200, 50, 120]), ('a toothbrush', [462, 200, 50, 120]), ('a sink', [100, 400, 100, 100]), ('a sink', [262, 400, 100, 100]), ('a sink', [424, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two trucks along with three wine glasses and two motorcycles are in the picture": [
+        "[('a truck', [35, 294, 198, 118]), ('a truck', [279, 296, 198, 116]), ('a wine glass', [77, 70, 96, 129]), ('a wine glass', [238, 70, 96, 129]), ('a wine glass', [158, 70, 96, 129]), ('a motorcycle', [389, 388, 113, 124]), ('a motorcycle', [10, 388, 113, 124])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One train, one toilet, and two skateboards": [
+        "[('a train', [34, 187, 444, 195]), ('a toilet', [198, 128, 115, 154]), ('a skateboard', [23, 392, 173, 92]), ('a skateboard', [316, 392, 173, 92])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three knives with three vases and one cow are in the photo": [
+        "[('a knife', [37, 188, 108, 253]), ('a knife', [196, 188, 108, 253]), ('a knife', [355, 188, 108, 253]), ('a vase', [39, 24, 100, 144]), ('a vase', [198, 24, 100, 144]), ('a vase', [357, 24, 100, 144]), ('a cow', [165, 350, 182, 162])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One clock with two trucks and one microwave are in the photo": [
+        "[('a clock', [66, 66, 120, 120]), ('a truck', [200, 200, 100, 100]), ('a truck', [300, 200, 100, 100]), ('a microwave', [200, 350, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One cup, one hair drier, and three knives": [
+        "[('a cup', [201, 276, 110, 136]), ('a hair drier', [53, 59, 187, 160]), ('a knife', [302, 59, 70, 160]), ('a knife', [372, 59, 70, 160]), ('a knife', [442, 59, 70, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one bench, two kites, and one suitcase along with two backpacks": [
+        "[('a bench', [80, 320, 352, 80]), ('a kite', [50, 50, 100, 100]), ('a kite', [362, 50, 100, 100]), ('a suitcase', [200, 100, 112, 80]), ('a backpack', [50, 200, 100, 100]), ('a backpack', [362, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are three vases, one frisbee, three books, and one carrot in the image": [
+        "[('a vase', [30, 180, 120, 180]), ('a vase', [190, 180, 120, 180]), ('a vase', [350, 180, 120, 180]), ('a frisbee', [200, 30, 112, 112]), ('a book', [50, 30, 80, 120]), ('a book', [150, 30, 80, 120]), ('a book', [250, 30, 80, 120]), ('a carrot', [350, 30, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two surfboards, one backpack, three beds, and three ties in the image": [
+        "[('a surfboard', [65, 315, 147, 37]), ('a surfboard', [300, 315, 147, 37]), ('a backpack', [212, 400, 88, 58]), ('a bed', [50, 100, 150, 200]), ('a bed', [212, 100, 150, 200]), ('a bed', [374, 100, 150, 200]), ('a tie', [50, 50, 50, 50]), ('a tie', [112, 50, 50, 50]), ('a tie', [174, 50, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are three kites, one laptop, one donut, and three bananas in the image": [
+        "[('a kite', [38, 55, 150, 120]), ('a kite', [200, 70, 150, 120]), ('a kite', [362, 55, 150, 120]), ('a laptop', [180, 230, 150, 90]), ('a donut', [80, 300, 70, 70]), ('a banana', [320, 310, 50, 90]), ('a banana', [380, 310, 50, 90]), ('a banana', [440, 310, 50, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are one keyboard, one motorcycle, one tv, and three toilets in the image": [
+        "[('a keyboard', [50, 50, 100, 50]), ('a motorcycle', [200, 100, 150, 75]), ('a tv', [100, 200, 75, 50]), ('a toilet', [300, 50, 50, 75]), ('a toilet', [375, 50, 50, 75]), ('a toilet', [450, 50, 50, 75])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one snowboard, two boats, and two dogs with two skateboards": [
+        "[('a snowboard', [193, 292, 126, 220]), ('a boat', [38, 37, 176, 126]), ('a boat', [298, 37, 176, 126]), ('a dog', [38, 163, 176, 129]), ('a dog', [298, 163, 176, 129]), ('a skateboard', [38, 292, 126, 220]), ('a skateboard', [298, 292, 126, 220])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One dog along with two keyboards and two forks are in the picture": [
+        "[('a dog', [55, 67, 271, 324]), ('a keyboard', [302, 119, 211, 228]), ('a keyboard', [51, 119, 211, 228]), ('a fork', [302, 67, 211, 228]), ('a fork', [51, 67, 211, 228])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three dogs, three mice, and three zebras": [
+        "[('a dog', [48, 41, 139, 143]), ('a dog', [202, 51, 139, 143]), ('a dog', [355, 41, 139, 143]), ('a mouse', [29, 214, 128, 128]), ('a mouse', [204, 214, 128, 128]), ('a mouse', [379, 214, 128, 128]), ('a zebra', [57, 379, 137, 133]), ('a zebra', [214, 379, 137, 133]), ('a zebra', [371, 379, 137, 133])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with three bears, two broccolis, and two dogs along with one car": [
+        "[('a bear', [25, 50, 150, 200]), ('a bear', [200, 75, 150, 200]), ('a bear', [375, 50, 150, 200]), ('a broccoli', [50, 300, 100, 100]), ('a broccoli', [362, 300, 100, 100]), ('a dog', [100, 100, 150, 150]), ('a dog', [300, 100, 150, 150]), ('a car', [200, 400, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three ties with three people and two dogs are in the photo": [
+        "[('a tie', [50, 100, 100, 50]), ('a tie', [200, 100, 100, 50]), ('a tie', [350, 100, 100, 50]), ('a person', [50, 200, 100, 150]), ('a person', [200, 200, 100, 150]), ('a person', [350, 200, 100, 150]), ('a dog', [50, 400, 100, 75]), ('a dog', [200, 400, 100, 75])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two sinks, one keyboard, and one giraffe": [
+        "[('a sink', [50, 200, 150, 100]), ('a sink', [312, 200, 150, 100]), ('a keyboard', [200, 50, 112, 50]), ('a giraffe', [200, 312, 100, 188])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two umbrellas together with three trucks, two giraffes, and one baseball bat": [
+        "[('an umbrella', [43, 289, 131, 131]), ('an umbrella', [338, 291, 131, 131]), ('a truck', [13, 13, 186, 126]), ('a truck', [313, 14, 186, 126]), ('a truck', [163, 401, 186, 126]), ('a giraffe', [71, 144, 126, 248]), ('a giraffe', [315, 144, 126, 248]), ('a baseball bat', [234, 13, 44, 126])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one bowl, two tennis rackets, and three cups along with two keyboards": [
+        "[('a bowl', [50, 200, 150, 100]), ('a tennis racket', [200, 200, 100, 300]), ('a tennis racket', [350, 200, 100, 300]), ('a cup', [50, 50, 100, 100]), ('a cup', [200, 50, 100, 100]), ('a cup', [350, 50, 100, 100]), ('a keyboard', [200, 100, 100, 50]), ('a keyboard', [350, 100, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three bottles with two sheep and three zebras are in the photo": [
+        "[('a bottle', [38, 187, 120, 246]), ('a bottle', [190, 187, 120, 246]), ('a bottle', [342, 187, 120, 246]), ('a sheep', [20, 20, 150, 150]), ('a sheep', [342, 20, 150, 150]), ('a zebra', [190, 20, 120, 240]), ('a zebra', [342, 20, 120, 240]), ('a zebra', [190, 260, 120, 240])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are one suitcase, two broccolis, three dogs, and one tv in the image": [
+        "[('a suitcase', [50, 100, 150, 100]), ('a broccoli', [200, 50, 50, 50]), ('a broccoli', [300, 50, 50, 50]), ('a dog', [50, 250, 100, 100]), ('a dog', [200, 250, 100, 100]), ('a dog', [350, 250, 100, 100]), ('a tv', [200, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with three spoons, two baseball bats, and three cars with two vases": [
+        "[('a spoon', [73, 215, 105, 105]), ('a spoon', [212, 215, 105, 105]), ('a spoon', [352, 215, 105, 105]), ('a baseball bat', [30, 340, 150, 150]), ('a baseball bat', [332, 340, 150, 150]), ('a car', [30, 30, 150, 150]), ('a car', [332, 30, 150, 150]), ('a car', [181, 30, 150, 150]), ('a vase', [30, 30, 150, 150]), ('a vase', [332, 30, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One cell phone, one frisbee, and two parking meters": [
+        "[('a cell phone', [68, 276, 102, 160]), ('a frisbee', [342, 269, 121, 121]), ('a parking meter', [53, 60, 120, 228]), ('a parking meter', [339, 56, 120, 228])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with three dining tables, one wine glass, and three motorcycles with three donuts": [
+        "[('a dining table', [15, 150, 200, 150]), ('a dining table', [15, 320, 200, 150]), ('a dining table', [297, 235, 200, 150]), ('a wine glass', [297, 150, 50, 85]), ('a motorcycle', [15, 15, 100, 135]), ('a motorcycle', [130, 15, 100, 135]), ('a motorcycle', [245, 15, 100, 135]), ('a donut', [15, 15, 50, 50]), ('a donut', [130, 15, 50, 50]), ('a donut', [245, 15, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three keyboards along with three clocks and three cell phones are in the picture": [
+        "[('a keyboard', [35, 50, 150, 50]), ('a keyboard', [200, 50, 150, 50]), ('a keyboard', [365, 50, 150, 50]), ('a clock', [35, 120, 50, 50]), ('a clock', [200, 120, 50, 50]), ('a clock', [365, 120, 50, 50]), ('a cell phone', [35, 190, 50, 50]), ('a cell phone', [200, 190, 50, 50]), ('a cell phone', [365, 190, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One giraffe with one tv and one bench are in the photo": [
+        "[('a giraffe', [179, 30, 154, 281]), ('a tv', [21, 321, 145, 145]), ('a bench', [346, 320, 145, 145])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are one baseball bat, three cars, one cup, and two potted plants in the image": [
+        "[('a baseball bat', [56, 345, 123, 67]), ('a car', [200, 300, 100, 50]), ('a car', [320, 300, 100, 50]), ('a car', [440, 300, 72, 50]), ('a cup', [100, 100, 50, 50]), ('a potted plant', [200, 100, 50, 100]), ('a potted plant', [400, 100, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are three buses, one toothbrush, one bird, and one tennis racket in the image": [
+        "[('a bus', [20, 20, 150, 100]), ('a bus', [190, 20, 150, 100]), ('a bus', [360, 20, 150, 100]), ('a toothbrush', [200, 200, 50, 100]), ('a bird', [100, 300, 50, 50]), ('a tennis racket', [300, 300, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with three airplanes, two umbrellas, and three elephants with one scissors": [
+        "[('an airplane', [28, 30, 140, 70]), ('an airplane', [200, 40, 140, 70]), ('an airplane', [368, 30, 140, 70]), ('an umbrella', [70, 120, 100, 100]), ('an umbrella', [342, 120, 100, 100]), ('an elephant', [40, 250, 140, 140]), ('an elephant', [200, 250, 140, 140]), ('an elephant', [360, 250, 140, 140]), ('a scissors', [200, 400, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One book with two people and two broccolis are in the photo": [
+        "[('a book', [63, 91, 385, 330]), ('a person', [28, 426, 191, 293]), ('a person', [293, 426, 191, 293]), ('a broccoli', [28, 91, 100, 100]), ('a broccoli', [418, 91, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three tennis rackets together with three books, three sheep, and two carrots": [
+        "[('a tennis racket', [45, 278, 140, 140]), ('a tennis racket', [200, 278, 140, 140]), ('a tennis racket', [355, 278, 140, 140]), ('a book', [45, 45, 140, 140]), ('a book', [200, 45, 140, 140]), ('a book', [355, 45, 140, 140]), ('a sheep', [45, 155, 140, 120]), ('a sheep', [200, 155, 140, 120]), ('a sheep', [355, 155, 140, 120]), ('a carrot', [45, 5, 140, 35]), ('a carrot', [200, 5, 140, 35])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two cakes, three laptops, and two carrots": [
+        "[('a cake', [50, 150, 150, 150]), ('a cake', [312, 150, 150, 150]), ('a laptop', [50, 320, 150, 100]), ('a laptop', [212, 320, 150, 100]), ('a laptop', [374, 320, 150, 100]), ('a carrot', [50, 450, 100, 50]), ('a carrot', [212, 450, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with two dogs, one fork, and three surfboards along with two kine": [
+        "[('a dog', [50, 50, 200, 200]), ('a dog', [262, 50, 200, 200]), ('a fork', [150, 300, 50, 50]), ('a surfboard', [50, 400, 150, 50]), ('a surfboard', [262, 400, 150, 50]), ('a kite', [100, 450, 50, 50]), ('a kite', [312, 450, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three skateboards, two sports balls, and three sandwiches": [
+        "[('a skateboard', [38, 283, 130, 62]), ('a skateboard', [202, 283, 130, 62]), ('a skateboard', [366, 283, 130, 62]), ('a sports ball', [65, 355, 90, 90]), ('a sports ball', [357, 355, 90, 90]), ('a sandwich', [130, 426, 90, 50]), ('a sandwich', [270, 426, 90, 50]), ('a sandwich', [410, 426, 90, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One sports ball together with one baseball glove, one laptop, and three hot dogs": [
+        "[('a sports ball', [70, 140, 100, 100]), ('a baseball glove', [200, 140, 100, 100]), ('a laptop', [330, 140, 100, 100]), ('a hot dog', [70, 270, 100, 100]), ('a hot dog', [200, 270, 100, 100]), ('a hot dog', [330, 270, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with three snowboards, three sandwiches, and one toothbrush along with three toilets": [
+        "[('a snowboard', [20, 200, 150, 292]), ('a snowboard', [190, 200, 150, 292]), ('a snowboard', [360, 200, 150, 292]), ('a sandwich', [50, 50, 100, 100]), ('a sandwich', [220, 50, 100, 100]), ('a sandwich', [390, 50, 100, 100]), ('a toothbrush', [200, 400, 100, 100]), ('a toilet', [20, 20, 100, 180]), ('a toilet', [190, 20, 100, 180]), ('a toilet', [360, 20, 100, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three refrigerators, one parking meter, and two bicycles": [
+        "[('a refrigerator', [31, 50, 150, 250]), ('a refrigerator', [196, 50, 150, 250]), ('a refrigerator', [361, 50, 150, 250]), ('a parking meter', [126, 320, 100, 192]), ('a bicycle', [276, 320, 100, 192]), ('a bicycle', [406, 320, 100, 192])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with two clocks, three sinks, and three frisbees along with three oranges": [
+        "[('a clock', [35, 30, 100, 100]), ('a clock', [377, 30, 100, 100]), ('a sink', [50, 150, 100, 100]), ('a sink', [221, 150, 100, 100]), ('a sink', [392, 150, 100, 100]), ('a frisbee', [50, 270, 100, 100]), ('a frisbee', [221, 270, 100, 100]), ('a frisbee', [392, 270, 100, 100]), ('an orange', [50, 390, 100, 100]), ('an orange', [221, 390, 100, 100]), ('an orange', [392, 390, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One suitcase along with one dog and two buses are in the picture": [
+        "[('a suitcase', [67, 285, 167, 118]), ('a dog', [233, 292, 134, 111]), ('a bus', [22, 52, 157, 113]), ('a bus', [322, 52, 168, 113])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One car with two skiss and three baseball gloves are in the photo": [
+        "[('a car', [66, 241, 380, 190]), ('two skis', [42, 32, 172, 87]), ('three baseball gloves', [298, 32, 192, 101])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One scissors with three couches and one sandwich are in the photo": [
+        "[('a pair of scissors', [46, 67, 123, 123]), ('a couch', [192, 288, 123, 123]), ('a couch', [342, 288, 123, 123]), ('a couch', [246, 67, 123, 123]), ('a sandwich', [46, 288, 123, 123])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are three hair driers, three fire hydrants, two carrots, and two laptops in the image": [
+        "[('a hair drier', [23, 47, 132, 176]), ('a hair drier', [191, 42, 132, 176]), ('a hair drier', [359, 47, 132, 176]), ('a fire hydrant', [27, 245, 103, 183]), ('a fire hydrant', [191, 245, 103, 183]), ('a fire hydrant', [355, 245, 103, 183]), ('a carrot', [27, 443, 103, 103]), ('a carrot', [191, 443, 103, 103]), ('a laptop', [355, 443, 132, 69]), ('a laptop', [191, 443, 132, 69])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One handbag along with one bed and one baseball glove are in the picture": [
+        "[('a handbag', [50, 50, 150, 100]), ('a bed', [200, 200, 250, 150]), ('a baseball glove', [100, 400, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One bicycle together with one tie, one bench, and one sink": [
+        "[('a bicycle', [55, 297, 173, 119]), ('a tie', [265, 310, 55, 45]), ('a bench', [60, 430, 130, 60]), ('a sink', [320, 400, 140, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one frisbee, three wine glasses, and one giraffe with one horse": [
+        "[('a frisbee', [186, 283, 140, 140]), ('a wine glass', [45, 45, 140, 140]), ('a wine glass', [186, 45, 140, 140]), ('a wine glass', [327, 45, 140, 140]), ('a giraffe', [45, 186, 140, 140]), ('a horse', [327, 186, 140, 140])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two cakes along with three mice and three handbags are in the picture": [
+        "[('a cake', [56, 273, 156, 156]), ('a cake', [300, 273, 156, 156]), ('a mouse', [23, 62, 109, 109]), ('a mouse', [189, 62, 109, 109]), ('a mouse', [355, 62, 109, 109]), ('a handbag', [23, 437, 109, 73]), ('a handbag', [189, 437, 109, 73]), ('a handbag', [355, 437, 109, 73])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with three elephants, one laptop, and two skiss with one stop sign": [
+        "[('an elephant', [30, 100, 150, 200]), ('an elephant', [200, 120, 180, 190]), ('an elephant', [380, 90, 130, 210]), ('a laptop', [80, 320, 120, 80]), ('a ski', [250, 320, 100, 60]), ('a ski', [370, 320, 100, 60]), ('a stop sign', [450, 10, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One traffic light, two couches, and three oranges": [
+        "[('a traffic light', [214, 20, 84, 224]), ('a couch', [37, 272, 169, 186]), ('a couch', [306, 272, 169, 186]), ('an orange', [37, 20, 84, 84]), ('an orange', [306, 20, 84, 84]), ('an orange', [214, 20, 84, 84])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three keyboards with three benches and two hair driers are in the photo": [
+        "[('a keyboard', [25, 30, 150, 100]), ('a keyboard', [200, 30, 150, 100]), ('a keyboard', [375, 30, 150, 100]), ('a bench', [50, 150, 100, 50]), ('a bench', [225, 150, 100, 50]), ('a bench', [400, 150, 100, 50]), ('a hair drier', [100, 250, 50, 50]), ('a hair drier', [325, 250, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three skiss with one handbag and three cell phones are in the photo": [
+        "[('a ski', [15, 173, 107, 169]), ('a ski', [148, 178, 107, 164]), ('a ski', [281, 173, 107, 169]), ('a handbag', [398, 219, 92, 78]), ('a cell phone', [25, 27, 80, 120]), ('a cell phone', [148, 27, 80, 120]), ('a cell phone', [281, 27, 80, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One giraffe, one boat, and two frisbees": [
+        "[('a giraffe', [68, 53, 376, 459]), ('a boat', [22, 301, 143, 107]), ('a frisbee', [179, 301, 107, 107]), ('a frisbee', [326, 301, 107, 107])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with two forks, two stop signs, and one refrigerator along with three toasters": [
+        "[('a fork', [49, 272, 100, 100]), ('a fork', [363, 272, 100, 100]), ('a stop sign', [116, 116, 100, 100]), ('a stop sign', [296, 116, 100, 100]), ('a refrigerator', [210, 30, 292, 452]), ('a toaster', [17, 30, 147, 147]), ('a toaster', [210, 30, 147, 147]), ('a toaster', [355, 30, 147, 147])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three knives along with two sandwiches and three zebras are in the picture": [
+        "[('a knife', [35, 173, 100, 50]), ('a knife', [175, 173, 100, 50]), ('a knife', [315, 173, 100, 50]), ('a sandwich', [50, 250, 150, 100]), ('a sandwich', [312, 250, 150, 100]), ('a zebra', [50, 370, 100, 140]), ('a zebra', [200, 370, 100, 140]), ('a zebra', [350, 370, 100, 140])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three birds, one broccoli, and one book": [
+        "[('a bird', [45, 97, 112, 86]), ('a bird', [200, 55, 132, 98]), ('a bird', [345, 85, 118, 92]), ('a broccoli', [100, 250, 120, 140]), ('a book', [290, 260, 150, 180])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two couches together with two horses, one cup, and three dogs": [
+        "[('two couches', [50, 150, 412, 250]), ('a horse', [20, 20, 150, 200]), ('a horse', [342, 20, 150, 200]), ('a cup', [200, 400, 50, 50]), ('a dog', [100, 400, 100, 100]), ('a dog', [300, 400, 100, 100]), ('a dog', [450, 400, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One tv with three skateboards and two parking meters are in the photo": [
+        "[('a tv', [50, 50, 200, 150]), ('a skateboard', [100, 250, 100, 50]), ('a skateboard', [250, 250, 100, 50]), ('a skateboard', [150, 300, 100, 50]), ('a parking meter', [350, 50, 50, 150]), ('a parking meter', [400, 50, 50, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two baseball gloves along with one fire hydrant and one bear are in the picture": [
+        "[('two baseball gloves', [46, 276, 174, 162]), ('a fire hydrant', [284, 263, 118, 249]), ('a bear', [80, 40, 140, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with three airplanes, two cakes, and three toothbrushes with two baseball gloves": [
+        "[('an airplane', [52, 108, 136, 92]), ('an airplane', [206, 108, 136, 92]), ('an airplane', [360, 108, 136, 92]), ('a cake', [52, 252, 136, 92]), ('a cake', [206, 252, 136, 92]), ('a toothbrush', [360, 252, 136, 92]), ('a toothbrush', [52, 396, 136, 92]), ('a toothbrush', [206, 396, 136, 92]), ('a baseball glove', [360, 396, 136, 92])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three kine, two trucks, and two sheep": [
+        "[('a kine', [43, 211, 155, 150]), ('a kine', [214, 208, 155, 150]), ('a kine', [383, 210, 155, 150]), ('a truck', [20, 20, 200, 100]), ('a truck', [292, 20, 200, 100]), ('a sheep', [20, 350, 150, 100]), ('a sheep', [362, 350, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two tennis rackets, one toaster, three sheep, and one oven in the image": [
+        "[('a tennis racket', [32, 62, 142, 312]), ('a tennis racket', [338, 62, 142, 312]), ('a toaster', [186, 62, 140, 140]), ('a sheep', [32, 376, 142, 136]), ('a sheep', [186, 376, 140, 136]), ('a sheep', [338, 376, 142, 136]), ('an oven', [186, 222, 140, 140])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One person together with two cars, two remotes, and one cat": [
+        "[('one person', [50, 280, 150, 200]), ('two cars', [200, 280, 150, 200]), ('two remotes', [350, 280, 100, 50]), ('one cat', [350, 330, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two people together with one umbrella, three oranges, and one hot dog": [
+        "[('two people', [63, 97, 180, 315]), ('an umbrella', [261, 57, 190, 190]), ('an orange', [35, 23, 70, 70]), ('an orange', [127, 23, 70, 70]), ('an orange', [219, 23, 70, 70]), ('a hot dog', [377, 23, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with three buses, three dining tables, and three snowboards with one baseball bat": [
+        "[('a bus', [30, 50, 150, 100]), ('a bus', [200, 50, 150, 100]), ('a bus', [370, 50, 150, 100]), ('a dining table', [50, 200, 120, 80]), ('a dining table', [220, 200, 120, 80]), ('a dining table', [390, 200, 120, 80]), ('a snowboard', [50, 320, 80, 160]), ('a snowboard', [200, 320, 80, 160]), ('a snowboard', [350, 320, 80, 160]), ('a baseball bat', [450, 400, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three backpacks with one dog and three bicycles are in the photo": [
+        "[('a backpack', [27, 294, 149, 133]), ('a backpack', [194, 294, 149, 133]), ('a backpack', [361, 294, 149, 133]), ('a dog', [161, 55, 189, 183]), ('a bicycle', [27, 55, 133, 133]), ('a bicycle', [194, 55, 133, 133]), ('a bicycle', [361, 55, 133, 133])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One suitcase, one giraffe, and three buses": [
+        "[('a suitcase', [198, 276, 116, 73]), ('a giraffe', [51, 107, 180, 256]), ('a bus', [314, 110, 87, 56]), ('a bus', [415, 110, 87, 56]), ('a bus', [314, 176, 87, 56])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two hot dogs along with one toaster and one knife are in the picture": [
+        "[('a hot dog', [71, 240, 130, 90]), ('a hot dog', [311, 240, 130, 90]), ('a toaster', [184, 80, 144, 144]), ('a knife', [218, 180, 76, 40])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three forks along with three bananas and one cat are in the picture": [
+        "[('a fork', [71, 262, 85, 150]), ('a fork', [213, 262, 85, 150]), ('a fork', [355, 262, 85, 150]), ('a banana', [33, 89, 107, 150]), ('a banana', [197, 89, 107, 150]), ('a banana', [361, 89, 107, 150]), ('a cat', [163, 264, 144, 148])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are three cakes, two mice, two cars, and two baseball gloves in the image": [
+        "[('a cake', [30, 50, 120, 100]), ('a cake', [190, 50, 120, 100]), ('a cake', [350, 50, 120, 100]), ('a mouse', [50, 200, 100, 50]), ('a mouse', [320, 200, 100, 50]), ('a car', [50, 280, 100, 60]), ('a car', [320, 280, 100, 60]), ('a baseball glove', [190, 320, 100, 60]), ('a baseball glove', [350, 320, 100, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One cake along with two refrigerators and two sandwiches are in the picture": [
+        "[('a cake', [180, 200, 152, 112]), ('a refrigerator', [50, 50, 150, 300]), ('a refrigerator', [312, 50, 150, 300]), ('a sandwich', [50, 370, 150, 80]), ('a sandwich', [312, 370, 150, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are one cat, three ovens, two hair driers, and one motorcycle in the image": [
+        "[('a cat', [50, 50, 150, 150]), ('an oven', [200, 50, 100, 100]), ('an oven', [350, 50, 100, 100]), ('an oven', [200, 200, 100, 100]), ('a hair drier', [350, 200, 50, 50]), ('a hair drier', [50, 350, 50, 50]), ('a hair drier', [150, 350, 50, 50]), ('a motorcycle', [250, 350, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one toaster, one tie, and two books with three skiss": [
+        "[('a toaster', [50, 200, 150, 150]), ('a tie', [312, 200, 100, 100]), ('a book', [50, 50, 100, 150]), ('a book', [312, 50, 100, 150]), ('a skis', [175, 50, 150, 150]), ('a skis', [175, 350, 150, 150]), ('a skis', [175, 200, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three bicycles along with three boats and three keyboards are in the picture": [
+        "[('a bicycle', [30, 280, 150, 100]), ('a bicycle', [200, 280, 150, 100]), ('a bicycle', [370, 280, 150, 100]), ('a boat', [30, 100, 150, 100]), ('a boat', [200, 100, 150, 100]), ('a boat', [370, 100, 150, 100]), ('a keyboard', [30, 20, 150, 60]), ('a keyboard', [200, 20, 150, 60]), ('a keyboard', [370, 20, 150, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two cars along with one motorcycle and two forks are in the picture": [
+        "[('a car', [26, 274, 210, 155]), ('a car', [276, 274, 210, 155]), ('a motorcycle', [148, 56, 216, 132]), ('a fork', [50, 50, 100, 100]), ('a fork', [362, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One tie along with two people and one teddy bear are in the picture": [
+        "[('a tie', [214, 27, 84, 42]), ('a person', [42, 90, 131, 253]), ('a person', [339, 90, 131, 253]), ('a teddy bear', [200, 327, 120, 111])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One spoon with three snowboards and one bicycle are in the photo": [
+        "[('a spoon', [50, 430, 100, 50]), ('a snowboard', [200, 300, 150, 50]), ('a snowboard', [200, 400, 150, 50]), ('a snowboard', [200, 500, 150, 50]), ('a bicycle', [400, 430, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with three toasters, two handbags, and one banana along with two elephants": [
+        "[('a toaster', [40, 40, 120, 120]), ('a toaster', [200, 40, 120, 120]), ('a toaster', [360, 40, 120, 120]), ('a handbag', [40, 200, 120, 120]), ('a handbag', [200, 200, 120, 120]), ('a banana', [360, 200, 120, 120]), ('an elephant', [40, 360, 180, 150]), ('an elephant', [292, 360, 180, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one surfboard, two trucks, and three horses with three dogs": [
+        "[('a surfboard', [191, 313, 130, 66]), ('a truck', [27, 145, 130, 66]), ('a truck', [355, 145, 130, 66]), ('a horse', [27, 245, 130, 66]), ('a horse', [191, 245, 130, 66]), ('a horse', [355, 245, 130, 66]), ('a dog', [27, 313, 130, 66]), ('a dog', [191, 313, 130, 66]), ('a dog', [355, 313, 130, 66])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two dining tables with two cats and three trucks are in the photo": [
+        "[('a dining table', [42, 131, 188, 168]), ('a dining table', [282, 130, 188, 168]), ('a cat', [85, 176, 99, 76]), ('a cat', [325, 176, 99, 76]), ('a truck', [45, 308, 126, 95]), ('a truck', [215, 308, 126, 95]), ('a truck', [385, 308, 126, 95])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One sheep with one refrigerator and two keyboards are in the photo": [
+        "[('a sheep', [83, 243, 346, 219]), ('a refrigerator', [21, 21, 200, 200]), ('a keyboard', [291, 21, 200, 200]), ('a keyboard', [21, 291, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one vase, two benches, and two pizzas along with one potted plant": [
+        "[('a vase', [192, 54, 128, 194]), ('a bench', [28, 264, 200, 100]), ('a bench', [284, 264, 200, 100]), ('a pizza', [28, 54, 128, 128]), ('a pizza', [356, 54, 128, 128]), ('a potted plant', [356, 264, 128, 248])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one potted plant, one tv, and one umbrella with two donuts": [
+        "[('a potted plant', [50, 100, 150, 200]), ('a tv', [200, 50, 100, 100]), ('an umbrella', [300, 200, 100, 150]), ('a donut', [50, 300, 50, 50]), ('a donut', [120, 300, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One airplane with two cats and three skateboards are in the photo": [
+        "[('an airplane', [76, 214, 360, 94]), ('a cat', [39, 324, 130, 118]), ('a cat', [343, 324, 130, 118]), ('a skateboard', [39, 69, 130, 94]), ('a skateboard', [191, 69, 130, 94]), ('a skateboard', [343, 69, 130, 94])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one toaster, two sandwiches, and one knife with three airplanes": [
+        "[('a toaster', [50, 200, 150, 150]), ('a sandwich', [200, 200, 100, 100]), ('a sandwich', [300, 200, 100, 100]), ('a knife', [200, 100, 50, 100]), ('an airplane', [400, 50, 50, 50]), ('an airplane', [400, 100, 50, 50]), ('an airplane', [400, 150, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two kine with two bowls and one bird are in the photo": [
+        "[('a kine', [56, 112, 190, 158]), ('a kine', [266, 116, 190, 154]), ('a bowl', [46, 290, 110, 76]), ('a bowl', [356, 290, 110, 76]), ('a bird', [232, 32, 48, 48])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two sandwiches with three hair driers and two microwaves are in the photo": [
+        "[('a sandwich', [45, 120, 150, 100]), ('a sandwich', [317, 120, 150, 100]), ('a hair drier', [45, 250, 100, 100]), ('a hair drier', [175, 250, 100, 100]), ('a hair drier', [305, 250, 100, 100]), ('a microwave', [175, 380, 100, 100]), ('a microwave', [305, 380, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One sports ball with three bears and one vase are in the photo": [
+        "[('a sports ball', [198, 236, 116, 116]), ('a bear', [38, 53, 133, 189]), ('a bear', [341, 53, 133, 189]), ('a bear', [189, 277, 133, 189]), ('a vase', [348, 324, 119, 119])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with two elephants, three umbrellas, and three bears with two toilets": [
+        "[('an elephant', [50, 100, 200, 200]), ('an elephant', [262, 100, 200, 200]), ('an umbrella', [30, 320, 100, 100]), ('an umbrella', [200, 320, 100, 100]), ('an umbrella', [370, 320, 100, 100]), ('a bear', [100, 50, 150, 150]), ('a bear', [300, 50, 150, 150]), ('a bear', [200, 250, 150, 150]), ('a toilet', [50, 50, 100, 150]), ('a toilet', [362, 50, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two donuts along with two cats and three knives are in the picture": [
+        "[('a donut', [63, 192, 126, 126]), ('a donut', [323, 192, 126, 126]), ('a cat', [61, 36, 206, 156]), ('a cat', [305, 36, 206, 156]), ('a knife', [61, 364, 126, 126]), ('a knife', [223, 364, 126, 126]), ('a knife', [385, 364, 126, 126])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one traffic light, two people, and one cup along with one airplane": [
+        "[('a traffic light', [218, 48, 76, 192]), ('a person', [62, 262, 134, 250]), ('a person', [316, 262, 134, 250]), ('a cup', [214, 287, 84, 99]), ('an airplane', [22, 22, 468, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two surfboards, three cats, and three tennis rackets": [
+        "[('a surfboard', [30, 180, 200, 30]), ('a surfboard', [282, 180, 200, 30]), ('a cat', [50, 220, 100, 100]), ('a cat', [200, 220, 100, 100]), ('a cat', [350, 220, 100, 100]), ('a tennis racket', [50, 350, 100, 50]), ('a tennis racket', [200, 350, 100, 50]), ('a tennis racket', [350, 350, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three stop signs, three laptops, and three suitcases": [
+        "[('a stop sign', [50, 50, 100, 100]), ('a stop sign', [200, 50, 100, 100]), ('a stop sign', [350, 50, 100, 100]), ('a laptop', [50, 200, 100, 100]), ('a laptop', [200, 200, 100, 100]), ('a laptop', [350, 200, 100, 100]), ('a suitcase', [50, 350, 100, 100]), ('a suitcase', [200, 350, 100, 100]), ('a suitcase', [350, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two dining tables, one remote, and two cats": [
+        "[('a dining table', [30, 150, 200, 150]), ('a dining table', [282, 150, 200, 150]), ('a remote', [150, 50, 50, 50]), ('a cat', [50, 50, 100, 100]), ('a cat', [362, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two surfboards, two chairs, and two benches": [
+        "[('a surfboard', [52, 268, 211, 107]), ('a surfboard', [249, 268, 211, 107]), ('a chair', [52, 395, 107, 117]), ('a chair', [353, 395, 107, 117]), ('a bench', [52, 152, 211, 107]), ('a bench', [249, 152, 211, 107])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with three hot dogs, three kites, and two cups with one giraffe": [
+        "[('a hot dog', [50, 50, 100, 50]), ('a hot dog', [200, 50, 100, 50]), ('a hot dog', [350, 50, 100, 50]), ('a kite', [50, 150, 100, 100]), ('a kite', [200, 150, 100, 100]), ('a kite', [350, 150, 100, 100]), ('a cup', [50, 300, 100, 50]), ('a cup', [200, 300, 100, 50]), ('a giraffe', [350, 300, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two sandwiches, two forks, two toasters, and three apples in the image": [
+        "[('a sandwich', [50, 100, 150, 100]), ('a sandwich', [312, 100, 150, 100]), ('a fork', [50, 250, 100, 100]), ('a fork', [312, 250, 100, 100]), ('a toaster', [50, 350, 100, 100]), ('a toaster', [312, 350, 100, 100]), ('an apple', [50, 450, 100, 62]), ('an apple', [200, 450, 100, 62]), ('an apple', [350, 450, 100, 62])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one pizza, two airplanes, and one zebra with three horses": [
+        "[('a pizza', [158, 190, 196, 196]), ('an airplane', [48, 20, 120, 120]), ('an airplane', [344, 20, 120, 120]), ('a zebra', [20, 344, 120, 120]), ('a horse', [188, 344, 120, 120]), ('a horse', [344, 344, 120, 120]), ('a horse', [500, 344, 12, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two wine glasses, two people, three buses, and three fire hydrants in the image": [
+        "[('a wine glass', [64, 156, 109, 153]), ('a wine glass', [339, 156, 109, 153]), ('a person', [22, 22, 122, 220]), ('a person', [368, 22, 122, 220]), ('a bus', [22, 308, 122, 204]), ('a bus', [200, 308, 122, 204]), ('a bus', [378, 308, 122, 204]), ('a fire hydrant', [22, 522, 122, 204]), ('a fire hydrant', [200, 522, 122, 204]), ('a fire hydrant', [378, 522, 122, 204])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two horses with one fire hydrant and three surfboards are in the photo": [
+        "[('a horse', [52, 156, 196, 214]), ('a horse', [264, 156, 196, 214]), ('a fire hydrant', [173, 56, 45, 88]), ('a surfboard', [21, 21, 128, 256]), ('a surfboard', [363, 21, 128, 256]), ('a surfboard', [192, 363, 128, 128])]\nBackground prompt: A realistic outdoor scene\nNegative prompt: "
+    ],
+    "A realistic scene: One stop sign with two birds and one tv are in the photo": [
+        "[('a stop sign', [190, 240, 132, 132]), ('a bird', [50, 50, 100, 100]), ('a bird', [362, 50, 100, 100]), ('a tv', [200, 400, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One tie with three pizzas and three sinks are in the photo": [
+        "[('a tie', [60, 40, 100, 200]), ('a pizza', [200, 50, 100, 100]), ('a pizza', [320, 50, 100, 100]), ('a pizza', [440, 50, 100, 100]), ('a sink', [50, 350, 150, 100]), ('a sink', [220, 350, 150, 100]), ('a sink', [390, 350, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three toothbrushes, three dogs, and three pizzas": [
+        "[('a toothbrush', [50, 100, 50, 150]), ('a toothbrush', [200, 100, 50, 150]), ('a toothbrush', [350, 100, 50, 150]), ('a dog', [50, 300, 150, 100]), ('a dog', [200, 300, 150, 100]), ('a dog', [350, 300, 150, 100]), ('a pizza', [50, 450, 100, 50]), ('a pizza', [200, 450, 100, 50]), ('a pizza', [350, 450, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One keyboard with three horses and three toilets are in the photo": [
+        "[('a keyboard', [191, 297, 130, 65]), ('a horse', [35, 88, 139, 209]), ('a horse', [201, 74, 143, 223]), ('a horse', [371, 88, 139, 209]), ('a toilet', [27, 343, 131, 169]), ('a toilet', [198, 343, 131, 169]), ('a toilet', [369, 343, 131, 169])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three stop signs along with three people and two birds are in the picture": [
+        "[('a stop sign', [27, 98, 70, 70]), ('a stop sign', [201, 98, 70, 70]), ('a stop sign', [375, 98, 70, 70]), ('a person', [94, 284, 91, 159]), ('a person', [268, 284, 91, 159]), ('a person', [442, 284, 91, 159]), ('a bird', [112, 20, 80, 60]), ('a bird', [356, 20, 80, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one suitcase, one parking meter, and one sports ball along with two toothbrushes": [
+        "[('a suitcase', [56, 218, 152, 118]), ('a parking meter', [304, 215, 118, 217]), ('a sports ball', [177, 35, 159, 159]), ('a toothbrush', [58, 36, 80, 168]), ('a toothbrush', [374, 36, 80, 168])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with two mice, three bears, and two microwaves along with one sports ball": [
+        "[('a mouse', [59, 287, 131, 62]), ('a mouse', [322, 287, 131, 62]), ('a bear', [47, 143, 147, 197]), ('a bear', [218, 143, 147, 197]), ('a bear', [389, 143, 147, 197]), ('a microwave', [47, 64, 147, 79]), ('a microwave', [389, 64, 147, 79]), ('a sports ball', [218, 64, 147, 147])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One airplane, two books, and one orange": [
+        "[('an airplane', [184, 96, 144, 64]), ('a book', [68, 184, 100, 100]), ('a book', [344, 184, 100, 100]), ('an orange', [228, 344, 56, 56])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two bottles with one mouse and two sandwiches are in the photo": [
+        "[('a bottle', [69, 174, 124, 236]), ('a bottle', [319, 174, 124, 236]), ('a mouse', [208, 287, 96, 65]), ('a sandwich', [41, 42, 114, 91]), ('a sandwich', [357, 42, 114, 91])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one wine glass, three benches, and three apples along with three remotes": [
+        "[('a wine glass', [201, 117, 110, 189]), ('a bench', [45, 305, 135, 67]), ('a bench', [191, 305, 135, 67]), ('a bench', [337, 305, 135, 67]), ('an apple', [45, 382, 67, 67]), ('an apple', [191, 382, 67, 67]), ('an apple', [337, 382, 67, 67]), ('a remote', [45, 459, 67, 37]), ('a remote', [191, 459, 67, 37]), ('a remote', [337, 459, 67, 37])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three dogs along with three airplanes and two clocks are in the picture": [
+        "[('a dog', [49, 56, 156, 174]), ('a dog', [214, 56, 156, 174]), ('a dog', [379, 56, 156, 174]), ('an airplane', [26, 262, 163, 114]), ('an airplane', [196, 262, 163, 114]), ('an airplane', [366, 262, 163, 114]), ('a clock', [82, 26, 100, 100]), ('a clock', [332, 26, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two forks with three beds and two baseball bats are in the photo": [
+        "[('a fork', [60, 200, 100, 100]), ('a fork', [352, 200, 100, 100]), ('a bed', [50, 50, 150, 200]), ('a bed', [212, 50, 150, 200]), ('a bed', [374, 50, 150, 200]), ('a baseball bat', [100, 400, 100, 100]), ('a baseball bat', [312, 400, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One backpack, one hot dog, and three frisbees": [
+        "[('a backpack', [56, 278, 166, 124]), ('a hot dog', [238, 278, 94, 62]), ('a frisbee', [45, 45, 80, 80]), ('a frisbee', [150, 45, 80, 80]), ('a frisbee', [255, 45, 80, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three skateboards along with three books and one knife are in the picture": [
+        "[('a skateboard', [28, 273, 146, 82]), ('a skateboard', [198, 273, 146, 82]), ('a skateboard', [368, 273, 146, 82]), ('a book', [28, 180, 146, 82]), ('a book', [198, 180, 146, 82]), ('a book', [368, 180, 146, 82]), ('a knife', [198, 87, 146, 82])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with three stop signs, one orange, and one chair along with two cars": [
+        "[('a stop sign', [41, 52, 70, 70]), ('a stop sign', [174, 52, 70, 70]), ('a stop sign', [307, 52, 70, 70]), ('an orange stop sign', [107, 52, 70, 70]), ('a chair', [441, 303, 70, 70]), ('a car', [17, 303, 70, 70]), ('a car', [441, 52, 70, 70])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One keyboard, two scissors, and two dining tables": [
+        "[('a keyboard', [67, 289, 378, 123]), ('a scissor', [42, 84, 123, 186]), ('a scissor', [347, 84, 123, 186]), ('a dining table', [23, 432, 224, 80]), ('a dining table', [265, 432, 224, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three suitcases, three snowboards, and three sandwiches": [
+        "[('a suitcase', [50, 50, 150, 100]), ('a suitcase', [200, 50, 150, 100]), ('a suitcase', [350, 50, 150, 100]), ('a snowboard', [50, 200, 150, 100]), ('a snowboard', [200, 200, 150, 100]), ('a snowboard', [350, 200, 150, 100]), ('a sandwich', [50, 350, 150, 100]), ('a sandwich', [200, 350, 150, 100]), ('a sandwich', [350, 350, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two snowboards, two dogs, and two frisbees": [
+        "[('a snowboard', [48, 280, 152, 152]), ('a snowboard', [312, 280, 152, 152]), ('a dog', [53, 52, 173, 174]), ('a dog', [286, 52, 173, 174]), ('a frisbee', [100, 226, 100, 100]), ('a frisbee', [312, 226, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are three sinks, two cell phones, two pizzas, and three sheep in the image": [
+        "[('a sink', [50, 100, 150, 120]), ('a sink', [200, 100, 150, 120]), ('a sink', [350, 100, 150, 120]), ('a cell phone', [50, 250, 100, 150]), ('a cell phone', [362, 250, 100, 150]), ('a pizza', [100, 400, 150, 100]), ('a pizza', [262, 400, 150, 100]), ('a sheep', [50, 50, 100, 100]), ('a sheep', [200, 50, 100, 100]), ('a sheep', [350, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are one potted plant, one hot dog, three benches, and two skateboards in the image": [
+        "[('a potted plant', [50, 50, 100, 150]), ('a hot dog', [200, 200, 50, 30]), ('a bench', [100, 300, 80, 40]), ('a bench', [250, 300, 80, 40]), ('a bench', [400, 300, 80, 40]), ('a skateboard', [150, 100, 30, 20]), ('a skateboard', [350, 100, 30, 20])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one hot dog, two toothbrushes, and three skateboards with one sink": [
+        "[('a hot dog', [200, 300, 100, 50]), ('a toothbrush', [50, 100, 20, 80]), ('a toothbrush', [100, 100, 20, 80]), ('a skateboard', [300, 200, 100, 20]), ('a skateboard', [300, 250, 100, 20]), ('a skateboard', [300, 300, 100, 20]), ('a sink', [50, 400, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with two airplanes, two bears, and one cell phone with two mice": [
+        "[('an airplane', [48, 20, 150, 100]), ('an airplane', [314, 20, 150, 100]), ('a bear', [50, 140, 120, 150]), ('a bear', [300, 140, 120, 150]), ('a cell phone', [200, 320, 100, 150]), ('a mouse', [160, 380, 60, 60]), ('a mouse', [280, 380, 60, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three birds along with three giraffes and two kites are in the picture": [
+        "[('a bird', [20, 50, 100, 80]), ('a bird', [150, 70, 90, 70]), ('a bird', [270, 60, 120, 90]), ('a giraffe', [30, 180, 120, 200]), ('a giraffe', [180, 160, 140, 220]), ('a giraffe', [340, 180, 120, 200]), ('a kite', [50, 20, 100, 50]), ('a kite', [300, 10, 120, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three sinks along with three suitcases and two carrots are in the picture": [
+        "[('a sink', [30, 50, 150, 100]), ('a sink', [190, 50, 150, 100]), ('a sink', [350, 50, 150, 100]), ('a suitcase', [50, 200, 100, 100]), ('a suitcase', [200, 200, 100, 100]), ('a suitcase', [350, 200, 100, 100]), ('a carrot', [50, 350, 100, 50]), ('a carrot', [200, 350, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two books, one car, and two cakes": [
+        "[('a book', [50, 100, 150, 200]), ('a book', [312, 100, 150, 200]), ('a car', [200, 300, 150, 100]), ('a cake', [50, 50, 100, 50]), ('a cake', [362, 50, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two skiss along with two knives and one book are in the picture": [
+        "[('a ski', [20, 150, 150, 300]), ('a ski', [342, 150, 150, 300]), ('a knife', [180, 50, 100, 100]), ('a knife', [232, 50, 100, 100]), ('a book', [100, 50, 150, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two remotes along with one suitcase and three broccolis are in the picture": [
+        "[('a remote', [50, 250, 100, 50]), ('a remote', [362, 250, 100, 50]), ('a suitcase', [200, 100, 112, 75]), ('a broccoli', [50, 50, 50, 50]), ('a broccoli', [150, 50, 50, 50]), ('a broccoli', [250, 50, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two benches together with one zebra, two sinks, and two backpacks": [
+        "[('a bench', [50, 200, 150, 50]), ('a bench', [312, 200, 150, 50]), ('a zebra', [100, 100, 100, 150]), ('a sink', [50, 300, 50, 50]), ('a sink', [312, 300, 50, 50]), ('a backpack', [100, 300, 50, 50]), ('a backpack', [362, 300, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One parking meter with three bottles and one skis are in the photo": [
+        "[('a parking meter', [190, 240, 132, 272]), ('a bottle', [30, 30, 100, 100]), ('a bottle', [30, 150, 100, 100]), ('a bottle', [30, 270, 100, 100]), ('a pair of skis', [400, 30, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with three dining tables, one donut, and three sports balls along with three couches": [
+        "[('a dining table', [22, 120, 150, 100]), ('a dining table', [192, 120, 150, 100]), ('a dining table', [362, 120, 150, 100]), ('a donut', [240, 260, 32, 32]), ('a sports ball', [50, 280, 50, 50]), ('a sports ball', [240, 280, 50, 50]), ('a sports ball', [430, 280, 50, 50]), ('a couch', [50, 400, 150, 80]), ('a couch', [220, 400, 150, 80]), ('a couch', [390, 400, 150, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One dining table, one zebra, and one pizza": [
+        "[('a dining table', [50, 200, 412, 212]), ('a zebra', [100, 50, 150, 150]), ('a pizza', [262, 100, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three cups along with three sheep and one bird are in the picture": [
+        "[('a cup', [51, 308, 131, 107]), ('a cup', [199, 308, 131, 107]), ('a cup', [347, 308, 131, 107]), ('a sheep', [5, 5, 150, 150]), ('a sheep', [357, 5, 150, 150]), ('a sheep', [181, 5, 150, 150]), ('a bird', [225, 5, 62, 62])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two carrots with one dining table and one sheep are in the photo": [
+        "[('a carrot', [129, 237, 100, 100]), ('a carrot', [283, 237, 100, 100]), ('a dining table', [50, 150, 412, 262]), ('a sheep', [200, 50, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with two frisbees, three oranges, and three clocks along with three sinks": [
+        "[('a frisbee', [50, 100, 100, 100]), ('a frisbee', [362, 100, 100, 100]), ('an orange', [50, 250, 100, 100]), ('an orange', [200, 250, 100, 100]), ('an orange', [350, 250, 100, 100]), ('a clock', [50, 400, 100, 100]), ('a clock', [200, 400, 100, 100]), ('a clock', [350, 400, 100, 100]), ('a sink', [50, 50, 100, 100]), ('a sink', [200, 50, 100, 100]), ('a sink', [350, 50, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One couch, one remote, and one train": [
+        "[('a couch', [52, 198, 408, 214]), ('a remote', [184, 112, 144, 64]), ('a train', [12, 12, 488, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One laptop with three microwaves and two tennis rackets are in the photo": [
+        "[('a laptop', [50, 50, 150, 100]), ('a microwave', [225, 50, 100, 100]), ('a microwave', [350, 50, 100, 100]), ('a microwave', [225, 200, 100, 100]), ('a tennis racket', [350, 200, 100, 100]), ('a tennis racket', [50, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two motorcycles, one microwave, two kites, and three vases in the image": [
+        "[('a motorcycle', [20, 280, 150, 120]), ('a motorcycle', [342, 280, 150, 120]), ('a microwave', [190, 20, 132, 132]), ('a kite', [30, 30, 100, 100]), ('a kite', [382, 30, 100, 100]), ('a vase', [20, 150, 80, 100]), ('a vase', [120, 150, 80, 100]), ('a vase', [220, 150, 80, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three carrots along with three hot dogs and three birds are in the picture": [
+        "[('a carrot', [50, 200, 100, 150]), ('a carrot', [206, 200, 100, 150]), ('a carrot', [362, 200, 100, 150]), ('a hot dog', [50, 50, 100, 100]), ('a hot dog', [206, 50, 100, 100]), ('a hot dog', [362, 50, 100, 100]), ('a bird', [50, 350, 100, 100]), ('a bird', [206, 350, 100, 100]), ('a bird', [362, 350, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two scissors with two kine and three bowls are in the photo": [
+        "[('two scissors', [68, 84, 121, 289]), ('two kine', [222, 102, 120, 271]), ('three bowls', [375, 136, 116, 222])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one toaster, one bench, and two sheep along with two donuts": [
+        "[('a toaster', [192, 100, 128, 128]), ('a bench', [50, 300, 150, 50]), ('a sheep', [300, 250, 100, 100]), ('a sheep', [100, 250, 100, 100]), ('a donut', [50, 100, 50, 50]), ('a donut', [412, 100, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One knife together with two broccolis, two bicycles, and one motorcycle": [
+        "[('a knife', [64, 291, 116, 221]), ('a broccoli', [191, 289, 102, 100]), ('a broccoli', [316, 289, 102, 100]), ('a bicycle', [48, 52, 131, 127]), ('a bicycle', [333, 52, 131, 127]), ('a motorcycle', [190, 50, 132, 128])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two forks with two sandwiches and one carrot are in the photo": [
+        "[('a fork', [190, 220, 50, 150]), ('a fork', [272, 220, 50, 150]), ('a sandwich', [100, 200, 100, 50]), ('a sandwich', [312, 200, 100, 50]), ('a carrot', [220, 280, 72, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One donut with one train and one bird are in the photo": [
+        "[('a donut', [194, 230, 124, 124]), ('a train', [78, 50, 356, 196]), ('a bird', [438, 22, 74, 58])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with two donuts, one refrigerator, and two couches along with three scissors": [
+        "[('a donut', [67, 223, 106, 106]), ('a donut', [339, 223, 106, 106]), ('a refrigerator', [186, 22, 140, 268]), ('a couch', [22, 313, 200, 177]), ('a couch', [290, 313, 200, 177]), ('a scissor', [22, 22, 67, 67]), ('a scissor', [290, 22, 67, 67]), ('a scissor', [461, 22, 67, 67])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two beds along with three refrigerators and three bottles are in the picture": [
+        "[('a bed', [55, 50, 180, 200]), ('a bed', [277, 50, 180, 200]), ('a refrigerator', [30, 280, 150, 220]), ('a refrigerator', [200, 280, 150, 220]), ('a refrigerator', [370, 280, 150, 220]), ('a bottle', [50, 150, 50, 100]), ('a bottle', [150, 150, 50, 100]), ('a bottle', [250, 150, 50, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three oranges along with two zebras and one bowl are in the picture": [
+        "[('an orange', [27, 292, 70, 70]), ('an orange', [158, 292, 70, 70]), ('an orange', [290, 292, 70, 70]), ('a zebra', [21, 21, 200, 250]), ('a zebra', [291, 21, 200, 250]), ('a bowl', [157, 110, 197, 140])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three bottles with two fire hydrants and one broccoli are in the photo": [
+        "[('a bottle', [44, 143, 89, 186]), ('a bottle', [223, 143, 89, 186]), ('a bottle', [401, 143, 89, 186]), ('a fire hydrant', [27, 335, 105, 177]), ('a fire hydrant', [380, 335, 105, 177]), ('a broccoli', [219, 335, 74, 104])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with one sheep, one hair drier, and three remotes with two laptops": [
+        "[('a sheep', [50, 100, 150, 200]), ('a hair drier', [200, 150, 50, 50]), ('a remote', [300, 100, 30, 30]), ('a remote', [350, 100, 30, 30]), ('a remote', [400, 100, 30, 30]), ('a laptop', [250, 250, 100, 50]), ('a laptop', [400, 250, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with two zebras, two books, and one bench with two traffic lights": [
+        "[('a zebra', [45, 120, 180, 200]), ('a zebra', [287, 130, 180, 190]), ('a book', [30, 350, 120, 120]), ('a book', [362, 350, 120, 120]), ('a bench', [150, 250, 212, 100]), ('a traffic light', [40, 40, 30, 80]), ('a traffic light', [442, 40, 30, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with three toasters, one wine glass, and two ties along with one airplane": [
+        "[('a toaster', [30, 40, 150, 120]), ('a toaster', [200, 50, 150, 120]), ('a toaster', [360, 40, 150, 120]), ('a wine glass', [200, 200, 100, 150]), ('a tie', [50, 200, 100, 50]), ('a tie', [360, 200, 100, 50]), ('an airplane', [180, 380, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One pizza, two trains, and one person": [
+        "[('a pizza', [180, 190, 152, 152]), ('a train', [50, 50, 100, 100]), ('a train', [362, 50, 100, 100]), ('a person', [200, 400, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One mouse along with two kine and one pizza are in the picture": [
+        "[('a mouse', [50, 100, 100, 50]), ('a kine', [200, 100, 100, 50]), ('a kine', [350, 100, 100, 50]), ('a pizza', [250, 200, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one suitcase, three elephants, and two scissors along with one boat": [
+        "[('a suitcase', [192, 301, 128, 90]), ('an elephant', [37, 64, 167, 169]), ('an elephant', [308, 66, 172, 166]), ('an elephant', [166, 248, 175, 163]), ('a boat', [345, 351, 157, 86]), ('a pair of scissors', [57, 392, 108, 68]), ('a pair of scissors', [347, 392, 108, 68])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One sports ball with three cell phones and two suitcases are in the photo": [
+        "[('a sports ball', [192, 256, 128, 128]), ('a cell phone', [70, 70, 100, 100]), ('a cell phone', [342, 70, 100, 100]), ('a cell phone', [206, 70, 100, 100]), ('a suitcase', [70, 406, 100, 100]), ('a suitcase', [342, 406, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: There are two fire hydrants, one spoon, two carrots, and one baseball glove in the image": [
+        "[('a fire hydrant', [31, 116, 92, 192]), ('a fire hydrant', [389, 116, 92, 192]), ('a spoon', [150, 363, 74, 74]), ('a carrot', [236, 363, 74, 74]), ('a carrot', [302, 363, 74, 74]), ('a baseball glove', [418, 363, 74, 74])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two cell phones together with three dining tables, three bowls, and three frisbees": [
+        "[('a cell phone', [50, 50, 100, 150]), ('a cell phone', [362, 50, 100, 150]), ('a dining table', [50, 250, 150, 100]), ('a dining table', [212, 250, 150, 100]), ('a dining table', [374, 250, 150, 100]), ('a bowl', [50, 380, 50, 50]), ('a bowl', [150, 380, 50, 50]), ('a bowl', [250, 380, 50, 50]), ('a frisbee', [362, 380, 50, 50]), ('a frisbee', [412, 380, 50, 50]), ('a frisbee', [462, 380, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three parking meters, three dining tables, and two spoons": [
+        "[('a parking meter', [30, 120, 100, 250]), ('a parking meter', [180, 120, 100, 250]), ('a parking meter', [330, 120, 100, 250]), ('a dining table', [50, 400, 150, 100]), ('a dining table', [212, 400, 150, 100]), ('a dining table', [374, 400, 150, 100]), ('a spoon', [100, 450, 50, 50]), ('a spoon', [262, 450, 50, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one umbrella, one suitcase, and three kites along with one tie": [
+        "[('an umbrella', [70, 290, 150, 150]), ('a suitcase', [292, 292, 150, 150]), ('a kite', [50, 50, 100, 100]), ('a kite', [200, 50, 100, 100]), ('a kite', [350, 50, 100, 100]), ('a tie', [400, 290, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One cell phone with one truck and one vase are in the photo": [
+        "[('a cell phone', [196, 248, 120, 180]), ('a truck', [52, 52, 180, 120]), ('a vase', [284, 52, 180, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One vase along with one train and one airplane are in the picture": [
+        "[('a vase', [198, 154, 116, 190]), ('a train', [50, 283, 167, 129]), ('an airplane', [295, 292, 177, 120])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with two remotes, one toothbrush, and one laptop with three bears": [
+        "[('a remote', [55, 275, 100, 50]), ('a remote', [357, 275, 100, 50]), ('a toothbrush', [203, 320, 106, 50]), ('a laptop', [140, 100, 232, 150]), ('a bear', [10, 10, 100, 100]), ('a bear', [412, 10, 100, 100]), ('a bear', [210, 10, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two oranges, three baseball bats, and three skateboards": [
+        "[('an orange', [60, 200, 100, 100]), ('an orange', [352, 200, 100, 100]), ('a baseball bat', [50, 320, 120, 160]), ('a baseball bat', [200, 320, 120, 160]), ('a baseball bat', [350, 320, 120, 160]), ('a skateboard', [50, 100, 100, 30]), ('a skateboard', [200, 100, 100, 30]), ('a skateboard', [350, 100, 100, 30])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: An image with two spoons, three fire hydrants, and one motorcycle with two boats": [
+        "[('a spoon', [77, 306, 100, 100]), ('a spoon', [335, 306, 100, 100]), ('a fire hydrant', [51, 51, 100, 200]), ('a fire hydrant', [211, 51, 100, 200]), ('a fire hydrant', [371, 51, 100, 200]), ('a motorcycle', [156, 251, 200, 100]), ('a boat', [21, 21, 200, 100]), ('a boat', [291, 21, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One parking meter along with three broccolis and three benches are in the picture": [
+        "[('a parking meter', [202, 251, 108, 261]), ('a broccoli', [61, 84, 110, 105]), ('a broccoli', [331, 76, 106, 108]), ('a broccoli', [198, 24, 119, 94]), ('a bench', [51, 385, 126, 85]), ('a bench', [197, 386, 126, 85]), ('a bench', [342, 385, 126, 85])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three knives, two hot dogs, and one oven": [
+        "[('a knife', [74, 275, 107, 187]), ('a knife', [220, 275, 107, 187]), ('a knife', [366, 275, 107, 187]), ('a hot dog', [101, 101, 123, 123]), ('a hot dog', [288, 101, 123, 123]), ('an oven', [180, 10, 152, 90])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One baseball bat together with one sports ball, three boats, and three snowboards": [
+        "[('a baseball bat', [50, 280, 100, 100]), ('a sports ball', [362, 280, 100, 100]), ('a boat', [50, 50, 100, 100]), ('a boat', [200, 50, 100, 100]), ('a boat', [350, 50, 100, 100]), ('a snowboard', [50, 150, 100, 100]), ('a snowboard', [200, 150, 100, 100]), ('a snowboard', [350, 150, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: A photo with one hair drier, three sinks, and two toasters along with two tvs": [
+        "[('a hair drier', [51, 78, 130, 130]), ('a sink', [200, 80, 100, 100]), ('a sink', [200, 230, 100, 100]), ('a sink', [200, 380, 100, 100]), ('a toaster', [351, 78, 130, 130]), ('a toaster', [351, 230, 130, 130]), ('a tv', [51, 230, 130, 130]), ('a tv', [351, 380, 130, 130])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two tvs, one knife, and one frisbee": [
+        "[('a tv', [50, 50, 200, 150]), ('a tv', [262, 50, 200, 150]), ('a knife', [150, 250, 100, 50]), ('a frisbee', [300, 250, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Three giraffes along with one snowboard and one train are in the picture": [
+        "[('a giraffe', [38, 68, 160, 244]), ('a giraffe', [200, 47, 172, 265]), ('a giraffe', [384, 78, 128, 235]), ('a snowboard', [98, 345, 115, 40]), ('a train', [325, 376, 163, 82])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One fork along with two people and one bear are in the picture": [
+        "[('a fork', [214, 309, 84, 143]), ('a person', [45, 23, 178, 302]), ('a person', [289, 23, 178, 302]), ('a bear', [100, 121, 311, 204])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: Two wine glasses with two trains and two books are in the photo": [
+        "[('a wine glass', [92, 234, 108, 155]), ('a wine glass', [312, 234, 108, 155]), ('a train', [18, 24, 200, 200]), ('a train', [294, 24, 200, 200]), ('a book', [18, 444, 200, 48]), ('a book', [294, 444, 200, 48])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A realistic scene: One broccoli along with two skiss and two teddy bears are in the picture": [
+        "[('a broccoli', [198, 236, 116, 130]), ('a ski', [38, 294, 134, 148]), ('a ski', [346, 294, 134, 148]), ('a teddy bear', [38, 52, 134, 134]), ('a teddy bear', [346, 52, 134, 134])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ]
+}
