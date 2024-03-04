@@ -263,6 +263,8 @@ if __name__ == "__main__":
     print(f"Total overlap: {sum(overlap_areas)}, total object area: {sum(object_areas)}")
     print(f"Overlap rate: {sum(overlap_areas)/sum(object_areas)}")
     if args.prompt_type.endswith("spatial"):
+        spatial_results = {}
+        spatial_results['overall'] = np.mean(spatial_check['overall'])
         print(f"Overall Spatial Accuracy: {np.mean(spatial_check['overall'])}")
         print(f"Spatial failed cases: {spatial_check['fail']}")
         print(f"Lowest Spatial Accuracy: {np.argmin(spatial_check['overall'])}")
@@ -272,6 +274,9 @@ if __name__ == "__main__":
         #         continue
         for i in range(3, 10):
             print(f"Spatial Accuracy for {i} objects: {np.mean(spatial_check[i])}")
+            spatial_results[i] = np.mean(spatial_check[i])
+        os.makedirs("results", exist_ok=True)
+        json.dump(spatial_results, open(f"results/spatial_results_{template_version}.json", "w"), indent=2)
     if args.prompt_type.endswith("numeracy"):
         print(f"Overall Numeracy Precision: {np.mean(numeracy_check['precision'])}")
         print(f"Overall Numeracy Recall: {np.mean(numeracy_check['recall'])}")
