@@ -522,11 +522,261 @@ Objects:
 """
 
 
+templatev0_8 = """You are an intelligent bounding box generator. I will provide you with a description of a photo, scene, or painting. Your task is to generate the bounding boxes for the objects mentioned in the description and a background prompt describing the scene. The images are of size 512x512. The top-left corner has coordinates [0, 0]. The bottom-right corner has coordinates [512, 512]. The bounding boxes should not overlap or go beyond the image boundaries. Each bounding box should be in the format of (object name, [top-left x coordinate, top-left y coordinate, box width, box height]) and should not include more than one object. 
+To prevent overlap, for any two boxes (box1 and box2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) must be met.
+Furthermore, if the description uses spatial keywords ('left', 'right', 'above', 'below'), the positioning of the bounding boxes must reflect these relationships accurately. This means adjusting the centroids of the boxes (cx1, cy1 for box1; cx2, cy2 for box2) so that: cx1 < cx2 if Object A is to the left of B; cx1 > cx2 if A is to the right of B; cy1 < cy2 if A is above B; and cy1 > cy2 if A is below B. Centroids are calculated as cx = x + w//2 and cy = y + h//2.
+Objects defined within the bounding boxes should not be repeated in the scene's background description. Exclude any non-relevant or omitted objects from this background narrative. Use "A realistic scene" as the background prompt if no background is given in the prompt. If needed, you can make reasonable guesses. Please refer to the example below for the desired format.
+
+<Scene One Begin>
+Caption: A realistic image of landscape scene depicting a green car parking on the left of a blue truck, with a red air balloon and a bird in the sky
+Objects: [('a green car', [21, 281, 211, 159]), ('a blue truck', [269, 283, 209, 160]), ('a red air balloon', [66, 8, 145, 135]), ('a bird', [296, 42, 143, 100])]
+Background prompt: A realistic landscape scene
+Negative prompt:
+<Scene One End>
+
+Why does Scene One's layout have no overlapping and adhere to the caption's description of spatial relationships? Please provide an explanation.
+
+<Begin Explanation>
+
+Bounding Boxes:
+Green Car: [21, 281, 211, 159]
+Positioned starting at x=21, y=281 with a width of 211 and a height of 159.
+The car's centroid can be calculated as (x + w/2, y + h/2) = (126.5, 360.5).
+Blue Truck: [269, 283, 209, 160]
+Positioned starting at x=269, y=283 with a width of 209 and a height of 160.
+The truck's centroid can be calculated as (373.5, 363).
+Red Air Balloon: [66, 8, 145, 135]
+Positioned starting at x=66, y=8 with a width of 145 and a height of 135.
+The air balloon's centroid can be calculated as (138.5, 75.5).
+Bird: [296, 42, 143, 100]
+Positioned starting at x=296, y=42 with a width of 143 and a height of 100.
+The bird's centroid can be calculated as (367.5, 92).
+
+Analysis of Adherence:
+Spatial Relationship Between Car and Truck:
+The green car's centroid is at x=126.5, and the blue truck's centroid is at x=373.5. This means the green car is to the left of the blue truck, which adheres to the caption.
+Objects in the Sky:
+Both the red air balloon and the bird are positioned with low y-values (8 and 42, respectively), indicating they are in the sky, adhering to the caption's description.
+Non-Overlapping and Within Boundaries:
+The provided coordinates ensure that none of the bounding boxes overlap with one another, and all are within the 512x512 boundary.
+
+<End Explanation>
+
+<Scene Two Begin>
+Caption: A realistic top-down view of a wooden table with two apples on it
+Objects: [('a wooden table', [20, 148, 472, 216]), ('an apple', [150, 226, 100, 100]), ('an apple', [280, 226, 100, 100])]
+Background prompt: A realistic top-down view
+Negative prompt: 
+<Scene Two End>
+
+Why does Scene Two's layout have no overlapping and adhere to the caption's description of spatial relationships? Please provide an explanation.
+
+<Begin Explanation>
+
+Bounding Boxes:
+Wooden Table: [20, 148, 472, 216]
+Positioned starting at x=20, y=148 with a width of 472 and a height of 216.
+The table's coverage is extensive, suggesting it's the primary object in the scene.
+First Apple: [150, 226, 100, 100]
+Positioned starting at x=150, y=226 with a width and height of 100.
+This square shape is appropriate for an apple in a top-down view.
+Second Apple: [280, 226, 100, 100]
+Positioned starting at x=280, y=226 with a width and height of 100.
+Similar to the first apple, indicating consistency in depiction.
+
+Analysis of Adherence:
+Table Placement and Size:
+The table occupies a significant portion of the scene, which is expected in a top-down view. Its large width (472) relative to its height (216) suggests a surface area large enough to hold objects, fitting the description of a wooden table.
+Apples on the Table:
+Both apples are placed with their top-left corners at y=226, which is within the table's y-range (148 to 364). This confirms they are on the table. Their x-coordinates (150 and 280) and sizes (100x100) ensure they are distinct objects on the table without overlapping, adhering to the realistic depiction.
+Spatial Relationship Between Apples:
+The apples are placed next to each other horizontally (as indicated by their x-coordinates and the absence of y-coordinate variance), which is an expected arrangement for objects on a table in a top-down view.
+
+<End Explanation>
+
+<Scene Three Begin>
+Caption: A realistic scene of three skiers standing in a line on the snow near a palm tree
+Objects: [('a skier', [5, 152, 139, 168]), ('a skier', [278, 192, 121, 158]), ('a skier', [148, 173, 124, 155]), ('a palm tree', [404, 105, 103, 251])]
+Background prompt: A realistic outdoor scene with snow
+Negative prompt: 
+<Scene Three End>
+
+Why does Scene Three's layout have no overlapping and adhere to the caption's description of spatial relationships? Please provide an explanation.
+
+<Begin Explanation>
+
+Bounding Boxes:
+First Skier: [5, 152, 139, 168]
+Positioned starting at x=5, y=152 with a width of 139 and a height of 168.
+Second Skier: [278, 192, 121, 158]
+Positioned starting at x=278, y=192 with a width of 121 and a height of 158.
+Third Skier: [148, 173, 124, 155]
+Positioned starting at x=148, y=173 with a width of 124 and a height of 155.
+Palm Tree: [404, 105, 103, 251]
+Positioned starting at x=404, y=105 with a width of 103 and a height of 251.
+
+Analysis of Adherence:
+Skiers in a Line:
+The skiers are positioned in a way that could represent a line, but the sequence based on their x-coordinates seems to be out of order for a straight line formation. The correct order should reflect their positions as increasing in x-values without overlapping, ideally with the first skier having the lowest x-value, followed by the third, and then the second based on their current coordinates. However, their current arrangement (first, third, and then second) does somewhat maintain a line but not in the straightest or most orderly manner.
+Near a Palm Tree:
+The palm tree, with its starting x-coordinate at 404, is positioned to the right of all skiers. This placement adheres to the scene description, implying that the palm tree is near the skiers but does not specify which side. Given the broad interpretation of "near," this condition is met.
+
+<End Explanation>
+
+Caption: {prompt}
+Objects: 
+"""
+
+templatev0_9 = """You are an intelligent bounding box generator. I will provide you with a description of a photo, scene, or painting. Your task is to generate the bounding boxes for the objects mentioned in the description and a background prompt describing the scene. The images are of size 512x512. The top-left corner has coordinates [0, 0]. The bottom-right corner has coordinates [512, 512]. The bounding boxes should not overlap or go beyond the image boundaries. Each bounding box should be in the format of (object name, [top-left x coordinate, top-left y coordinate, box width, box height]) and should not include more than one object. 
+To prevent overlap, for any two boxes (box1 and box2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) must be met.
+Furthermore, if the description uses spatial keywords ('left', 'right', 'above', 'below'), the positioning of the bounding boxes must reflect these relationships accurately. This means adjusting the centroids of the boxes (cx1, cy1 for box1; cx2, cy2 for box2) so that: cx1 < cx2 if Object A is to the left of B; cx1 > cx2 if A is to the right of B; cy1 < cy2 if A is above B; and cy1 > cy2 if A is below B. Centroids are calculated as cx = x + w//2 and cy = y + h//2.
+Objects defined within the bounding boxes should not be repeated in the scene's background description. Exclude any non-relevant or omitted objects from this background narrative. Use "A realistic scene" as the background prompt if no background is given in the prompt. If needed, you can make reasonable guesses. Please refer to the example below for the desired format.
+
+
+<Scene One Begins>
+
+Caption: A white background with 3 objects (['bicycle', 'boat', 'laptop']): the bicycle is below the boat; the boat is above the laptop.
+Objects: [('bicycle', [150, 300, 200, 150]), ('boat', [150, 150, 200, 100]), ('laptop', [150, 50, 200, 75])]
+Background prompt: A white background
+Negative prompt: 
+
+<Scene One Ends>
+
+Why does Scene One's layout have no overlapping and adhere to the caption's description of spatial relationships? Please explain.
+
+<Begin Explanation>
+
+For every bounding box (x, y, w, h), max(x + w, y + h) < 512, so that every object is within the 512x512 size.
+For every two boxes with coordinates (x1, y1, w1, h1) and (x2, y2, w2, h2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) is met (e.g. for boxes of 'boat' and 'laptop, x2 + w2 = 150 + 200 = 350 <= 350 = x1), so there is no overlapping between each object.
+For every two objects A, B with coordinates (xa, ya, wa, ha) and (xb, yb, wb, hb) and a spatial relationship Rel(A, B), their spatial relationship is met (e.g. for boxes of 'bicycle' and 'boat', the centroids for the bicycle is [150+200//2, 300+150//2] = [250, 375] and the centroid for the boat is [150+200//2, 150+100//2] = [250, 200]. Since Rel(bicycle, boat) is “below” and 375 > 200, the two objects have the correct spatial relationship as described).
+
+<End Explanation>
+
+
+<Scene Two Begins>
+
+Caption: A white background with 4 objects (['elephant', 'toothbrush', 'microwave', 'handbag']): the elephant is below the toothbrush; the toothbrush is to the right of the microwave; the microwave is to the right of the handbag.
+Objects: [('elephant', [150, 300, 200, 150]), ('toothbrush', [300, 150, 50, 150]), ('microwave', [200, 50, 100, 100]), ('handbag', [50, 50, 100, 100])]
+Background prompt: A white background
+Negative prompt:
+
+<Scene Two Ends>
+
+Why does Scene Two's layout have no overlapping and adhere to the caption's description of spatial relationships? Please explain.
+
+<Begin Explanation>
+
+For every bounding box (x, y, w, h), max(x + w, y + h) < 512, so that every object is within the 512x512 size.
+For every two boxes with coordinates (x1, y1, w1, h1) and (x2, y2, w2, h2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) is met (e.g. for boxes of 'elephant' and 'handbag', x2 + w2 = 50 + 100 = 150 <= 150 = x1), so there is no overlapping between each object.
+For every two objects A, B with coordinates (xa, ya, wa, ha) and (xb, yb, wb, hb) and a spatial relationship Rel(A, B), their spatial relationship is met (e.g. for boxes of 'toothbrush' and 'microwave', the centroids for the toothbrush are [300+150//2, 150+150//2] = [375, 225] and the centroids for the microwave are [200+100//2, 50+100//2] = [250, 100]. Since Rel(toothbrush, microwave) is “right” and 225 > 100, the two objects have the correct spatial relationship as described).
+
+<End Explanation>
+
+
+<Scene Three Begins>
+
+Caption: A white background with 5 objects (['stop sign', 'sink', 'clock', 'tennis racket', 'couch']): the stop sign is below the sink; the sink is to the left of the clock; the clock is below the tennis racket; the tennis racket is to the left of the couch.
+Objects: [('stop sign', [150, 300, 80, 80]), ('sink', [150, 200, 80, 80]), ('clock', [250, 200, 80, 80]), ('tennis racket', [250, 100, 80, 80]), ('couch', [350, 100, 120, 80])]
+Background prompt: A white background
+Negative prompt:
+
+<Scene Three Ends>
+
+Why does Scene Three's layout have no overlapping and adhere to the caption's description of spatial relationships? Please explain.
+
+<Begin Explanation>
+
+For every bounding box (x, y, w, h), max(x + w, y + h) < 512, so that every object is within the 512x512 size.
+For every two boxes with coordinates (x1, y1, w1, h1) and (x2, y2, w2, h2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) is met (e.g. for boxes of 'clock' and 'couch', y2 + h2 = 100 + 80 = 180 <= 200 = y1), so there is no overlapping between each object.
+For every two objects A, B with coordinates (xa, ya, wa, ha) and (xb, yb, wb, hb) and a spatial relationship Rel(A, B), their spatial relationship is met (e.g. for boxes of 'stop sign' and 'sink', the centroids for the stop sign is [150+80//2, 300+80//2] = [190, 340] and the centroid for the sink is [150+80//2, 200+80//2] = [190, 240]. Since Rel(stop sign, sink) is “below” and 340 > 240, the two objects have the correct spatial relationship as described).
+
+<End Explanation>
+
+Caption: {prompt}
+Objects: 
+"""
+
+
+templatev0_10 = """You are an intelligent bounding box generator. I will provide you with a description of a photo, scene, or painting. Your task is to generate the bounding boxes for the objects mentioned in the description and a background prompt describing the scene. The images are of size 512x512. The top-left corner has coordinates [0, 0]. The bottom-right corner has coordinates [512, 512]. The bounding boxes should not overlap or go beyond the image boundaries. Each bounding box should be in the format of (object name, [top-left x coordinate, top-left y coordinate, box width, box height]) and should not include more than one object. 
+To prevent overlap, for any two boxes (box1 and box2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) must be met.
+Furthermore, if the description uses spatial keywords ('left', 'right', 'above', 'below'), the positioning of the bounding boxes must reflect these relationships accurately. This means adjusting the centroids of the boxes (cx1, cy1 for box1; cx2, cy2 for box2) so that: cx1 < cx2 if Object A is to the left of B; cx1 > cx2 if A is to the right of B; cy1 < cy2 if A is above B; and cy1 > cy2 if A is below B. Centroids are calculated as cx = x + w//2 and cy = y + h//2.
+Objects defined within the bounding boxes should not be repeated in the scene's background description. Exclude any non-relevant or omitted objects from this background narrative. Use "A realistic scene" as the background prompt if no background is given in the prompt. If needed, you can make reasonable guesses. Please refer to the example below for the desired format.
+
+
+<Scene One Begins>
+
+Caption: A white background with 3 objects (['bicycle', 'boat', 'laptop']): the bicycle is below the boat; the boat is above the laptop.
+Objects: [('bicycle', [150, 300, 200, 150]), ('boat', [150, 150, 200, 100]), ('laptop', [150, 50, 200, 75])]
+Background prompt: A white background
+Negative prompt: 
+
+<Scene One Ends>
+
+
+<Begin Explanation>
+
+Why does Scene One's layout have no overlapping and adhere to the caption's description of spatial relationships? Please explain.
+
+For every bounding box (x, y, w, h), max(x + w, y + h) < 512, so that every object is within the 512x512 size.
+For every two boxes with coordinates (x1, y1, w1, h1) and (x2, y2, w2, h2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) is met (e.g. for boxes of 'boat' and 'laptop, x2 + w2 = 150 + 200 = 350 <= 350 = x1), so there is no overlapping between each object.
+For every two objects A, B with coordinates (xa, ya, wa, ha) and (xb, yb, wb, hb) and a spatial relationship Rel(A, B), their spatial relationship is met (e.g. for boxes of 'bicycle' and 'boat', the centroids for the bicycle is [150+200//2, 300+150//2] = [250, 375] and the centroid for the boat is [150+200//2, 150+100//2] = [250, 200]. Since Rel(bicycle, boat) is “below” and 375 > 200, the two objects have the correct spatial relationship as described).
+
+<End Explanation>
+
+
+<Scene Two Begins>
+
+Caption: A white background with 4 objects (['elephant', 'toothbrush', 'microwave', 'handbag']): the elephant is below the toothbrush; the toothbrush is to the right of the microwave; the microwave is to the right of the handbag.
+Objects: [('elephant', [150, 300, 200, 150]), ('toothbrush', [300, 150, 50, 150]), ('microwave', [200, 50, 100, 100]), ('handbag', [50, 50, 100, 100])]
+Background prompt: A white background
+Negative prompt:
+
+<Scene Two Ends>
+
+
+<Begin Explanation>
+
+Why does Scene Two's layout have no overlapping and adhere to the caption's description of spatial relationships? Please explain.
+
+For every bounding box (x, y, w, h), max(x + w, y + h) < 512, so that every object is within the 512x512 size.
+For every two boxes with coordinates (x1, y1, w1, h1) and (x2, y2, w2, h2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) is met (e.g. for boxes of 'elephant' and 'handbag', x2 + w2 = 50 + 100 = 150 <= 150 = x1), so there is no overlapping between each object.
+For every two objects A, B with coordinates (xa, ya, wa, ha) and (xb, yb, wb, hb) and a spatial relationship Rel(A, B), their spatial relationship is met (e.g. for boxes of 'toothbrush' and 'microwave', the centroids for the toothbrush are [300+150//2, 150+150//2] = [375, 225] and the centroids for the microwave are [200+100//2, 50+100//2] = [250, 100]. Since Rel(toothbrush, microwave) is “right” and 225 > 100, the two objects have the correct spatial relationship as described).
+
+<End Explanation>
+
+
+<Scene Three Begins>
+
+Caption: A white background with 5 objects (['stop sign', 'sink', 'clock', 'tennis racket', 'couch']): the stop sign is below the sink; the sink is to the left of the clock; the clock is below the tennis racket; the tennis racket is to the left of the couch.
+Objects: [('stop sign', [150, 300, 80, 80]), ('sink', [150, 200, 80, 80]), ('clock', [250, 200, 80, 80]), ('tennis racket', [250, 100, 80, 80]), ('couch', [350, 100, 120, 80])]
+Background prompt: A white background
+Negative prompt:
+
+<Scene Three Ends>
+
+
+<Begin Explanation>
+
+Why does Scene Three's layout have no overlapping and adhere to the caption's description of spatial relationships? Please explain.
+
+For every bounding box (x, y, w, h), max(x + w, y + h) < 512, so that every object is within the 512x512 size.
+For every two boxes with coordinates (x1, y1, w1, h1) and (x2, y2, w2, h2), the condition (x1 + w1 <= x2) or (x2 + w2 <= x1) or (y1 + h1 <= y2) or (y2 + h2 <= y1) is met (e.g. for boxes of 'clock' and 'couch', y2 + h2 = 100 + 80 = 180 <= 200 = y1), so there is no overlapping between each object.
+For every two objects A, B with coordinates (xa, ya, wa, ha) and (xb, yb, wb, hb) and a spatial relationship Rel(A, B), their spatial relationship is met (e.g. for boxes of 'stop sign' and 'sink', the centroids for the stop sign is [150+80//2, 300+80//2] = [190, 340] and the centroid for the sink is [150+80//2, 200+80//2] = [190, 240]. Since Rel(stop sign, sink) is “below” and 340 > 240, the two objects have the correct spatial relationship as described).
+
+<End Explanation>
+
+Caption: {prompt}
+Objects: 
+"""
+
+
+
+
 DEFAULT_SO_NEGATIVE_PROMPT = "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image, bad proportions, duplicate, two, many, group, occlusion, occluded, side, border, collate"
 DEFAULT_OVERALL_NEGATIVE_PROMPT = "artifacts, blurry, smooth texture, bad quality, distortions, unrealistic, distorted image, bad proportions, duplicate"
 
-templates = {"v0.1": templatev0_1, "v0.2": templatev0_2, "v0.3": templatev0_3, "v0.4": templatev0_4, "v0.5": templatev0_5, "v0.6": templatev0_6, "v0.7": templatev0_7}
-template_versions = ["v0.1", "v0.2", "v0.3", "v0.4", "v0.5", "v0.6", "v0.7"]
+templates = {"v0.1": templatev0_1, "v0.2": templatev0_2, "v0.3": templatev0_3, "v0.4": templatev0_4, "v0.5": templatev0_5, "v0.6": templatev0_6, "v0.7": templatev0_7, "v0.8": templatev0_8, "v0.9": templatev0_9, "v0.10": templatev0_10}
+template_versions = ["v0.1", "v0.2", "v0.3", "v0.4", "v0.5", "v0.6", "v0.7", "v0.8", "v0.9", "v0.10"]
 
 stop = "\n\n"
 
