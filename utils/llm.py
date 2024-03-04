@@ -6,7 +6,7 @@ from utils.parse import size, parse_input_with_negative, filter_boxes
 import traceback
 import time
 
-model_names = ["vicuna", "vicuna-13b", "vicuna-13b-v1.3", "vicuna-33b-v1.3", "Llama-2-7b-hf", "Llama-2-13b-hf", "Llama-2-70b-hf", "FreeWilly2", "StableBeluga2", "gpt-3.5-turbo", "gpt-3.5", "gpt-4", "text-davinci-003"]
+model_names = ["vicuna", "vicuna-13b", "vicuna-13b-v1.3", "vicuna-33b-v1.3", "Llama-2-7b-hf", "Llama-2-13b-hf", "Llama-2-70b-hf", "FreeWilly2", "StableBeluga2", "gpt-3.5-turbo", "gpt-3.5", "gpt-4", "gpt-4-turbo-preview", "text-davinci-003"]
 
 def get_full_prompt(template, prompt, suffix=None):
     full_prompt = template.format(prompt=prompt)

@@ -1,0 +1,182 @@
+{
+    "In a bustling downtown area during evening rush, a person leans against a streetlight, waiting to cross the road. Nearby, a parked motorcycle reflects the fading light, while a city bus halts at a designated stop. Across the street, a bicycle is securely locked to a bike rack, and a stray cat watches the busy scene from a safe distance": [
+        "[('a person', [100, 256, 68, 172]), ('a streetlight', [120, 200, 22, 220]), ('a parked motorcycle', [200, 312, 90, 128]), ('a city bus', [320, 240, 172, 192]), ('a bicycle', [50, 300, 80, 112]), ('a bike rack', [48, 412, 84, 60]), ('a stray cat', [400, 368, 112, 144])]\nBackground prompt: A bustling downtown area during evening rush\nNegative prompt: "
+    ],
+    "Along a peaceful riverbank, a couple (two people) relax on a bench, enjoying the view. A carefully parked bicycle leans against a nearby tree. A playful dog runs around, occasionally chasing birds that land near the water's edge. In the background, a boat slowly cruises down the river": [
+        "[('a couple', [100, 200, 150, 200]), ('a bench', [95, 350, 160, 62]), ('a bicycle', [300, 320, 90, 180]), ('a tree', [280, 100, 120, 320]), ('a playful dog', [400, 300, 112, 90]), ('a boat', [50, 50, 200, 100])]\nBackground prompt: Along a peaceful riverbank\nNegative prompt: birds"
+    ],
+    "In a suburban neighborhood, a person jogs past a row of houses, each with a car in the driveway. At a nearby house, a dog barks from the yard, drawing the attention of a bird perched on the mailbox. On the sidewalk, a child's abandoned bicycle lies next to a fire hydrant": [
+        "[('a person jogging', [45, 256, 98, 192]), ('a house', [134, 101, 172, 211]), ('a car', [154, 312, 152, 96]), ('a dog', [318, 267, 134, 145]), ('a bird', [410, 45, 58, 32]), ('a bicycle', [22, 412, 86, 58]), ('a fire hydrant', [108, 470, 32, 42])]\nBackground prompt: A suburban neighborhood scene\nNegative prompt: "
+    ],
+    "A lively city park scene where a person reads a book on a bench under a tree. Nearby, a mother and child (two people) play frisbee on the grass. A curious squirrel (animal) scampers around, occasionally stopping to observe. In the distance, a parked motorcycle and a bicycle stand by a park entrance": [
+        "[('a person reading a book', [40, 256, 120, 160]), ('a bench', [20, 416, 160, 96]), ('a tree', [0, 104, 192, 312]), ('a mother and child', [256, 272, 160, 144]), ('a frisbee', [300, 250, 48, 22]), ('a curious squirrel', [450, 400, 62, 40]), ('a motorcycle', [368, 464, 144, 48]), ('a bicycle', [200, 464, 128, 48])]\nBackground prompt: A lively city park scene with grass areas, paths, and a park entrance in the distance\nNegative prompt: "
+    ],
+    "On a rustic farmstead, a person feeds chickens near a barn. A few sheep graze in an adjacent paddock, while a horse stands by the fence, watching a passing train in the distance. Near the farmhouse, a truck is parked, with its headlights reflecting off a nearby water trough.A serene park scene with a bench, a bicycle leaning against a nearby tree, a playful dog chasing a frisbee, and a distant cat observing from atop a wall": [
+        "[('a person', [10, 256, 98, 192]), ('chickens', [130, 400, 150, 112]), ('a barn', [300, 230, 200, 282]), ('sheep', [20, 100, 230, 150]), ('a horse', [260, 80, 140, 220]), ('a train', [400, 10, 112, 90]), ('a truck', [450, 300, 62, 120]), ('a water trough', [480, 350, 32, 162]), ('a bench', [5, 410, 150, 90]), ('a bicycle', [170, 430, 140, 82]), ('a playful dog', [320, 380, 120, 132]), ('a cat', [460, 20, 50, 90])]\nBackground prompt: A rustic farmstead scene with a serene park area\nNegative prompt: "
+    ],
+    "A bustling city street featuring a car waiting at a traffic light, a bus passing by, a pedestrian carrying an umbrella, and a taxi parked by a fire hydrant": [
+        "[('a car', [111, 281, 190, 160]), ('a bus', [289, 260, 213, 190]), ('a pedestrian', [30, 199, 81, 172]), ('a taxi', [412, 285, 88, 152]), ('a fire hydrant', [370, 390, 42, 122])]\nBackground prompt: A bustling city street\nNegative prompt: "
+    ],
+    "A cozy living room with a couch, a coffee table holding a remote and a cup, a tv on a stand, and a cat sleeping on a nearby rug.A park scene with a bench, a bicycle leaning against a tree, a person reading a book, a dog sitting beside them, and a frisbee lying on the grass nearby": [
+        "[('a couch', [20, 150, 220, 110]), ('a coffee table', [260, 190, 150, 90]), ('a remote', [270, 200, 30, 15]), ('a cup', [310, 200, 20, 30]), ('a tv on a stand', [410, 110, 90, 150]), ('a cat', [60, 280, 120, 80]), ('a bench', [30, 350, 180, 80]), ('a bicycle', [240, 330, 120, 160]), ('a person reading a book', [400, 340, 80, 160]), ('a dog', [420, 420, 70, 60]), ('a frisbee', [200, 410, 50, 10])]\nBackground prompt: A cozy living room scene transitioning into a park scene\nNegative prompt: "
+    ],
+    "A busy city street with a car stopped at a traffic light, a bus in the next lane, a pedestrian waiting to cross, a motorcycle weaving through traffic, and a taxi parked by the sidewalk": [
+        "[('a car', [30, 300, 100, 200]), ('a bus', [140, 250, 150, 250]), ('a pedestrian', [310, 410, 50, 100]), ('a motorcycle', [200, 350, 50, 100]), ('a taxi', [410, 300, 100, 200])]\nBackground prompt: A busy city street\nNegative prompt: "
+    ],
+    "A beach scene where a person is lying on a towel, a surfboard stuck in the sand, a kite flying in the sky, a cooler with a bottle poking out, and a pair of flip-flops tossed aside": [
+        "[('a person lying on a towel', [121, 351, 270, 161]), ('a surfboard', [402, 292, 20, 128]), ('a kite', [312, 12, 88, 88]), ('a cooler with a bottle poking out', [50, 410, 71, 102]), ('a pair of flip-flops', [180, 410, 60, 30])]\nBackground prompt: A beach scene\nNegative prompt: "
+    ],
+    "A cozy living room with a couch, a coffee table with a vase of flowers, a cat sleeping in a sunbeam, a television displaying a nature documentary, and a bookshelf filled with books": [
+        "[('a couch', [30, 256, 452, 200]), ('a coffee table', [150, 356, 212, 100]), ('a vase of flowers', [206, 336, 100, 80]), ('a sleeping cat', [60, 180, 140, 76]), ('a television', [332, 50, 150, 90]), ('a bookshelf', [20, 20, 100, 236])]\nBackground prompt: A cozy living room with sunlight\nNegative prompt: "
+    ],
+    "A train station with a train pulling into the platform, a person holding a suitcase, a bench with a backpack resting on it, a vending machine dispensing bottles, and a clock showing the time": [
+        "[('a train', [20, 100, 472, 150]), ('a person holding a suitcase', [300, 300, 90, 200]), ('a bench', [50, 370, 200, 90]), ('a backpack', [60, 380, 80, 50]), ('a vending machine', [400, 250, 90, 260]), ('a clock', [450, 20, 62, 62])]\nBackground prompt: A train station\nNegative prompt: "
+    ],
+    "A farmer's market scene with a stand selling apples and oranges, a person carrying a handbag and selecting a carrot, a vendor handing over a bunch of bananas, a dog tied to a post, and a bench for resting": [
+        "[('a stand selling apples and oranges', [20, 50, 192, 300]), ('a person selecting a carrot', [224, 100, 128, 256]), ('a vendor handing over bananas', [364, 90, 128, 266]), ('a dog tied to a post', [80, 350, 100, 150]), ('a bench for resting', [300, 370, 212, 100])]\nBackground prompt: A farmer's market scene\nNegative prompt: "
+    ],
+    "An airport lounge with a person typing on a laptop, a suitcase by their side, a cup of coffee on the table, a flight information board displaying times, and a window showing airplanes on the runway": [
+        "[('a person typing on a laptop', [100, 152, 212, 256]), ('a suitcase', [50, 418, 100, 94]), ('a cup of coffee', [350, 150, 50, 50]), ('a flight information board', [312, 10, 190, 130]), ('a window showing airplanes', [10, 10, 280, 130])]\nBackground prompt: An airport lounge\nNegative prompt: "
+    ],
+    "A public library with rows of bookshelves, a person browsing a book, a chair and table with a laptop and a mouse, a clock on the wall, and a librarian scanning books at the checkout desk": [
+        "[('rows of bookshelves', [10, 50, 492, 200]), ('a person browsing a book', [30, 260, 90, 160]), ('a chair and table with a laptop and a mouse', [140, 300, 180, 200]), ('a clock on the wall', [400, 10, 100, 100]), ('a librarian scanning books at the checkout desk', [350, 260, 150, 250])]\nBackground prompt: A public library\nNegative prompt: "
+    ],
+    "A nighttime camping scene with a tent, a campfire casting shadows, a person roasting a hot dog on a stick, a backpack leaning against a tree, and a flashlight illuminating a map": [
+        "[('a tent', [50, 262, 200, 150]), ('a campfire', [300, 300, 50, 50]), ('a person', [250, 150, 100, 200]), ('a backpack', [400, 350, 80, 100]), ('a flashlight', [380, 200, 20, 60]), ('a map', [360, 150, 140, 100])]\nBackground prompt: A nighttime camping scene\nNegative prompt: "
+    ],
+    "A home office setup with a desk, a chair, a laptop open and running, a cup holding pens and pencils, a potted plant on the windowsill, and a cell phone charging beside the computer": [
+        "[('a desk', [50, 150, 412, 200]), ('a chair', [80, 250, 150, 200]), ('a laptop', [180, 200, 150, 90]), ('a cup holding pens and pencils', [340, 210, 50, 60]), ('a potted plant', [400, 50, 80, 100]), ('a cell phone', [200, 210, 50, 30])]\nBackground prompt: A home office setup\nNegative prompt: "
+    ],
+    "A birthday party scene with a table covered in a cloth, a cake with candles lit, a bunch of balloons tied to the chair, a person wearing a party hat, and a pile of presents wrapped in colorful paper": [
+        "[('a table covered in a cloth', [30, 200, 452, 150]), ('a cake with candles lit', [196, 250, 120, 100]), ('a bunch of balloons tied to the chair', [50, 50, 90, 150]), ('a person wearing a party hat', [300, 100, 150, 250]), ('a pile of presents wrapped in colorful paper', [370, 270, 130, 130])]\nBackground prompt: A birthday party scene\nNegative prompt: "
+    ],
+    "A picnic in the park with a blanket spread on the grass, a basket containing a loaf of bread and a bottle of wine, a person lying down reading a book, a bicycle parked nearby, and a dog chasing a ball": [
+        "[('a blanket', [106, 256, 300, 200]), ('a basket', [150, 306, 120, 100]), ('a person', [250, 100, 200, 300]), ('a bicycle', [20, 200, 180, 212]), ('a dog', [380, 312, 132, 100])]\nBackground prompt: A picnic in the park with grass\nNegative prompt: "
+    ],
+    "A home kitchen scene with a person cooking, a pot on the stove, a knife and cutting board with vegetables, a bowl of fruit on the counter, and an oven preheating for baking": [
+        "[('a person cooking', [20, 50, 150, 300]), ('a pot on the stove', [190, 100, 120, 80]), ('a knife and cutting board with vegetables', [330, 110, 150, 90]), ('a bowl of fruit', [50, 370, 120, 90]), ('an oven', [300, 350, 200, 150])]\nBackground prompt: A home kitchen scene\nNegative prompt: "
+    ],
+    "A street artist setting with a person painting on a canvas, a bench serving as a makeshift table for paint supplies, a crowd watching, a dog sitting patiently, and a hat on the ground for tips": [
+        "[('a person painting', [50, 206, 112, 178]), ('a bench', [180, 300, 152, 58]), ('a crowd watching', [342, 190, 150, 194]), ('a dog sitting', [200, 100, 90, 105]), ('a hat', [120, 410, 62, 35])]\nBackground prompt: A street artist setting\nNegative prompt: "
+    ],
+    "A morning jog in a city park with a person running, a bench where a water bottle and a towel rest, a dog playing with a frisbee, a bicycle passing by, and a squirrel watching curiously": [
+        "[('a person running', [45, 261, 98, 190]), ('a bench', [150, 300, 180, 90]), ('a water bottle', [160, 330, 20, 40]), ('a towel', [200, 330, 40, 40]), ('a dog playing with a frisbee', [340, 280, 120, 100]), ('a bicycle', [220, 250, 100, 140]), ('a squirrel', [400, 100, 60, 60])]\nBackground prompt: A morning in a city park\nNegative prompt: "
+    ],
+    "A snowy day scene with a person wearing a backpack and holding a snowboard, a bench covered in snow, a dog wearing a coat, a snowman with a carrot nose, and a hot chocolate stand with a queue": [
+        "[('a person wearing a backpack and holding a snowboard', [30, 152, 98, 208]), ('a bench covered in snow', [150, 312, 212, 96]), ('a dog wearing a coat', [378, 256, 124, 112]), ('a snowman with a carrot nose', [260, 172, 100, 140]), ('a hot chocolate stand', [50, 20, 162, 132]), ('a queue', [214, 22, 98, 90])]\nBackground prompt: A snowy day scene\nNegative prompt: "
+    ],
+    "A luxury yacht scene with a boat anchored near the shore, a person sunbathing on the deck, a bottle of champagne chilling, a pair of sunglasses on a table, and a seagull perched on the railing": [
+        "[('a luxury yacht', [20, 100, 472, 312]), ('a boat', [350, 350, 142, 85]), ('a person sunbathing', [60, 250, 120, 45]), ('a bottle of champagne', [200, 280, 30, 60]), ('a pair of sunglasses', [240, 290, 50, 20]), ('a seagull', [400, 80, 60, 30])]\nBackground prompt: A luxury yacht scene near the shore\nNegative prompt: "
+    ],
+    "An outdoor barbecue with a person grilling burgers, a table set with plates and forks, a dog waiting hopefully, a cooler with bottles of soda, and a kite stuck in a nearby tree": [
+        "[('a person grilling burgers', [102, 152, 200, 300]), ('a table set with plates and forks', [320, 200, 172, 112]), ('a dog waiting hopefully', [50, 300, 120, 160]), ('a cooler with bottles of soda', [400, 320, 100, 120]), ('a kite stuck in a tree', [200, 20, 150, 150])]\nBackground prompt: An outdoor barbecue scene\nNegative prompt: "
+    ],
+    "A college campus scene with a student sitting on a bench reading a book, a bicycle parked in a rack, a squirrel darting past, a backpack resting against the bench, and a frisbee lying on the grass": [
+        "[('a student', [100, 201, 150, 211]), ('a bench', [90, 300, 170, 50]), ('a bicycle', [300, 280, 150, 232]), ('a rack', [290, 350, 170, 30]), ('a squirrel', [410, 210, 60, 40]), ('a backpack', [70, 350, 120, 90]), ('a frisbee', [200, 410, 90, 25])]\nBackground prompt: A college campus scene\nNegative prompt: "
+    ],
+    "A romantic evening setup with a table for two, a vase with a single rose, two wine glasses ready to be filled, a person lighting a candle, and a guitar resting against the chair ready for serenading": [
+        "[('a table', [156, 204, 200, 100]), ('a vase with a single rose', [238, 180, 36, 60]), ('a wine glass', [190, 170, 30, 50]), ('a wine glass', [292, 170, 30, 50]), ('a person', [50, 100, 100, 304]), ('a guitar', [340, 256, 60, 156])]\nBackground prompt: A romantic evening setup\nNegative prompt: "
+    ],
+    "A city bus stop with a person waiting, a bus approaching, a bicycle locked to a nearby post, a stray cat lounging in the sun, and a poster advertising a local event": [
+        "[('a city bus stop', [20, 100, 150, 300]), ('a person waiting', [190, 250, 70, 150]), ('a bus approaching', [300, 200, 200, 150]), ('a bicycle', [60, 410, 90, 90]), ('a stray cat', [180, 370, 80, 70]), ('a poster', [400, 50, 100, 150])]\nBackground prompt: A city scene\nNegative prompt: "
+    ],
+    "A farm scene with a person feeding a sheep, a dog herding cows in the distance, a tractor parked by the barn, a pile of hay bales, and a horse peeking over the fence": [
+        "[('a person feeding a sheep', [30, 201, 150, 250]), ('a dog herding cows', [400, 50, 100, 75]), ('a tractor', [200, 300, 150, 100]), ('a pile of hay bales', [50, 350, 120, 80]), ('a horse peeking over the fence', [350, 180, 140, 200])]\nBackground prompt: A farm scene\nNegative prompt: "
+    ],
+    "A zoo visit with a family watching an elephant, a child holding a balloon, a bench where a backpack and a camera rest, a vendor selling ice cream, and a map of the zoo in a person's hand": [
+        "[('an elephant', [30, 152, 212, 226]), ('a child holding a balloon', [264, 173, 92, 221]), ('a bench', [400, 300, 100, 50]), ('a backpack', [410, 350, 40, 30]), ('a camera', [450, 355, 30, 25]), ('a vendor selling ice cream', [250, 50, 100, 150]), ('a map of the zoo', [500, 200, 10, 15])]\nBackground prompt: A zoo visit\nNegative prompt: "
+    ],
+    "A mountain hiking trail with a person wearing a backpack, a sign pointing to the summit, a dog trotting ahead, a clear stream crossing the path, and a bird perched on a nearby tree": [
+        "[('a person wearing a backpack', [156, 201, 104, 198]), ('a sign pointing to the summit', [280, 150, 80, 120]), ('a dog trotting ahead', [350, 250, 120, 90]), ('a clear stream crossing the path', [0, 350, 512, 60]), ('a bird perched on a nearby tree', [400, 90, 60, 60])]\nBackground prompt: A mountain hiking trail\nNegative prompt: "
+    ],
+    "A street food festival with a person holding a plate of tacos, a vendor cooking pizza in a portable oven, a dog waiting for scraps, a group of people sitting on benches eating, and a musician playing a guitar": [
+        "[('a person holding a plate of tacos', [20, 211, 98, 201]), ('a vendor cooking pizza', [138, 198, 112, 214]), ('a portable oven', [260, 256, 90, 80]), ('a dog waiting for scraps', [370, 312, 122, 160]), ('a group of people sitting on benches', [20, 20, 472, 168]), ('a musician playing a guitar', [312, 192, 200, 220])]\nBackground prompt: A street food festival\nNegative prompt: "
+    ],
+    "A school playground with children playing on swings, a teacher supervising from a bench, a backpack lying on the ground, a ball bouncing away, and a bicycle parked against the fence": [
+        "[('children playing on swings', [30, 200, 150, 150]), ('a teacher supervising', [220, 300, 90, 150]), ('a backpack', [400, 450, 80, 50]), ('a ball', [350, 100, 50, 50]), ('a bicycle', [100, 350, 120, 150])]\nBackground prompt: A school playground\nNegative prompt: "
+    ],
+    "A winter ski resort scene with a person carrying skis, a snowboard propped against a lodge, a dog wearing a small sweater, a hot cocoa stand, and a fire pit with chairs around it": [
+        "[('a person carrying skis', [40, 152, 98, 256]), ('a snowboard', [180, 312, 60, 150]), ('a dog wearing a small sweater', [270, 362, 92, 108]), ('a hot cocoa stand', [392, 208, 108, 192]), ('a fire pit with chairs around it', [152, 48, 208, 144])]\nBackground prompt: A winter ski resort scene\nNegative prompt: "
+    ],
+    "A garden party with a table set with a vase of flowers, a person carrying a tray of sandwiches, a dog lounging under the table, a guitar leaning against a chair, and lanterns hanging from the trees": [
+        "[('a table', [100, 200, 312, 150]), ('a vase of flowers', [230, 150, 50, 50]), ('a person', [400, 100, 90, 300]), ('a dog', [110, 350, 150, 100]), ('a guitar', [50, 300, 50, 150]), ('lanterns', [300, 50, 212, 100])]\nBackground prompt: A garden party\nNegative prompt: "
+    ],
+    "A garage sale with a table displaying books and toys, a person examining a vase, a dog tied to a post, a sign advertising the sale, and a box of free items marked \"Take Me.\"": [
+        "[('a table', [20, 200, 472, 100]), ('books and toys', [30, 210, 452, 80]), ('a person', [300, 50, 150, 300]), ('a vase', [320, 100, 50, 100]), ('a dog', [10, 320, 140, 150]), ('a post', [120, 310, 10, 160]), ('a sign', [200, 10, 112, 80]), ('a box', [400, 350, 100, 100])]\nBackground prompt: A garage sale scene\nNegative prompt: "
+    ],
+    "A cozy reading nook with a chair, a lamp casting a warm light, a book open on a person's lap, a cup of tea on a nearby table, and a cat curled up beside the reader": [
+        "[('a chair', [100, 256, 150, 200]), ('a lamp', [230, 50, 50, 206]), ('an open book', [140, 400, 120, 80]), ('a cup of tea', [320, 300, 60, 60]), ('a cat', [50, 300, 100, 100])]\nBackground prompt: A cozy reading nook\nNegative prompt: "
+    ],
+    "An art gallery opening with paintings hanging on the walls, a person admiring a sculpture, a table with wine glasses and a bottle, a book of guest signatures, and an artist discussing their work": [
+        "[('a painting', [20, 30, 100, 150]), ('a painting', [140, 30, 100, 150]), ('a painting', [260, 30, 100, 150]), ('a person', [380, 200, 90, 150]), ('a table', [50, 370, 200, 100]), ('wine glasses and a bottle', [60, 380, 80, 60]), ('a book of guest signatures', [150, 400, 70, 50]), ('an artist', [300, 210, 90, 140])]\nBackground prompt: An art gallery opening with paintings hanging on the walls\nNegative prompt: "
+    ],
+    "A city rooftop garden with potted plants, a person practicing yoga, a dog watching pigeons, a bench with a book and sunglasses, and a water bottle resting beside a mat": [
+        "[('potted plants', [20, 20, 100, 120]), ('a person practicing yoga', [150, 300, 120, 212]), ('a dog', [300, 350, 160, 140]), ('a bench', [400, 100, 100, 50]), ('a book', [410, 110, 40, 30]), ('sunglasses', [420, 145, 30, 15]), ('a water bottle', [180, 450, 20, 50]), ('a mat', [120, 400, 200, 100])]\nBackground prompt: A city rooftop garden\nNegative prompt: pigeons"
+    ],
+    "A horseback riding trail with a person on a horse, a dog running alongside, a bench for resting, a water bottle tied to the saddle, and a bird flying overhead": [
+        "[('a person on a horse', [102, 152, 208, 256]), ('a dog running', [320, 311, 172, 101]), ('a bench', [20, 372, 180, 90]), ('a water bottle', [250, 308, 32, 64]), ('a bird flying', [410, 50, 92, 46])]\nBackground prompt: A realistic horseback riding trail\nNegative prompt: "
+    ],
+    "A vintage car show with a row of classic cars, a person polishing a shiny bumper, a dog sitting in the shade, a cooler with refreshments, and a sign announcing the event": [
+        "[('a classic car', [10, 100, 150, 100]), ('a classic car', [170, 100, 150, 100]), ('a classic car', [330, 100, 150, 100]), ('a person', [200, 210, 100, 150]), ('a dog', [20, 370, 120, 100]), ('a cooler', [400, 350, 100, 100]), ('a sign', [300, 20, 200, 80])]\nBackground prompt: A vintage car show outdoors\nNegative prompt: "
+    ],
+    "A riverside picnic with a blanket spread out, a basket with a loaf of bread poking out, a person sketching the view, a dog splashing in the water, and a boat passing by": [
+        "[('a blanket', [120, 300, 272, 192]), ('a basket', [200, 380, 120, 100]), ('a person', [50, 100, 100, 200]), ('a dog', [400, 250, 100, 150]), ('a boat', [300, 50, 200, 100])]\nBackground prompt: A riverside picnic scene\nNegative prompt: "
+    ],
+    "A backyard camping scene with a tent set up, a person roasting marshmallows over a fire pit, a dog curled up nearby, a flashlight illuminating a book, and a guitar waiting for a campfire song": [
+        "[('a tent', [68, 152, 200, 180]), ('a person', [308, 192, 92, 168]), ('a fire pit', [272, 360, 120, 60]), ('a dog', [180, 332, 80, 68]), ('a flashlight', [400, 312, 40, 80]), ('a book', [380, 392, 120, 80]), ('a guitar', [32, 368, 128, 48])]\nBackground prompt: A backyard camping scene\nNegative prompt: "
+    ],
+    "A luxury hotel lobby with a person checking in, a bellhop carrying a suitcase, a couch where a cat is napping, a vase of fresh flowers on the reception desk, and a chandelier casting light": [
+        "[('a person checking in', [120, 201, 90, 180]), ('a bellhop carrying a suitcase', [230, 205, 80, 175]), ('a couch', [20, 300, 200, 100]), ('a cat napping', [40, 320, 60, 50]), ('a vase of fresh flowers', [350, 180, 50, 70]), ('a chandelier', [256, 50, 100, 100])]\nBackground prompt: A luxury hotel lobby\nNegative prompt: "
+    ],
+    "A bakery with a display of cakes and donuts, a person pointing at their choice, a dog waiting outside, a baker removing bread from the oven, and a vase with a single flower on the counter": [
+        "[('a display of cakes and donuts', [20, 100, 472, 150]), ('a person', [150, 260, 100, 252]), ('a dog', [0, 400, 128, 112]), ('a baker', [300, 260, 120, 252]), ('a vase with a single flower', [400, 50, 72, 150])]\nBackground prompt: A bakery\nNegative prompt: "
+    ],
+    "A home gym setup with a person lifting weights, a yoga mat rolled up in the corner, a bottle of water on a table, a towel hanging over a chair, and a dog watching curiously": [
+        "[('a person lifting weights', [100, 112, 212, 300]), ('a yoga mat', [20, 462, 96, 50]), ('a bottle of water', [372, 308, 40, 104]), ('a towel', [402, 200, 88, 48]), ('a dog', [300, 350, 160, 162])]\nBackground prompt: A home gym setup\nNegative prompt: "
+    ],
+    "A vintage bookstore with shelves of books, a person browsing titles, a cat lounging on a windowsill, a clock ticking away, and a sign indicating a reading nook": [
+        "[('shelves of books', [20, 50, 150, 462]), ('a person browsing titles', [190, 100, 120, 300]), ('a cat lounging on a windowsill', [330, 400, 160, 100]), ('a clock', [480, 10, 30, 30]), ('a sign indicating a reading nook', [320, 20, 180, 80])]\nBackground prompt: A vintage bookstore\nNegative prompt: "
+    ],
+    "A music studio with a person playing a keyboard, a guitar resting on a stand, a microphone set up for singing, a laptop recording the session, and a dog lying on a couch listening": [
+        "[('a person playing a keyboard', [30, 152, 150, 300]), ('a guitar on a stand', [200, 172, 90, 280]), ('a microphone', [310, 142, 50, 210]), ('a laptop', [380, 162, 100, 68]), ('a dog on a couch', [100, 312, 312, 190])]\nBackground prompt: A music studio\nNegative prompt: "
+    ],
+    "An outdoor cinema night with a screen showing a film, a person sitting on a blanket with popcorn, a dog lying beside them, a bottle of soda, and a speaker providing sound": [
+        "[('a screen', [150, 20, 212, 120]), ('a person', [190, 250, 132, 200]), ('a blanket', [170, 240, 172, 210]), ('a dog', [50, 300, 120, 80]), ('a bottle of soda', [340, 310, 40, 120]), ('a speaker', [400, 280, 90, 130])]\nBackground prompt: An outdoor cinema night\nNegative prompt: "
+    ],
+    "A skatepark with a person performing a trick on a skateboard, a dog watching from the sidelines, a bench where backpacks and helmets are piled, a bottle of water resting on the ground, and a graffiti-covered wall": [
+        "[('a person on a skateboard', [120, 201, 192, 211]), ('a dog', [30, 300, 140, 150]), ('a bench with backpacks and helmets', [250, 350, 262, 162]), ('a bottle of water', [410, 480, 60, 32]), ('a graffiti-covered wall', [0, 0, 512, 100])]\nBackground prompt: A skatepark\nNegative prompt: "
+    ],
+    "A desert camping scene with a tent pitched on the sand, a person sitting on a folding chair watching the sunset, a dog digging in the sand, a cooler keeping drinks cold, and a flashlight ready for the night": [
+        "[('a tent', [30, 201, 172, 150]), ('a person sitting on a folding chair', [222, 261, 90, 139]), ('a dog digging in the sand', [325, 300, 120, 90]), ('a cooler', [100, 370, 80, 60]), ('a flashlight', [200, 380, 30, 50])]\nBackground prompt: A desert camping scene with the sunset\nNegative prompt: "
+    ],
+    "A botanical garden tour with a guide pointing out flowers, a person taking photos with a cell phone, a bench for resting, a dog on a leash sniffing the plants, and a fountain bubbling in the background": [
+        "[('a guide', [30, 100, 90, 180]), ('flowers', [200, 50, 112, 112]), ('a person with a cell phone', [320, 110, 80, 160]), ('a bench', [50, 350, 200, 80]), ('a dog on a leash', [280, 300, 120, 150]), ('a fountain', [400, 200, 90, 150])]\nBackground prompt: A botanical garden tour\nNegative prompt: "
+    ],
+    "A home cooking class with a person instructing on kneading dough, a table set with bowls and flour, a dog waiting for spills, a book of recipes open for reference, and a timer ticking down": [
+        "[('a person', [30, 50, 150, 300]), ('a table', [180, 120, 300, 150]), ('a dog', [100, 350, 120, 150]), ('a book of recipes', [320, 300, 150, 100]), ('a timer', [200, 80, 50, 50])]\nBackground prompt: A home cooking class\nNegative prompt: "
+    ],
+    "A city rooftop party with a person DJing, a table with bottles and cups, a dog lounging under a chair, a cooler glowing with lights, and a view of the skyline at night": [
+        "[('a person DJing', [45, 50, 100, 200]), ('a table with bottles and cups', [200, 300, 150, 100]), ('a dog lounging under a chair', [350, 400, 120, 90]), ('a cooler glowing with lights', [150, 410, 130, 80]), ('a view of the skyline at night', [0, 0, 512, 50])]\nBackground prompt: A city rooftop party at night\nNegative prompt: "
+    ],
+    "A forest hiking path with a person carrying a backpack, a sign marking the trail, a dog chasing butterflies, a bench overlooking a vista, and a bird singing from a tree": [
+        "[('a person carrying a backpack', [100, 201, 112, 211]), ('a sign marking the trail', [20, 300, 80, 160]), ('a dog chasing butterflies', [240, 320, 152, 128]), ('a bench overlooking a vista', [350, 280, 142, 112]), ('a bird singing from a tree', [410, 50, 90, 80])]\nBackground prompt: A forest hiking path\nNegative prompt: "
+    ],
+    "A riverside fishing trip with a person casting a line, a cooler for the catch, a dog watching the water, a bench for taking breaks, and a hat protecting from the sun": [
+        "[('a person casting a line', [100, 152, 112, 228]), ('a cooler', [50, 350, 100, 62]), ('a dog watching the water', [220, 300, 140, 95]), ('a bench', [300, 400, 200, 72]), ('a hat', [410, 100, 60, 30])]\nBackground prompt: A riverside scene\nNegative prompt: "
+    ],
+    "An urban garden project with a person planting seeds, a watering can ready for use, a dog digging beside, a bench made from recycled materials, and a sign welcoming volunteers": [
+        "[('a person planting seeds', [100, 212, 120, 300]), ('a watering can', [240, 400, 100, 80]), ('a dog digging', [360, 312, 120, 200]), ('a bench made from recycled materials', [20, 412, 200, 90]), ('a sign welcoming volunteers', [400, 22, 112, 178])]\nBackground prompt: An urban garden project\nNegative prompt: "
+    ],
+    "A winter cabin scene with a person sipping hot cocoa, a dog curled up by the fire, a pair of skis leaning against the wall, a book open on the couch, and a window showing falling snow": [
+        "[('a person sipping hot cocoa', [90, 201, 112, 211]), ('a dog curled up by the fire', [230, 300, 182, 108]), ('a pair of skis', [402, 108, 60, 304]), ('an open book', [150, 412, 160, 90]), ('a window showing falling snow', [20, 50, 120, 180])]\nBackground prompt: A winter cabin scene\nNegative prompt: "
+    ],
+    "A neighborhood block party with a grill cooking hot dogs, a table with a cake and donut for dessert, a person leading a dance, a dog weaving through the crowd, and a banner announcing the event": [
+        "[('a grill', [30, 300, 100, 80]), ('a table', [200, 310, 120, 70]), ('a cake', [210, 320, 50, 30]), ('a donut', [250, 320, 40, 20]), ('a person', [370, 200, 70, 150]), ('a dog', [140, 400, 60, 50]), ('a banner', [100, 10, 312, 50])]\nBackground prompt: A neighborhood block party\nNegative prompt: "
+    ],
+    "A bird-watching expedition in a forest with a person using binoculars, a dog sitting quietly, a guidebook on birds resting on a log, a water bottle for hydration, and a bird singing overhead": [
+        "[('a person', [100, 152, 112, 224]), ('a dog', [230, 312, 128, 160]), ('a guidebook on birds', [350, 400, 80, 48]), ('a water bottle', [50, 410, 40, 90]), ('a bird', [400, 50, 60, 40])]\nBackground prompt: A forest during a bird-watching expedition\nNegative prompt: "
+    ],
+    "A cityscape photography outing with a person setting up a tripod, a camera focusing on the skyline, a backpack with extra lenses, a dog posing for a test shot, and a sunset illuminating the buildings": [
+        "[('a person', [30, 211, 112, 290]), ('a tripod', [20, 361, 60, 151]), ('a camera', [150, 250, 112, 80]), ('a backpack', [300, 311, 90, 120]), ('a dog', [410, 282, 102, 118])]\nBackground prompt: A cityscape during sunset\nNegative prompt: "
+    ]
+}
