@@ -95,7 +95,7 @@ def spatial_evaluation(objects, text_objects):
             name = obj['name']
         # print(name)
         # print(name.startswith("an "))
-        correct_order.append(text_objects['obj_attributes'].index(name))
+        correct_order.append(text_objects['obj_attributes'].index(name.lower()))
     rect = [objects[i]['bounding_box'] for i in correct_order]
     # rect = [objects[i]['bounding_box'] for i in range(len(text_objects['obj_attributes']))]
     # print(f"rect: {rect}")
@@ -276,7 +276,7 @@ if __name__ == "__main__":
             print(f"Spatial Accuracy for {i} objects: {np.mean(spatial_check[i])}")
             spatial_results[i] = np.mean(spatial_check[i])
         os.makedirs("results", exist_ok=True)
-        json.dump(spatial_results, open(f"results/spatial_results_{template_version}.json", "w"), indent=2)
+        json.dump(spatial_results, open(f"results/spatial_results_{template_version}_{model}.json", "w"), indent=2)
     if args.prompt_type.endswith("numeracy"):
         print(f"Overall Numeracy Precision: {np.mean(numeracy_check['precision'])}")
         print(f"Overall Numeracy Recall: {np.mean(numeracy_check['recall'])}")
