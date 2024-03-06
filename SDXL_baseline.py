@@ -10,20 +10,21 @@ def display(pipeline_text2image, prompt, save_prefix="", img_dir="SDXL_output", 
     """
     save_ind_in_filename: This adds a global index to the filename so that two calls to this function will not save to the same file and overwrite the previous image.
     """
-    if save_prefix != "":
-        save_prefix = save_prefix + "_"
-    if save_ind_in_filename:
-        ind = f"{ind}_" if ind is not None else ""
-        path = f"{img_dir}/{save_prefix}{ind}.png"
-    else:
-        ind = f"{ind}" if ind is not None else ""
-        path = f"{img_dir}/{save_prefix}{ind}.png"
+    # if save_prefix != "":
+    #     save_prefix = save_prefix #+ "_"
+    # if save_ind_in_filename:
+    #     ind = f"{ind}" if ind is not None else ""
+    #     path = f"{img_dir}/{save_prefix}"
+    # else:
+    #     ind = f"{ind}" if ind is not None else ""
+    path = f"{img_dir}/{save_prefix}"
   
     
-    if os.path.exists(path):
+    if os.path.exists(f"{path}img_0.pnd"):
         print(f"The file {path} exists.")
     else:
-        print(f"Saved to {path}")
+        
+        os.makedirs(path, exist_ok=True)
 #         print(f"The file {path} does not exist.")
     
         image = pipeline_text2image(prompt=prompt, negative_target_size=(512, 512)).images[0]
@@ -31,14 +32,17 @@ def display(pipeline_text2image, prompt, save_prefix="", img_dir="SDXL_output", 
         if isinstance(image, np.ndarray):
             image = Image.fromarray(image)
 
-        image.save(path)
+        image.save(f"{path}img_0.png")
         torch.cuda.empty_cache()
+        print(f"Saved to {path}img_0.png")
     
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-prompt_file', '--prompt_file', required=True, help="prompt file path")
-    parser.add_argument('-cuda', '--cuda', required=True, help="cuda number")
+    # parser.add_argument('-prompt_file', '--prompt_file', required=True, help="prompt file path")
+    # parser.add_argument('-cuda', '--cuda', required=True, help="cuda number")
+    parser.add_argument('--prompt_file', default="data/new_sample_3.json", help="prompt file path")
+    parser.add_argument('--cuda', default="0", help="cuda number")
     
     args = parser.parse_args()
     prompt_file = args.prompt_file
@@ -50,12 +54,15 @@ if __name__ == "__main__":
         "stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, variant="fp16", use_safetensors=True
     ).to("cuda")
 
-    with open(f"cache/{prompt_file}", 'r') as f:
+    with open(f"{prompt_file}", 'r') as f:
         prompt_dict = json.load(f)
         
     idx = 0
     for k in prompt_dict:
-        display(pipeline_text2image, k, save_prefix=prompt_file, ind=idx)
+        cur_prompt = k['text']
+        print(cur_prompt)
+        display(pipeline_text2image, cur_prompt, save_prefix=f"spatial/{idx}/", ind=idx)
         idx += 1
+        # break
 
 
