@@ -12,7 +12,7 @@ from nltk.tag import pos_tag
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
-cur_time = time.strftime("%I:%M%pon%B%d,%Y")
+# cur_time = time.strftime("%I:%M%pon%B%d,%Y")
 
 CLASSES = {0: 'person',
  1: 'bicycle',
@@ -99,17 +99,18 @@ def detecting_objects(DIR):
     print("Loading model (yolov8m.pt)...")
     model = YOLO("yolov8m.pt")
     # DIR = f"img_generations/img_generations_templatev0.3_lmd_plus_demo_gpt-4/run0"
+    print(os.listdir(DIR))
     for dir in os.listdir(DIR):
         if os.path.isdir(os.path.join(DIR, dir)):
             for file in os.listdir(os.path.join(DIR, dir)):
-                if file.endswith("4.png"):
+                if file.endswith("0.png"):
                     cur_path = os.path.join(DIR, dir, file)
                     results = model.predict(
                         os.path.join(DIR, dir, file), 
                         save=True, 
                         imgsz=512, 
                         save_txt=True, 
-                        project=f"object_detection/{DIR[16:]}/{cur_time}", 
+                        project=f"object_detection/{DIR[16:]}", 
                         name=f"results_{dir}"
                         )
 
@@ -156,11 +157,52 @@ def find_key_for_value(my_dict, search_value):
     The key corresponding to the given value if found, otherwise None.
     """
     for key, value in my_dict.items():
-        if value == search_value:
+        if search_value in value:
             return key
     return None
 
-def evaluate_image(yolo_file_path, original_prompt):
+def euclidean_distance(point1, point2):
+
+    x1, y1 = point1
+    x2, y2 = point2
+    distance = np.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+    return distance
+
+def spatial_eval(ind, converted_detections):
+    annotation = GROUND_TRUTH[ind]
+    # print(annotation)
+    print(converted_detections)
+    obj_attributes = annotation['obj_attributes']
+    converted_detections_objects = [det[0] for det in converted_detections]
+
+    centroid = [[rect[1][0]+rect[1][2]//2, rect[1][1]+rect[1][3]//2] for rect in converted_detections]
+    # print(centroid)
+    # print(converted_detections_objects)
+    # print(obj_attributes)
+    credit = 0
+    for idx in range(len(obj_attributes) - 1):
+        if obj_attributes[idx] not in converted_detections_objects or obj_attributes[idx + 1] not in converted_detections_objects:
+            continue
+        locate_idx1 = converted_detections_objects.index(obj_attributes[idx])
+        locate_idx2 = converted_detections_objects.index(obj_attributes[idx + 1])
+        # print(locate_idx1, locate_idx2)
+        d = euclidean_distance(centroid[locate_idx1], centroid[locate_idx2])
+        relationship = []
+        if (centroid[locate_idx2][1] - centroid[locate_idx1][1])/d >= np.sin(np.pi/4):
+            relationship += ["above"]
+        if (centroid[locate_idx2][1] - centroid[locate_idx1][1])/d <= np.sin(-np.pi/4):
+            relationship += ["below"]
+        if (centroid[locate_idx1][0] - centroid[locate_idx2][0])/d >= np.cos(np.pi/4):
+            relationship += ["to the right of"]
+        if (centroid[locate_idx1][0] - centroid[locate_idx2][0])/d <= np.cos(3*np.pi/4):
+            relationship += ["to the left of"]
+        # print(relationship)
+        if annotation['rel_type'][idx] in relationship:
+            credit += 1
+
+    return credit/len(annotation['rel_type'])
+
+def evaluate_image(yolo_file_path, original_prompt, ind):
     yolo_detections = []
 
     # Read the file and parse the data
@@ -179,19 +221,26 @@ def evaluate_image(yolo_file_path, original_prompt):
     target_objs = set()
     for obj, cor in original_prompt:
         # Extract the noun from the object description (e.g. "a person" -> "person")
-        obj = extract_noun(obj)
+        # obj = extract_noun(obj)
+        # print(obj)
         # Convert the object name to its corresponding class ID
-        target_objs.add(find_key_for_value(CLASSES, obj))
+        # target_objs.add(find_key_for_value(CLASSES, obj))
+        target_objs.add(obj)
+
+    # print(target_objs)
 
     converted_detections = []
     all_detected_objects = set()
     for det in yolo_detections:
-        class_id = det[0]
+        print(det)
+        class_id = CLASSES[det[0]]
         all_detected_objects.add(class_id)
+        
         if class_id in target_objs:
             bbox = convert_center_to_corner(det[1:], img_width, img_height)
-            converted_detections.append(bbox)
-
+            converted_detections.append([class_id, bbox])
+    # print(converted_detections)
+    # print(all_detected_objects)
     # Evaluate Object Count Accuracy
     expected_count = len(original_prompt)
     detected_count = len(converted_detections)
@@ -202,7 +251,8 @@ def evaluate_image(yolo_file_path, original_prompt):
     # iou_threshold = 0.9
     all_ious = []
     # accurate_boxes = 0
-    for det_box in converted_detections:
+    for class_id, det_box in converted_detections:
+        print(det_box)
         cur_ious = []
         for _, org_box in original_prompt:
             iou = calculate_iou(det_box, org_box)
@@ -219,10 +269,19 @@ def evaluate_image(yolo_file_path, original_prompt):
     class_id_to_name = CLASSES
     expected_objects = target_objs 
     extra_detected_objects = all_detected_objects.difference(expected_objects)
-    extra_detected_objects_names = [class_id_to_name[obj_id] for obj_id in extra_detected_objects]
+
+    print(extra_detected_objects)
+    # extra_detected_objects_names = [class_id_to_name[obj_id] for obj_id in extra_detected_objects]
+
+    spatial_acc = 0
+    if 'spatial' in args.prompt_type:
+        spatial_acc = spatial_eval(ind, converted_detections)
+
+    if all_ious == []:
+        all_ious = [0]
 
     # Results
-    return count_accuracy, np.mean(all_ious), extra_detected_objects_names
+    return count_accuracy, np.mean(all_ious), extra_detected_objects, spatial_acc
 
 
 
@@ -240,24 +299,57 @@ if __name__ == "__main__":
     # Parse command line arguments
     parser = argparse.ArgumentParser()
     parser.add_argument("--lm", default='gpt-4', type=str)
-    parser.add_argument("--template_version", default='v0.3', type=str)
-    parser.add_argument("--prompt_type", default='demo', type=str)
+    parser.add_argument("--template_version", default='v0.1', type=str)
+    parser.add_argument("--prompt_type", default='lmd_spatial', type=str)
+    parser.add_argument("--sdxl", default=True)
     args = parser.parse_args()
 
-    DIR = f"img_generations/img_generations_template{args.template_version}_lmd_plus_{args.prompt_type}_{args.lm}(old)/run0"
+    if args.sdxl:
+        DIR = f"img_generations/img_generations_template{args.template_version}_lmd_plus_{args.prompt_type}_{args.lm}_sdxl_0.3/run0"
+    else:
+        DIR = f"img_generations/img_generations_template{args.template_version}_lmd_plus_{args.prompt_type}_{args.lm}/run0"
 
     # Detecting objects from synthetic images
     detecting_objects(DIR)
 
     # Evaluate the detected objects
-    prompts = json.load(open(f"cache/cache_demo_{args.template_version}_{args.lm}.json")) 
+    if args.prompt_type.startswith("lmd"):
+        prompts = json.load(open(f"cache/cache_{args.prompt_type.replace('lmd_', '')}_{args.template_version}_{args.lm}.json"))
+    else:
+        prompts = json.load(open(f"cache/cache_demo_{args.template_version}_{args.lm}.json")) 
+    if "spatial" in args.prompt_type:
+        GROUND_TRUTH = json.load(open("data/new_sample_3.json"))
+
+    extra_miss_ratio = []
+    ious = []
+    spatial_accs = []
+
+
     for ind, (key, value) in enumerate(prompts.items()):
         original_prompt = eval(value[0].split("Background prompt:")[0])
-        yolo_path = f"object_detection/{DIR}/{cur_time}/results_{ind}/labels/img_4.txt"
+        yolo_path = f"object_detection/{DIR[16:]}/results_{ind}/labels/img_0.txt"
         try:
             print("=================================")
-            eval_result = evaluate_image(yolo_path, original_prompt)
-            print(f"extra/miss ratio: {eval_result[0]}, mean_iou: {eval_result[1]}, extra_detected_objects: {eval_result[2]}")
+            eval_result = evaluate_image(yolo_path, original_prompt, ind)
+            print(f"extra/miss ratio: {eval_result[0]}, mean_iou: {eval_result[1]}, extra_detected_objects: {eval_result[2]}, spatial accuracy: {eval_result[3]}")
             print("=================================")
+            extra_miss_ratio.append(eval_result[0])
+            ious.append(eval_result[1])
+            spatial_accs.append(eval_result[3])
         except:
+            extra_miss_ratio.append(0)
+            ious.append(0)
+            spatial_accs.append(0)
             pass
+    
+    print(f"Extra/Miss Ratio: {np.mean(extra_miss_ratio)}")
+    print(f"Mean IoU: {np.mean(ious)}")
+    print(f"Spatial Accuracy: {np.mean(spatial_accs)}")
+
+    eval_result = {
+        "extra_miss_ratio": np.mean(extra_miss_ratio),
+        "mean_iou": np.mean(ious),
+        "spatial_accuracy": np.mean(spatial_accs)
+    }
+    json.dump(eval_result, open(f"results/evaluation_result_{DIR[16:-5]}.json", "w"), indent=2)
+        # break
