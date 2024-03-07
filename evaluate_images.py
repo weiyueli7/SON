@@ -387,9 +387,10 @@ if __name__ == "__main__":
     parser.add_argument("--template_version", default='v0.1', type=str)
     parser.add_argument("--prompt_type", default='lmd_spatial', type=str)
     parser.add_argument("--sdxl", default=True)
-    parser.add_argument("--model_type", default='lmd', type=str)
+    parser.add_argument("--model_type", default='lmd', type=str, help="The model type to evaluate. (lmd, sdxl, tokencompose, etc.)")
     parser.add_argument("--task", default='spatial', type=str)
-    parser.add_argument("--yolo_model", default='yolov8m', type=str)
+    parser.add_argument("--yolo_model", default='yolov8m', type=str, help="The YOLO model to use for object detection. (yolov8m, yolov8x, yolov9e)")
+    parser.add_argument("--detection", default=False, type=bool)
     args = parser.parse_args()
 
 
@@ -403,8 +404,8 @@ if __name__ == "__main__":
         DIR = f"img_generations/{args.task}_{args.model_type}"
 
     # Detecting objects from synthetic images
-
-    # detecting_objects(DIR)
+    if args.detection:
+        detecting_objects(DIR)
 
 
     # Evaluate the detected objects
