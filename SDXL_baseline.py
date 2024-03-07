@@ -1,4 +1,5 @@
 from diffusers import AutoPipelineForText2Image
+from diffusers import StableDiffusionPipeline
 import torch
 from PIL import Image
 import numpy as np
@@ -26,8 +27,10 @@ def display(pipeline_text2image, prompt, save_prefix="", img_dir="SDXL_output", 
         
         os.makedirs(path, exist_ok=True)
 #         print(f"The file {path} does not exist.")
-    
-        image = pipeline_text2image(prompt=prompt, negative_target_size=(512, 512)).images[0]
+        if model_type == 'sdxl':
+            image = pipeline_text2image(prompt=prompt, negative_target_size=(512, 512)).images[0]
+        elif model_type == 'tokencompose':
+            image = pipeline_text2image(prompt=prompt).images[0]
 
         if isinstance(image, np.ndarray):
             image = Image.fromarray(image)
@@ -43,16 +46,22 @@ if __name__ == "__main__":
     # parser.add_argument('-cuda', '--cuda', required=True, help="cuda number")
     parser.add_argument('--prompt_file', default="data/new_sample_3.json", help="prompt file path")
     parser.add_argument('--cuda', default="0", help="cuda number")
+    parser.add_argument('--model', default='sdxl', help='which diffusion model to use (sdxl or tokencompose)')
     
     args = parser.parse_args()
     prompt_file = args.prompt_file
     cuda = args.cuda
+    model_type = args.model
     
     torch.cuda.set_device(int(cuda.split(",")[0]))
 
-    pipeline_text2image = AutoPipelineForText2Image.from_pretrained(
-        "stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, variant="fp16", use_safetensors=True
-    ).to("cuda")
+    if model_type == 'sdxl':
+        
+        pipeline_text2image = AutoPipelineForText2Image.from_pretrained(
+            "stabilityai/stable-diffusion-xl-base-1.0", torch_dtype=torch.float16, variant="fp16", use_safetensors=True
+        ).to("cuda")
+    elif model_type == 'tokencompose':
+        pipeline_text2image = StableDiffusionPipeline.from_pretrained("mlpc-lab/TokenCompose_SD14_A", torch_dtype=torch.float32).to('cuda')
 
     with open(f"{prompt_file}", 'r') as f:
         prompt_dict = json.load(f)
@@ -61,7 +70,7 @@ if __name__ == "__main__":
     for k in prompt_dict:
         cur_prompt = k['text']
         print(cur_prompt)
-        display(pipeline_text2image, cur_prompt, save_prefix=f"spatial/{idx}/", ind=idx)
+        display(pipeline_text2image, cur_prompt, save_prefix=f"spatial_{model_type}/{idx}/", ind=idx)
         idx += 1
         # break
 
