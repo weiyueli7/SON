@@ -109,7 +109,7 @@ def detecting_objects(DIR):
                         save=True, 
                         imgsz=512, 
                         save_txt=True, 
-                        project=f"object_detection/{DIR}/{cur_time}", 
+                        project=f"object_detection/{DIR[16:]}/{cur_time}", 
                         name=f"results_{dir}"
                         )
 
@@ -244,7 +244,7 @@ if __name__ == "__main__":
     parser.add_argument("--prompt_type", default='demo', type=str)
     args = parser.parse_args()
 
-    DIR = f"img_generations/img_generations_template{args.template_version}_lmd_plus_{args.prompt_type}_{args.lm}/run0"
+    DIR = f"img_generations/img_generations_template{args.template_version}_lmd_plus_{args.prompt_type}_{args.lm}(old)/run0"
 
     # Detecting objects from synthetic images
     detecting_objects(DIR)
