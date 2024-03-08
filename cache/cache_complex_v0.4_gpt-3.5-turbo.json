@@ -386,7 +386,9 @@
     "A mountain cabin porch with a person rocking in a chair, a dog sleeping at their feet, a pair of hiking boots drying, a cup of coffee steaming, and a view of the forest": [
         "[('a mountain cabin porch', [0, 0, 512, 512]), ('a person rocking in a chair', [50, 200, 100, 200]), ('a dog sleeping at their feet', [200, 300, 100, 50]), ('a pair of hiking boots drying', [350, 350, 50, 50]), ('a cup of coffee steaming', [100, 100, 50, 50])]\nBackground prompt: A mountain cabin porch with a view of the forest\nNegative prompt: forest"
     ],
-    "A downtown busker with a person playing guitar, a case open for tips, a dog wearing a bandana, a crowd gathering to listen, and a sign with the performer's name": [],
+    "A downtown busker with a person playing guitar, a case open for tips, a dog wearing a bandana, a crowd gathering to listen, and a sign with the performer's name": [
+        "[('a person playing guitar', [41, 134, 148, 278]), ('a case open for tips', [210, 315, 92, 57]), ('a dog wearing a bandana', [314, 320, 82, 67]), ('a crowd gathering to listen', [12, 23, 480, 96]), ('a sign with the performer\\'s name', [12, 12, 136, 10])]\nBackground prompt: A downtown street performance\nNegative prompt:"
+    ],
     "A home fitness room with a person lifting weights, a yoga mat rolled out, a bottle of water on a shelf, a towel draped over a bench, and a dog watching curiously": [
         "[('a person lifting weights', [48, 71, 158, 210]), ('a yoga mat', [320, 93, 150, 20]), ('a bottle of water', [320, 133, 50, 70]), ('a towel', [40, 133, 100, 20]), ('a dog', [250, 180, 50, 50])]\nBackground prompt: A home fitness room\nNegative prompt: "
     ],

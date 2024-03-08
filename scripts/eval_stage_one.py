@@ -1,6 +1,7 @@
 # This script allows evaluating stage one and saving the generated prompts to cache
 
 import sys
+import re
 import os
 import numpy as np
 import json
@@ -35,7 +36,7 @@ def numeracy_evaluation(objects, text_objects):
     print(objects)
     print(text_objects)
     groud_truth = [obj[1] for obj in text_objects['num_object']]
-    objects_keys = [obj['name'] for obj in objects]
+    objects_keys = [re.sub(r'\s*\d+', '', obj['name']) for obj in objects]
     objects_keys = [obj[2:] if obj.startswith("a ") else obj[3:] if obj.startswith("an ") else obj for obj in objects_keys]
     prediction = [objects_keys.count(obj[0]) for obj in text_objects['num_object']]
     if text_objects['type'] == 'comparison':
@@ -66,8 +67,14 @@ def numeracy_evaluation(objects, text_objects):
     prediction = [objects_keys.count(obj[0]) for obj in text_objects['num_object']]
     print(groud_truth)
     print(prediction)
-    precision = sum([min(groud_truth[i], prediction[i]) for i in range(len(groud_truth))])/sum(prediction)
-    recall = sum([min(groud_truth[i], prediction[i]) for i in range(len(groud_truth))])/sum(groud_truth)
+    try:
+        precision = sum([min(groud_truth[i], prediction[i]) for i in range(len(groud_truth))])/sum(prediction)
+    except:
+        precision = 0
+    try:
+        recall = sum([min(groud_truth[i], prediction[i]) for i in range(len(groud_truth))])/sum(groud_truth)
+    except:
+        recall = 0
 
     return precision, recall, prediction == groud_truth
 
@@ -180,8 +187,9 @@ if __name__ == "__main__":
     parser.add_argument("--model", choices=model_names, required=True)
     parser.add_argument("--template_version",
                         choices=template_versions, required=True)
-    parser.add_argument("--data_json", default="new_sample_3.json", type=str)
+    parser.add_argument("--spatial_json", default="new_sample_3.json", type=str)
     parser.add_argument("--numeracy_json", default="numeracy.json", type=str)
+    parser.add_argument("--complex_json", default="complex_prompt.json", type=str)
     parser.add_argument("--skip_first_prompts", default=0, type=int)
     parser.add_argument("--num_prompts", default=None, type=int)
     parser.add_argument("--verbose", action='store_true')
@@ -199,8 +207,10 @@ if __name__ == "__main__":
         cache.cache_path = f'{os.getcwd()}/cache/cache_{(args.prompt_type)}_{template_version}_{model}.json'
     if args.prompt_type.endswith("numeracy"):
         text_objects_path = f'{os.getcwd()}/data/{args.numeracy_json}'
-    else: #args.prompt_type.endswith("spatial"):
-        text_objects_path = f'{os.getcwd()}/data/{args.data_json}'
+    elif args.prompt_type.endswith("spatial"): #args.prompt_type.endswith("spatial"):
+        text_objects_path = f'{os.getcwd()}/data/{args.spatial_json}'
+    else:
+        text_objects_path = f'{os.getcwd()}/data/{args.complex_json}'
     cache.init_cache()
     
     print(cache.cache_path)
@@ -250,6 +260,8 @@ if __name__ == "__main__":
                 numeracy_check['recall'].append(numeracy_recall)
                 numeracy_check['precision'].append(numeracy_precision)
             numeracy_check['accuracy'].append(numeracy_accuracy)
+        if args.prompt_type.endswith("complex"):
+            pass
                 
 
         
@@ -275,12 +287,26 @@ if __name__ == "__main__":
         for i in range(3, 10):
             print(f"Spatial Accuracy for {i} objects: {np.mean(spatial_check[i])}")
             spatial_results[i] = np.mean(spatial_check[i])
+        spatial_results['overlap_rate'] = sum(overlap_areas)/sum(object_areas)
         os.makedirs("results", exist_ok=True)
         json.dump(spatial_results, open(f"results/spatial_results_{template_version}_{model}.json", "w"), indent=2)
     if args.prompt_type.endswith("numeracy"):
         print(f"Overall Numeracy Precision: {np.mean(numeracy_check['precision'])}")
         print(f"Overall Numeracy Recall: {np.mean(numeracy_check['recall'])}")
         print(f"Overall Numeracy Accuracy: {np.mean(numeracy_check['accuracy'])}")
+        numeracy_results = {}
+        numeracy_results['precision'] = np.mean(numeracy_check['precision'])
+        numeracy_results['recall'] = np.mean(numeracy_check['recall'])
+        numeracy_results['accuracy'] = np.mean(numeracy_check['accuracy'])
+        numeracy_results['overlap_rate'] = sum(overlap_areas)/sum(object_areas)
+        os.makedirs("results", exist_ok=True)
+        json.dump(numeracy_results, open(f"results/numeracy_results_{template_version}_{model}.json", "w"), indent=2)
+    if args.prompt_type.endswith("complex"):
+        complex_results = {}
+        complex_results['overlap_rate'] = sum(overlap_areas)/sum(object_areas)
+        os.makedirs("results", exist_ok=True)
+        json.dump(complex_results, open(f"results/complex_results_{template_version}_{model}.json", "w"), indent=2)
+
     
     # THE BOTTOM LINE OF OUR IMPLEMENTATION
         
