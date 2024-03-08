@@ -1,0 +1,602 @@
+{
+    "A busy city street with a car stopped at a traffic light, a bus in the next lane, a pedestrian waiting to cross, a motorcycle weaving through traffic, and a taxi parked by the sidewalk": [
+        "[('a car', [120, 300, 180, 100]), ('a traffic light', [300, 250, 30, 70]), ('a bus', [350, 300, 200, 100]), ('a pedestrian', [260, 400, 50, 100]), ('a motorcycle', [200, 320, 80, 60]), ('a taxi', [20, 350, 180, 100])]\nBackground prompt: A busy city street scene\nNegative prompt: <Scene End>"
+    ],
+    "A home office setup with a desk, a chair, a laptop open and running, a cup holding pens and pencils, a potted plant on the windowsill, and a cell phone charging beside the computer": [
+        "[('a desk', [20, 200, 472, 200]), ('a chair', [220, 300, 72, 100]), ('a laptop', [220, 200, 72, 50]), ('a cup holding pens and pencils', [292, 200, 30, 50]), ('a potted plant', [20, 50, 50, 100]), ('a cell phone', [292, 250, 30, 50])]\nBackground prompt: A realistic home office setup\nNegative prompt: <Scene Four End>"
+    ],
+    "A birthday party scene with a table covered in a cloth, a cake with candles lit, a bunch of balloons tied to the chair, a person wearing a party hat, and a pile of presents wrapped in colorful paper": [
+        "[('a table with a cloth', [20, 200, 300, 150]), ('a cake with candles', [140, 250, 60, 50]), ('a bunch of balloons', [350, 0, 80, 200]), ('a person with a party hat', [400, 150, 100, 200]), ('a pile of presents', [50, 350, 200, 150])]\nBackground prompt: A festive indoor birthday party scene\nNegative prompt: <Scene One End>"
+    ],
+    "An outdoor barbecue with a person grilling burgers, a table set with plates and forks, a dog waiting hopefully, a cooler with bottles of soda, and a kite stuck in a nearby tree": [
+        "[('a person', [50, 200, 100, 200]), ('a grill with burgers', [150, 250, 100, 100]), ('a table', [300, 200, 150, 100]), ('plates and forks', [320, 210, 110, 80]), ('a dog', [200, 350, 80, 100]), ('a cooler with soda', [450, 250, 50, 50]), ('a kite', [400, 50, 50, 50]), ('a tree', [380, 0, 120, 300])]\nBackground prompt: An outdoor barbecue scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A romantic evening setup with a table for two, a vase with a single rose, two wine glasses ready to be filled, a person lighting a candle, and a guitar resting against the chair ready for serenading": [
+        "[('a table', [50, 200, 200, 150]), ('a vase with a single rose', [125, 150, 50, 50]), ('a wine glass', [75, 150, 50, 50]), ('a wine glass', [200, 150, 50, 50]), ('a person lighting a candle', [300, 100, 100, 200]), ('a guitar', [350, 200, 50, 150]), ('a chair', [400, 200, 100, 150])]\nBackground prompt: A romantic evening setup\nNegative prompt: <Scene Four End>"
+    ],
+    "A school playground with children playing on swings, a teacher supervising from a bench, a backpack lying on the ground, a ball bouncing away, and a bicycle parked against the fence": [
+        "[('a swing', [50, 200, 80, 120]), ('a child on swing', [60, 220, 60, 80]), ('a child on swing', [130, 220, 60, 80]), ('a teacher', [300, 250, 60, 100]), ('a bench', [280, 270, 100, 40]), ('a backpack', [200, 350, 40, 30]), ('a ball', [400, 320, 30, 30]), ('a bicycle', [450, 250, 50, 100]), ('a fence', [440, 200, 70, 150])]\nBackground prompt: A realistic school playground scene\nNegative prompt: "
+    ],
+    "A garage sale with a table displaying books and toys, a person examining a vase, a dog tied to a post, a sign advertising the sale, and a box of free items marked \"Take Me.\"": [
+        "[('a table with books and toys', [20, 200, 200, 150]), ('a person examining a vase', [250, 150, 100, 200]), ('a dog tied to a post', [400, 300, 80, 80]), ('a sign advertising the sale', [10, 10, 100, 100]), ('a box marked \"Take Me\"', [350, 400, 100, 100])]\nBackground prompt: A realistic scene of a garage sale\nNegative prompt: <Scene Four End>"
+    ],
+    "An art gallery opening with paintings hanging on the walls, a person admiring a sculpture, a table with wine glasses and a bottle, a book of guest signatures, and an artist discussing their work": [
+        "[('a painting', [20, 20, 150, 200]), ('a painting', [200, 20, 150, 200]), ('a painting', [380, 20, 132, 200]), ('a person', [100, 250, 80, 200]), ('a sculpture', [150, 300, 50, 100]), ('a table', [300, 350, 150, 50]), ('wine glasses', [320, 360, 30, 40]), ('a wine bottle', [360, 360, 20, 50]), ('a book', [400, 400, 80, 50]), ('an artist', [450, 250, 60, 200])]\nBackground prompt: An art gallery opening\nNegative prompt: <Scene Four End>"
+    ],
+    "A backyard camping scene with a tent set up, a person roasting marshmallows over a fire pit, a dog curled up nearby, a flashlight illuminating a book, and a guitar waiting for a campfire song": [
+        "[('a tent', [10, 200, 200, 200]), ('a person', [250, 200, 100, 200]), ('a fire pit', [320, 300, 80, 80]), ('a dog', [430, 350, 60, 60]), ('a flashlight', [250, 100, 30, 70]), ('a book', [290, 100, 70, 70]), ('a guitar', [400, 100, 80, 200])]\nBackground prompt: A backyard camping scene\nNegative prompt: <Scene Four End>"
+    ],
+    "An outdoor cinema night with a screen showing a film, a person sitting on a blanket with popcorn, a dog lying beside them, a bottle of soda, and a speaker providing sound": [
+        "[('a screen', [10, 10, 200, 150]), ('a person', [250, 300, 100, 150]), ('a blanket', [230, 350, 140, 100]), ('popcorn', [300, 400, 50, 50]), ('a dog', [400, 350, 80, 100]), ('a bottle of soda', [350, 400, 30, 60]), ('a speaker', [480, 10, 22, 30])]\nBackground prompt: An outdoor cinema night\nNegative prompt: <Scene End>"
+    ],
+    "A botanical garden tour with a guide pointing out flowers, a person taking photos with a cell phone, a bench for resting, a dog on a leash sniffing the plants, and a fountain bubbling in the background": [
+        "[('a guide', [20, 200, 80, 160]), ('flowers', [120, 240, 80, 80]), ('a person', [220, 200, 80, 160]), ('a cell phone', [250, 220, 30, 60]), ('a bench', [350, 300, 120, 60]), ('a dog', [480, 220, 30, 60]), ('a leash', [480, 280, 10, 30]), ('plants', [500, 240, 10, 80]), ('a fountain', [400, 100, 80, 80])]\nBackground prompt: A realistic botanical garden scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A home cooking class with a person instructing on kneading dough, a table set with bowls and flour, a dog waiting for spills, a book of recipes open for reference, and a timer ticking down": [
+        "[('a person', [10, 10, 200, 300]), ('dough', [100, 200, 50, 50]), ('a table', [0, 300, 512, 200]), ('a bowl', [50, 350, 100, 50]), ('a bowl', [200, 350, 100, 50]), ('flour', [350, 350, 50, 50]), ('a dog', [400, 400, 100, 100]), ('a book', [300, 10, 100, 150]), ('a timer', [450, 10, 50, 50])]\nBackground prompt: A realistic home cooking class\nNegative prompt: "
+    ],
+    "A city rooftop party with a person DJing, a table with bottles and cups, a dog lounging under a chair, a cooler glowing with lights, and a view of the skyline at night": [
+        "[('a person DJing', [50, 150, 100, 200]), ('a table with bottles and cups', [200, 200, 150, 100]), ('a dog under a chair', [300, 300, 100, 100]), ('a cooler with lights', [400, 200, 80, 80]), ('a view of the skyline', [0, 0, 512, 100])]\nBackground prompt: A city rooftop party at night\nNegative prompt: <Scene End>"
+    ],
+    "A riverside fishing trip with a person casting a line, a cooler for the catch, a dog watching the water, a bench for taking breaks, and a hat protecting from the sun": [
+        "[('a person', [100, 200, 80, 150]), ('a fishing line', [130, 200, 10, 150]), ('a cooler', [220, 300, 60, 50]), ('a dog', [300, 250, 70, 60]), ('a bench', [400, 320, 80, 50]), ('a hat', [110, 170, 60, 30])]\nBackground prompt: A realistic riverside scene\nNegative prompt: <Scene End>"
+    ],
+    "An urban garden project with a person planting seeds, a watering can ready for use, a dog digging beside, a bench made from recycled materials, and a sign welcoming volunteers": [
+        "[('a person planting seeds', [50, 200, 100, 200]), ('a watering can', [180, 300, 80, 80]), ('a dog digging', [300, 250, 100, 100]), ('a bench made from recycled materials', [420, 300, 80, 120]), ('a sign welcoming volunteers', [10, 10, 100, 150])]\nBackground prompt: An urban garden project\nNegative prompt: <Scene Four End>"
+    ],
+    "A beach clean-up day with a person picking up trash, a dog carrying a plastic bottle, a bag filling with collected waste, a sign thanking volunteers, and a cooler with water for participants": [
+        "[('a person picking up trash', [50, 200, 100, 200]), ('a dog carrying a plastic bottle', [200, 250, 100, 150]), ('a bag filling with collected waste', [350, 300, 100, 150]), ('a sign thanking volunteers', [450, 50, 50, 100]), ('a cooler with water', [150, 400, 100, 100])]\nBackground prompt: A beach clean-up day\nNegative prompt: <Scene Four End>"
+    ],
+    "A library book sale with tables of books, a person flipping through titles, a dog waiting patiently, a sign indicating prices, and a box for donations": [
+        "[('a table of books', [20, 200, 200, 150]), ('a person', [250, 150, 100, 200]), ('a dog', [400, 300, 80, 80]), ('a sign', [50, 50, 100, 50]), ('a box for donations', [450, 50, 50, 50])]\nBackground prompt: A realistic scene of a library book sale\nNegative prompt: <Scene Four End>"
+    ],
+    "A scuba diving lesson at a pool with a person wearing gear, a dog watching from the side, a bench for equipment, a sign explaining safety rules, and a instructor demonstrating techniques": [
+        "[('a person wearing gear', [20, 200, 100, 200]), ('a dog', [450, 350, 50, 50]), ('a bench for equipment', [200, 400, 100, 50]), ('a sign explaining safety rules', [400, 50, 80, 80]), ('an instructor', [150, 150, 100, 200])]\nBackground prompt: A realistic scene at a pool\nNegative prompt: <Scene Four End>"
+    ],
+    "A pottery stall at a craft fair with a person selling handmade bowls, a dog resting in the shade, a table displaying the wares, a sign indicating prices, and a vase of flowers as decoration": [
+        "[('a pottery stall', [10, 10, 492, 492]), ('a person', [100, 250, 100, 200]), ('handmade bowls', [200, 300, 100, 50]), ('a dog', [400, 350, 80, 60]), ('a table', [150, 300, 200, 50]), ('a sign', [50, 50, 50, 50]), ('a vase of flowers', [350, 50, 50, 100])]\nBackground prompt: A craft fair scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A city rooftop sunset watch with a person taking photos, a dog sitting beside them, a bottle of wine ready to be opened, a blanket spread out, and a camera on a tripod capturing the moment": [
+        "[('a person', [100, 200, 100, 200]), ('a dog', [220, 250, 80, 80]), ('a bottle of wine', [350, 300, 40, 80]), ('a blanket', [10, 350, 400, 100]), ('a camera on a tripod', [380, 200, 100, 200])]\nBackground prompt: A city rooftop during sunset\nNegative prompt: <Scene End>"
+    ],
+    "A summer road trip with a car parked at a scenic overlook, a person stretching their legs, a dog exploring the area, a map spread on the hood, and a cooler with snacks for the journey": [
+        "[('a car', [20, 200, 300, 200]), ('a person', [350, 200, 100, 200]), ('a dog', [400, 300, 80, 80]), ('a map', [50, 150, 150, 50]), ('a cooler', [200, 350, 100, 100])]\nBackground prompt: A summer road trip at a scenic overlook\nNegative prompt: <Scene Four End>"
+    ],
+    "A farmer's field at sunrise with a person inspecting plants, a dog chasing birds away, a hat to block the sun, a water bottle for the day's work, and a tractor ready for use": [
+        "[('a person', [100, 200, 100, 200]), ('a dog', [250, 300, 100, 100]), ('birds', [350, 50, 100, 50]), ('a hat', [50, 50, 50, 50]), ('a water bottle', [150, 50, 50, 100]), ('a tractor', [400, 300, 100, 200])]\nBackground prompt: A farmer's field at sunrise\nNegative prompt: <Scene End>"
+    ],
+    "A luxury spa day with a person lounging in a robe, a dog napping on a plush mat, a glass of cucumber water, a book for relaxed reading, and a tranquil music playlist": [
+        "[('a person in a robe', [10, 100, 200, 300]), ('a dog on a mat', [220, 350, 150, 100]), ('a glass of cucumber water', [400, 50, 80, 120]), ('a book', [400, 200, 100, 150]), ('a music playlist', [50, 400, 150, 100])]\nBackground prompt: A luxury spa day\nNegative prompt: <Scene End>"
+    ],
+    "A medieval castle tour with a person wearing a guide hat, a dog dressed in a themed costume, a map of the castle grounds, a flag fluttering above the turret, and a bench for tired visitors": [
+        "[('a medieval castle', [20, 20, 472, 472]), ('a person wearing a guide hat', [100, 300, 80, 150]), ('a dog dressed in a themed costume', [200, 320, 70, 100]), ('a map of the castle grounds', [350, 300, 100, 150]), ('a flag', [240, 10, 30, 60]), ('a bench', [400, 400, 80, 50])]\nBackground prompt: A medieval castle tour\nNegative prompt: <Scene Four End>"
+    ],
+    "An early morning fish market scene with a person haggling over prices, a cat eyeing the fish, a truck parked nearby for deliveries, a bucket of fresh catch on the ground, and a seagull flying overhead": [
+        "[('a person', [100, 200, 80, 150]), ('a cat', [200, 300, 60, 50]), ('a truck', [400, 350, 100, 150]), ('a bucket', [250, 400, 50, 50]), ('a seagull', [300, 50, 80, 30])]\nBackground prompt: An early morning fish market scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A suburban front yard with a person mowing the lawn, a dog barking at a squirrel, a mailbox at the curb, a bicycle lying on the grass, and a garden hose coiled up": [
+        "[('a person mowing the lawn', [100, 200, 100, 150]), ('a dog', [200, 250, 80, 70]), ('a squirrel', [250, 220, 50, 50]), ('a mailbox', [10, 400, 40, 80]), ('a bicycle', [350, 300, 120, 70]), ('a garden hose', [400, 100, 80, 80])]\nBackground prompt: A suburban front yard\nNegative prompt: <Scene End>"
+    ],
+    "A local library reading event with children sitting in a circle, a person reading a book aloud, a stuffed teddy bear as a prop, a shelf of books in the background, and a sign announcing the next story hour": [
+        "[('a child', [50, 200, 80, 80]), ('a child', [100, 250, 80, 80]), ('a child', [150, 300, 80, 80]), ('a child', [200, 350, 80, 80]), ('a child', [250, 300, 80, 80]), ('a child', [300, 250, 80, 80]), ('a child', [350, 200, 80, 80]), ('a person reading a book', [200, 250, 100, 100]), ('a stuffed teddy bear', [250, 200, 60, 80]), ('a shelf of books', [10, 10, 492, 120]), ('a sign', [400, 400, 100, 100])]\nBackground prompt: A local library reading event\nNegative prompt: "
+    ],
+    "A neighborhood ice cream truck with a line of children waiting, a person serving ice cream, a dog hoping for a treat, a cooler with popsicles, and a sign listing flavors": [
+        "[('an ice cream truck', [20, 150, 200, 200]), ('a child', [240, 250, 50, 50]), ('a child', [300, 250, 50, 50]), ('a child', [360, 250, 50, 50]), ('a person serving ice cream', [100, 180, 80, 80]), ('a dog', [420, 300, 60, 60]), ('a cooler with popsicles', [150, 360, 100, 100]), ('a sign listing flavors', [30, 50, 50, 90])]\nBackground prompt: A realistic neighborhood scene\nNegative prompt: <Scene Four End>"
+    ],
+    "An artist's studio with canvases lined up, a person painting at an easel, a cat sleeping amidst paint tubes, a cup with brushes soaking, and a window letting in natural light": [
+        "[('a canvas', [20, 100, 80, 120]), ('a canvas', [120, 100, 80, 120]), ('a canvas', [220, 100, 80, 120]), ('a person painting at an easel', [320, 80, 120, 180]), ('a cat', [50, 300, 80, 60]), ('paint tubes', [150, 320, 80, 40]), ('a cup with brushes', [300, 300, 60, 80]), ('a window', [450, 50, 50, 200])]\nBackground prompt: An artist's studio\nNegative prompt: <Scene Four End>"
+    ],
+    "A mountain overlook with a parked motorcycle, a person taking in the view, a map spread out on a rock, a bottle of water for hydration, and a camera capturing the moment": [
+        "[('a mountain overlook', [0, 0, 512, 512]), ('a parked motorcycle', [20, 300, 150, 200]), ('a person', [200, 250, 100, 250]), ('a map', [350, 350, 100, 100]), ('a bottle of water', [460, 400, 40, 100]), ('a camera', [250, 400, 50, 50])]\nBackground prompt: A mountain overlook\nNegative prompt: <Scene End>"
+    ],
+    "A home recording studio with a person singing into a microphone, a cat napping on a mixing board, a laptop with recording software, a guitar leaning against a wall, and headphones resting on a stand": [
+        "[('a person', [50, 100, 100, 300]), ('a microphone', [100, 200, 50, 150]), ('a cat', [200, 350, 100, 50]), ('a mixing board', [150, 350, 200, 100]), ('a laptop', [400, 200, 100, 50]), ('recording software', [410, 210, 80, 30]), ('a guitar', [10, 50, 50, 400]), ('a wall', [0, 0, 512, 512]), ('headphones', [350, 50, 50, 50]), ('a stand', [350, 100, 10, 100])]\nBackground prompt: A realistic home recording studio\nNegative prompt: <Scene Four End>"
+    ],
+    "A luxury cruise ship deck with a person lounging in a chair, a cat strolling by, a swimming pool with clear water, a bar serving tropical drinks, and a view of the ocean horizon": [
+        "[('a luxury cruise ship deck', [0, 0, 512, 512]), ('a person lounging in a chair', [50, 300, 100, 150]), ('a cat', [200, 400, 50, 50]), ('a swimming pool', [300, 350, 200, 100]), ('a bar', [400, 200, 100, 150]), ('the ocean horizon', [0, 0, 512, 100])]\nBackground prompt: A luxury cruise ship deck with a view of the ocean horizon\nNegative prompt: <Scene Four End>"
+    ],
+    "A college lecture hall with a professor at the podium, a student typing on a laptop, a book open on a desk, a projector displaying slides, and a clock showing class time": [
+        "[('a professor at the podium', [100, 100, 80, 200]), ('a student typing on a laptop', [200, 200, 80, 200]), ('a book open on a desk', [300, 300, 80, 80]), ('a projector displaying slides', [400, 50, 80, 80]), ('a clock showing class time', [450, 450, 50, 50])]\nBackground prompt: A realistic scene of a college lecture hall\nNegative prompt: <Scene Five End>"
+    ],
+    "An antique store with a person examining a vase, shelves of collectibles, a dog lying on the floor, a register with a bell, and a sign announcing a sale": [
+        "[('a person', [50, 200, 100, 200]), ('a vase', [100, 250, 50, 75]), ('shelves of collectibles', [200, 100, 200, 300]), ('a dog', [350, 400, 100, 75]), ('a register with a bell', [450, 350, 50, 100]), ('a sign', [0, 0, 100, 50])]\nBackground prompt: An antique store\nNegative prompt: <Scene Three End>"
+    ],
+    "A city park jogger with a person running, a dog on a leash beside them, a bench for resting, a water fountain, and a sign marking the jogging path": [
+        "[('a jogger', [50, 200, 100, 150]), ('a dog on a leash', [170, 250, 80, 100]), ('a bench', [300, 300, 150, 80]), ('a water fountain', [480, 200, 30, 80]), ('a sign', [400, 100, 50, 100])]\nBackground prompt: A city park scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A botanical garden with a person taking photographs, a cat chasing butterflies, a bench under a flowering tree, a map of the garden, and a sign identifying the plant species": [
+        "[('a person taking photographs', [50, 200, 100, 200]), ('a cat chasing butterflies', [200, 300, 100, 100]), ('a bench under a flowering tree', [300, 200, 150, 150]), ('a map of the garden', [450, 50, 50, 50]), ('a sign identifying the plant species', [400, 400, 100, 100])]\nBackground prompt: A botanical garden\nNegative prompt: <Scene Three End>"
+    ],
+    "A local theater with a person buying tickets, a poster advertising the show, a bench in the lobby, a dog tied outside, and a sign pointing to the entrance": [
+        "[('a local theater', [0, 0, 512, 512]), ('a person buying tickets', [50, 250, 100, 200]), ('a poster advertising the show', [200, 50, 100, 150]), ('a bench in the lobby', [350, 300, 100, 50]), ('a dog tied outside', [450, 400, 50, 100]), ('a sign pointing to the entrance', [400, 50, 50, 100])]\nBackground prompt: A realistic scene of a local theater\nNegative prompt: <Scene Four End>"
+    ],
+    "A school playground at recess with children playing tag, a teacher supervising from a bench, a dog watching through the fence, a backpack forgotten on the ground, and a ball bouncing away": [
+        "[('a child', [50, 200, 60, 80]), ('a child', [130, 210, 60, 80]), ('a child', [210, 220, 60, 80]), ('a teacher', [350, 300, 60, 80]), ('a bench', [330, 320, 120, 30]), ('a dog', [480, 250, 30, 60]), ('a fence', [460, 0, 50, 512]), ('a backpack', [100, 400, 40, 30]), ('a ball', [400, 100, 30, 30])]\nBackground prompt: A realistic school playground scene during recess\nNegative prompt: <Scene Five End>"
+    ],
+    "A riverside picnic with a blanket spread out, a person unpacking a basket, a dog waiting for scraps, a book lying open, and a sign indicating a quiet zone": [
+        "[('a blanket', [50, 300, 200, 150]), ('a person', [280, 270, 120, 200]), ('a dog', [400, 350, 100, 100]), ('a book', [100, 380, 80, 50]), ('a sign', [450, 50, 50, 150])]\nBackground prompt: A realistic riverside picnic scene\nNegative prompt: <Scene End>"
+    ],
+    "A mountain lodge with a person checking in, a cat curled up by the fireplace, a suitcase ready for the room, a sign pointing to the hiking trails, and a view of the mountains through the window": [
+        "[('a mountain lodge', [0, 0, 512, 512]), ('a person', [120, 200, 80, 150]), ('a cat', [400, 350, 60, 60]), ('a fireplace', [370, 300, 80, 100]), ('a suitcase', [200, 250, 60, 80]), ('a sign', [50, 100, 50, 100]), ('a window', [350, 50, 100, 150]), ('mountains', [350, 50, 100, 150])]\nBackground prompt: A realistic indoor scene of a mountain lodge\nNegative prompt: <Scene Four End>"
+    ],
+    "A suburban lemonade stand with children selling drinks, a person stopping to buy a cup, a dog hoping for attention, a cooler filled with ice, and a sign advertising homemade lemonade": [
+        "[('a lemonade stand', [20, 200, 200, 200]), ('a child', [60, 230, 80, 120]), ('a child', [140, 230, 80, 120]), ('a person', [260, 220, 80, 130]), ('a dog', [350, 260, 100, 100]), ('a cooler', [80, 350, 80, 80]), ('a sign', [220, 180, 60, 120])]\nBackground prompt: A suburban scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A beachside runner with a person jogging along the shore, a dog leaping through the waves, a pair of shoes left on the sand, a bottle of water for hydration, and a sign marking the beach trail": [
+        "[('a person jogging', [50, 200, 120, 200]), ('a dog', [200, 250, 100, 100]), ('a pair of shoes', [350, 400, 80, 50]), ('a bottle of water', [400, 350, 50, 100]), ('a sign', [450, 100, 50, 200])]\nBackground prompt: A realistic beachside scene\nNegative prompt: <Scene End>"
+    ],
+    "A city bike lane with a cyclist commuting, a car parked at a distance, a bicycle helmet strapped on, a water bottle in the bike's holder, and a sign indicating the bike route": [
+        "[('a cyclist', [100, 200, 120, 200]), ('a car', [400, 250, 100, 100]), ('a bicycle helmet', [130, 150, 60, 50]), ('a water bottle', [180, 300, 30, 60]), ('a sign', [50, 50, 80, 150])]\nBackground prompt: A realistic city scene with a bike lane\nNegative prompt: <Scene Four End>"
+    ],
+    "A home music listening room with a person relaxing in a chair, a cat lying on the rug, a record spinning on a turntable, a shelf of vinyl albums, and a sign saying \"Listening in Progress.\"": [
+        "[('a person', [100, 200, 100, 200]), ('a chair', [90, 210, 120, 190]), ('a cat', [200, 400, 100, 50]), ('a rug', [150, 380, 200, 100]), ('a record', [350, 200, 50, 50]), ('a turntable', [330, 180, 90, 90]), ('a shelf', [450, 50, 50, 400]), ('vinyl albums', [460, 60, 30, 380]), ('a sign', [20, 20, 150, 50])]\nBackground prompt: A realistic home music listening room\nNegative prompt: "
+    ],
+    "A forest nature walk with a guide leading a group, a person taking notes, a dog sniffing the trail, a sign pointing out flora and fauna, and a backpack with essentials": [
+        "[('a guide', [50, 200, 80, 150]), ('a group of people', [150, 210, 150, 140]), ('a person taking notes', [320, 220, 70, 130]), ('a dog', [220, 300, 80, 100]), ('a sign', [420, 180, 70, 150]), ('a backpack', [480, 350, 30, 50])]\nBackground prompt: A realistic forest nature walk\nNegative prompt: <Scene One End>"
+    ],
+    "A home vegetable canning session with a person preparing jars, a cat curious about the smells, a pot boiling on the stove, a basket of fresh produce, and a book with canning recipes": [
+        "[('a person', [20, 50, 120, 200]), ('a cat', [160, 200, 80, 60]), ('a pot', [300, 100, 80, 80]), ('a basket of fresh produce', [400, 200, 90, 90]), ('a book', [200, 300, 60, 80])]\nBackground prompt: A realistic home kitchen scene\nNegative prompt: <Scene End>"
+    ],
+    "A home craft room with a person sewing on a machine, a cat playing with thread, a pile of fabric ready for projects, a scissors for cutting patterns, and a sign saying \"Crafting Zone.\"": [
+        "[('a person sewing', [50, 100, 150, 200]), ('a sewing machine', [60, 150, 100, 100]), ('a cat', [250, 300, 100, 150]), ('a thread', [270, 320, 50, 50]), ('a pile of fabric', [400, 250, 100, 100]), ('a scissors', [420, 200, 50, 50]), ('a sign', [10, 10, 100, 50])]\nBackground prompt: A realistic home craft room\nNegative prompt: <Scene Four End>"
+    ],
+    "A city alley cat feeding station with a person filling bowls, stray cats waiting their turn, a water dispenser, a bench for the feeder, and a sign listing feeding times": [
+        "[('a person', [100, 200, 100, 200]), ('a bowl', [220, 300, 50, 50]), ('a bowl', [290, 300, 50, 50]), ('a stray cat', [50, 350, 80, 80]), ('a stray cat', [380, 350, 80, 80]), ('a water dispenser', [450, 250, 50, 100]), ('a bench', [100, 450, 150, 50]), ('a sign', [400, 100, 100, 150])]\nBackground prompt: A realistic city alley scene\nNegative prompt: <Scene End>"
+    ],
+    "A home game night with a board game spread on the table, a person rolling dice, a cat batting at a game piece, a bowl of popcorn for snacking, and a sign with house rules": [
+        "[('a board game', [20, 200, 472, 216]), ('a person', [100, 50, 100, 200]), ('dice', [150, 250, 50, 50]), ('a cat', [400, 300, 80, 80]), ('a game piece', [420, 320, 20, 20]), ('a bowl of popcorn', [200, 250, 80, 80]), ('a sign', [0, 0, 100, 100])]\nBackground prompt: A home game night\nNegative prompt: <Scene Three End>"
+    ],
+    "A city outdoor art installation with a person admiring the sculpture, a cat weaving through the artwork, a bench for contemplation, a brochure with artist details, and a sign guiding visitors": [
+        "[('a person', [100, 200, 50, 100]), ('a sculpture', [200, 150, 100, 200]), ('a cat', [250, 250, 50, 50]), ('a bench', [350, 300, 100, 50]), ('a brochure', [50, 50, 50, 50]), ('a sign', [400, 50, 80, 150])]\nBackground prompt: A city outdoor art installation\nNegative prompt: <Scene Four End>"
+    ],
+    "A local park birdwatching group with a person using binoculars, a dog sitting quietly, a guidebook on birds of the area, a sign pointing to bird habitats, and a notebook for recording sightings": [
+        "[('a person using binoculars', [20, 200, 100, 150]), ('a dog', [150, 250, 100, 100]), ('a guidebook on birds of the area', [280, 300, 70, 70]), ('a sign pointing to bird habitats', [400, 150, 80, 200]), ('a notebook for recording sightings', [370, 300, 70, 70])]\nBackground prompt: A local park scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A bustling open-air market with vendors selling fruits and vegetables, a person sampling an orange, a canvas tote filled with produce, a dog waiting patiently, and a chalkboard listing daily specials": [
+        "[('a vendor', [10, 100, 100, 200]), ('a vendor', [120, 100, 100, 200]), ('a person', [240, 100, 100, 200]), ('an orange', [240, 200, 50, 50]), ('a canvas tote', [360, 200, 100, 150]), ('a dog', [480, 300, 32, 32]), ('a chalkboard', [400, 50, 100, 150])]\nBackground prompt: A bustling open-air market\nNegative prompt: <Scene Five End>"
+    ],
+    "A cozy bookshop corner with shelves of novels, a person browsing titles, a cat sleeping on a stack of books, a reading nook with a cushioned chair, and a sign pointing to the classics section": [
+        "[('shelves of novels', [10, 50, 150, 400]), ('a person browsing titles', [180, 100, 80, 300]), ('a cat sleeping on a stack of books', [300, 350, 60, 60]), ('a cushioned chair', [400, 250, 80, 200]), ('a sign pointing to the classics section', [480, 20, 30, 80])]\nBackground prompt: A cozy bookshop corner\nNegative prompt: <Scene Four End>"
+    ],
+    "An outdoor flea market with tables of vintage goods, a person examining antique jewelry, a dog sniffing around, a food truck serving lunch, and signs pointing to different sections": [
+        "[('a table of vintage goods', [10, 150, 150, 100]), ('a person examining antique jewelry', [180, 150, 100, 150]), ('a dog', [300, 250, 100, 100]), ('a food truck', [420, 150, 80, 200]), ('a sign', [200, 10, 100, 130]), ('a sign', [350, 10, 100, 130])]\nBackground prompt: An outdoor flea market scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A bustling kitchen in a family home, a person cooking dinner, a dog begging for scraps, a refrigerator covered with children's artwork, and a chalkboard listing the week's menu": [
+        "[('a person', [100, 200, 100, 200]), ('a dog', [250, 300, 100, 100]), ('a refrigerator', [400, 50, 100, 400]), ('a chalkboard', [50, 50, 100, 150]), (\"children's artwork\", [410, 60, 80, 300]), (\"the week's menu\", [60, 60, 80, 130])]\nBackground prompt: A bustling kitchen in a family home\nNegative prompt: <Scene Four End>"
+    ],
+    "A bird sanctuary with walking trails, a person using a bird guidebook, a viewing platform with binoculars, a feeding station with seeds, and signs identifying different species": [
+        "[('walking trails', [10, 300, 492, 50]), ('a person', [100, 200, 50, 100]), ('a bird guidebook', [120, 250, 30, 40]), ('a viewing platform', [350, 200, 100, 100]), ('binoculars', [375, 225, 50, 50]), ('a feeding station', [200, 400, 80, 80]), ('seeds', [210, 410, 60, 60]), ('signs', [50, 50, 100, 150])]\nBackground prompt: A bird sanctuary\nNegative prompt: <Scene Four End>"
+    ],
+    "A mountain lodge's cozy lobby with a roaring fireplace, a person reading a book, a dog sleeping on a rug, a hot cocoa station, and signs suggesting hiking trails": [
+        "[('a roaring fireplace', [10, 200, 100, 200]), ('a person reading a book', [150, 150, 100, 200]), ('a dog sleeping on a rug', [300, 300, 100, 100]), ('a hot cocoa station', [450, 200, 50, 200]), ('signs suggesting hiking trails', [250, 50, 100, 100])]\nBackground prompt: A cozy lobby of a mountain lodge\nNegative prompt: <Scene End>"
+    ],
+    "A gourmet pizza festival, food trucks offering exotic toppings, a person tossing dough in a live demonstration, a voting booth for the best pizza, and signs detailing ingredient origins": [
+        "[('a food truck', [10, 250, 150, 200]), ('a food truck', [180, 250, 150, 200]), ('a person tossing dough', [350, 250, 100, 200]), ('a voting booth', [470, 250, 42, 200]), ('a sign', [100, 10, 100, 100]), ('a sign', [320, 10, 100, 100])]\nBackground prompt: A gourmet pizza festival\nNegative prompt: <Scene Four End>"
+    ],
+    "A historical train station tour, restored locomotives on display, a person explaining the steam engine, a model train set for kids, and signs with the history of rail travel": [
+        "[('a restored locomotive', [10, 200, 200, 200]), ('a person', [250, 200, 50, 100]), ('a steam engine', [250, 300, 50, 100]), ('a model train set', [350, 400, 100, 50]), ('a sign', [450, 50, 50, 200])]\nBackground prompt: A historical train station tour\nNegative prompt: <Scene End>"
+    ],
+    "A park scene with a bench, a bicycle leaning against a tree, a person reading a book, a dog sitting beside them, and a frisbee lying on the grass nearby": [
+        "[('a bench', [20, 300, 200, 100]), ('a bicycle', [250, 300, 100, 150]), ('a tree', [300, 200, 150, 300]), ('a person', [100, 250, 100, 200]), ('a dog', [150, 350, 100, 100]), ('a frisbee', [200, 400, 50, 10]), ('a book', [110, 260, 30, 40])]\nBackground prompt: A realistic park scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A beach scene where a person is lying on a towel, a surfboard stuck in the sand, a kite flying in the sky, a cooler with a bottle poking out, and a pair of flip-flops tossed aside": [
+        "[('a person', [100, 250, 100, 150]), ('a towel', [90, 300, 120, 60]), ('a surfboard', [300, 250, 30, 150]), ('a kite', [400, 20, 80, 80]), ('a cooler', [200, 350, 80, 60]), ('a bottle', [220, 320, 20, 40]), ('a pair of flip-flops', [50, 400, 60, 40])]\nBackground prompt: A realistic beach scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A train station with a train pulling into the platform, a person holding a suitcase, a bench with a backpack resting on it, a vending machine dispensing bottles, and a clock showing the time": [
+        "[('a train', [20, 200, 400, 150]), ('a person holding a suitcase', [450, 250, 50, 200]), ('a bench', [300, 350, 150, 50]), ('a backpack', [325, 325, 100, 25]), ('a vending machine', [460, 100, 40, 200]), ('a clock', [10, 10, 50, 50])]\nBackground prompt: A realistic train station scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A farmer's market scene with a stand selling apples and oranges, a person carrying a handbag and selecting a carrot, a vendor handing over a bunch of bananas, a dog tied to a post, and a bench for resting": [
+        "[('a stand selling apples and oranges', [10, 200, 200, 300]), ('a person carrying a handbag and selecting a carrot', [220, 200, 80, 300]), ('a vendor handing over a bunch of bananas', [310, 200, 80, 300]), ('a dog tied to a post', [400, 350, 80, 150]), ('a bench for resting', [400, 200, 100, 50])]\nBackground prompt: A realistic farmer's market scene\nNegative prompt: <Scene End>"
+    ],
+    "An airport lounge with a person typing on a laptop, a suitcase by their side, a cup of coffee on the table, a flight information board displaying times, and a window showing airplanes on the runway": [
+        "[('a person', [50, 200, 100, 200]), ('a laptop', [60, 250, 80, 50]), ('a suitcase', [160, 300, 60, 100]), ('a cup of coffee', [220, 250, 30, 30]), ('a flight information board', [350, 50, 100, 150]), ('a window', [400, 200, 100, 200]), ('airplanes on the runway', [410, 210, 80, 180])]\nBackground prompt: An airport lounge\nNegative prompt: <Scene Four End>"
+    ],
+    "A public library with rows of bookshelves, a person browsing a book, a chair and table with a laptop and a mouse, a clock on the wall, and a librarian scanning books at the checkout desk": [
+        "[('a bookshelf', [10, 50, 100, 400]), ('a bookshelf', [120, 50, 100, 400]), ('a bookshelf', [230, 50, 100, 400]), ('a person', [350, 200, 50, 150]), ('a chair', [400, 300, 50, 100]), ('a table', [460, 300, 40, 100]), ('a laptop', [470, 310, 20, 30]), ('a mouse', [480, 350, 10, 10]), ('a clock', [480, 50, 20, 20]), ('a librarian', [10, 460, 50, 50]), ('a checkout desk', [70, 460, 80, 50])]\nBackground prompt: A realistic public library scene\nNegative prompt: "
+    ],
+    "A picnic in the park with a blanket spread on the grass, a basket containing a loaf of bread and a bottle of wine, a person lying down reading a book, a bicycle parked nearby, and a dog chasing a ball": [
+        "[('a blanket', [100, 200, 250, 150]), ('a basket', [150, 250, 100, 100]), ('a loaf of bread', [160, 260, 40, 20]), ('a bottle of wine', [200, 260, 20, 60]), ('a person', [200, 100, 100, 200]), ('a book', [220, 150, 60, 40]), ('a bicycle', [400, 200, 80, 100]), ('a dog', [350, 350, 50, 50]), ('a ball', [400, 400, 20, 20])]\nBackground prompt: A realistic park scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A home kitchen scene with a person cooking, a pot on the stove, a knife and cutting board with vegetables, a bowl of fruit on the counter, and an oven preheating for baking": [
+        "[('a person', [10, 100, 150, 350]), ('a pot', [200, 200, 50, 50]), ('a knife', [300, 300, 30, 10]), ('cutting board', [320, 300, 60, 40]), ('vegetables', [350, 320, 30, 20]), ('a bowl of fruit', [400, 250, 60, 40]), ('an oven', [450, 150, 50, 350])]\nBackground prompt: A realistic home kitchen scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A morning jog in a city park with a person running, a bench where a water bottle and a towel rest, a dog playing with a frisbee, a bicycle passing by, and a squirrel watching curiously": [
+        "[('a person running', [50, 200, 70, 150]), ('a bench', [200, 250, 100, 50]), ('a water bottle', [220, 260, 20, 40]), ('a towel', [260, 260, 30, 40]), ('a dog', [350, 220, 80, 70]), ('a frisbee', [380, 210, 20, 10]), ('a bicycle', [450, 200, 50, 100]), ('a squirrel', [480, 50, 20, 30])]\nBackground prompt: A morning jog in a city park\nNegative prompt: <Scene Four End>"
+    ],
+    "A college campus scene with a student sitting on a bench reading a book, a bicycle parked in a rack, a squirrel darting past, a backpack resting against the bench, and a frisbee lying on the grass": [
+        "[('a student', [100, 200, 100, 150]), ('a bench', [80, 220, 140, 60]), ('a book', [130, 210, 40, 30]), ('a bicycle', [300, 250, 60, 100]), ('a rack', [280, 260, 100, 90]), ('a squirrel', [200, 300, 30, 30]), ('a backpack', [90, 280, 50, 50]), ('a frisbee', [400, 350, 50, 10])]\nBackground prompt: A realistic college campus scene\nNegative prompt: "
+    ],
+    "A city bus stop with a person waiting, a bus approaching, a bicycle locked to a nearby post, a stray cat lounging in the sun, and a poster advertising a local event": [
+        "[('a city bus stop', [10, 200, 150, 300]), ('a person', [100, 250, 50, 100]), ('a bus', [300, 200, 200, 150]), ('a bicycle', [200, 250, 50, 100]), ('a post', [220, 250, 10, 100]), ('a stray cat', [400, 350, 50, 50]), ('a poster', [20, 50, 100, 150])]\nBackground prompt: A realistic city scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A farm scene with a person feeding a sheep, a dog herding cows in the distance, a tractor parked by the barn, a pile of hay bales, and a horse peeking over the fence": [
+        "[('a person', [60, 250, 80, 120]), ('a sheep', [140, 260, 90, 110]), ('a dog', [400, 350, 60, 50]), ('a cow', [460, 360, 80, 70]), ('another cow', [520, 370, 80, 70]), ('a tractor', [200, 400, 120, 80]), ('a barn', [320, 400, 140, 100]), ('a pile of hay bales', [50, 400, 90, 80]), ('a horse', [480, 250, 100, 120]), ('a fence', [480, 370, 100, 20])]\nBackground prompt: A realistic farm scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A zoo visit with a family watching an elephant, a child holding a balloon, a bench where a backpack and a camera rest, a vendor selling ice cream, and a map of the zoo in a person's hand": [
+        "[('a family', [20, 200, 150, 200]), ('an elephant', [200, 150, 200, 250]), ('a child holding a balloon', [30, 250, 100, 150]), ('a bench', [300, 300, 150, 50]), ('a backpack', [320, 310, 40, 30]), ('a camera', [370, 310, 30, 20]), ('a vendor selling ice cream', [450, 200, 50, 200]), ('a map of the zoo', [100, 100, 50, 70])]\nBackground prompt: A realistic zoo scene\nNegative prompt: "
+    ],
+    "A street food festival with a person holding a plate of tacos, a vendor cooking pizza in a portable oven, a dog waiting for scraps, a group of people sitting on benches eating, and a musician playing a guitar": [
+        "[('a person holding a plate of tacos', [20, 200, 100, 200]), ('a vendor cooking pizza in a portable oven', [150, 200, 100, 200]), ('a dog waiting for scraps', [280, 350, 80, 100]), ('a group of people sitting on benches eating', [400, 200, 100, 200]), ('a musician playing a guitar', [520, 200, 100, 200])]\nBackground prompt: A lively street food festival\nNegative prompt: <Scene Three End>"
+    ],
+    "A construction site with a worker directing a truck, a pile of bricks beside a building, a crane lifting a beam, a portable toilet for the crew, and a sign warning of construction ahead": [
+        "[('a worker', [50, 250, 60, 100]), ('a truck', [150, 260, 100, 80]), ('a pile of bricks', [300, 300, 50, 50]), ('a building', [370, 200, 100, 200]), ('a crane', [200, 50, 100, 150]), ('a beam', [250, 0, 50, 50]), ('a portable toilet', [450, 300, 40, 60]), ('a sign', [450, 200, 50, 80])]\nBackground prompt: A realistic construction site\nNegative prompt: <Scene Four End>"
+    ],
+    "A winter ski resort scene with a person carrying skis, a snowboard propped against a lodge, a dog wearing a small sweater, a hot cocoa stand, and a fire pit with chairs around it": [
+        "[('a person carrying skis', [50, 200, 100, 300]), ('a snowboard', [200, 300, 50, 150]), ('a lodge', [250, 250, 200, 250]), ('a dog wearing a small sweater', [100, 350, 75, 75]), ('a hot cocoa stand', [400, 200, 100, 200]), ('a fire pit', [350, 400, 50, 50]), ('a chair', [300, 425, 50, 75]), ('a chair', [400, 425, 50, 75])]\nBackground prompt: A winter ski resort scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A garden party with a table set with a vase of flowers, a person carrying a tray of sandwiches, a dog lounging under the table, a guitar leaning against a chair, and lanterns hanging from the trees": [
+        "[('a table', [100, 200, 200, 100]), ('a vase of flowers', [175, 175, 50, 75]), ('a person carrying a tray of sandwiches', [300, 150, 100, 200]), ('a dog', [150, 275, 100, 75]), ('a guitar', [50, 225, 25, 75]), ('a chair', [75, 225, 50, 75]), ('lanterns', [400, 0, 100, 100]), ('trees', [350, 0, 150, 512])]\nBackground prompt: A realistic garden party scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A cozy reading nook with a chair, a lamp casting a warm light, a book open on a person's lap, a cup of tea on a nearby table, and a cat curled up beside the reader": [
+        "[('a chair', [50, 200, 150, 250]), ('a lamp', [250, 50, 75, 150]), ('a book', [125, 300, 75, 50]), ('a person', [100, 225, 100, 250]), ('a cup of tea', [350, 275, 50, 50]), ('a table', [325, 300, 150, 100]), ('a cat', [200, 375, 100, 75])]\nBackground prompt: A cozy reading nook\nNegative prompt: <Scene Three End>"
+    ],
+    "A city rooftop garden with potted plants, a person practicing yoga, a dog watching pigeons, a bench with a book and sunglasses, and a water bottle resting beside a mat": [
+        "[('potted plants', [10, 180, 150, 120]), ('a person practicing yoga', [200, 220, 80, 150]), ('a dog', [320, 250, 80, 100]), ('pigeons', [400, 260, 80, 50]), ('a bench', [170, 400, 150, 80]), ('a book', [180, 410, 30, 20]), ('sunglasses', [220, 410, 20, 10]), ('a water bottle', [100, 420, 20, 40]), ('a mat', [80, 410, 60, 20])]\nBackground prompt: A realistic city rooftop garden\nNegative prompt: <Scene Three End>"
+    ],
+    "A horseback riding trail with a person on a horse, a dog running alongside, a bench for resting, a water bottle tied to the saddle, and a bird flying overhead": [
+        "[('a person on a horse', [100, 200, 150, 250]), ('a dog', [300, 300, 100, 100]), ('a bench', [50, 400, 150, 50]), ('a water bottle', [200, 250, 50, 75]), ('a bird', [400, 50, 50, 50])]\nBackground prompt: A realistic outdoor scene of a horseback riding trail\nNegative prompt: <Scene End>"
+    ],
+    "A luxury hotel lobby with a person checking in, a bellhop carrying a suitcase, a couch where a cat is napping, a vase of fresh flowers on the reception desk, and a chandelier casting light": [
+        "[('a person', [100, 200, 50, 100]), ('a bellhop', [200, 200, 50, 100]), ('a suitcase', [220, 250, 30, 50]), ('a couch', [350, 300, 100, 50]), ('a cat', [370, 310, 30, 20]), ('a vase of fresh flowers', [80, 150, 20, 30]), ('a reception desk', [50, 150, 100, 50]), ('a chandelier', [256, 0, 100, 50])]\nBackground prompt: A luxury hotel lobby\nNegative prompt: <Scene Four End>"
+    ],
+    "A bakery with a display of cakes and donuts, a person pointing at their choice, a dog waiting outside, a baker removing bread from the oven, and a vase with a single flower on the counter": [
+        "[('a display of cakes and donuts', [20, 200, 200, 150]), ('a person', [250, 180, 100, 200]), ('a dog', [10, 400, 100, 100]), ('a baker', [400, 200, 100, 200]), ('an oven', [400, 400, 100, 100]), ('a vase with a single flower', [300, 100, 50, 100])]\nBackground prompt: A realistic bakery scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A home gym setup with a person lifting weights, a yoga mat rolled up in the corner, a bottle of water on a table, a towel hanging over a chair, and a dog watching curiously": [
+        "[('a person lifting weights', [100, 200, 100, 200]), ('a yoga mat', [10, 450, 50, 50]), ('a bottle of water', [400, 300, 50, 100]), ('a towel', [200, 100, 50, 50]), ('a chair', [250, 150, 100, 200]), ('a dog', [350, 350, 100, 100])]\nBackground prompt: A realistic home gym setup\nNegative prompt: <Scene Three End>"
+    ],
+    "A music studio with a person playing a keyboard, a guitar resting on a stand, a microphone set up for singing, a laptop recording the session, and a dog lying on a couch listening": [
+        "[('a person', [50, 200, 100, 200]), ('a keyboard', [50, 300, 100, 100]), ('a guitar', [200, 300, 50, 150]), ('a stand', [200, 450, 50, 50]), ('a microphone', [300, 200, 20, 150]), ('a laptop', [350, 300, 100, 50]), ('a dog', [450, 350, 50, 100]), ('a couch', [400, 450, 100, 50])]\nBackground prompt: A realistic music studio scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A skatepark with a person performing a trick on a skateboard, a dog watching from the sidelines, a bench where backpacks and helmets are piled, a bottle of water resting on the ground, and a graffiti-covered wall": [
+        "[('a person', [120, 200, 80, 150]), ('a skateboard', [130, 350, 60, 30]), ('a dog', [400, 300, 80, 70]), ('a bench', [250, 400, 150, 50]), ('a backpack', [260, 410, 30, 40]), ('a helmet', [290, 410, 30, 40]), ('a bottle of water', [50, 470, 20, 42]), ('a graffiti-covered wall', [0, 0, 512, 100])]\nBackground prompt: A realistic skatepark scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A home renovation scene with a person painting a wall, a ladder leaning against another wall, a dog covered in paint splatters, a can of paint on the floor, and a radio playing music": [
+        "[('a person painting a wall', [50, 100, 100, 300]), ('a ladder', [200, 50, 50, 400]), ('a dog covered in paint splatters', [400, 300, 100, 100]), ('a can of paint', [350, 450, 50, 50]), ('a radio', [450, 450, 50, 50])]\nBackground prompt: A home renovation scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A high school football game with a player holding a sports ball, a bench where the team sits, a dog mascot cheering, a cooler filled with water bottles, and a scoreboard showing the score": [
+        "[('a player holding a sports ball', [100, 200, 100, 200]), ('a bench', [50, 300, 200, 50]), ('a dog mascot', [300, 200, 100, 200]), ('a cooler filled with water bottles', [200, 350, 100, 50]), ('a scoreboard', [400, 50, 100, 50])]\nBackground prompt: A realistic high school football game\nNegative prompt: <Scene Four End>"
+    ],
+    "A city marathon with runners passing a water station, a person handing out bottles, a dog barking encouragement, a sign showing the distance covered, and a crowd cheering from the sidelines": [
+        "[('a runner', [50, 200, 80, 150]), ('a runner', [150, 200, 80, 150]), ('a runner', [250, 200, 80, 150]), ('a water station', [350, 220, 100, 130]), ('a person handing out bottles', [400, 240, 80, 110]), ('a dog', [500, 300, 50, 70]), ('a sign', [200, 50, 100, 100]), ('a crowd', [0, 350, 512, 162])]\nBackground prompt: A realistic city marathon scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A street magician performing with a crowd watching, a person pulling a rabbit from a hat, a dog sitting attentively, a hat on the ground for tips, and a child holding a balloon in awe": [
+        "[('a street magician', [10, 200, 100, 300]), ('a crowd', [120, 210, 200, 290]), ('a person pulling a rabbit from a hat', [230, 200, 100, 300]), ('a dog', [340, 300, 80, 200]), ('a hat on the ground', [420, 400, 70, 50]), ('a child holding a balloon', [500, 200, 12, 300])]\nBackground prompt: A realistic street scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A forest hiking path with a person carrying a backpack, a sign marking the trail, a dog chasing butterflies, a bench overlooking a vista, and a bird singing from a tree": [
+        "[('a person carrying a backpack', [100, 200, 80, 150]), ('a sign marking the trail', [200, 250, 50, 80]), ('a dog chasing butterflies', [300, 300, 100, 100]), ('a bench overlooking a vista', [400, 250, 80, 50]), ('a bird singing from a tree', [450, 50, 50, 50])]\nBackground prompt: A forest hiking path\nNegative prompt: <Scene Four End>"
+    ],
+    "A suburban garage band practice with a person playing drums, a guitar and amplifier set up, a dog howling along, a cooler with drinks for breaks, and a poster of a rock star for inspiration": [
+        "[('a person playing drums', [20, 200, 150, 250]), ('a guitar and amplifier', [200, 250, 150, 150]), ('a dog', [400, 350, 100, 100]), ('a cooler with drinks', [350, 400, 100, 100]), ('a poster of a rock star', [450, 50, 50, 100])]\nBackground prompt: A suburban garage band practice\nNegative prompt: <Scene Four End>"
+    ],
+    "A museum visit with a person admiring a painting, a bench where a guidebook and a camera rest, a child pointing excitedly, a guard observing quietly, and a sculpture capturing attention": [
+        "[('a person', [50, 200, 80, 150]), ('a painting', [180, 100, 120, 200]), ('a bench', [350, 300, 100, 50]), ('a guidebook', [360, 310, 30, 20]), ('a camera', [410, 310, 30, 20]), ('a child', [100, 250, 60, 100]), ('a guard', [450, 200, 60, 150]), ('a sculpture', [250, 350, 100, 150])]\nBackground prompt: A realistic museum scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A beach volleyball game with a net set up, a person serving the ball, a cooler with refreshments, a dog chasing stray balls, and a pair of sunglasses forgotten on the sand": [
+        "[('a volleyball net', [200, 200, 112, 312]), ('a person', [50, 250, 100, 262]), ('a volleyball', [80, 180, 30, 30]), ('a cooler', [400, 400, 80, 80]), ('a dog', [350, 350, 50, 50]), ('a pair of sunglasses', [450, 450, 40, 40])]\nBackground prompt: A realistic beach scene\nNegative prompt: <Scene End>"
+    ],
+    "A winter cabin scene with a person sipping hot cocoa, a dog curled up by the fire, a pair of skis leaning against the wall, a book open on the couch, and a window showing falling snow": [
+        "[('a person sipping hot cocoa', [50, 200, 100, 150]), ('a dog curled up by the fire', [200, 300, 100, 100]), ('a pair of skis leaning against the wall', [450, 50, 50, 400]), ('a book open on the couch', [300, 200, 100, 50]), ('a window showing falling snow', [350, 50, 100, 150])]\nBackground prompt: A cozy winter cabin scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A thrift shop with a person browsing racks of clothes, a dog waiting at the door, a cash register manned by a volunteer, a mirror for trying on finds, and a sign announcing the sale": [
+        "[('a person', [100, 150, 70, 150]), ('racks of clothes', [50, 200, 150, 200]), ('a dog', [0, 400, 50, 100]), ('a cash register', [400, 200, 80, 80]), ('a volunteer', [380, 220, 60, 140]), ('a mirror', [300, 150, 50, 200]), ('a sign', [200, 0, 100, 50])]\nBackground prompt: A realistic thrift shop scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A DIY pottery class with a person shaping clay on a wheel, a table with tools and samples, a dog napping in the corner, a shelf with drying pieces, and a window letting in natural light": [
+        "[('a person shaping clay on a wheel', [50, 200, 100, 200]), ('a table with tools and samples', [200, 300, 150, 150]), ('a dog napping in the corner', [0, 400, 100, 112]), ('a shelf with drying pieces', [400, 150, 112, 362]), ('a window', [350, 0, 162, 150])]\nBackground prompt: A DIY pottery class\nNegative prompt: <Scene Four End>"
+    ],
+    "A bird-watching expedition in a forest with a person using binoculars, a dog sitting quietly, a guidebook on birds resting on a log, a water bottle for hydration, and a bird singing overhead": [
+        "[('a person using binoculars', [20, 200, 100, 200]), ('a dog sitting quietly', [150, 250, 100, 150]), ('a guidebook on birds', [300, 350, 100, 50]), ('a water bottle', [450, 350, 50, 100]), ('a bird singing overhead', [200, 20, 50, 50])]\nBackground prompt: A bird-watching expedition in a forest\nNegative prompt: <Scene Four End>"
+    ],
+    "A vintage record shop with a person browsing through albums, a dog lying on the floor, a turntable playing music, a poster of a famous band, and a sign indicating rare finds": [
+        "[('a person', [100, 200, 80, 150]), ('a dog', [200, 350, 100, 100]), ('a turntable', [400, 200, 80, 80]), ('a poster', [50, 50, 100, 150]), ('a sign', [350, 50, 100, 50])]\nBackground prompt: A vintage record shop\nNegative prompt: <Scene End>"
+    ],
+    "A lakeside campfire with a person playing a guitar, a dog warming by the fire, a cooler with snacks, a flashlight casting shadows, and a tent pitched nearby for the night": [
+        "[('a person playing a guitar', [100, 200, 100, 200]), ('a dog', [200, 250, 75, 75]), ('a cooler with snacks', [50, 350, 75, 75]), ('a flashlight', [400, 200, 50, 50]), ('a tent', [350, 350, 100, 100]), ('a campfire', [150, 250, 50, 50])]\nBackground prompt: A realistic lakeside scene at night\nNegative prompt: <Scene End>"
+    ],
+    "A rooftop beekeeping session with a person in protective gear, a dog observing from a safe distance, a hive with bees buzzing around, a jar of fresh honey, and a view of the city's gardens": [
+        "[('a person in protective gear', [10, 10, 150, 300]), ('a dog', [200, 300, 100, 100]), ('a hive with bees', [300, 50, 100, 150]), ('a jar of fresh honey', [450, 100, 50, 75]), ('city gardens', [0, 400, 512, 112])]\nBackground prompt: A rooftop beekeeping session with a view of the city's gardens\nNegative prompt: <Scene Four End>"
+    ],
+    "A marathon runner's training session with a person jogging, a dog keeping pace, a water bottle in hand, a stopwatch timing laps, and a bench for rest periods": [
+        "[('a person jogging', [50, 200, 100, 200]), ('a dog', [180, 250, 80, 80]), ('a water bottle', [90, 220, 30, 60]), ('a stopwatch', [130, 210, 40, 40]), ('a bench', [300, 300, 200, 50])]\nBackground prompt: A realistic outdoor scene of a marathon training session\nNegative prompt: <Scene End>"
+    ],
+    "A silent disco in a park with people wearing headphones dancing, a dog tilting its head curiously, a bench where backpacks are stored, a cooler with water, and a sign announcing the event": [
+        "[('a person dancing', [30, 200, 80, 150]), ('a person dancing', [130, 200, 80, 150]), ('a person dancing', [230, 200, 80, 150]), ('a dog', [350, 300, 80, 80]), ('a bench', [10, 400, 150, 50]), ('a backpack', [20, 410, 40, 40]), ('a backpack', [100, 410, 40, 40]), ('a cooler', [200, 400, 60, 60]), ('a sign', [400, 20, 100, 200])]\nBackground prompt: A silent disco in a park\nNegative prompt: <Scene Four End>"
+    ],
+    "A fantasy book club meeting in a cafe with a person discussing a novel, a dog lying under the table, a cup of coffee steaming, a book marked with notes, and a poster of the book cover": [
+        "[('a person', [20, 20, 100, 200]), ('a dog', [50, 250, 150, 100]), ('a cup of coffee', [200, 150, 50, 50]), ('a book', [300, 150, 100, 50]), ('a poster', [400, 50, 100, 150])]\nBackground prompt: A fantasy book club meeting in a cafe\nNegative prompt: <Scene Four End>"
+    ],
+    "A forest cabin scene with a person chopping wood, a dog playing in the leaves, a stack of firewood ready for the night, a kettle steaming on the porch, and a view of the tranquil woods": [
+        "[('a person chopping wood', [50, 200, 100, 150]), ('a dog playing in the leaves', [200, 300, 100, 100]), ('a stack of firewood', [350, 250, 50, 50]), ('a kettle steaming on the porch', [400, 150, 50, 50]), ('a view of the tranquil woods', [0, 0, 512, 100])]\nBackground prompt: A forest cabin scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A mountain biking trail with a person riding a bicycle, a dog running alongside, a backpack with supplies, a water bottle attached to the bike, and a sign marking the difficulty level": [
+        "[('a person riding a bicycle', [100, 200, 150, 200]), ('a dog', [300, 250, 100, 100]), ('a backpack', [50, 400, 70, 70]), ('a water bottle', [200, 300, 30, 60]), ('a sign', [400, 100, 80, 150])]\nBackground prompt: A realistic mountain biking trail\nNegative prompt: <Scene End>"
+    ],
+    "A home bread baking day with a person kneading dough, a dog sniffing the air, a bowl of flour on the table, a loaf baking in the oven, and a book of recipes open for reference": [
+        "[('a person kneading dough', [20, 200, 150, 250]), ('a dog sniffing the air', [200, 300, 100, 150]), ('a bowl of flour', [300, 200, 100, 100]), ('a loaf in the oven', [400, 350, 100, 100]), ('a book of recipes', [150, 100, 150, 100])]\nBackground prompt: A realistic home baking scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A beach kite flying session with a person holding a kite string, a dog jumping to catch the tail, a cooler with refreshments, a pair of sandals by a towel, and a hat protecting from the sun": [
+        "[('a person', [50, 200, 100, 300]), ('a kite', [200, 0, 100, 150]), ('a dog', [150, 300, 100, 200]), ('a cooler', [350, 400, 100, 100]), ('a pair of sandals', [450, 450, 50, 50]), ('a towel', [400, 450, 100, 50]), ('a hat', [300, 150, 50, 50])]\nBackground prompt: A beach scene with a kite flying session\nNegative prompt: "
+    ],
+    "A mountain summit achievement with a person holding a flag, a dog wearing a small pack, a backpack discarded at the top, a water bottle for celebration, and a view of the clouds below": [
+        "[('a person holding a flag', [150, 200, 100, 200]), ('a dog wearing a small pack', [300, 210, 80, 90]), ('a backpack', [250, 250, 50, 50]), ('a water bottle', [350, 250, 30, 60]), ('clouds', [0, 300, 512, 212])]\nBackground prompt: A mountain summit achievement scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A cozy winter evening with a person reading by a fireplace, a dog sleeping on a rug, a cup of hot tea on a side table, a blanket draped over the couch, and a window showing snowflakes falling": [
+        "[('a person', [80, 200, 100, 200]), ('a fireplace', [200, 200, 100, 200]), ('a dog', [320, 300, 100, 100]), ('a rug', [320, 400, 100, 100]), ('a cup of hot tea', [450, 200, 50, 50]), ('a side table', [450, 250, 50, 100]), ('a blanket', [50, 300, 100, 100]), ('a couch', [50, 400, 100, 200]), ('a window', [0, 0, 100, 200])]\nBackground prompt: A cozy winter evening indoors with snowflakes falling outside the window\nNegative prompt: "
+    ],
+    "A wildlife photography expedition with a person aiming a camera, a dog waiting quietly, a backpack with lenses and equipment, a tripod set up for stability, and a bird of prey in the viewfinder": [
+        "[('a person', [30, 200, 100, 200]), ('a camera', [140, 230, 80, 80]), ('a dog', [250, 300, 100, 150]), ('a backpack', [370, 320, 100, 150]), ('a tripod', [220, 250, 50, 100]), ('a bird of prey', [140, 80, 80, 80])]\nBackground prompt: A realistic wildlife photography expedition\nNegative prompt: <Scene End>"
+    ],
+    "A city alleyway basketball game with a person dribbling a ball, a dog watching from the sidelines, a cooler with drinks, a graffiti-covered wall serving as a backdrop, and a makeshift hoop": [
+        "[('a person dribbling a ball', [100, 200, 80, 200]), ('a dog', [50, 350, 80, 80]), ('a cooler with drinks', [200, 350, 80, 80]), ('a graffiti-covered wall', [0, 0, 512, 200]), ('a makeshift hoop', [400, 150, 80, 120])]\nBackground prompt: A realistic city alleyway basketball game\nNegative prompt: <Scene Three End>"
+    ],
+    "A backyard astronomy night with a person adjusting a telescope, a dog sitting quietly, a chair for comfort, a book on constellations for reference, and a blanket for warmth": [
+        "[('a person', [50, 200, 100, 200]), ('a telescope', [100, 250, 50, 150]), ('a dog', [200, 350, 100, 100]), ('a chair', [350, 300, 100, 150]), ('a book', [400, 400, 50, 50]), ('a blanket', [450, 350, 50, 100])]\nBackground prompt: A backyard astronomy night\nNegative prompt: <Scene Four End>"
+    ],
+    "A home vegetable garden with a person watering plants, a dog digging at the edge, a basket for harvested vegetables, a sunhat hanging on the fence, and a sign naming the garden": [
+        "[('a person watering plants', [50, 200, 100, 200]), ('a dog digging at the edge', [400, 300, 80, 150]), ('a basket for harvested vegetables', [200, 350, 70, 70]), ('a sunhat hanging on the fence', [450, 50, 50, 50]), ('a sign naming the garden', [10, 10, 80, 40])]\nBackground prompt: A realistic home vegetable garden\nNegative prompt: <Scene Three End>"
+    ],
+    "A high-rise apartment balcony with a person watering potted plants, a cat lounging in the sun, a chair and small table with a book, a cup of coffee steaming, and a view of the city skyline": [
+        "[('a person', [50, 100, 100, 200]), ('potted plants', [160, 200, 80, 80]), ('a cat', [250, 250, 80, 50]), ('a chair', [350, 200, 50, 100]), ('small table', [410, 200, 50, 50]), ('a book', [420, 210, 30, 20]), ('a cup of coffee', [430, 220, 20, 20]), ('city skyline', [0, 0, 512, 80])]\nBackground prompt: A high-rise apartment balcony\nNegative prompt: "
+    ],
+    "A college dorm room with a student studying at a desk, a laptop open on a textbook, a bed unmade, a potted plant on the windowsill, and a backpack slung over the chair": [
+        "[('a student', [100, 200, 80, 150]), ('a desk', [90, 250, 100, 80]), ('a laptop', [120, 260, 40, 30]), ('a textbook', [100, 270, 50, 30]), ('a bed', [300, 200, 180, 120]), ('a potted plant', [450, 50, 40, 60]), ('a backpack', [80, 320, 40, 60]), ('a chair', [70, 300, 60, 80])]\nBackground prompt: A realistic college dorm room\nNegative prompt: <Scene End>"
+    ],
+    "A cozy caf\u00e9 interior with a person reading a novel, a cat curled up on a couch, a barista pouring a cup of coffee, a cake display case, and a chalkboard menu": [
+        "[('a person reading a novel', [50, 200, 80, 150]), ('a cat', [200, 300, 50, 50]), ('a barista', [350, 200, 80, 150]), ('a cup of coffee', [380, 250, 30, 30]), ('a cake display case', [450, 300, 50, 100]), ('a chalkboard menu', [10, 10, 100, 180])]\nBackground prompt: A cozy caf\u00e9 interior\nNegative prompt: <Scene End>"
+    ],
+    "An urban rooftop beekeeping scene with a person in protective gear inspecting hives, a cat watching from a safe distance, a row of potted flowers, a jar of honey on a table, and a skyline backdrop": [
+        "[('a person in protective gear', [50, 200, 100, 200]), ('bee hives', [180, 250, 150, 150]), ('a cat', [10, 400, 80, 80]), ('potted flowers', [350, 300, 120, 120]), ('a jar of honey', [400, 150, 50, 50]), ('a table', [380, 170, 100, 100]), ('a skyline backdrop', [0, 0, 512, 100])]\nBackground prompt: An urban rooftop beekeeping scene\nNegative prompt: <Scene End>"
+    ],
+    "A vintage clothing shop with a person browsing through racks, a mirror reflecting a try-on session, a couch for companions, a register with a vintage cash box, and a hat stand with unique finds": [
+        "[('a person', [50, 200, 100, 250]), ('a mirror', [200, 150, 100, 300]), ('a couch', [350, 250, 150, 200]), ('a register', [400, 50, 100, 75]), ('a vintage cash box', [450, 50, 50, 50]), ('a hat stand', [150, 50, 50, 400])]\nBackground prompt: A vintage clothing shop\nNegative prompt: <Scene End>"
+    ],
+    "A street performer's circle with a crowd gathered around, a person juggling balls, a dog wearing a small costume, a hat on the ground for donations, and a child watching in awe": [
+        "[(\"a street performer's circle\", [10, 10, 492, 492]), ('a crowd', [50, 50, 412, 412]), ('a person juggling balls', [206, 206, 100, 100]), ('a dog wearing a small costume', [316, 316, 80, 80]), ('a hat on the ground for donations', [256, 406, 50, 50]), ('a child watching in awe', [406, 206, 80, 80])]\nBackground prompt: A realistic street scene\nNegative prompt: <Scene Four End>"
+    ],
+    "An office break room with a person microwaving lunch, a table with a vase of flowers, a refrigerator with notes and magnets, a sink with a dish drainer, and a clock showing lunchtime": [
+        "[('a person', [30, 200, 90, 200]), ('a microwave', [120, 210, 80, 70]), ('a table', [240, 300, 100, 100]), ('a vase of flowers', [260, 250, 60, 50]), ('a refrigerator', [380, 150, 100, 300]), ('notes and magnets', [400, 160, 60, 40]), ('a sink', [50, 400, 80, 80]), ('a dish drainer', [130, 400, 60, 60]), ('a clock', [460, 20, 40, 40])]\nBackground prompt: An office break room\nNegative prompt: "
+    ],
+    "A city park chess game with elderly gentlemen playing, a bench for spectators, a dog watching passively, a cooler with refreshments, and a park sign in the background": [
+        "[('elderly gentleman', [50, 200, 80, 120]), ('elderly gentleman', [150, 200, 80, 120]), ('a bench', [250, 220, 120, 80]), ('a dog', [400, 300, 60, 60]), ('a cooler', [320, 240, 60, 60]), ('a park sign', [450, 50, 50, 150])]\nBackground prompt: A realistic city park scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A backyard bird feeder scene with a person refilling the feeder, a cat watching from a window, a bird perched waiting, a garden hose nearby, and a tree casting shade": [
+        "[('a bird feeder', [200, 200, 100, 150]), ('a person', [220, 100, 60, 200]), ('a cat', [400, 50, 80, 80]), ('a bird', [250, 250, 50, 50]), ('a garden hose', [50, 400, 150, 50]), ('a tree', [350, 300, 100, 200])]\nBackground prompt: A backyard scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A craft fair with tables of handmade goods, a person selling knitted scarves, a dog lying under the table, a sign advertising custom orders, and a display of colorful yarn": [
+        "[('a table of handmade goods', [20, 200, 200, 150]), ('a person selling knitted scarves', [250, 180, 100, 200]), ('a dog under the table', [100, 350, 80, 80]), ('a sign advertising custom orders', [400, 50, 100, 50]), ('a display of colorful yarn', [360, 250, 140, 100])]\nBackground prompt: A craft fair\nNegative prompt: <Scene One End>"
+    ],
+    "A forest campsite with a tent pitched, a person gathering firewood, a cooler stocked with food, a portable lantern for light, and a backpack with hiking gear": [
+        "[('a tent', [20, 200, 150, 150]), ('a person', [200, 250, 100, 150]), ('a cooler', [350, 300, 100, 100]), ('a lantern', [450, 200, 50, 100]), ('a backpack', [300, 50, 100, 150])]\nBackground prompt: A realistic forest campsite\nNegative prompt: <Scene End>"
+    ],
+    "A children's playground with a swing set, a slide, a sandbox with toys, a bench for parents, and a child playing with a dog": [
+        "[('a swing set', [30, 200, 100, 150]), ('a slide', [150, 200, 100, 150]), ('a sandbox', [270, 300, 100, 100]), ('toys', [290, 320, 60, 60]), ('a bench', [400, 350, 100, 50]), ('a child', [100, 350, 50, 100]), ('a dog', [160, 380, 50, 80])]\nBackground prompt: A children's playground\nNegative prompt: <Scene Four End>"
+    ],
+    "A railway station platform with a train arriving, a person dragging a suitcase, a bench with a sleeping cat, a vending machine for snacks, and a clock showing departure times": [
+        "[('a train', [10, 150, 492, 200]), ('a person dragging a suitcase', [250, 250, 100, 150]), ('a bench', [100, 300, 150, 50]), ('a sleeping cat', [125, 325, 50, 25]), ('a vending machine', [400, 200, 80, 200]), ('a clock', [450, 50, 50, 50])]\nBackground prompt: A realistic railway station platform scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A beachside surf shop with surfboards lined up, a person renting a board, a dog lying in the shade, a rack of wetsuits, and a sign pointing to the beach": [
+        "[('a surf shop', [10, 10, 200, 300]), ('a surfboard', [220, 50, 30, 200]), ('a surfboard', [260, 50, 30, 200]), ('a surfboard', [300, 50, 30, 200]), ('a person', [350, 200, 50, 150]), ('a dog', [50, 320, 100, 50]), ('a rack of wetsuits', [420, 100, 70, 200]), ('a sign', [480, 10, 20, 200])]\nBackground prompt: A realistic beachside scene\nNegative prompt: "
+    ],
+    "A home video game setup with a person playing on a console, a cat sitting on the couch, a bowl of snacks on the table, a remote control beside them, and a TV displaying the game": [
+        "[('a person', [50, 200, 100, 200]), ('a console', [100, 300, 100, 50]), ('a cat', [200, 250, 100, 50]), ('a couch', [0, 250, 200, 150]), ('a bowl of snacks', [300, 300, 50, 50]), ('a table', [250, 300, 200, 50]), ('a remote control', [350, 300, 50, 20]), ('a TV', [400, 50, 100, 150])]\nBackground prompt: A realistic home video game setup\nNegative prompt: "
+    ],
+    "A vintage car rally with classic cars on display, a person polishing a car, a dog sitting in the passenger seat, a cooler with refreshments, and a sign announcing the event": [
+        "[('a classic car', [20, 200, 200, 150]), ('a person polishing a car', [240, 200, 100, 150]), ('a dog', [300, 250, 50, 50]), ('a cooler', [400, 300, 60, 60]), ('a sign', [10, 10, 100, 50])]\nBackground prompt: A vintage car rally\nNegative prompt: <Scene End>"
+    ],
+    "A mountain cabin porch with a person rocking in a chair, a dog sleeping at their feet, a pair of hiking boots drying, a cup of coffee steaming, and a view of the forest": [
+        "[('a mountain cabin porch', [0, 0, 512, 512]), ('a person rocking in a chair', [100, 200, 100, 200]), ('a dog sleeping', [100, 400, 100, 100]), ('a pair of hiking boots', [300, 400, 100, 50]), ('a cup of coffee', [250, 200, 50, 50]), ('a view of the forest', [0, 0, 512, 256])]\nBackground prompt: A mountain cabin porch with a view of the forest\nNegative prompt: <Scene Four End>"
+    ],
+    "A downtown busker with a person playing guitar, a case open for tips, a dog wearing a bandana, a crowd gathering to listen, and a sign with the performer's name": [
+        "[('a busker', [50, 200, 100, 200]), ('a guitar', [70, 250, 60, 150]), ('a case', [160, 350, 80, 50]), ('a dog wearing a bandana', [220, 300, 100, 100]), ('a crowd', [300, 200, 200, 300]), ('a sign', [20, 100, 80, 50])]\nBackground prompt: A realistic downtown scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A home fitness room with a person lifting weights, a yoga mat rolled out, a bottle of water on a shelf, a towel draped over a bench, and a dog watching curiously": [
+        "[('a person lifting weights', [50, 100, 150, 300]), ('a yoga mat', [250, 350, 200, 50]), ('a bottle of water', [450, 50, 30, 60]), ('a towel', [300, 200, 100, 50]), ('a dog', [400, 300, 100, 150]), ('a shelf', [420, 20, 80, 30]), ('a bench', [280, 250, 150, 50])]\nBackground prompt: A home fitness room\nNegative prompt: <Scene Four End>"
+    ],
+    "A city bike share station with bicycles docked, a person checking out a bike, a map showing bike paths, a helmet hanging on a handlebar, and a dog waiting patiently": [
+        "[('a city bike share station', [10, 200, 200, 300]), ('a bicycle', [50, 250, 120, 180]), ('a bicycle', [180, 250, 120, 180]), ('a person', [220, 220, 80, 280]), ('a map', [320, 210, 80, 120]), ('a helmet', [90, 280, 40, 30]), ('a dog', [400, 300, 100, 200])]\nBackground prompt: A realistic city scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A public library study area with a person taking notes, a laptop open to research, a stack of books for reference, a cup of pencils, and a clock monitoring study time": [
+        "[('a person taking notes', [30, 150, 100, 200]), ('a laptop', [150, 200, 100, 100]), ('a stack of books', [270, 200, 80, 120]), ('a cup of pencils', [370, 200, 50, 70]), ('a clock', [450, 20, 50, 50])]\nBackground prompt: A public library study area\nNegative prompt: <Scene End>"
+    ],
+    "A backyard pool party with a person floating in a pool, a dog watching from the side, a cooler with drinks, a grill smoking with barbecue, and a speaker playing music": [
+        "[('a person', [120, 200, 80, 160]), ('a pool', [20, 180, 280, 280]), ('a dog', [350, 300, 80, 80]), ('a cooler', [400, 400, 60, 60]), ('a grill', [450, 250, 50, 70]), ('a speaker', [480, 400, 30, 80])]\nBackground prompt: A backyard pool party\nNegative prompt: <Scene Four End>"
+    ],
+    "A mountain trailhead with a parked car, a person adjusting a backpack, a map posted at the entrance, a water bottle filled for the hike, and a dog ready to lead the way": [
+        "[('a mountain trailhead', [0, 0, 512, 256]), ('a parked car', [50, 200, 150, 100]), ('a person adjusting a backpack', [200, 200, 100, 150]), ('a map', [350, 200, 50, 75]), ('a water bottle', [300, 250, 25, 50]), ('a dog', [400, 250, 75, 75])]\nBackground prompt: A realistic mountain trailhead scene\nNegative prompt: <Scene End>"
+    ],
+    "A cityscape at sunset with a person taking a selfie, a cat silhouetted against the sky, a bench offering a perfect view, a bottle of water for hydration, and a camera bag resting nearby": [
+        "[('a person', [100, 200, 60, 150]), ('a cat', [250, 50, 50, 50]), ('a bench', [350, 300, 100, 50]), ('a bottle of water', [400, 350, 30, 60]), ('a camera bag', [120, 350, 60, 50])]\nBackground prompt: A cityscape at sunset\nNegative prompt: <Scene End>"
+    ],
+    "A home art gallery with paintings on the walls, a person admiring the art, a cat perched on a pedestal, a glass of wine in hand, and a brochure with artist information": [
+        "[('a painting', [20, 50, 100, 150]), ('a painting', [150, 50, 100, 150]), ('a painting', [280, 50, 100, 150]), ('a person', [200, 250, 100, 200]), ('a cat', [400, 300, 80, 50]), ('a pedestal', [400, 350, 80, 80]), ('a glass of wine', [250, 300, 30, 60]), ('a brochure', [300, 400, 50, 50])]\nBackground prompt: A realistic home art gallery\nNegative prompt: <Scene Four End>"
+    ],
+    "A night market with stalls of goods, a person sampling street food, a cat weaving through the crowd, a lantern illuminating the path, and a sign directing to more stalls": [
+        "[('a stall of goods', [20, 200, 150, 200]), ('a person sampling street food', [200, 250, 100, 150]), ('a cat', [300, 350, 50, 50]), ('a lantern', [400, 150, 50, 100]), ('a sign', [450, 250, 50, 150])]\nBackground prompt: A bustling night market scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A lakeside fishing spot with a person casting a line, a cooler for the catch, a dog waiting patiently, a tackle box open with gear, and a sign noting fishing regulations": [
+        "[('a person', [100, 200, 100, 200]), ('a cooler', [250, 350, 50, 50]), ('a dog', [350, 250, 100, 100]), ('a tackle box', [200, 300, 50, 50]), ('a sign', [400, 100, 50, 150])]\nBackground prompt: A realistic lakeside fishing spot\nNegative prompt: <Scene Four End>"
+    ],
+    "A city square during a festival with booths set up, a person wearing festive attire, a dog with a ribbon, a stage for performances, and a sign welcoming visitors": [
+        "[('a booth', [20, 200, 100, 100]), ('a booth', [150, 200, 100, 100]), ('a booth', [280, 200, 100, 100]), ('a person wearing festive attire', [400, 200, 80, 150]), ('a dog with a ribbon', [400, 350, 60, 60]), ('a stage', [50, 350, 200, 100]), ('a sign', [300, 350, 80, 100])]\nBackground prompt: A city square during a festival\nNegative prompt: <Scene Four End>"
+    ],
+    "A mountain biking adventure with a person navigating a trail, a dog running alongside, a backpack with tools, a water bottle mounted on the bike, and a sign marking the trail difficulty": [
+        "[('a person', [120, 200, 80, 160]), ('a mountain bike', [130, 250, 60, 100]), ('a dog', [200, 300, 70, 70]), ('a backpack', [50, 350, 50, 50]), ('a water bottle', [160, 220, 20, 40]), ('a trail sign', [400, 100, 60, 120])]\nBackground prompt: A mountain biking adventure scene\nNegative prompt: <Scene End>"
+    ],
+    "A country road with a person hitchhiking, a car pulling over, a suitcase by the road, a dog waiting loyally, and a sign indicating the nearest town": [
+        "[('a country road', [0, 256, 512, 256]), ('a person hitchhiking', [100, 300, 50, 150]), ('a car pulling over', [200, 350, 150, 100]), ('a suitcase by the road', [80, 400, 40, 60]), ('a dog waiting loyally', [150, 400, 50, 80]), ('a sign indicating the nearest town', [400, 300, 60, 150])]\nBackground prompt: A realistic country scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A home office desk with a person on a video call, a cat walking across the keyboard, a cup of tea cooling, a stack of reports, and a calendar marking deadlines": [
+        "[('a home office desk', [10, 200, 492, 200]), ('a person on a video call', [100, 50, 150, 150]), ('a cat walking across the keyboard', [200, 250, 150, 50]), ('a cup of tea', [400, 220, 50, 50]), ('a stack of reports', [350, 250, 40, 70]), ('a calendar marking deadlines', [50, 50, 40, 70])]\nBackground prompt: A realistic home office scene\nNegative prompt: <Scene End>"
+    ],
+    "A university campus during exam week with students studying on the grass, a person highlighting notes, a dog napping beside them, a backpack filled with textbooks, and a clock tower chiming the hour": [
+        "[('a student studying', [50, 200, 100, 150]), ('a person highlighting notes', [200, 200, 100, 150]), ('a dog napping', [350, 250, 100, 100]), ('a backpack', [150, 350, 100, 100]), ('a clock tower', [400, 50, 100, 400])]\nBackground prompt: A university campus during exam week\nNegative prompt: <Scene Four End>"
+    ],
+    "A bakery window with a display of pastries, a person pointing at their choice, a dog salivating outside, a tray of fresh bread being brought out, and a sign announcing the day's special": [
+        "[('a bakery window', [10, 10, 490, 200]), ('a display of pastries', [50, 50, 200, 100]), ('a person pointing', [300, 60, 80, 140]), ('a dog', [400, 250, 80, 100]), ('a tray of fresh bread', [200, 300, 150, 80]), ('a sign', [20, 220, 120, 60])]\nBackground prompt: A realistic bakery scene\nNegative prompt: <Scene End>"
+    ],
+    "A city park yoga class with participants in poses, a person leading the session, a dog stretching nearby, a mat for each participant, and a sign listing class times": [
+        "[('a yoga participant', [20, 200, 100, 150]), ('a yoga participant', [150, 200, 100, 150]), ('a yoga participant', [280, 200, 100, 150]), ('a yoga leader', [410, 180, 90, 170]), ('a dog', [360, 300, 50, 50]), ('a yoga mat', [20, 350, 100, 20]), ('a yoga mat', [150, 350, 100, 20]), ('a yoga mat', [280, 350, 100, 20]), ('a yoga mat', [410, 350, 90, 20]), ('a sign', [460, 50, 50, 100])]\nBackground prompt: A realistic city park scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A vintage photo shoot with a person posing with a classic car, a camera on a tripod, a dog sitting in the driver's seat, a suitcase with costumes, and a backdrop of the city skyline": [
+        "[('a person', [50, 200, 100, 300]), ('a classic car', [200, 250, 300, 250]), ('a camera on a tripod', [400, 400, 50, 100]), ('a dog', [300, 300, 50, 50]), ('a suitcase with costumes', [450, 200, 50, 50]), ('the city skyline', [0, 0, 512, 150])]\nBackground prompt: A vintage photo shoot with a city skyline backdrop\nNegative prompt: <Scene Four End>"
+    ],
+    "A local pub with patrons enjoying drinks, a person playing darts, a dog lying under a table, a bartender pouring a pint, and a sign listing the night's music lineup": [
+        "[('a local pub', [0, 0, 512, 512]), ('a patron', [50, 200, 60, 70]), ('a patron', [120, 210, 60, 70]), ('a person playing darts', [400, 200, 60, 70]), ('a dog', [200, 400, 80, 60]), ('a table', [180, 300, 120, 80]), ('a bartender', [350, 100, 60, 70]), ('a pint', [360, 130, 20, 30]), ('a sign', [450, 50, 50, 30])]\nBackground prompt: A local pub scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A garage band rehearsal with a person playing drums, a guitar amp turned up, a dog howling along, a setlist on a stand, and a sign on the door saying \"Band Practice in Progress.\"": [
+        "[('a person playing drums', [30, 200, 150, 250]), ('a guitar amp', [200, 300, 100, 150]), ('a dog', [350, 350, 100, 100]), ('a setlist on a stand', [250, 250, 50, 100]), ('a sign on the door', [450, 0, 50, 100])]\nBackground prompt: A realistic indoor garage band rehearsal\nNegative prompt: <Scene End>"
+    ],
+    "A backyard astronomy session with a person adjusting a telescope, a cat chasing moths, a chair set up for viewing, a book on constellations, and a lantern providing light": [
+        "[('a person', [100, 200, 100, 200]), ('a telescope', [130, 250, 40, 150]), ('a cat', [350, 400, 100, 80]), ('moths', [370, 380, 30, 20]), ('a chair', [200, 300, 60, 100]), ('a book', [220, 320, 40, 30]), ('a lantern', [450, 450, 50, 50])]\nBackground prompt: A backyard astronomy session\nNegative prompt: <Scene Three End>"
+    ],
+    "A city mural tour with a guide pointing out artwork, a person taking photos with a cell phone, a dog wearing a service vest, a map showing mural locations, and a sign about the city's art initiative": [
+        "[('a guide', [10, 200, 100, 300]), ('artwork', [130, 50, 250, 450]), ('a person with a cell phone', [400, 200, 100, 300]), ('a dog with a service vest', [250, 350, 100, 150]), ('a map', [400, 10, 100, 180]), ('a sign', [10, 10, 100, 180])]\nBackground prompt: A city mural tour\nNegative prompt: <Scene Four End>"
+    ],
+    "A city art walk with galleries open late, a person admiring a sculpture, a dog wearing an art-themed bandana, a wine glass in hand, and a sign listing participating venues": [
+        "[('a gallery', [10, 10, 200, 200]), ('a gallery', [220, 10, 200, 200]), ('a gallery', [430, 10, 82, 200]), ('a person', [150, 220, 80, 292]), ('a sculpture', [240, 220, 80, 292]), ('a dog', [330, 220, 80, 292]), ('an art-themed bandana', [330, 220, 40, 20]), ('a wine glass', [150, 512, 40, 80]), ('a sign', [430, 220, 82, 292])]\nBackground prompt: A city art walk with galleries open late\nNegative prompt: "
+    ],
+    "A community garden with plots of vegetables, a person watering their plants, a cat hunting insects, a shed with gardening tools, and a sign welcoming volunteers": [
+        "[('plots of vegetables', [20, 200, 200, 200]), ('a person watering their plants', [250, 200, 100, 200]), ('a cat hunting insects', [400, 300, 80, 80]), ('a shed with gardening tools', [10, 10, 150, 150]), ('a sign welcoming volunteers', [400, 10, 100, 50])]\nBackground prompt: A community garden\nNegative prompt: <Scene End>"
+    ],
+    "A home library with shelves of books, a person selecting a read, a cat napping on the armchair, a lamp providing light, and a sign reading \"Quiet Please.\"": [
+        "[('shelves of books', [10, 20, 200, 480]), ('a person', [230, 100, 100, 200]), ('a cat', [400, 300, 80, 80]), ('a lamp', [350, 20, 50, 150]), ('a sign', [450, 10, 50, 30])]\nBackground prompt: A realistic home library scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A downtown loft with a person painting on a large canvas, a dog sprawled on the floor, a palette with mixed colors, a ladder for reaching high areas, and a sign with the artist's name": [
+        "[('a person', [50, 100, 100, 200]), ('a large canvas', [200, 50, 150, 300]), ('a dog', [400, 350, 100, 100]), ('a palette', [50, 350, 50, 50]), ('a ladder', [350, 50, 50, 400]), ('a sign', [450, 50, 50, 50])]\nBackground prompt: A downtown loft\nNegative prompt: <Scene Four End>"
+    ],
+    "A city ferry with passengers enjoying the view, a person taking a selfie, a dog looking over the side, a cooler with snacks for the trip, and a sign indicating the ferry's destination": [
+        "[('a city ferry', [0, 0, 512, 512]), ('a passenger', [50, 200, 80, 150]), ('a person taking a selfie', [150, 200, 80, 150]), ('a dog', [250, 300, 80, 100]), ('a cooler with snacks', [350, 350, 80, 80]), ('a sign', [450, 20, 50, 50])]\nBackground prompt: A realistic city ferry scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A street basketball game with players on the court, a person cheering from the sidelines, a dog fetching a stray ball, a cooler with drinks, and a sign with the court rules": [
+        "[('a basketball player', [50, 200, 100, 200]), ('a basketball player', [200, 200, 100, 200]), ('a person cheering', [10, 10, 80, 180]), ('a dog', [400, 400, 80, 80]), ('a cooler with drinks', [350, 10, 100, 80]), ('a sign with the court rules', [450, 10, 50, 80])]\nBackground prompt: A realistic street basketball game\nNegative prompt: <Scene Three End>"
+    ],
+    "A city rooftop stargazing with a telescope set up, a person pointing out constellations, a cat intrigued by the night sky, a blanket for warmth, and a sign cautioning against the ledge": [
+        "[('a telescope', [50, 200, 50, 100]), ('a person', [150, 150, 100, 200]), ('a cat', [300, 250, 50, 50]), ('a blanket', [200, 300, 100, 50]), ('a sign', [450, 100, 50, 50])]\nBackground prompt: A city rooftop at night\nNegative prompt: <Scene Four End>"
+    ],
+    "A beach sandcastle building with children and adults participating, a person sculpting with a shovel, a dog digging nearby, a bucket of water for moat making, and a sign announcing a competition": [
+        "[('a sandcastle', [50, 300, 150, 150]), ('a child', [220, 320, 80, 120]), ('an adult', [320, 300, 80, 140]), ('a person with a shovel', [420, 310, 80, 130]), ('a dog', [200, 400, 100, 80]), ('a bucket of water', [350, 400, 70, 80]), ('a sign', [10, 10, 100, 200])]\nBackground prompt: A realistic beach scene with a sandcastle building competition\nNegative prompt: "
+    ],
+    "A city graffiti cleanup with volunteers painting over tags, a person organizing supplies, a dog wearing a volunteer vest, a bucket of paint ready for use, and a sign thanking volunteers": [
+        "[('a volunteer painting over graffiti', [20, 200, 100, 150]), ('a person organizing supplies', [150, 200, 100, 150]), ('a dog wearing a volunteer vest', [280, 300, 80, 80]), ('a bucket of paint', [400, 350, 60, 60]), ('a sign thanking volunteers', [450, 50, 50, 100])]\nBackground prompt: A realistic city scene during a graffiti cleanup\nNegative prompt: <Scene Four End>"
+    ],
+    "A farm hayride with a tractor pulling a wagon, a person enjoying the ride, a dog chasing after, a cooler with refreshments, and a sign indicating the route": [
+        "[('a tractor', [20, 200, 150, 150]), ('a wagon', [200, 200, 150, 150]), ('a person', [250, 220, 50, 80]), ('a dog', [400, 300, 80, 80]), ('a cooler', [220, 350, 60, 60]), ('a sign', [10, 10, 80, 80])]\nBackground prompt: A realistic farm scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A local brewery tour with a person sampling beers, a cat lounging in the tasting room, a glass of the brewery's best, a barrel used as a table, and a sign listing the day's brews": [
+        "[('a person', [20, 150, 100, 200]), ('a cat', [150, 300, 100, 50]), ('a glass of beer', [300, 200, 50, 100]), ('a barrel table', [200, 350, 100, 100]), ('a sign', [400, 50, 100, 200])]\nBackground prompt: A local brewery tour\nNegative prompt: <Scene One End>"
+    ],
+    "A backyard DIY project with a person building a birdhouse, a dog watching curiously, a toolbox open with tools, a plan laid out on a table, and a sign marking the \"Work in Progress.\"": [
+        "[('a person', [50, 150, 100, 300]), ('a birdhouse', [150, 250, 100, 100]), ('a dog', [300, 300, 100, 150]), ('a toolbox', [400, 350, 100, 100]), ('a plan', [200, 50, 150, 100]), ('a sign', [450, 50, 50, 100])]\nBackground prompt: A realistic backyard scene with a DIY project\nNegative prompt: <Scene Four End>"
+    ],
+    "A home garage sale with items displayed on tables, a person negotiating a price, a dog greeting visitors, a box labeled \"Free Stuff,\" and a sign pointing to the sale": [
+        "[('a table with items', [10, 200, 200, 150]), ('a person negotiating', [250, 200, 100, 150]), ('a dog', [400, 300, 80, 80]), ('a box labeled \"Free Stuff\"', [50, 400, 100, 80]), ('a sign pointing to the sale', [450, 50, 50, 100])]\nBackground prompt: A home garage sale scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A home movie marathon with a person selecting a DVD, a dog curled up on the sofa, a bowl of popcorn on the coffee table, a remote control within reach, and a sign listing the night's films": [
+        "[('a person', [20, 20, 150, 472]), ('a DVD', [180, 250, 40, 40]), ('a dog', [300, 300, 150, 150]), ('a bowl of popcorn', [100, 350, 70, 70]), ('a remote control', [200, 350, 30, 30]), ('a sign', [400, 20, 100, 200])]\nBackground prompt: A cozy home movie night\nNegative prompt: <Scene End>"
+    ],
+    "A mountain rest stop with a view of the valley, a person taking photos, a dog drinking from a bowl, a bench for enjoying the scenery, and a sign with elevation details": [
+        "[('a mountain rest stop', [0, 0, 512, 512]), ('a person taking photos', [100, 200, 75, 150]), ('a dog drinking from a bowl', [350, 300, 100, 100]), ('a bench', [200, 250, 150, 50]), ('a sign with elevation details', [400, 50, 80, 150])]\nBackground prompt: A mountain rest stop with a view of the valley\nNegative prompt: <Scene Four End>"
+    ],
+    "A home bread-making day with a person kneading dough, a cat watching from a distance, a bowl of rising bread, a recipe book open, and a sign saying \"Bakery Closed.\"": [
+        "[('a person kneading dough', [20, 150, 150, 200]), ('a cat', [350, 200, 100, 100]), ('a bowl of rising bread', [200, 250, 100, 100]), ('a recipe book', [200, 100, 150, 100]), ('a sign saying \"Bakery Closed\"', [400, 50, 100, 50])]\nBackground prompt: A realistic home baking scene\nNegative prompt: <Scene Three End>"
+    ],
+    "A downtown poetry reading with a person reciting from a book, a cat in the audience, a microphone stand on stage, a sign listing performers, and a coffee cup for donations": [
+        "[('a person', [100, 100, 100, 200]), ('a book', [120, 200, 60, 80]), ('a cat', [400, 300, 50, 50]), ('a microphone stand', [200, 100, 20, 200]), ('a sign', [10, 10, 80, 120]), ('a coffee cup', [450, 10, 50, 60])]\nBackground prompt: A downtown poetry reading\nNegative prompt: <Scene End>"
+    ],
+    "A home pottery studio with a person shaping clay on a wheel, a dog sleeping in the corner, a shelf of completed pieces, a bucket of water for hands, and a sign with workshop times": [
+        "[('a person', [100, 100, 100, 300]), ('a pottery wheel', [110, 250, 80, 80]), ('a dog', [10, 400, 100, 100]), ('a shelf', [300, 50, 100, 400]), ('completed pieces', [310, 60, 80, 380]), ('a bucket', [220, 300, 50, 70]), ('a sign', [400, 10, 100, 50])]\nBackground prompt: A home pottery studio\nNegative prompt: <Scene Three End>"
+    ],
+    "A home indoor herb garden with a person pruning plants, a cat sniffing the basil, pots lined up on the windowsill, a watering can ready for use, and a sign labeling each herb": [
+        "[('a person', [50, 150, 100, 200]), ('a cat', [180, 250, 80, 60]), ('a basil plant', [200, 200, 60, 80]), ('pots', [300, 200, 150, 50]), ('a watering can', [470, 300, 30, 50]), ('a sign', [320, 100, 60, 30])]\nBackground prompt: A home indoor herb garden\nNegative prompt: <Scene Three End>"
+    ],
+    "A small art gallery with various paintings on display, a person contemplating a piece, a bench for viewers, a guestbook on a pedestal, and a spotlight highlighting a featured artwork": [
+        "[('a painting', [20, 50, 100, 150]), ('a painting', [140, 50, 100, 150]), ('a painting', [260, 50, 100, 150]), ('a painting', [380, 50, 100, 150]), ('a person', [200, 250, 50, 200]), ('a bench', [100, 300, 200, 50]), ('a guestbook on a pedestal', [350, 300, 50, 100]), ('a spotlight', [460, 0, 50, 50])]\nBackground prompt: A realistic art gallery scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A local caf\u00e9 terrace on a sunny day, a person sipping a cappuccino, a dog under the table, a parasol providing shade, and a menu board showcasing seasonal specials": [
+        "[('a caf\u00e9 terrace', [0, 0, 512, 512]), ('a person', [150, 200, 100, 150]), ('a cappuccino', [180, 250, 40, 40]), ('a dog', [160, 300, 80, 80]), ('a parasol', [250, 0, 100, 300]), ('a menu board', [400, 50, 80, 150])]\nBackground prompt: A local caf\u00e9 on a sunny day\nNegative prompt: <Scene Three End>"
+    ],
+    "An urban skate park with ramps and rails, a teenager performing a trick on a skateboard, a helmet lying on a bench, a portable speaker playing music, and graffiti art decorating the walls": [
+        "[('ramps and rails', [20, 200, 200, 200]), ('a teenager', [250, 200, 100, 150]), ('a skateboard', [250, 350, 100, 50]), ('a helmet', [400, 300, 50, 50]), ('a bench', [350, 300, 150, 50]), ('a portable speaker', [450, 250, 50, 50]), ('graffiti art', [0, 0, 512, 150])]\nBackground prompt: An urban skate park\nNegative prompt: <Scene Four End>"
+    ],
+    "A bustling train platform with commuters waiting, a train approaching in the distance, a digital board updating arrival times, a kiosk selling coffee and pastries, and a lost and found office sign": [
+        "[('a commuter', [20, 200, 50, 150]), ('a commuter', [90, 210, 50, 140]), ('a commuter', [160, 220, 50, 130]), ('a train', [400, 300, 100, 50]), ('a digital board', [250, 50, 100, 50]), ('a kiosk', [70, 50, 80, 80]), ('a lost and found office sign', [350, 50, 120, 40])]\nBackground prompt: A bustling train platform\nNegative prompt: <Scene Three End>"
+    ],
+    "A historic city alley with cobblestone streets, a person taking photographs, a caf\u00e9 table set outside, a bicycle leaning against the wall, and plaques describing the historical significance": [
+        "[('cobblestone streets', [0, 256, 512, 256]), ('a person taking photographs', [100, 200, 75, 150]), ('a caf\u00e9 table', [200, 250, 100, 100]), ('a bicycle', [350, 300, 100, 150]), ('historical plaques', [50, 50, 100, 100]), ('historical plaques', [400, 50, 100, 100])]\nBackground prompt: A historic city alley\nNegative prompt: <Scene Three End>"
+    ],
+    "A city park during autumn, leaves covering the paths, a person walking a dog, a pumpkin patch for children, and a sign announcing a fall festival": [
+        "[('a person walking a dog', [100, 300, 100, 200]), ('a pumpkin patch', [250, 350, 150, 150]), ('a sign announcing a fall festival', [400, 250, 100, 250]), ('leaves covering the paths', [0, 400, 512, 112])]\nBackground prompt: A city park during autumn\nNegative prompt: <Scene Four End>"
+    ],
+    "A quaint bed and breakfast with guests enjoying breakfast, a person checking in, a guestbook filled with notes, a cozy fireplace in the lobby, and a sign pointing to the garden": [
+        "[('a bed and breakfast', [0, 0, 512, 512]), ('guests enjoying breakfast', [30, 200, 200, 150]), ('a person checking in', [250, 200, 100, 150]), ('a guestbook', [400, 250, 80, 50]), ('a fireplace', [350, 100, 100, 150]), ('a sign', [460, 50, 50, 50])]\nBackground prompt: A quaint bed and breakfast\nNegative prompt: <Scene Four End>"
+    ],
+    "A bustling fisherman's wharf early in the morning, boats unloading their catch, a person buying fresh seafood, a seagull perched on a post, and signs advertising boat tours": [
+        "[('a boat', [20, 200, 200, 150]), ('a person', [250, 250, 100, 150]), ('a seagull', [400, 50, 80, 50]), ('a sign', [350, 200, 100, 150]), ('a boat', [100, 250, 200, 150])]\nBackground prompt: A bustling fisherman's wharf early in the morning\nNegative prompt: <Scene Four End>"
+    ],
+    "A wilderness hiking trail with markers leading the way, a person consulting a map, a backpack with essential gear, a sign cautioning about wildlife, and a viewpoint overlooking a valley": [
+        "[('a hiking trail', [10, 256, 492, 100]), ('trail markers', [50, 256, 50, 50]), ('trail markers', [200, 256, 50, 50]), ('trail markers', [350, 256, 50, 50]), ('a person', [150, 100, 100, 156]), ('a map', [160, 130, 80, 60]), ('a backpack', [300, 100, 100, 156]), ('a sign', [450, 150, 50, 106]), ('a viewpoint', [0, 0, 512, 100])]\nBackground prompt: A realistic wilderness scene\nNegative prompt: <Scene Four End>"
+    ],
+    "An urban graffiti wall with artists at work, a person photographing the art, a supply station with spray paints, a bench for onlookers, and signs encouraging artistic expression": [
+        "[('graffiti wall', [0, 0, 512, 256]), ('an artist', [50, 200, 80, 150]), ('an artist', [150, 200, 80, 150]), ('a photographer', [300, 200, 80, 150]), ('a supply station', [400, 250, 80, 100]), ('a bench', [200, 350, 150, 50]), ('a sign', [20, 300, 80, 100]), ('a sign', [420, 300, 80, 100])]\nBackground prompt: An urban scene with graffiti art\nNegative prompt: <Scene Four End>"
+    ],
+    "A luxury car showroom with sleek models on display, a person admiring a sports car, a lounge for customers, a brochure stand with car specifications, and a test drive scheduling desk": [
+        "[('a luxury car', [10, 200, 200, 150]), ('a sports car', [250, 200, 200, 150]), ('a person', [300, 220, 50, 130]), ('a lounge', [10, 10, 200, 150]), ('a brochure stand', [250, 10, 100, 150]), ('a test drive scheduling desk', [400, 10, 100, 150])]\nBackground prompt: A luxury car showroom\nNegative prompt: <Scene Three End>"
+    ],
+    "A serene chapel with stained glass windows, a person lighting a candle, a bench for quiet reflection, a donation box for charity, and a schedule of services on the door": [
+        "[('a chapel', [10, 10, 492, 492]), ('stained glass windows', [20, 20, 472, 100]), ('a person lighting a candle', [150, 200, 50, 100]), ('a bench', [300, 300, 150, 50]), ('a donation box', [400, 200, 50, 50]), ('a schedule of services', [10, 400, 50, 100])]\nBackground prompt: A serene chapel interior\nNegative prompt: <Scene Four End>"
+    ],
+    "A classic car show in a park, vintage models lined up, a person polishing a 1950s convertible, a judge evaluating the cars, and signs with the history of each model": [
+        "[('a vintage car', [20, 200, 150, 100]), ('a vintage car', [200, 200, 150, 100]), ('a vintage car', [380, 200, 120, 100]), ('a person polishing a car', [200, 250, 70, 80]), ('a judge', [380, 250, 70, 80]), ('a sign', [20, 350, 100, 100]), ('a sign', [200, 350, 100, 100]), ('a sign', [380, 350, 100, 100])]\nBackground prompt: A classic car show in a park\nNegative prompt: <Scene Four End>"
+    ],
+    "An antique book fair with rare collections on display, a person examining an old map, a lecture area for talks on preservation, and signs directing to different genres": [
+        "[('rare collections', [10, 10, 200, 200]), ('a person', [250, 200, 50, 100]), ('an old map', [240, 220, 70, 80]), ('a lecture area', [350, 50, 150, 150]), ('signs', [50, 300, 100, 200])]\nBackground prompt: An antique book fair\nNegative prompt: <Scene End>"
+    ],
+    "A gourmet food truck festival with a variety of cuisines, a person sampling a taco, a seating area with tables and chairs, and signs listing the trucks and their menus": [
+        "[('a food truck', [10, 200, 200, 200]), ('a food truck', [230, 200, 200, 200]), ('a food truck', [450, 200, 62, 200]), ('a person', [350, 150, 50, 100]), ('a taco', [360, 160, 20, 10]), ('a table', [10, 400, 100, 100]), ('a chair', [120, 400, 50, 100]), ('a chair', [180, 400, 50, 100]), ('a sign', [300, 400, 100, 100]), ('a sign', [410, 400, 100, 100])]\nBackground prompt: A bustling food truck festival\nNegative prompt: "
+    ],
+    "A midnight book release at a local bookstore, fans lining up, a person dressed as a character from the book, a table with themed snacks, and a countdown clock until the sale begins": [
+        "[('a local bookstore', [0, 0, 512, 512]), ('fans', [30, 200, 200, 300]), ('a person dressed as a character', [250, 200, 100, 300]), ('a table with themed snacks', [380, 300, 120, 200]), ('a countdown clock', [460, 20, 50, 50])]\nBackground prompt: A midnight book release scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A classic car restoration workshop, vintage models being refurbished, a person polishing a 1950s Chevy, tools neatly organized on a pegboard, and signs offering restoration tips": [
+        "[('a classic car', [20, 200, 200, 150]), ('a person', [240, 210, 100, 140]), ('a 1950s Chevy', [370, 210, 120, 140]), ('tools', [20, 20, 200, 100]), ('signs', [240, 20, 200, 100])]\nBackground prompt: A classic car restoration workshop\nNegative prompt: <Scene End>"
+    ],
+    "A classic literature book club meeting in a cozy caf\u00e9, members discussing a Victorian novel, a person quoting their favorite passage, a display of related books, and signs inviting new members": [
+        "[('a book club member', [10, 100, 100, 200]), ('a book club member', [120, 100, 100, 200]), ('a book club member', [230, 100, 100, 200]), ('a Victorian novel', [350, 150, 80, 120]), ('a person quoting', [460, 100, 50, 200]), ('related books', [10, 310, 200, 100]), ('new member signs', [220, 310, 280, 100])]\nBackground prompt: A cozy caf\u00e9 setting for a classic literature book club meeting\nNegative prompt: "
+    ],
+    "A birdhouse building workshop in a community park, pre-cut wood pieces ready for assembly, a person painting their birdhouse, stations with tools and paint, and signs about bird conservation": [
+        "[('a birdhouse', [20, 200, 100, 100]), ('pre-cut wood pieces', [150, 200, 100, 100]), ('a person painting', [280, 200, 100, 100]), ('stations with tools and paint', [410, 200, 100, 100]), ('signs about bird conservation', [20, 20, 200, 100])]\nBackground prompt: A birdhouse building workshop in a community park\nNegative prompt: <Scene Four End>"
+    ],
+    "A vintage motorcycle rally in a small town, classic bikes lined up for viewing, a person polishing their prized possession, a ride-out to scenic spots, and signs with the history of each model": [
+        "[('a vintage motorcycle', [10, 200, 120, 150]), ('a vintage motorcycle', [150, 200, 120, 150]), ('a vintage motorcycle', [290, 200, 120, 150]), ('a person', [430, 200, 70, 150]), ('a sign', [10, 50, 100, 100]), ('a sign', [150, 50, 100, 100]), ('a sign', [290, 50, 100, 100])]\nBackground prompt: A vintage motorcycle rally in a small town with a ride-out to scenic spots\nNegative prompt: <Scene Four End>"
+    ],
+    "A nature reserve's guided bird-watching walk, binoculars provided to participants, a person pointing out a rare bird, a checklist of species to spot, and signs about the importance of conservation": [
+        "[('a person', [80, 200, 100, 200]), ('binoculars', [200, 250, 50, 50]), ('a rare bird', [350, 50, 100, 50]), ('a checklist', [250, 350, 100, 100]), ('conservation signs', [400, 300, 100, 200])]\nBackground prompt: A guided bird-watching walk in a nature reserve\nNegative prompt: <Scene End>"
+    ],
+    "A vintage train ride through scenic landscapes, passengers in period dress, a person narrating the history of the railway, dining cars serving themed meals, and signs with historical facts": [
+        "[('a vintage train', [10, 250, 492, 200]), ('a passenger in period dress', [100, 300, 80, 80]), ('a person narrating', [200, 300, 80, 80]), ('a dining car', [300, 300, 80, 80]), ('a sign with historical facts', [400, 300, 80, 80])]\nBackground prompt: A scenic landscape with a vintage train ride\nNegative prompt: <Scene End>"
+    ],
+    "An antique book and manuscript fair in a library courtyard, collectors displaying rare finds, a person appraising old documents, a restoration workshop for damaged books, and signs with the history of various texts": [
+        "[('an antique book', [20, 250, 80, 120]), ('a manuscript', [120, 250, 80, 120]), ('a collector', [230, 250, 80, 120]), ('a person appraising old documents', [340, 250, 80, 120]), ('a restoration workshop', [450, 250, 60, 120]), ('a sign', [20, 20, 80, 120]), ('a sign', [120, 20, 80, 120]), ('a sign', [220, 20, 80, 120])]\nBackground prompt: An antique book and manuscript fair in a library courtyard\nNegative prompt: "
+    ],
+    "A fantasy book fair in a library, authors discussing their works, a person hosting a costume contest, interactive panels on world-building, book stalls with fantasy genres, and signs guiding to various events": [
+        "[('an author', [30, 200, 100, 150]), ('an author', [150, 200, 100, 150]), ('a person hosting a costume contest', [300, 200, 100, 150]), ('an interactive panel', [450, 200, 50, 150]), ('a book stall', [30, 400, 150, 100]), ('a book stall', [200, 400, 150, 100]), ('a sign', [400, 400, 100, 100])]\nBackground prompt: A fantasy book fair in a library\nNegative prompt: <Scene Four End>"
+    ],
+    "A \"Farm to Fork\" cooking demonstration at a farmers market, chefs preparing dishes with market ingredients, a person discussing nutrition and local sourcing, tasting samples for the audience, and signs listing ingredient origins and recipes": [
+        "[('a chef', [10, 200, 150, 200]), ('a chef', [180, 200, 150, 200]), ('a person', [360, 200, 150, 200]), ('tasting samples', [10, 420, 200, 80]), ('a sign', [230, 420, 150, 80]), ('a sign', [400, 420, 100, 80])]\nBackground prompt: A realistic farmers market scene\nNegative prompt: <Scene Four End>"
+    ],
+    "A \"Build Your Own Boat\" race at a lake, teams constructing makeshift boats, a person overseeing safety inspections, a race course marked by buoys, and signs with building materials and design tips": [
+        "[('a makeshift boat', [20, 200, 150, 100]), ('a makeshift boat', [200, 200, 150, 100]), ('a makeshift boat', [380, 200, 120, 100]), ('a person overseeing', [250, 50, 100, 150]), ('a buoy', [50, 350, 50, 50]), ('a buoy', [450, 350, 50, 50]), ('a sign', [10, 10, 100, 150]), ('a sign', [400, 10, 100, 150])]\nBackground prompt: A realistic scene of a \"Build Your Own Boat\" race at a lake\nNegative prompt: "
+    ],
+    "A \"Kites and Bites\" food truck rally at a kite park, gourmet trucks serving a variety of cuisines, a person teaching kite making, a designated area for kite flying, and signs listing truck menus and kite flying tips": [
+        "[('a food truck', [10, 200, 150, 200]), ('a food truck', [180, 200, 150, 200]), ('a food truck', [350, 200, 150, 200]), ('a person', [50, 100, 50, 80]), ('a kite flying area', [200, 50, 150, 100]), ('a sign', [400, 50, 100, 150]), ('a sign', [400, 220, 100, 150])]\nBackground prompt: A \"Kites and Bites\" food truck rally at a kite park\nNegative prompt: "
+    ],
+    "A \"History on Wheels\" vintage bicycle tour, cyclists riding through historic districts, a person narrating stories at stops, vintage cycling attire encouraged, and signs with information on historical landmarks": [
+        "[('a cyclist', [30, 200, 100, 200]), ('a cyclist', [160, 200, 100, 200]), ('a cyclist', [290, 200, 100, 200]), ('a person narrating', [420, 200, 80, 200]), ('a sign', [120, 50, 100, 100]), ('a sign', [250, 50, 100, 100]), ('a sign', [380, 50, 100, 100])]\nBackground prompt: A realistic scene of a vintage bicycle tour through historic districts\nNegative prompt: <Scene Four End>"
+    ],
+    "A \"Paddleboard Yoga\" class on a calm lake, participants balancing on boards, a person guiding through yoga poses, a safety boat nearby, and signs with instructions for beginners": [
+        "[('a paddleboard', [20, 150, 100, 50]), ('a paddleboard', [140, 150, 100, 50]), ('a paddleboard', [260, 150, 100, 50]), ('a paddleboard', [380, 150, 100, 50]), ('a person guiding', [200, 50, 100, 80]), ('a safety boat', [420, 250, 80, 60]), ('a sign', [10, 250, 80, 60]), ('a sign', [100, 250, 80, 60])]\nBackground prompt: A calm lake during a \"Paddleboard Yoga\" class\nNegative prompt: <Scene Four End>"
+    ],
+    "A \"Silent Reading Party\" in a historic library, readers enjoying books in shared silence, a person providing book recommendations, cozy nooks with soft lighting, and signs encouraging quiet contemplation": [
+        "[('a reader', [50, 150, 80, 100]), ('a reader', [150, 150, 80, 100]), ('a reader', [250, 150, 80, 100]), ('a person recommending books', [350, 150, 80, 100]), ('a cozy nook', [50, 300, 100, 100]), ('a cozy nook', [200, 300, 100, 100]), ('a sign', [350, 300, 100, 100])]\nBackground prompt: A historic library\nNegative prompt: <Scene Four End>"
+    ]
+}

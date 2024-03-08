@@ -882,10 +882,11 @@ prompts_demo_gpt3_5 = []
 
 prompt_types = [
     "demo",
-    "lmd_negation",
+    # "lmd_negation",
     "lmd_numeracy",
-    "lmd_attribution",
+    # "lmd_attribution",
     "lmd_spatial",
+    "lmd_complex",
     "lmd",
 ]
 
@@ -934,6 +935,10 @@ def get_prompts(prompt_type, model, allow_non_exist=False):
             import json
             samples = json.load(open("data/numeracy.json"))
             prompts = {'lmd_numeracy': [d['prompt'] for d in samples]}
+        elif prompt_type == "lmd_complex":
+            import json
+            samples = json.load(open("data/complex_prompt.json"))
+            prompts = {'lmd_complex': [d['text'] for d in samples]}
         # print(prompts)
         # We do not add to both dict to prevent duplicates when model is set to "all".
         if "gpt-4" in model:

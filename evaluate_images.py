@@ -103,7 +103,7 @@ def detecting_objects(DIR):
     print(f"Loading model ({YOLO_MODEL}.pt)...")
     model = YOLO(f"{YOLO_MODEL}.pt")
     # DIR = f"img_generations/img_generations_templatev0.3_lmd_plus_demo_gpt-4/run0"
-    print(os.listdir(DIR))
+    # print(os.listdir(DIR))
     for dir in os.listdir(DIR):
         if os.path.isdir(os.path.join(DIR, dir)):
             for file in os.listdir(os.path.join(DIR, dir)):
@@ -396,21 +396,25 @@ if __name__ == "__main__":
 
     YOLO_MODEL = args.yolo_model
     if args.model_type == 'lmd':
-        if args.sdxl:
+        if args.sdxl == True:
             DIR = f"img_generations/img_generations_template{args.template_version}_lmd_plus_{args.prompt_type}_{args.lm}_sdxl_0.3/run0"
         else:
-            DIR = f"img_generations/img_generations_template{args.template_version}_lmd_plus_{args.prompt_type}_{args.lm}/run0"
+            print("hi")
+            DIR = f"img_generations/img_generations_template{args.template_version}_gligen_{args.prompt_type}_{args.lm}/run0"
     else:
         DIR = f"img_generations/{args.task}_{args.model_type}"
-
     # Detecting objects from synthetic images
-    if args.detection:
+    
+    if args.detection == True:
         detecting_objects(DIR)
 
 
     # Evaluate the detected objects
     if args.prompt_type.startswith("lmd"):
-        prompts = json.load(open(f"cache/cache_{args.prompt_type.replace('lmd_', '')}_{args.template_version}_{args.lm}.json"))
+        if args.lm == "gpt-3.5":
+            prompts = json.load(open(f"cache/cache_{args.prompt_type.replace('lmd_', '')}_{args.template_version}_{args.lm}-turbo.json"))
+        else:
+            prompts = json.load(open(f"cache/cache_{args.prompt_type.replace('lmd_', '')}_{args.template_version}_{args.lm}.json"))
     else:
         prompts = json.load(open(f"cache/cache_demo_{args.template_version}_{args.lm}.json")) 
     if "spatial" in args.prompt_type:
@@ -443,7 +447,7 @@ if __name__ == "__main__":
                 uni_dets.append(0)
                 pass
             # if ind == 3:
-            #     break
+            # break
     
         print(f"Extra/Miss Ratio: {np.mean(extra_miss_ratio)}")
         print(f"Mean IoU: {np.mean(ious)}")
@@ -493,4 +497,3 @@ if __name__ == "__main__":
             "UniDet": np.mean(uni_dets)
         }
         json.dump(eval_result, open(f"results/{YOLO_MODEL}_evaluation_result_{DIR[16:]}.json", "w"), indent=2)
-
