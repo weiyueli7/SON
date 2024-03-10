@@ -41,6 +41,7 @@ def numeracy_evaluation(objects, text_objects):
     prediction = [objects_keys.count(obj[0]) for obj in text_objects['num_object']]
     if text_objects['type'] == 'comparison':
         obj1, obj2 = text_objects['num_object']
+        obj1_count = obj1[1]
         rel = []
         if obj1[1] > obj2[1]:
             rel += "more"
@@ -48,6 +49,7 @@ def numeracy_evaluation(objects, text_objects):
             rel += "less"
         else:
             rel += "equal"
+        pred_obj1 = prediction[0]
         prd_rel = []
         if prediction[0] > prediction[1]:
             prd_rel += "more"
@@ -55,10 +57,10 @@ def numeracy_evaluation(objects, text_objects):
             prd_rel += "less"
         else:
             prd_rel += "equal"
-        if rel == prd_rel:
-            return 0, 0, 1
+        if rel == prd_rel and obj1_count == pred_obj1:
+            return 1, 1, 1
         else:
-            return 0, 0, 0
+            return 1, 1, 0
         import subprocess
         subprocess.run("exit()", shell=True, check=True)
     # groud_truth = [obj[1] for obj in text_objects['num_object']]
@@ -256,9 +258,9 @@ if __name__ == "__main__":
         if args.prompt_type.endswith("numeracy"):
             numeracy_precision, numeracy_recall, numeracy_accuracy = numeracy_evaluation(gen_boxes, text_objects[ind])
             print(f"Precision: {numeracy_precision}, Recall: {numeracy_recall}, Accuracy: {numeracy_accuracy}")
-            if text_objects[ind]['type'] != 'comparison':
-                numeracy_check['recall'].append(numeracy_recall)
-                numeracy_check['precision'].append(numeracy_precision)
+            # if text_objects[ind]['type'] != 'comparison':
+            numeracy_check['recall'].append(numeracy_recall)
+            numeracy_check['precision'].append(numeracy_precision)
             numeracy_check['accuracy'].append(numeracy_accuracy)
         if args.prompt_type.endswith("complex"):
             pass
@@ -267,6 +269,7 @@ if __name__ == "__main__":
         
         object_areas.append(total_object_area)
         overlap_areas.append(total_overlap)
+        # break
         
     
     print("Overlap Areas: ", overlap_areas)
