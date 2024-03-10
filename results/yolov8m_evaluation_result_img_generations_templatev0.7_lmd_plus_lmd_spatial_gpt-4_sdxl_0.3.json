@@ -1,6 +1,7 @@
 {
-  "extra_miss_ratio": 0.4855545634920635,
-  "mean_iou": 0.5695322296736803,
-  "spatial_accuracy": 0.17059623015873016,
-  "UniDet": 0.16997123015873014
+  "extra_miss_ratio": 0.2,
+  "mean_iou": 0.15559635176096873,
+  "UniDet": 0.5,
+  "spatial_accuracy": 0.5,
+  "mean_iou_stage2": 0.00984324365320384
 }

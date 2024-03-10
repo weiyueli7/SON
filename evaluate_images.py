@@ -392,17 +392,18 @@ if __name__ == "__main__":
     parser.add_argument("--lm", default='gpt-4', type=str)
     parser.add_argument("--template_version", default='v0.1', type=str)
     parser.add_argument("--prompt_type", default='lmd_spatial', type=str, help="lmd_xxx or raw")
-    parser.add_argument("--sdxl", default=True, type=bool)
     parser.add_argument("--model_type", default='lmd', type=str, help="The model type to evaluate. (lmd, sdxl, tokencompose, etc.)")
     parser.add_argument("--task", default='spatial', type=str)
     parser.add_argument("--yolo_model", default='yolov8m', type=str, help="The YOLO model to use for object detection. (yolov8m, yolov8x, yolov9e)")
+    parser.add_argument("--sdxl", default=False, type=bool)
     parser.add_argument("--detection", default=False, type=bool)
     args = parser.parse_args()
 
+    # print(args.sdxl)
 
     YOLO_MODEL = args.yolo_model
     if args.model_type == 'lmd':
-        if args.sdxl == True:
+        if bool(args.sdxl) == True:
             DIR = f"img_generations/img_generations_template{args.template_version}_lmd_plus_{args.prompt_type}_{args.lm}_sdxl_0.3/run0"
         else:
             print("hi")
@@ -458,6 +459,7 @@ if __name__ == "__main__":
                     uni_dets.append(eval_result[4])
                     extra_miss_ratio.append(eval_result[0])
                     ious.append(eval_result[1])
+                    ious_stage2.append(eval_result[5])
                 if args.task == 'numeracy':
                     # print(1)
                     eval_result = evaluate_image(yolo_path, original_prompt, ind)
@@ -497,10 +499,13 @@ if __name__ == "__main__":
             print(f"UniDet: {np.mean(uni_dets)}")
             print(f"Extra/Miss Ratio: {np.mean(extra_miss_ratio)}")
             print(f"Mean IoU: {np.mean(ious)}")
+            print(f"Mean IoU (between stage2 objects): {np.mean(ious_stage2)}")
             eval_result = {
                 "extra_miss_ratio": np.mean(extra_miss_ratio),
                 "mean_iou": np.mean(ious),
-                "UniDet": np.mean(uni_dets)
+                "UniDet": np.mean(uni_dets),
+                "spatial_accuracy": np.mean(spatial_accs),
+                "mean_iou_stage2": np.mean(ious_stage2)
             }
         if args.task == 'complex':
             print(f"Extra/Miss Ratio: {np.mean(extra_miss_ratio)}")
