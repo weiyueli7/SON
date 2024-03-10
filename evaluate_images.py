@@ -395,7 +395,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_type", default='lmd', type=str, help="The model type to evaluate. (lmd, sdxl, tokencompose, etc.)")
     parser.add_argument("--task", default='spatial', type=str)
     parser.add_argument("--yolo_model", default='yolov8m', type=str, help="The YOLO model to use for object detection. (yolov8m, yolov8x, yolov9e)")
-    parser.add_argument("--sdxl", default=False, type=bool)
+    parser.add_argument("--sdxl", default=True, type=bool)
     parser.add_argument("--detection", default=False, type=bool)
     args = parser.parse_args()
 
