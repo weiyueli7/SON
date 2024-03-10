@@ -1,5 +1,5 @@
 {
-  "extra_miss_ratio": 0.6559999999999999,
-  "mean_iou_stage1_2": 0.6152962793445347,
-  "mean_iou_stage2": 0.029592979118610634
+  "extra_miss_ratio": 0.6291904761904763,
+  "mean_iou_stage1_2": 0.6079978113277142,
+  "mean_iou_stage2": 0.029243013946464228
 }
