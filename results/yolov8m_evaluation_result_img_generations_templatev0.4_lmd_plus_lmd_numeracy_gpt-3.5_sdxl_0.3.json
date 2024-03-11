@@ -2,7 +2,7 @@
   "extra_miss_ratio": 0.9347916666666666,
   "mean_iou": 0.697696511540922,
   "mean_iou_stage2": 0.021752185809914476,
-  "precision": 0.7900624999999999,
-  "recall": 0.6687849025974026,
-  "numeracy_accuracy": 0.355
+  "precision": 0.9050625,
+  "recall": 0.7837849025974026,
+  "numeracy_accuracy": 0.335
 }

@@ -198,6 +198,7 @@ def numeracy_eval(objects, text_objects):
     print(prediction)
     if text_objects['type'] == 'comparison':
         obj1, obj2 = text_objects['num_object']
+        obj1_count = obj1[1]
         rel = []
         if obj1[1] > obj2[1]:
             rel += "more"
@@ -205,6 +206,7 @@ def numeracy_eval(objects, text_objects):
             rel += "less"
         else:
             rel += "equal"
+        pred_obj1 = prediction[0]
         prd_rel = []
         if prediction[0] > prediction[1]:
             prd_rel += "more"
@@ -212,10 +214,10 @@ def numeracy_eval(objects, text_objects):
             prd_rel += "less"
         else:
             prd_rel += "equal"
-        if rel == prd_rel:
-            return 0, 0, 1
+        if rel == prd_rel and obj1_count == pred_obj1:
+            return 1, 1, 1
         else:
-            return 0, 0, 0
+            return 1, 1, 0
 
     prediction = [objects_keys.count(obj[0]) for obj in text_objects['num_object']]
     print(groud_truth)
@@ -395,7 +397,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_type", default='lmd', type=str, help="The model type to evaluate. (lmd, sdxl, tokencompose, etc.)")
     parser.add_argument("--task", default='spatial', type=str)
     parser.add_argument("--yolo_model", default='yolov8m', type=str, help="The YOLO model to use for object detection. (yolov8m, yolov8x, yolov9e)")
-    parser.add_argument("--sdxl", default=True, type=bool)
+    parser.add_argument("--sdxl", default=False, type=bool)
     parser.add_argument("--detection", default=False, type=bool)
     args = parser.parse_args()
 

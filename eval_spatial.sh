@@ -44,12 +44,24 @@
 # python evaluate_images.py --prompt_type lmd_complex --template_version v0.1 --yolo_model yolov8m --lm gpt-3.5 --task complex --sdxl True
 # python evaluate_images.py --prompt_type lmd_complex --template_version v0.4 --yolo_model yolov8m --lm gpt-3.5 --task complex --sdxl True
 
-python evaluate_images.py --prompt_type lmd_complex --template_version v0.4 --yolo_model yolov8m --lm gpt-4 --task complex --sdxl True
-python evaluate_images.py --prompt_type lmd_complex --template_version v0.9 --yolo_model yolov8m --lm gpt-4 --task complex --sdxl True
+# python evaluate_images.py --prompt_type lmd_complex --template_version v0.4 --yolo_model yolov8m --lm gpt-4 --task complex --sdxl True
+# python evaluate_images.py --prompt_type lmd_complex --template_version v0.9 --yolo_model yolov8m --lm gpt-4 --task complex --sdxl True
 
-python evaluate_images.py --prompt_type lmd_spatial --template_version v0.4 --yolo_model yolov8m --lm gpt-4 --task spatial --sdxl True
-python evaluate_images.py --prompt_type lmd_spatial --template_version v0.9 --yolo_model yolov8m --lm gpt-4 --task spatial --sdxl True
+# python evaluate_images.py --prompt_type lmd_spatial --template_version v0.4 --yolo_model yolov8m --lm gpt-4 --task spatial --sdxl True
+# python evaluate_images.py --prompt_type lmd_spatial --template_version v0.9 --yolo_model yolov8m --lm gpt-4 --task spatial --sdxl True
 
-python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.4 --yolo_model yolov8m --lm gpt-4 --task numeracy --sdxl True
-python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.9 --yolo_model yolov8m --lm gpt-4 --task numeracy --sdxl True
+python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.1 --yolo_model yolov8m --lm gpt-4 --task numeracy --detection True
+python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.4 --yolo_model yolov8m --lm gpt-4 --task numeracy --detection True
+python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.7 --yolo_model yolov8m --lm gpt-4 --task numeracy
+python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.9 --yolo_model yolov8m --lm gpt-4 --task numeracy --detection True
+python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.1 --yolo_model yolov8m --lm gpt-3.5 --task numeracy --detection True
+python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.4 --yolo_model yolov8m --lm gpt-3.5 --task numeracy --detection True
+
+# python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.1 --yolo_model yolov8m --lm gpt-3.5 --task numeracy --sdxl True
+# python evaluate_images.py --prompt_type lmd_numeracy --template_version v0.4 --yolo_model yolov8m --lm gpt-3.5 --task numeracy --sdxl True
+
+
+# python evaluate_images.py --prompt_type lmd_numeracy --yolo_model yolov8m --lm gpt-4 --task numeracy --model_type sdxl 
+# python evaluate_images.py --prompt_type lmd_numeracy --yolo_model yolov8m --lm gpt-4 --task numeracy --model_type tokencompose 
+
 
