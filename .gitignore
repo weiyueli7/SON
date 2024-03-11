@@ -162,5 +162,15 @@ cython_debug/
 .DS_Store
 
 yolov8m.pt
+yolov8x.pt
+yolov9e.pt
 
 utils/api_key.py
+
+utils/
+
+object_detection/
+
+img_generations/
+
+data/
