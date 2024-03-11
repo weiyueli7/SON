@@ -502,6 +502,7 @@ if __name__ == "__main__":
             print(f"Extra/Miss Ratio: {np.mean(extra_miss_ratio)}")
             print(f"Mean IoU: {np.mean(ious)}")
             print(f"Mean IoU (between stage2 objects): {np.mean(ious_stage2)}")
+            
             eval_result = {
                 "extra_miss_ratio": np.mean(extra_miss_ratio),
                 "mean_iou": np.mean(ious),
@@ -591,11 +592,13 @@ if __name__ == "__main__":
 
             #     break
         if args.task == 'spatial':
+            print(f"mean_iou: {np.mean(ious_between_detections)}")
             print(f"Extra/Miss Ratio: {np.mean(extra_miss_ratio)}")
             print(f"Spatial Accuracy: {np.mean(spatial_accs)}")
             print(f"UniDet: {np.mean(uni_dets)}")
             print(f"Mean IoU (between stage2 objects): {np.mean(ious_stage2)}")
             eval_result = {
+                "mean_iou": np.mean(ious_between_detections),
                 "extra_miss_ratio": np.mean(extra_miss_ratio),
                 "spatial_accuracy": np.mean(spatial_accs),
                 "UniDet": np.mean(uni_dets),
