@@ -1,0 +1,582 @@
+[
+    {
+        "ind": 0,
+        "num_objects": 6,
+        "obj_attributes": [
+            "motorcycle",
+            "traffic light",
+            "bus",
+            "car",
+            "person",
+            "truck"
+        ],
+        "text": "A busy city street with a car stopped at a traffic light, a bus in the next lane, a person waiting to cross, a motorcycle weaving through traffic, and a truck parked by the sidewalk"
+    },
+    {
+        "ind": 1,
+        "num_objects": 5,
+        "obj_attributes": [
+            "chair",
+            "potted plant",
+            "cell phone",
+            "laptop",
+            "cup"
+        ],
+        "text": "A home office setup with a chair, a laptop open and running, a cup, a potted plant on the windowsill, and a cell phone charging beside the laptop"
+    },
+    {
+        "ind": 2,
+        "num_objects": 4,
+        "obj_attributes": [
+            "cake",
+            "chair",
+            "person",
+            "pizza"
+        ],
+        "text": "A birthday party scene with a chair, a pizza for party, and a person holding a cake"
+    },
+    {
+        "ind": 3,
+        "num_objects": 6,
+        "obj_attributes": [
+            "person",
+            "hot dog",
+            "fork",
+            "dog",
+            "dining table",
+            "pizza"
+        ],
+        "text": "An outdoor barbecue with a person making hot dog, a dining table set with pizza and forks, and a dog waiting hopefully"
+    },
+    {
+        "ind": 4,
+        "num_objects": 5,
+        "obj_attributes": [
+            "dining table",
+            "chair",
+            "wine glass",
+            "vase",
+            "keyboard"
+        ],
+        "text": "A romantic evening setup with a dining table, a vase, two wine glasses ready to be filled, and a keyboard resting against the chair"
+    },
+    {
+        "ind": 5,
+        "num_objects": 5,
+        "obj_attributes": [
+            "bicycle",
+            "backpack",
+            "bench",
+            "person",
+            "sports ball"
+        ],
+        "text": "A school playground with a person supervising from a bench, a backpack lying on the ground, a sports ball bouncing away, and a bicycle parked against the bench"
+    },
+    {
+        "ind": 6,
+        "num_objects": 5,
+        "obj_attributes": [
+            "dining table",
+            "vase",
+            "person",
+            "dog",
+            "book"
+        ],
+        "text": "A garage sale with a dining table displaying books, a person examining a vase, and a dog running neanby"
+    },
+    {
+        "ind": 7,
+        "num_objects": 5,
+        "obj_attributes": [
+            "bottle",
+            "wine glass",
+            "person",
+            "book",
+            "dining table"
+        ],
+        "text": "An art gallery opening with a person glancing, a dining table with wine glasses and a bottle, and a book of guest signatures"
+    },
+    {
+        "ind": 8,
+        "num_objects": 5,
+        "obj_attributes": [
+            "dog",
+            "person",
+            "dining table",
+            "pizza",
+            "oven"
+        ],
+        "text": "A backyard camping scene with an empty dining table, a person preparing the pizza near an small oven, and a dog curled up nearby"
+    },
+    {
+        "ind": 9,
+        "num_objects": 3,
+        "obj_attributes": [
+            "dog",
+            "bottle",
+            "person",
+            "bowl"
+        ],
+        "text": "An outdoor cinema night with a person sitting on the ground with a bowl of popcorn, a bottle of soda, and a dog lying beside them"
+    },
+    {
+        "ind": 10,
+        "num_objects": 5,
+        "obj_attributes": [
+            "dog",
+            "cell phone",
+            "person",
+            "bench",
+            "potted plant"
+        ],
+        "text": "A botanical garden tour with a person pointing out potted plant, a person taking photos with a cell phone, a bench for resting, and a dog sniffing around"
+    },
+    {
+        "ind": 11,
+        "num_objects":7,
+        "obj_attributes": [
+            "oven",
+            "dining table",
+            "bowl",
+            "dog",
+            "person",
+            "book",
+            "clock"
+        ],
+        "text": "A home cooking class with a person instructing on an oven, a dining table set with bowls, a dog waiting for spills, a book of recipes open for reference, and a clock ticking down"
+    },
+    {
+        "ind": 12,
+        "num_objects": 6,
+        "obj_attributes": [
+            "dining table",
+            "bottle",
+            "chair",
+            "person",
+            "dog",
+            "cup"
+        ],
+        "text": "A city rooftop party with a person DJing, a dining table with bottles and cups, and a dog lounging under a chair"
+    },
+    {
+        "ind": 13,
+        "num_objects": 5,
+        "obj_attributes": [
+            "dog",
+            "cat",
+            "person",
+            "bench",
+            "umbrella"
+        ],
+        "text": "A riverside fishing trip with a person casting a line, a dog watching the water, a bench for taking breaks, and an umbrella protecting from the sun"
+    },
+    {
+        "ind": 14,
+        "num_objects": 4,
+        "obj_attributes": [
+            "potted plant",
+            "dog",
+            "person",
+            "bench"
+        ],
+        "text": "An urban garden project with a person planting potted plant, a dog digging beside, and a bench made from recycled materials"
+    },
+    {
+        "ind": 15,
+        "num_objects": 5,
+        "obj_attributes": [
+            "dog",
+            "donut",
+            "bottle",
+            "person",
+            "backpack"
+        ],
+        "text": "A beach clean-up day with a person picking up lefted donut, a dog carrying a plastic bottle, and a backpack filling with collected bottles"
+    },
+    {
+        "ind": 16,
+        "num_objects": 3,
+        "obj_attributes": [
+            "person",
+            "cat",
+            "book"
+        ],
+        "text": "A library book sale with many books, a person flipping through titles, and a cat waiting patiently"
+    },
+    {
+        "ind": 17,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "person",
+            "bench",
+            "stop sign"
+        ],
+        "text": "A scuba diving lesson at a pool with a person wearing gear, a dog watching from the side, a bench for equipment, a stop sign for safety rules, and a person demonstrating techniques"
+    },
+    {
+        "ind": 18,
+        "num_objects": 5,
+        "obj_attributes": [
+            "vase",
+            "bowl",
+            "person",
+            "dog",
+            "dining table"
+        ],
+        "text": "A pottery stall at a craft fair with a person selling handmade bowls, a dog resting in the shade, a dining table displaying the bowls, and a vase as decoration"
+    },
+    {
+        "ind": 19,
+        "num_objects": 5,
+        "obj_attributes": [
+            "cell phone",
+            "dog",
+            "bottle",
+            "person",
+            "pizza"
+        ],
+        "text": "A city rooftop sunset watch with a person taking photos with cell phone, a dog sitting beside them, a bottle of wine ready to be opened, and a pizza opened for eating"
+    },
+    {
+        "ind": 20,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "person",
+            "car",
+            "parking meter"
+        ],
+        "text": "A summer road trip with a car parked near a parking meter, a person stretching their legs, and a dog exploring the area"
+    },
+    {
+        "ind": 21,
+        "num_objects": 6,
+        "obj_attributes": [
+            "potted plant",
+            "dog",
+            "bottle",
+            "bird",
+            "person",
+            "umbrella"
+        ],
+        "text": "A farmer's field at sunrise with a person inspecting potted plants, a dog chasing birds away, an umbrella to block the sun, and a water bottle for the day's work"
+    },
+    {
+        "ind": 22,
+        "num_objects": 5,
+        "obj_attributes": [
+            "dog",
+            "bench",
+            "person",
+            "book",
+            "wine glass"
+        ],
+        "text": "A luxury spa day with a person sitting on the bench, a dog napping nearby, a wine glass of cucumber water, and a book for relaxed reading"
+    },
+    {
+        "ind": 23,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "cell phone",
+            "person",
+            "bench"
+        ],
+        "text": "A medieval castle tour with a person taking photos using cell phone, a dog dressed in a themed costume, and a bench for tired visitors"
+    },
+    {
+        "ind": 24,
+        "num_objects": 4,
+        "obj_attributes": [
+            "truck",
+            "cat",
+            "person",
+            "bird"
+        ],
+        "text": "An early morning fish market scene with a person haggling over prices, a cat eyeing the product, a truck parked nearby for deliveries, and a bird flying overhead"
+    },
+    {
+        "ind": 25,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "bicycle",
+            "person",
+            "surfboard"
+        ],
+        "text": "A suburban front yard with a person moving, a dog barking at a squirrel, a bicycle lying on the grass, and a surfboard on the ground"
+    },
+    {
+        "ind": 26,
+        "num_objects": 4,
+        "obj_attributes": [
+            "teddy bear",
+            "bear",
+            "person",
+            "book"
+        ],
+        "text": "A local library reading event with one person sitting in a circle, one person reading a book aloud, a stuffed teddy bear as a prop, and a shelf of books in the background"
+    },
+    {
+        "ind": 27,
+        "num_objects": 5,
+        "obj_attributes": [
+            "truck",
+            "dog",
+            "person",
+            "donut",
+            "dining table"
+        ],
+        "text": "A neighborhood food truck with a waiting line, a person serving donut, a dog hoping for a treat, and a small dining table nearby for eating"
+    },
+    {
+        "ind": 28,
+        "num_objects": 6,
+        "obj_attributes": [
+            "vase",
+            "cat",
+            "person",
+            "cup",
+            "bowl",
+            "couch"
+        ],
+        "text": "An artist's studio with a person painting at an bowl, a cat sleeping near the couch, and a cup with brushes soaking"
+    },
+    {
+        "ind": 29,
+        "num_objects": 3,
+        "obj_attributes": [
+            "motorcycle",
+            "bottle",
+            "person"
+        ],
+        "text": "A mountain overlook with a parked motorcycle, a person taking in the view, and a bottle of water for hydration"
+    },
+    {
+        "ind": 30,
+        "num_objects": 4,
+        "obj_attributes": [
+            "laptop",
+            "cat",
+            "person",
+            "keyboard"
+        ],
+        "text": "A home recording studio with a person singing into a laptop, a laptop with recording software, and a cat napping on keyboard"
+    },
+    {
+        "ind": 31,
+        "num_objects": 5,
+        "obj_attributes": [
+            "chair",
+            "cat",
+            "person",
+            "dining table",
+            "bottle"
+        ],
+        "text": "A luxury cruise ship deck with a person lounging in a chair, a cat strolling by, and a dining table serving bottles of tropical drinks"
+    },
+    {
+        "ind": 32,
+        "num_objects": 4,
+        "obj_attributes": [
+            "clock",
+            "laptop",
+            "book",
+            "chair"
+        ],
+        "text": "A college lecture hall with one person at the podium, another person typing on a laptop, a book open on a chair, and a clock showing class time"
+    },
+    {
+        "ind": 33,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "vase",
+            "person",
+            "cat"
+        ],
+        "text": "An antique store with a person examining a vase, a cat lying on the floor, and a dog running around"
+    },
+    {
+        "ind": 34,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "person",
+            "bench",
+            "stop sign"
+        ],
+        "text": "A city park jogger with a person running, a dog on a leash beside them, a bench for resting, and a stop sign for safty"
+    },
+    {
+        "ind": 35,
+        "num_objects": 5,
+        "obj_attributes": [
+            "cell phone",
+            "cat",
+            "person",
+            "bench",
+            "bird"
+        ],
+        "text": "A botanical garden with a person taking photographs using cell phone, a cat chasing birds, and an empty bench nearby for resting"
+    },
+    {
+        "ind": 36,
+        "num_objects": 6,
+        "obj_attributes": [
+            "dog",
+            "person",
+            "bench",
+            "dining table",
+            "pizza",
+            "donut"
+        ],
+        "text": "A local theater with a person buying tickets, a bench in the lobby, a dog tied outside, and dining table serving pizza and donuts"
+    },
+    {
+        "ind": 37,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "backpack",
+            "bench",
+            "sports ball"
+        ],
+        "text": "A school playground at recess with one person runing on the ground, one person supervising from a bench, a dog watching through the bench, a backpack forgotten on the ground, and a sports ball bouncing away"
+    },
+    {
+        "ind": 38,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "person",
+            "book",
+            "backpack"
+        ],
+        "text": "A riverside picnic with a person unpacking a backpack, a dog waiting for scraps, and a book lying open"
+    },
+    {
+        "ind": 39,
+        "num_objects": 4,
+        "obj_attributes": [
+            "cat",
+            "person",
+            "suitcase",
+            "vase"
+        ],
+        "text": "A mountain lodge with a person checking in, a cat curled up by the fireplace, a suitcase ready for the room, and a vase in the lodge"
+    },
+    {
+        "ind": 40,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "person",
+            "cup",
+            "bottle"
+        ],
+        "text": "A suburban lemonade stand with a person selling bottles of drinks, another person stopping to buy a cup, and a dog hoping for attention"
+    },
+    {
+        "ind": 41,
+        "num_objects": 3,
+        "obj_attributes": [
+            "dog",
+            "bottle",
+            "person"
+        ],
+        "text": "A beachside runner with a person jogging along the shore, a dog leaping through the waves, and a bottle of water for hydration on the sand"
+    },
+    {
+        "ind": 42,
+        "num_objects": 4,
+        "obj_attributes": [
+            "bottle",
+            "bicycle",
+            "car",
+            "stop sign"
+        ],
+        "text": "A city bike lane with a person commuting, a car parked at a distance, a water bottle in the bike's holder, and a stop sign near the bicycle"
+    },
+    {
+        "ind": 43,
+        "num_objects": 5,
+        "obj_attributes": [
+            "chair",
+            "cat",
+            "person",
+            "couch",
+            "book"
+        ],
+        "text": "A home music listening room with a person relaxing in a chair, a cat lying on the couch, and a shelf of music books"
+    },
+    {
+        "ind": 44,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dog",
+            "backpack",
+            "person",
+            "book"
+        ],
+        "text": "A forest nature walk with a person leading a group, another person taking notes in a book, a dog sniffing the trail, and a backpack with essentials"
+    },
+    {
+        "ind": 45,
+        "num_objects": 5,
+        "obj_attributes": [
+            "cat",
+            "person",
+            "book",
+            "bottle",
+            "dining table"
+        ],
+        "text": "A home vegetable canning session with a person preparing bottles, a cat curious about the smells, a dining table, and a book with canning recipes"
+    },
+    {
+        "ind": 46,
+        "num_objects": 4,
+        "obj_attributes": [
+            "scissors",
+            "cat",
+            "person",
+            "sandwich"
+        ],
+        "text": "A home craft room with a person preparing sandwich for break, a cat playing, and a scissors for cutting patterns"
+    },
+    {
+        "ind": 47,
+        "num_objects": 5,
+        "obj_attributes": [
+            "bowl",
+            "cat",
+            "person",
+            "bench",
+            "clock"
+        ],
+        "text": "A city alley cat feeding station with a person filling bowls, stray cats waiting their turn, a bench for the feeder, and a clock for showing the feeding time"
+    },
+    {
+        "ind": 48,
+        "num_objects": 4,
+        "obj_attributes": [
+            "dining table",
+            "bowl",
+            "cat",
+            "person"
+        ],
+        "text": "A home game night with a board game spread on the dining table, a person searching them, a cat batting at a game piece, and a bowl of popcorn for snacking"
+    },
+    {
+        "ind": 49,
+        "num_objects": 4,
+        "obj_attributes": [
+            "cat",
+            "person",
+            "bench",
+            "bird"
+        ],
+        "text": "A city outdoor art installation with a person glancing around, a cat weaving through the artwork, a bench for contemplation, and two birds flying over"
+    }
+]
