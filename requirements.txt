@@ -15,3 +15,5 @@ ultralytics
 tabulate
 safetensors
 textblob
+openai
+nltk
