@@ -430,15 +430,13 @@ if __name__ == "__main__":
     else:
         prompts = json.load(open(f"cache/cache_demo_{args.template_version}_{args.lm}.json")) 
     if "spatial" in args.prompt_type:
-        GROUND_TRUTH = json.load(open("data/new_sample_3.json"))
+        GROUND_TRUTH = json.load(open("data/lmd_spatial.json"))
         if args.prompt_type == "raw":
             prompts = [d['text'] for d in GROUND_TRUTH]
     elif "numeracy" in args.prompt_type:
-        GROUND_TRUTH = json.load(open("data/numeracy.json"))
-    elif "complex_50" in args.prompt_type:
-        GROUND_TRUTH = json.load(open("data/complex_prompt_50.json"))
+        GROUND_TRUTH = json.load(open("data/lmd_numeracy.json"))
     elif "complex" in args.prompt_type:
-        GROUND_TRUTH = json.load(open("data/complex_prompt.json"))
+        GROUND_TRUTH = json.load(open("data/lmd_complex.json"))
     
 
     extra_miss_ratio = []

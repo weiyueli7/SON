@@ -189,9 +189,9 @@ if __name__ == "__main__":
     parser.add_argument("--model", choices=model_names, required=True)
     parser.add_argument("--template_version",
                         choices=template_versions, required=True)
-    parser.add_argument("--spatial_json", default="new_sample_3.json", type=str)
-    parser.add_argument("--numeracy_json", default="numeracy.json", type=str)
-    parser.add_argument("--complex_json", default="complex_prompt.json", type=str)
+    parser.add_argument("--spatial_json", default="lmd_spatial.json", type=str)
+    parser.add_argument("--numeracy_json", default="lmd_numeracy.json", type=str)
+    parser.add_argument("--complex_json", default="lmd_complex.json", type=str)
     parser.add_argument("--skip_first_prompts", default=0, type=int)
     parser.add_argument("--num_prompts", default=None, type=int)
     parser.add_argument("--verbose", action='store_true')
