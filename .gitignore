@@ -169,3 +169,5 @@ utils/api_key.py
 
 object_detection/
 img_generations/
+
+results/
