@@ -168,11 +168,20 @@
           <span class="fancy_text_color">Abstract</span>
         </h2>
   
-          <div style="margin-bottom: 1em;">
+        <div style="margin-bottom: 1em;">
           <p>
             The recent development of text-to-image (T2I) models has unlocked numerous possibilities for content creation, particularly by offering inspiration to designers. However, current approaches often face challenges in accurately following prompts to generate images. These challenges include arranging non-overlapping objects in various spatial relationships and producing the correct number of desired objects, both of which are crucial for many design tasks. We introduce <strong>Spatial-Overlap-Numeracy-1K (SON-1K)</strong>, a comprehensive benchmark for text-to-image generation. This benchmark comprises 1,000 complex prompts spanning three subtasks: spatial relationships, numeracy counts, and complex natural prompts. Alongside the benchmark, we propose several evaluation metrics to assess compliance with the prompts comprehensively. We also propose a new approach, the <strong>Language Model-Guided Diffusion++ (LMDpp)</strong>, enhancing the performance of the novel two-stage Large Language Model (LLM)-grounded diffusion model pipeline (LMD). We report experimental results of previous major T2I models and our enhanced LMDpp, along with its baseline on SON-1K, and provide an analysis of our new metrics.
           </p>
         </div>
+        <h2 class="title is-3">
+          <span class="fancy_text_color">Example Showcase</span>
+        </h2>
+        <div class="has-text-centered">
+          <p>Fill this part with example image</p>
+        </div>
+        <h2 class="title is-3">
+          <span class="fancy_text_color">Benchmark</span>
+        </h2>
         <div class="has-text-centered">
           <img src="./static/images/dataset.png" width="1000">
         </div>
@@ -192,14 +201,13 @@
             <b>An overview of the Language Model-Guided Diffusion++ (LMDpp) pipeline</b>
           </span>
         </h2>
-
-        <div style="margin-bottom: 1em;">
-          <p>
-            xxx
-          </p>
-        </div>
         <div class="has-text-centered">
           <img src="./static/images/inference.png" width="1000">
+        </div>
+        <div style="margin-bottom: 1em;">
+          <p>
+            Pipeline description TODO
+          </p>
         </div>
 
         </br></br>
@@ -218,13 +226,18 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">
           <span class="fancy_text_color">
-            <b>Performance of our model in comparison to baselines</b>
+            <b>Performance of models on the SON-1k Benchmark</b>
           </span>
         </h2>
 
         <div class="has-text-centered" style="margin-bottom: 1em;">
-          <p>
-             </p>
+          <b>The Stage 1 Spatial and Numeracy Task Improvements</b>
+        </div>
+        <div class="has-text-centered">
+          <img src="./static/images/stage_1_improvement.png" width="1000">
+        </div>
+        <div class="has-text-centered" style="margin-bottom: 1em;">
+          <b>The Results Table on Stage 1 and Stage 2 Performance</b>
         </div>
 
 
