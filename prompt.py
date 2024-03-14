@@ -888,6 +888,7 @@ prompt_types = [
     "lmd_spatial",
     "lmd_complex",
     "lmd",
+    "lmd_complex_50",
 ]
 
 
@@ -939,6 +940,10 @@ def get_prompts(prompt_type, model, allow_non_exist=False):
             import json
             samples = json.load(open("data/complex_prompt.json"))
             prompts = {'lmd_complex': [d['text'] for d in samples]}
+        elif prompt_type == "lmd_complex_50":
+            import json
+            samples = json.load(open("data/complex_prompt_50.json"))
+            prompts = {'lmd_complex_50': [d['text'] for d in samples]}
         # print(prompts)
         # We do not add to both dict to prevent duplicates when model is set to "all".
         if "gpt-4" in model:
