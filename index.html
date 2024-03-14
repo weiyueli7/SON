@@ -65,7 +65,7 @@
           <h1 class="title is-1 publication-title">
             <!-- <img src="./static/images/puzzle.png" width="35"/> -->
             💡 <span class="rainbow_text_animated">SON</span>
-            : Enhancing Prompt Understanding of Text-to-Image Diffusion Models with Large Language Models Guided Layouts
+            : Enhancing Prompt Understanding of Diffusion Models with Large Language Models Guided Layouts
           </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
@@ -146,8 +146,8 @@
           <h2 class="subtitle has-text-centered">
             A <span class="fancy_text_color">
               <!-- <b>Stable Diffusion</b> -->
-              LLM Grounded Stable Diffusion
-            </span> model tailored to have better prompt understanding tackling overlapping and spatial accuracy.
+              compositional text-to-image generation
+            </span> benchmark and a new approach of <b>Language Model-Guided Diffusion++ (LMDpp)</b>.
           </h2>
         </div>
       </div>
@@ -170,20 +170,49 @@
   
           <div style="margin-bottom: 1em;">
           <p>
-            Recently, the field of artificial intelligence has witnessed remarkable progress in the development of text-to-image diffusion models. These models have demonstrated a significant capability in generating realistic and diverse images. Notably, some of these models have been shown to excel in producing images that exhibit a high degree of numeracy and spatial reasoning, especially when provided with complex prompts. However, despite these advancements, a persistent challenge remains in the form of severe object overlapping issues. This problem is particularly critical for various real-world applications, such as in the design of floor plans. In response to this, we present <span class="fancy_text_color">NOPS</span>, aimed at mitigating object overlapping issues through comprehensive prompt engineering. Furthermore, this study has initiated the development of novel and more complex benchmarks, along with an evaluation metric specifically designed to assess overlapping and object layout accuracy. This approach represents a significant stride towards enhancing the practical utility of text-to-image diffusion models in real-world scenarios.
+            The recent development of text-to-image (T2I) models has unlocked numerous possibilities for content creation, particularly by offering inspiration to designers. However, current approaches often face challenges in accurately following prompts to generate images. These challenges include arranging non-overlapping objects in various spatial relationships and producing the correct number of desired objects, both of which are crucial for many design tasks. We introduce <strong>Spatial-Overlap-Numeracy-1K (SON-1K)</strong>, a comprehensive benchmark for text-to-image generation. This benchmark comprises 1,000 complex prompts spanning three subtasks: spatial relationships, numeracy counts, and complex natural prompts. Alongside the benchmark, we propose several evaluation metrics to assess compliance with the prompts comprehensively. We also propose a new approach, the <strong>Language Model-Guided Diffusion++ (LMDpp)</strong>, enhancing the performance of the novel two-stage Large Language Model (LLM)-grounded diffusion model pipeline (LMD). We report experimental results of previous major T2I models and our enhanced LMDpp, along with its baseline on SON-1K, and provide an analysis of our new metrics.
           </p>
         </div>
         <div class="has-text-centered">
-          <img src="./static/images/inference.png">
+          <img src="./static/images/dataset.png" width="1000">
         </div>
   
         <h2 class="subtitle has-text-centered">
-          <b>Pipeline of NOPS</b>, adopted from the LLM Grounded Diffusion Model, to enhance the prompt understanding of text-to-image diffusion models.
+          <b>Overview of SON-1K</b>, a comprehensive benchmark for text-to-image generation.
           </h2>
       </div>
     </div>
 
     <br>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">
+          <span class="fancy_text_color">
+            <b>An overview of the Language Model-Guided Diffusion++ (LMDpp) pipeline</b>
+          </span>
+        </h2>
+
+        <div style="margin-bottom: 1em;">
+          <p>
+            xxx
+          </p>
+        </div>
+        <div class="has-text-centered">
+          <img src="./static/images/inference.png" width="1000">
+        </div>
+
+        </br></br>
+
+        <!-- <div class="has-text-centered">
+          <img src="static/images/pipeline.jpg">
+        </div> -->
+      </div>
+    </div>
+
+  </div>
+  
+</section>
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -206,35 +235,10 @@
       </div>
     </div>
 
-    <br>
 
 
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">
-          <span class="fancy_text_color">
-            <b>An overview of the inference pipeline</b>
-          </span>
-        </h2>
 
-        <div class="has-text-centered">
-          <p>
 
-        </p>
-        </div>
-
-        </br></br>
-
-        <!-- <div class="has-text-centered">
-          <img src="static/images/pipeline.jpg">
-        </div> -->
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<br>
 
 
 
