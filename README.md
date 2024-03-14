@@ -95,24 +95,28 @@ python generate.py --prompt-type lmd_spatial --model gpt-4 --save-suffix "gpt-4"
 
 
 ### Run our benchmark on layout-to-image generation evaluation
-<!-- We use a unified evaluation metric as stage 1 in stage 2 (`--prompt-type lmd`). Since we have layout boxes for stage 1 but only images for stage 2, we use OWL-ViT in order to detect the objects and ensure they are generated (or not generated in negation) in the right number, with the right attributes, and in the right place. This benchmark is still in beta stage.
 
-This runs generation with LMD+ and evaluate the generation: 
+To evaluate the layout-to-image generation (spatial task as an example), run the following command.
 ```shell
-# Use GPT-3.5 layouts
-python generate.py --prompt-type lmd --model gpt-3.5 --save-suffix "gpt-3.5" --repeats 1 --frozen_step_ratio 0.5 --regenerate 1 --force_run_ind 0 --run-model lmd_plus --no-scale-boxes-default --template_version v0.1
-python scripts/owl_vit_eval.py --model gpt-3.5 --run_base_path img_generations/img_generations_templatev0.1_lmd_plus_lmd_gpt-3.5/run0 --skip_first_prompts 0 --prompt_start_ind 0 --verbose --detection_score_threshold 0.15 --nms_threshold 0.15 --class-aware-nms
-# Use GPT-4 layouts
-python generate.py --prompt-type lmd --model gpt-4 --save-suffix "gpt-4" --repeats 1 --frozen_step_ratio 0.5 --regenerate 1 --force_run_ind 0 --run-model lmd_plus --no-scale-boxes-default --template_version v0.1
-python scripts/owl_vit_eval.py --model gpt-4 --run_base_path img_generations/img_generations_templatev0.1_lmd_plus_lmd_gpt-4/run0 --skip_first_prompts 0 --prompt_start_ind 0 --verbose --detection_score_threshold 0.15 --nms_threshold 0.15 --class-aware-nms -->
+python evaluate_images.py --prompt_type lmd_spatial --task spatial --lm gpt-4 --template_version v0.1 --sdxl True --detection True
 ```
 
-## SDXL baseline model
-To run and compare our pipeline output with SDXL model, run the following command with correct prompt file name:
+## Baseline model comparison
+To run and compare our pipeline output with SDXL, tokencompose, or DALLE model, run the following command with correct model name and prompt file:
+
 ```shell
-# Example output for using demo_v0.1_gpt-4 cache prompt
-python3 SDXL_baseline.py --prompt_file cache_demo_v0.1_gpt-4.json --cuda 0
+python baseline_generation.py --model sdxl --task lmd_spatial --prompt_file data/lmd_spatial.json
 ```
+
+Evaluate the baseline model output with our evaluation script:
+
+```shell
+python evaluate_images.py --prompt_type lmd_spatial --task spatial --model_type sdxl --detection True
+```
+
+
+
+
 
 
 # Acknowledgements 🙏
