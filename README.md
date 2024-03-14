@@ -1,5 +1,7 @@
 # SON: Enhancing Prompt Understanding of Diffusion Models with Large Language Models Guided Layouts
 
+
+<a href='https://weiyueli7.github.io/SON/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href=''><img src='https://img.shields.io/badge/Report-PDF-blue'> <a href=''><img src='https://img.shields.io/badge/Poster-PDF-red'> <a href='https://github.com/weiyueli7/SON/tree/main/data'><img src='https://img.shields.io/badge/SON-Dataset-purple'>
 # Getting Started 🚀
 
 We provide instructions to run our code in this section.
