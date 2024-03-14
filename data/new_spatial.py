@@ -84,7 +84,7 @@ CLASSES = {0: 'person',
 CLASSES = set(CLASSES.values())
 
 np.random.seed(0)
-data = json.load(open("data/sample.json"))
+data = json.load(open("visor.json"))
 all_spatial_rel_phrases = {'above', 'below', 'to the left of', 'to the right of'}
 
 
@@ -114,4 +114,4 @@ for ind, data_pt in enumerate(data):
     # ramdom_num = np.random.randint(1, 4)
     new_data.append(add_more_objects(data_pt, int(new_num_objects[ind])))
 new_data
-json.dump(new_data, open("data/new_sample_3.json", "w"), indent=2)
+json.dump(new_data, open("lmd_spatial.json", "w"), indent=2)

@@ -88,7 +88,7 @@ CLASSES = set(CLASSES.values())
 
 
 
-data = json.load(open('data/counting.val.json'))
+data = json.load(open('nsr-counting.json'))
 
 types = set()
 comparison = []
@@ -189,4 +189,4 @@ for i in range(1, 201):
 new_data.extend(multi_category)
 
 
-json.dump(new_data, open('data/numeracy.json', 'w'), indent=2)
+json.dump(new_data, open('lmd_numeracy.json', 'w'), indent=2)

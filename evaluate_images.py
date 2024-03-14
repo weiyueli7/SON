@@ -397,11 +397,14 @@ if __name__ == "__main__":
     parser.add_argument("--model_type", default='lmd', type=str, help="The model type to evaluate. (lmd, sdxl, tokencompose, etc.)")
     parser.add_argument("--task", default='spatial', type=str)
     parser.add_argument("--yolo_model", default='yolov8m', type=str, help="The YOLO model to use for object detection. (yolov8m, yolov8x, yolov9e)")
-    parser.add_argument("--sdxl", default=False, type=bool)
+    parser.add_argument("--sdxl", default=True, type=bool)
     parser.add_argument("--detection", default=False, type=bool)
     args = parser.parse_args()
 
-    # print(args.sdxl)
+    # args.sdxl = False
+
+    # import subprocess
+    # subprocess.run(['exit', '1'], check=True, shell=True)
 
     YOLO_MODEL = args.yolo_model
     if args.model_type == 'lmd':
@@ -411,7 +414,7 @@ if __name__ == "__main__":
             print("hi")
             DIR = f"img_generations/img_generations_template{args.template_version}_gligen_{args.prompt_type}_{args.lm}/run0"
     else:
-        DIR = f"img_generations/{args.task}_{args.model_type}"
+        DIR = f"img_generations/{args.task}_50_{args.model_type}"
     # Detecting objects from synthetic images
     
     if args.detection == True:
@@ -432,8 +435,11 @@ if __name__ == "__main__":
             prompts = [d['text'] for d in GROUND_TRUTH]
     elif "numeracy" in args.prompt_type:
         GROUND_TRUTH = json.load(open("data/numeracy.json"))
+    elif "complex_50" in args.prompt_type:
+        GROUND_TRUTH = json.load(open("data/complex_prompt_50.json"))
     elif "complex" in args.prompt_type:
         GROUND_TRUTH = json.load(open("data/complex_prompt.json"))
+    
 
     extra_miss_ratio = []
     ious = []
@@ -540,6 +546,7 @@ if __name__ == "__main__":
         for ind, prompt in enumerate(prompts):
 
             yolo_path = f"object_detection/{YOLO_MODEL}/{DIR[16:]}/results_{ind}/labels/img_0.txt"
+            print(yolo_path)
 
             try:
                 
@@ -563,6 +570,7 @@ if __name__ == "__main__":
                     num_accs.append(num_acc)
 
                 if args.task == 'complex':
+                    # print(1)
                     pass
                 ious_between_detections = []
                 for i in range(len(converted_detections)):

@@ -16,7 +16,7 @@ def download_image(image_url, path):
         with open(f"{path}img_0.png", 'wb') as file:
             file.write(response.content)
 
-def display(pipeline_text2image, prompt, save_prefix="", img_dir="SDXL_output", ind=None, save_ind_in_filename=True, client=None):
+def display(pipeline_text2image, prompt, save_prefix="", img_dir="baseline_img_generations", ind=None, save_ind_in_filename=True, client=None):
     """
     save_ind_in_filename: This adds a global index to the filename so that two calls to this function will not save to the same file and overwrite the previous image.
     """
@@ -64,12 +64,10 @@ def display(pipeline_text2image, prompt, save_prefix="", img_dir="SDXL_output", 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    # parser.add_argument('-prompt_file', '--prompt_file', required=True, help="prompt file path")
-    # parser.add_argument('-cuda', '--cuda', required=True, help="cuda number")
     parser.add_argument('--prompt_file', default="data/new_sample_3.json", help="prompt file path")
     parser.add_argument('--cuda', default="0", help="cuda number")
     parser.add_argument('--model', default='sdxl', help='which diffusion model to use (sdxl or tokencompose)')
-    
+    parser.add_argument('--task', default='lmd_spatial', help='which task to run (lmd_spatial or lmd_numeracy or lmd_complex)')
     args = parser.parse_args()
     prompt_file = args.prompt_file
     cuda = args.cuda
@@ -96,8 +94,11 @@ if __name__ == "__main__":
         
     idx = 0
     for k in prompt_dict:
-        cur_prompt = k['text']
+        try:
+            cur_prompt = k['prompt']
+        except:
+            cur_prompt = k['text']
         print(cur_prompt)
-        display(pipeline_text2image, cur_prompt, save_prefix=f"spatial_{model_type}/{idx}/", ind=idx, client=client)
+        display(pipeline_text2image, cur_prompt, save_prefix=f"{args.task}_{model_type}/{idx}/", ind=idx, client=client)
         idx += 1
 
