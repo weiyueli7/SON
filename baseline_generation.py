@@ -64,7 +64,7 @@ def display(pipeline_text2image, prompt, save_prefix="", img_dir="baseline_img_g
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--prompt_file', default="data/new_sample_3.json", help="prompt file path")
+    parser.add_argument('--prompt_file', default="data/lmd_spatial.json", help="prompt file path")
     parser.add_argument('--cuda', default="0", help="cuda number")
     parser.add_argument('--model', default='sdxl', help='which diffusion model to use (sdxl or tokencompose)')
     parser.add_argument('--task', default='lmd_spatial', help='which task to run (lmd_spatial or lmd_numeracy or lmd_complex)')
