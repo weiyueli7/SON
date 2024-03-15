@@ -128,3 +128,5 @@ We built upon the following repositories to create this project:
 - [layout-guidance](https://github.com/silent-chen/layout-guidance)
 - [boxdiff](https://github.com/showlab/BoxDiff)
 - [MultiDiffusion (region control)](https://github.com/omerbt/MultiDiffusion/tree/master)
+
+Using their code means adhering to their license.
