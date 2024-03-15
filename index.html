@@ -69,16 +69,16 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://weiyueli7.github.io">
-                <span class="fancy_text_color">Weiyue Li</span>
+                <span class="fancy_text_color">Weiyue Li *</span>
               </a>,
             </span>
             <span class="author-block">
               <a href="https://jerryli1019.github.io">
-                <span class="fancy_text_color">Yi Li</span>
+                <span class="fancy_text_color">Yi Li *</span>
               </a>,</span>
             <span class="author-block">
               <a href="https://dpwxy.github.io/xiaoyuewang15.github.io/">
-                <span class="fancy_text_color">Xiaoyue Wang</span>
+                <span class="fancy_text_color">Xiaoyue Wang *</span>
               </a>,
             </span>
             <span class="author-block">
@@ -100,7 +100,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="report/report.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -119,9 +119,19 @@
                   </a>
               </span>
 
+              <span class="link-block">
+                <a href="https://drive.google.com/file/d/100QXLrC5NdG2Kyd8ImY7iSz4W_btVsSg/view"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span>
+
               <!-- Data Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://github.com/weiyueli7/SON/tree/main/data"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#ffffff" d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"/></svg>
@@ -172,7 +182,7 @@
           </p>
         </div>
         <h2 class="title is-3" style="margin-top: 2em;">
-          <span class="fancy_text_color">Benchmark</span>
+          <span class="fancy_text_color">SON-1K Benchmark</span>
         </h2>
         <div class="has-text-centered">
           <img src="./static/images/dataset.png" width="1000">
@@ -246,6 +256,30 @@
         <!-- <div class="has-text-centered">
           <img src="static/images/table1.jpg">
         </div> -->
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">
+          <span class="fancy_text_color">
+            <b>Conclusion</b>
+          </span>
+        </h2>
+        <div>
+          <p style="font-size: 20px;margin-bottom:3em">We introduce SON-1K, a comprehensive compositional text-to-image benchmark focusing on spatial relationships (400), numerical reasoning (400), and complex prompts (200), along with new metrics that consider object overlap in evaluation. These aim to address issues in compositional T2I generation and inspire designers in production. We provide the source code to facilitate the easy scaling of the dataset size, enabling a more comprehensive comparison between existing models. Additionally, we introduce a new method, LMDpp, which enhances the performance of the two-stage LMD pipeline through prompting techniques. Our study demonstrates that this enhanced two-stage technique surpasses all existing open-source T2I pipelines, while DALL-E-3 exhibits the best performance. This sheds light on future improvements, focusing on developing novel techniques for region control in diffusion models to generate more realistic and high-quality images, bringing us one step closer to achieving DALL-E-3's state-of-the-art performance.</p>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">
+          <span class="fancy_text_color">
+            <b>Acknowledgement</b>
+          </span>
+        </h2>
+        <div>
+          <p style="font-size: 20px;margin-bottom:3em">We thank our emntor Dr. Hao Zhang for this guidance and support.</p>
+        </div>
       </div>
     </div>
 
