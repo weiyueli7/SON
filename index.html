@@ -166,25 +166,19 @@
           <span class="fancy_text_color">Abstract</span>
         </h2>
   
-        <div style="margin-bottom: 1em;">
+        <div style="font-size: 20px; margin-bottom: 1em;">
           <p>
-            The recent development of text-to-image (T2I) models has unlocked numerous possibilities for content creation, particularly by offering inspiration to designers. However, current approaches often face challenges in accurately following prompts to generate images. These challenges include arranging non-overlapping objects in various spatial relationships and producing the correct number of desired objects, both of which are crucial for many design tasks. We introduce <strong>Spatial-Overlap-Numeracy-1K (SON-1K)</strong>, a comprehensive benchmark for text-to-image generation. This benchmark comprises 1,000 complex prompts spanning three subtasks: spatial relationships, numeracy counts, and complex natural prompts. Alongside the benchmark, we propose several evaluation metrics to assess compliance with the prompts comprehensively. We also propose a new approach, the <strong>Language Model-Guided Diffusion++ (LMDpp)</strong>, enhancing the performance of the novel two-stage Large Language Model (LLM)-grounded diffusion model pipeline (LMD). We report experimental results of previous major T2I models and our enhanced LMDpp, along with its baseline on SON-1K, and provide an analysis of our new metrics.
+            The recent development of text-to-image (T2I) models has unlocked numerous possibilities for content creation, particularly by offering inspiration to designers. However, current approaches often face challenges in accurately following prompts to generate images. These challenges include arranging non-overlapping objects in various spatial relationships and producing the correct number of desired objects, both of which are crucial for many design tasks. We introduce <strong>S</strong>patial-<strong>O</strong>verlap-<strong>N</strong>umeracy-1K (<strong>SON-1K</strong>), a comprehensive benchmark for text-to-image generation. This benchmark comprises 1,000 complex prompts spanning three subtasks: spatial relationships, numeracy counts, and complex natural prompts. Alongside the benchmark, we propose several evaluation metrics to assess compliance with the prompts comprehensively. We also propose a new approach, the <strong>L</strong>anguage <strong>M</strong>odel-Guided <strong>D</strong>iffusion<strong>++</strong> (LMDpp)</strong>, enhancing the performance of the novel two-stage Large Language Model (LLM)-grounded diffusion model pipeline (LMD). We report experimental results of previous major T2I models and our enhanced LMDpp, along with its baseline on SON-1K, and provide an analysis of our new metrics.
           </p>
         </div>
-        <h2 class="title is-3">
-          <span class="fancy_text_color">Example Showcase</span>
-        </h2>
-        <div class="has-text-centered">
-          <p>Fill this part with example image</p>
-        </div>
-        <h2 class="title is-3">
+        <h2 class="title is-3" style="margin-top: 2em;">
           <span class="fancy_text_color">Benchmark</span>
         </h2>
         <div class="has-text-centered">
           <img src="./static/images/dataset.png" width="1000">
         </div>
   
-        <h2 class="subtitle has-text-centered">
+        <h2 class="subtitle has-text-centered" style="font-size: 19px; margin-top: 1em;">
           <b>Overview of SON-1K</b>, a comprehensive benchmark for text-to-image generation.
           </h2>
       </div>
@@ -194,7 +188,7 @@
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">
+        <h2 class="title is-3" style="margin-top: 1em;">
           <span class="fancy_text_color">
             <b>An overview of the Language Model-Guided Diffusion++ (LMDpp) pipeline</b>
           </span>
@@ -202,10 +196,8 @@
         <div class="has-text-centered">
           <img src="./static/images/inference.png" width="1000">
         </div>
-        <div style="margin-bottom: 1em;">
-          <p>
-            Pipeline description TODO
-          </p>
+        <div>
+          <p style="font-size: 20px;margin-left:5em;margin-right:5em;margin-top:1em">In stage one, our pipeline takes the scene description from the user and outputs the image layout based on our refined prompt, incorporated with mathematical relationships and chain of thought techniques. In stage two, the stable diffusion model generates the final image guided by the layout-grounded controller.</p>
         </div>
 
         </br></br>
@@ -224,14 +216,32 @@
           </span>
         </h2>
 
-        <div class="has-text-centered" style="margin-bottom: 1em;">
+        <div class="title is-4" style="margin-bottom: 1em;">
           <b>The Stage 1 Spatial and Numeracy Task Improvements</b>
         </div>
         <div class="has-text-centered">
           <img src="./static/images/stage_1_improvement.png" width="1000">
+          <p style="font-size: 20px;margin-left:5em;margin-right:5em;margin-top:1em">Comparison of numeracy and spatial accuracy among different templates of prompt</p>
         </div>
-        <div class="has-text-centered" style="margin-bottom: 1em;">
-          <b>The Results Table on Stage 1 and Stage 2 Performance</b>
+        <br>
+        <div class="title is-4" style="margin-bottom: 1em; margin-top: 1em;">
+          <b>The Results Tables on Stage 1 and Stage 2 Performance</b>
+        </div>
+        <div class="has-text-centered">
+          <img src="./static/images/spatial_result.png" width="1000">
+          <p style="font-size: 20px; margin-left:5em;margin-right:5em;margin-bottom:3em">Table 1: Evaluation results for Spatial Tasks. % Overlap (S1) indicates the overlap rate for the layout image generated by the LLM in stage one. Spa-Acc (S1) indicates the spatial accuracy for stage one. SON indicates the values measured by our metric SON.</p>
+        </div>
+        <div class="has-text-centered">
+          <img src="./static/images/numeracy_result.png" width="1000">
+          <p style="font-size: 20px;margin-left:5em;margin-right:5em;margin-bottom:3em">Table 2: Evaluation results for Numeracy Tasks. Num-Recall (S1) indicates the numeracy recall score for stage one. Num-Acc (S1) indicates the numeracy accuracy for stage one.</p>
+        </div>
+        <div class="has-text-centered">
+          <img src="./static/images/complex_result.png" width="1000">
+          <p style="font-size: 20px;margin-left:5em;margin-right:5em;margin-bottom:3em">Table 3: Evaluation results for Complex Prompts. EMR (S2) indicates the EMR score of the final image generated by the diffusion model in stage two.</p>
+        </div>
+        <div class="has-text-centered">
+          <img src="./static/images/further_result.png" width="1000">
+          <p style="font-size: 20px;margin-left:5em;margin-right:5em;margin-bottom:3em">Table 4: Further Evaluation Results. Spa-Acc (S2) indicates the spatial accuracy for stage two. % Overlap (S2) indicates the overlap rate for stage two.</p>
         </div>
         <!-- <div class="has-text-centered">
           <img src="static/images/table1.jpg">
@@ -243,7 +253,7 @@
 <footer class="footer" style="padding-bottom: 1.5em; padding-top: 1.5em;">
   <div class="container">
     <div class="content has-text-centered">
-      <span>This website is adapted from <a href="https://mlpc-ucsd.github.io/TokenCompose/">TokenCompose</a> and <a href="https://nerfies.github.io">Nerfies</a>.</span>
+      <span>This website is adaptecd from <a href="https://mlpc-ucsd.github.io/TokenCompose/">TokenCompose</a> and <a href="https://nerfies.github.io">Nerfies</a>.</span>
     </div>
   </div>
 </footer>
